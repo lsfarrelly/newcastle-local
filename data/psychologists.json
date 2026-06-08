@@ -3,7 +3,7 @@
     "category": "Psychologists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-08",
-    "total": 11
+    "total": 12
   },
   "listings": [
     {
@@ -362,6 +362,37 @@
       "hours": "Mon - Sun ",
       "description": "sdfs",
       "long_description": "sdfs",
+      "featured": false
+    },
+    {
+      "id": 1780906229339,
+      "slug": "test-psych",
+      "secret_key": "tp-ibx210g5",
+      "name": "Test psych ",
+      "credentials": "Psychologists",
+      "address": "176 Main Road",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "lfarrelly.property@gmail.com",
+      "website": "Https://www.google.com ",
+      "google_search": "Test psych  Newcastle Newcastle reviews",
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Trauma",
+        "ADHD",
+        "EMDR"
+      ],
+      "referral_types": [
+        "MHCP",
+        "EAP"
+      ],
+      "telehealth": true,
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon - Sun ",
+      "description": "sdfdsds",
+      "long_description": "sdfdsds",
       "featured": false
     }
   ]
