@@ -273,10 +273,10 @@ function applyFilters() {
     if (term) { const hay=[l.name,l.suburb,l.address,...l.specialties,l.description].join(' ').toLowerCase(); if(!hay.includes(term)) return false; }
     if (suburb && l.suburb!==suburb) return false;
     if (chkTel && !l.telehealth) return false;
-    if (chkAcc && l.status !== "accepting") return false;
+    if (chkAcc && l.status === "waitlist") return false;
     for (const f of activeFilters) {
       if (f==='telehealth' && !l.telehealth) return false;
-      if (f==='accepting' && l.status !== 'accepting') return false;
+      if (f==='accepting' && l.status === 'waitlist') return false;
       if (!l.specialties.some(s=>s.toLowerCase().includes(f.toLowerCase())) && !l.referral_types.some(r=>r.toLowerCase().includes(f.toLowerCase()))) return false;
     }
     return true;
