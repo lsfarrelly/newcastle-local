@@ -275,8 +275,8 @@ function applyFilters() {
     if (chkTel && !l.telehealth) return false;
     if (chkAcc && l.status === "waitlist") return false;
     for (const f of activeFilters) {
-      if (f==='telehealth' && !l.telehealth) return false;
-      if (f==='accepting' && l.status === 'waitlist') return false;
+      if (f==='telehealth') { if (!l.telehealth) return false; continue; }
+      if (f==='accepting') { if (l.status === 'waitlist') return false; continue; }
       if (!l.specialties.some(s=>s.toLowerCase().includes(f.toLowerCase())) && !l.referral_types.some(r=>r.toLowerCase().includes(f.toLowerCase()))) return false;
     }
     return true;
