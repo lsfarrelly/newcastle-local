@@ -232,7 +232,7 @@
       "specialties": ["Anxiety","Depression","Trauma","EMDR","Telehealth"],
       "referral_types": ["MHCP","EAP"],
       "telehealth": true,
-      "accepting": false,
+      "accepting": true,
       "hours": "Mon–Sun",
       "description": "Psychology practice based in Cardiff serving the Newcastle and Hunter region.",
       "long_description": "Cerenova is a psychology practice based in Cardiff, serving clients across the Newcastle and Hunter region. The practice offers appointments seven days a week and provides telehealth services.\n\nPlease contact Cerenova directly for more information about their services, fees, and current availability.",
