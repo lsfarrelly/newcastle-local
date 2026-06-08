@@ -388,8 +388,8 @@
         "EAP"
       ],
       "telehealth": true,
-      "accepting": false,
-      "status": "hidden",
+      "accepting": true,
+      "status": "accepting",
       "hours": "Mon - Sun ",
       "description": "sdfdsds",
       "long_description": "sdfdsds",
