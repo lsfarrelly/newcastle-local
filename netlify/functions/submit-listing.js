@@ -236,10 +236,10 @@ exports.handler = async (event) => {
   const specialtyList  = specialties ? specialties.split(',').map(s => s.trim()).filter(Boolean) : [];
   const referralList   = referral_types ? referral_types.split(',').map(s => s.trim()).filter(Boolean) : [];
 
-  // Normalise website URL — prepend https:// if no protocol present
+  // Normalise website URL — always use https://
   let websiteUrl = (website || '').trim();
-  if (websiteUrl && !/^https?:\/\//i.test(websiteUrl)) {
-    websiteUrl = 'https://' + websiteUrl.replace(/^\/\//, '');
+  if (websiteUrl) {
+    websiteUrl = 'https://' + websiteUrl.replace(/^https?:\/\/|^\/\//i, '');
   }
 
   let statusVal = 'accepting';
