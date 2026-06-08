@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "category": "plumbers",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "Hunter Eco Plumbing",
+      "credentials": "Licensed Plumber",
+      "address": "Dorrington Rd, Rathmines NSW 2283",
+      "suburb": "Rathmines",
+      "phone": "0488 123 034",
+      "email": "",
+      "website": "https://hunterecoplumbing.com.au",
+      "services": [
+        "Blocked Drains",
+        "Hot Water Systems",
+        "Pipe Relining",
+        "Robotic Cutting",
+        "Burst Pipes",
+        "Backflow Prevention",
+        "Residential",
+        "Commercial"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "Hunter Eco Plumbing offers a full range of plumbing services across Newcastle and Lake Macquarie, with a focus on eco-friendly solutions. Specialising in pipe relining and robotic cutting to restore drains without excavation. Available 24/7 for emergencies.",
+      "featured": false,
+      "slug": "hunter-eco-plumbing",
+      "secret_key": "he-xaji0y6d",
+      "last_verified": "2026-06-08",
+      "google_search": "Hunter Eco Plumbing plumber Rathmines NSW"
+    },
+    {
+      "name": "Newcastle Plumbing Kings",
+      "credentials": "Licensed Plumber",
+      "address": "Newcastle NSW",
+      "suburb": "Newcastle",
+      "phone": "0480 095 107",
+      "email": "info@newcastleplumbingkings.com.au",
+      "website": "https://newcastleplumbingkings.com.au",
+      "services": [
+        "Blocked Drains",
+        "Hot Water Systems",
+        "Strata Plumbing",
+        "Pipe Relining",
+        "Gas Fitting",
+        "Gutter Guards",
+        "Leak Detection"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "Newcastle Plumbing Kings is a trusted local plumber serving the Newcastle area. No call-out fees, 365-day workmanship warranty, and 24/7 emergency availability. Specialists in blocked drains, pipe relining, gas fitting, and strata plumbing.",
+      "featured": false,
+      "slug": "newcastle-plumbing-kings",
+      "secret_key": "np-pbhsahxt",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Plumbing Kings plumber Newcastle NSW"
+    },
+    {
+      "name": "Fluid Plumbing Services",
+      "credentials": "Licensed Plumber \u00b7 25+ Years Experience",
+      "address": "10 Ironbark Close, Warabrook NSW 2304",
+      "suburb": "Warabrook",
+      "phone": "0414 272 220",
+      "email": "office@callfluid.com.au",
+      "website": "https://fluidplumbingservices.com.au",
+      "services": [
+        "Blocked Drains",
+        "Emergency Plumbing",
+        "Pipe Relining",
+        "Hot Water Systems",
+        "Gas Fitting",
+        "Roof Plumbing",
+        "Water Leak Detection"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "Fluid Plumbing Services brings over 25 years of experience and nearly 6,000 five-star reviews to the Newcastle area. A market leader in pipe relining, emergency plumbing, and hot water system installation. Available around the clock, with offices in Warabrook.",
+      "featured": true,
+      "slug": "fluid-plumbing-services",
+      "secret_key": "fp-hv3a3zmf",
+      "last_verified": "2026-06-08",
+      "google_search": "Fluid Plumbing Services plumber Warabrook NSW"
+    },
+    {
+      "name": "NHC Plumbing",
+      "credentials": "Licensed Plumber \u00b7 Licence 196023C",
+      "address": "5/32 Templar Place, Bennetts Green NSW 2290",
+      "suburb": "Bennetts Green",
+      "phone": "0414 494 289",
+      "email": "",
+      "website": "https://nhcplumbing.com.au",
+      "services": [
+        "Sewer Cleaning",
+        "CCTV Drain Inspection",
+        "Hot Water Systems",
+        "Blocked Drains",
+        "Leaking Taps",
+        "Gas Fitting",
+        "Backflow Testing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "NHC Plumbing is a family-owned business with over 22 years of experience in the Newcastle and Lake Macquarie region. Licensed (196023C), fully insured, and available 24/7. Offering CCTV drain inspection, sewer cleaning, backflow testing, and more.",
+      "featured": false,
+      "slug": "nhc-plumbing",
+      "secret_key": "np-8mdd4v30",
+      "last_verified": "2026-06-08",
+      "google_search": "NHC Plumbing plumber Bennetts Green NSW"
+    },
+    {
+      "name": "Laser Plumbing Newcastle Central",
+      "credentials": "Licensed Plumber \u00b7 Licence 206102C",
+      "address": "62 Orlando Rd, Lambton NSW 2299",
+      "suburb": "Lambton",
+      "phone": "(02) 4968 3822",
+      "email": "",
+      "website": "https://newcastlecentral.laserplumbing.com.au",
+      "services": [
+        "Residential Plumbing",
+        "Commercial Plumbing",
+        "Hot Water Systems",
+        "Roofing & Guttering",
+        "Rainwater Tanks",
+        "CCTV Drainage",
+        "Backflow Prevention"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "Laser Plumbing Newcastle Central is a full-service residential and commercial plumber based in Lambton. With over 150 years of combined team experience and Licence 206102C, they cover everything from hot water and roofing to CCTV drainage and backflow prevention.",
+      "featured": false,
+      "slug": "laser-plumbing-newcastle-central",
+      "secret_key": "lp-t9nt3w5u",
+      "last_verified": "2026-06-08",
+      "google_search": "Laser Plumbing Newcastle Central plumber Lambton NSW"
+    },
+    {
+      "name": "Summit Plumbing Services NSW",
+      "credentials": "Licensed Plumber",
+      "address": "52 Houston Ave, Tenambit NSW 2323",
+      "suburb": "Tenambit",
+      "phone": "0423 870 214",
+      "email": "summitplumbingservicesnsw@gmail.com",
+      "website": "https://summitplumbingservices.com.au",
+      "services": [
+        "Blocked Drains",
+        "Leaking Pipes",
+        "Hot Water Systems",
+        "General Plumbing Repairs"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "emergency_24_7": false,
+      "status": "accepting",
+      "hours": "Mon\u2013Sat",
+      "description": "Summit Plumbing Services NSW is a family-owned plumbing business based in Tenambit, servicing the Maitland, Newcastle, and Hunter Region. Offering reliable, affordable blocked drains, hot water, and general repair services with a personal touch.",
+      "featured": false,
+      "slug": "summit-plumbing-services-nsw",
+      "secret_key": "sp-zbikcidk",
+      "last_verified": "2026-06-08",
+      "google_search": "Summit Plumbing Services NSW plumber Tenambit NSW"
+    },
+    {
+      "name": "Lake Mac Plumbing",
+      "credentials": "Licensed Plumber",
+      "address": "Lake Macquarie NSW",
+      "suburb": "Lake Macquarie",
+      "phone": "0431 430 023",
+      "email": "",
+      "website": "https://lakemacplumbing.au",
+      "services": [
+        "Pipe Repairs",
+        "Hot Water Systems",
+        "Blocked Drains",
+        "Leak Detection",
+        "Bathroom Renovations",
+        "Emergency Plumbing"
+      ],
+      "service_areas": [
+        "Lake Macquarie",
+        "Newcastle"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "Lake Mac Plumbing is your local licensed plumber for Lake Macquarie and Newcastle. Covering everything from emergency callouts to bathroom renovations, hot water systems, and leak detection. Licensed, insured, and serving both residential and commercial clients.",
+      "featured": false,
+      "slug": "lake-mac-plumbing",
+      "secret_key": "lm-wnnhj7xv",
+      "last_verified": "2026-06-08",
+      "google_search": "Lake Mac Plumbing plumber Lake Macquarie NSW"
+    },
+    {
+      "name": "Murphy Plumbing",
+      "credentials": "Licensed Plumber \u00b7 Est. 1965",
+      "address": "14 Mitchell Street, Merewether NSW 2291",
+      "suburb": "Merewether",
+      "phone": "(02) 4963 3922",
+      "email": "plumber@murphyplumbing.com.au",
+      "website": "https://murphyplumbing.com.au",
+      "services": [
+        "Emergency Plumbing",
+        "Commercial Plumbing",
+        "Construction Plumbing",
+        "Blocked Drains",
+        "Hot Water Systems",
+        "Gas Fitting",
+        "Backflow Prevention"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "Murphy Plumbing has been a trusted Newcastle institution since 1965 \u2014 over 60 years of reliable service in the region. Based in Merewether, they specialise in emergency, commercial, and construction plumbing, gas fitting, and backflow prevention.",
+      "featured": true,
+      "slug": "murphy-plumbing",
+      "secret_key": "mp-g0fn9xuy",
+      "last_verified": "2026-06-08",
+      "google_search": "Murphy Plumbing plumber Merewether NSW"
+    },
+    {
+      "name": "North East Plumbing & Electrical",
+      "credentials": "Licensed Plumber & Electrician",
+      "address": "Newcastle NSW",
+      "suburb": "Newcastle",
+      "phone": "0447 364 213",
+      "email": "",
+      "website": "https://northeastplumbing.com.au",
+      "services": [
+        "Emergency Plumbing",
+        "Gas Fitting",
+        "Pipe Relining",
+        "Storm & Sewage",
+        "Renovations"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "North East Plumbing & Electrical offers a combined plumbing and electrical service across Newcastle. Rated 4.9 stars with over 200 reviews, they back all labour with a Lifetime Guarantee. Specialists in pipe relining, gas fitting, storm and sewage work, and renovations.",
+      "featured": false,
+      "slug": "north-east-plumbing-electrical",
+      "secret_key": "ne-41ibljh7",
+      "last_verified": "2026-06-08",
+      "google_search": "North East Plumbing & Electrical plumber Newcastle NSW"
+    },
+    {
+      "name": "Newcastle Plumbing",
+      "credentials": "Licensed Plumber \u00b7 40+ Years Experience",
+      "address": "Unit 6/17 Riverside Dr, Mayfield West NSW 2304",
+      "suburb": "Mayfield West",
+      "phone": "(02) 4942 3300",
+      "email": "info@newcastleplumbing.net.au",
+      "website": "https://newcastleplumbing.net.au",
+      "services": [
+        "Emergency Plumbing",
+        "Blocked Drains",
+        "Gas Fitting",
+        "Home Renovations",
+        "Backflow Testing",
+        "Maintenance Plumbing",
+        "Water Filtration",
+        "Roof Plumbing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "emergency_24_7": true,
+      "status": "accepting",
+      "hours": "24/7",
+      "description": "Newcastle Plumbing brings over 40 years of industry experience to residential and commercial jobs across the Hunter Region. Based in Mayfield West, they cover the full spectrum \u2014 from emergency callouts and blocked drains through to home renovations, gas fitting, and water filtration systems.",
+      "featured": false,
+      "slug": "newcastle-plumbing",
+      "secret_key": "np-5lxo6qji",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Plumbing plumber Mayfield West NSW"
+    }
+  ]
+}
