@@ -1,55 +1,55 @@
 # NewcastleLocal — Directory Site
 
-A static directory website for Newcastle NSW, starting with a psychologists listing.
+## Quick workflow — adding or updating a listing
 
-## Files
+1. Edit `data/psychologists.json`
+2. Run `python generate.py`
+3. `git add . && git commit -m "update listings" && git push`
+4. Netlify deploys in ~60 seconds ✓
+
+## File structure
 
 ```
-index.html                  Homepage with category grid
-psychologists.html          Psychologists directory (live, filterable)
-list.html                   "List Your Business" submission page
-css/style.css               Shared stylesheet
-data/psychologists.json     Listing data (real, scraped)
-newcastle_psych_scraper.py  Python scraper to refresh data
+index.html                        Homepage
+psychologists.html                Directory page (AUTO-GENERATED — do not edit directly)
+profiles/psychologists/*.html     Individual profile pages (AUTO-GENERATED)
+update/index.html                 Owner self-update page
+netlify/functions/update-listing.js  Handles update form submissions
+data/psychologists.json           MASTER DATA — edit this, then run generate.py
+css/style.css                     Shared styles
+generate.py                       Generates all pages from JSON
+newcastle_psych_scraper.py        Scraper to find new listings
+netlify.toml                      Netlify configuration
 ```
 
-## Deploy to Netlify
+## Owner update links
 
-1. Drag the entire folder into app.netlify.com → drop zone
-2. Done — live in ~30 seconds
+Each listing has a unique secret key in the JSON. The update URL for any listing is:
+  https://yoursite.netlify.app/update?slug=SLUG&key=SECRET_KEY
 
-Or via Netlify CLI:
-```
-npm install -g netlify-cli
-netlify deploy --prod --dir .
-```
+Example:
+  https://yoursite.netlify.app/update?slug=newpsych-psychologists&key=np-x7k9m2p4
 
-## Refresh listing data
+Send this link to the business owner. They can update:
+- Accepting / not accepting (the big one)
+- Phone, email, website, hours
+- Description
+- Any other notes
 
-```bash
-pip install requests beautifulsoup4 lxml
-python newcastle_psych_scraper.py
-```
+Their submission emails you → you update the JSON → run generate.py → push.
 
-Then re-deploy the updated `data/psychologists.json`.
+## Secret keys (keep private)
 
-The scraper:
-- Hits Yellow Pages, Local Business Guide, and Psychology Today AU
-- Deduplicates by name
-- Infers specialties and referral types from description text
-- Merges with existing data (preserves manual `featured` and `rating` values)
-- Outputs to `data/psychologists.json`
-
-## Adding new categories
-
-1. Copy `psychologists.html` → e.g. `electricians.html`
-2. Update the `LISTINGS` array and hero text
-3. Run a new scraper pass for the new category
-4. Add the category card to `index.html`
-
-## Monetisation
-
-- **Free listings** — no action needed, just list
-- **Featured listings** — set `"featured": true` in the JSON + gold border appears automatically
-- Charge ~$99/month for featured placement
-- Future: automated Stripe payment → webhook → update JSON → redeploy
+| Practice                    | Slug                           | Key           |
+|-----------------------------|--------------------------------|---------------|
+| NewPsych Psychologists      | newpsych-psychologists         | np-x7k9m2p4  |
+| Elevated Wellbeing          | elevated-wellbeing-psychology  | ew-r3t8n6q1  |
+| New Lambton Psychology      | new-lambton-psychology         | nl-b5w2j9k7  |
+| Lacuna Clinical Psychology  | lacuna-clinical-psychology     | lc-v9d4f2s8  |
+| Oracle Psychology           | oracle-psychology              | op-m1z6c3h5  |
+| Psychology Centre Newcastle | psychology-centre-newcastle    | pc-a8y5t1w3  |
+| Wildflower Psychology       | wildflower-psychology          | wp-k4r7e9u2  |
+| ELD Psychology              | eld-psychology                 | el-q2n8g5j6  |
+| Esteem Psychology           | esteem-psychology              | es-f6h3b1c9  |
+| Dyer & Dyer Psychologists   | dyer-and-dyer-psychologists    | dd-u5m7w4p3  |
+| Cerenova                    | cerenova                       | ce-t9p2l8r4  |

@@ -1,0 +1,12 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/update"
+  to = "/update/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/profiles/psychologists/*"
+  to = "/profiles/psychologists/:splat"
+  status = 200

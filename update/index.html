@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Update Your Listing — NewcastleLocal</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1a1a1a; --paper: #f7f4ef; --cream: #ede9e1; --rule: #d4cfc6;
+    --accent: #2d5f4e; --accent-light: #e8f0ec; --muted: #7a756d;
+    --warm-white: #faf8f5; --gold: #b8924a;
+  }
+  body { font-family: 'DM Sans', sans-serif; background: var(--paper); color: var(--ink); font-size: 15px; min-height: 100vh; }
+
+  .page-header { background: var(--ink); padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .site-logo { font-family: 'Playfair Display', serif; font-size: 18px; color: #fff; text-decoration: none; }
+  .site-logo span { color: var(--gold); }
+
+  .page-hero { background: var(--ink); padding: 48px 24px 56px; text-align: center; }
+  .page-hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(24px,4vw,38px); color: #fff; margin-bottom: 10px; }
+  .page-hero p { color: #aaa; font-size: 15px; font-weight: 300; }
+
+  .form-wrap { max-width: 680px; margin: 0 auto; padding: 48px 24px; }
+
+  .invalid-key { background: #fff3e0; border: 1px solid #ffcc02; border-radius: 4px; padding: 24px; text-align: center; color: #e65100; display: none; }
+  .invalid-key h2 { font-family: 'Playfair Display', serif; font-size: 22px; margin-bottom: 8px; }
+
+  /* Toggle */
+  .toggle-group { margin-bottom: 28px; }
+  .toggle-label { font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; display: block; }
+  .toggle-options { display: flex; gap: 0; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+  .toggle-options label { flex: 1; text-align: center; padding: 12px; cursor: pointer; font-size: 14px; background: #fff; border-right: 1px solid var(--rule); transition: all 0.15s; }
+  .toggle-options label:last-child { border-right: none; }
+  .toggle-options input[type="radio"] { display: none; }
+  .toggle-options input[type="radio"]:checked + span { display: block; }
+  .toggle-options label:has(input:checked) { background: var(--accent); color: #fff; font-weight: 500; }
+  .toggle-options label.opt-yes:has(input:checked) { background: #2e7d32; }
+  .toggle-options label.opt-no:has(input:checked) { background: #c62828; }
+
+  .form-group { margin-bottom: 22px; }
+  .form-group label { display: block; font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .form-group input, .form-group textarea, .form-group select {
+    width: 100%; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 3px;
+    background: #fff; font-family: 'DM Sans', sans-serif; font-size: 15px; color: var(--ink);
+    outline: none; transition: border-color 0.15s;
+  }
+  .form-group input:focus, .form-group textarea:focus { border-color: var(--accent); }
+  .form-group textarea { resize: vertical; min-height: 100px; line-height: 1.6; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 5px; line-height: 1.5; }
+
+  .submit-btn {
+    width: 100%; padding: 15px; background: var(--accent); color: #fff; border: none;
+    border-radius: 3px; font-family: 'DM Sans', sans-serif; font-size: 16px; font-weight: 500;
+    cursor: pointer; transition: background 0.2s; margin-top: 8px;
+  }
+  .submit-btn:hover { background: #3a7a63; }
+  .form-note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 12px; line-height: 1.6; }
+
+  .section-divider { border: none; border-top: 1px solid var(--rule); margin: 32px 0; }
+  .section-title { font-family: 'Playfair Display', serif; font-size: 20px; margin-bottom: 20px; }
+
+  .accepting-banner {
+    border-radius: 4px; padding: 16px 20px; margin-bottom: 28px;
+    font-weight: 500; font-size: 15px; text-align: center;
+  }
+  .accepting-banner.open { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+  .accepting-banner.closed { background: #fff3e0; color: #e65100; border: 1px solid #ffcc80; }
+
+  footer { background: var(--ink); color: #888; padding: 32px 24px; font-size: 13px; text-align: center; margin-top: 40px; }
+
+  @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <a href="/index.html" class="site-logo">Newcastle<span>Local</span></a>
+  <span style="color:#888;font-size:13px;">Business owner portal</span>
+</header>
+
+<div class="page-hero">
+  <h1 id="heroTitle">Update Your Listing</h1>
+  <p id="heroSub">Changes are reviewed within 48 hours and then published.</p>
+</div>
+
+<div class="form-wrap">
+  <!-- Invalid key message -->
+  <div class="invalid-key" id="invalidKey">
+    <h2>Invalid or expired link</h2>
+    <p>This update link doesn't appear to be valid. Please contact us at <a href="mailto:hello@newcastlelocal.com.au" style="color:var(--accent)">hello@newcastlelocal.com.au</a> and we'll sort it out.</p>
+  </div>
+
+  <!-- The form -->
+  <div id="formWrap">
+
+    <div id="acceptingBanner" class="accepting-banner open">
+      Current status: ✓ Accepting new clients
+    </div>
+
+    <h2 class="section-title">Availability</h2>
+
+    <!-- ACCEPTING TOGGLE — most important, at the top -->
+    <div class="toggle-group">
+      <span class="toggle-label">Are you currently accepting new clients? *</span>
+      <div class="toggle-options">
+        <label class="opt-yes">
+          <input type="radio" name="accepting" value="yes" id="accYes">
+          <span></span>✓ Yes — accepting
+        </label>
+        <label class="opt-no">
+          <input type="radio" name="accepting" value="no" id="accNo">
+          <span></span>⏱ No — waitlist only
+        </label>
+      </div>
+    </div>
+
+    <div class="toggle-group">
+      <span class="toggle-label">Telehealth available?</span>
+      <div class="toggle-options">
+        <label class="opt-yes">
+          <input type="radio" name="telehealth" value="yes" id="telYes">
+          <span></span>Yes
+        </label>
+        <label class="opt-no">
+          <input type="radio" name="telehealth" value="no" id="telNo">
+          <span></span>No
+        </label>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+    <h2 class="section-title">Contact Details</h2>
+    <p class="hint" style="margin-bottom:20px;">Only fill in fields you want to change. Leave blank to keep current values.</p>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label>Phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="02 XXXX XXXX">
+      </div>
+      <div class="form-group">
+        <label>Email address</label>
+        <input type="email" id="email" name="email" placeholder="hello@yourpractice.com.au">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Website URL</label>
+      <input type="url" id="website" name="website" placeholder="https://yourwebsite.com.au">
+    </div>
+
+    <div class="form-group">
+      <label>Hours of operation</label>
+      <input type="text" id="hours" name="hours" placeholder="e.g. Mon–Fri 9am–5pm, some evenings">
+    </div>
+
+    <hr class="section-divider">
+    <h2 class="section-title">About Your Practice</h2>
+
+    <div class="form-group">
+      <label>Short description (shown on directory listing)</label>
+      <textarea id="description" name="description" placeholder="2–3 sentences about your practice…"></textarea>
+      <p class="hint">This appears on the main directory page. Keep it to 2–3 sentences.</p>
+    </div>
+
+    <div class="form-group">
+      <label>Anything else to update or correct?</label>
+      <textarea id="notes" name="notes" style="min-height:70px;" placeholder="e.g. new address, updated specialties, fee changes, staff changes…"></textarea>
+    </div>
+
+    <button class="submit-btn" onclick="submitUpdate()">Submit Changes →</button>
+    <p class="form-note">Changes are reviewed before going live — usually within 48 hours.<br>You won't receive a separate confirmation email but your update will be actioned.</p>
+  </div>
+</div>
+
+<footer>
+  © 2025 NewcastleLocal · <a href="/psychologists.html" style="color:#aaa">Back to directory</a>
+</footer>
+
+<script>
+// ── READ URL PARAMS ──
+const params = new URLSearchParams(window.location.search);
+const slug = params.get('slug');
+const key  = params.get('key');
+
+// ── LISTING DATA (same source as directory, kept in sync by generate.py) ──
+// This is embedded so the page works as a static file
+const LISTINGS = [
+  { slug:"newpsych-psychologists",         key:"np-x7k9m2p4", name:"NewPsych Psychologists",          accepting:true,  telehealth:true  },
+  { slug:"elevated-wellbeing-psychology",  key:"ew-r3t8n6q1", name:"Elevated Wellbeing Psychology",   accepting:true,  telehealth:true  },
+  { slug:"new-lambton-psychology",         key:"nl-b5w2j9k7", name:"New Lambton Psychology",          accepting:true,  telehealth:false },
+  { slug:"lacuna-clinical-psychology",     key:"lc-v9d4f2s8", name:"Lacuna Clinical Psychology",      accepting:true,  telehealth:true  },
+  { slug:"oracle-psychology",              key:"op-m1z6c3h5", name:"Oracle Psychology",               accepting:true,  telehealth:true  },
+  { slug:"psychology-centre-newcastle",    key:"pc-a8y5t1w3", name:"Psychology Centre Newcastle",     accepting:true,  telehealth:true  },
+  { slug:"wildflower-psychology",          key:"wp-k4r7e9u2", name:"Wildflower Psychology",           accepting:true,  telehealth:true  },
+  { slug:"eld-psychology",                 key:"el-q2n8g5j6", name:"ELD Psychology",                  accepting:true,  telehealth:true  },
+  { slug:"esteem-psychology",              key:"es-f6h3b1c9", name:"Esteem Psychology",               accepting:true,  telehealth:true  },
+  { slug:"dyer-and-dyer-psychologists",    key:"dd-u5m7w4p3", name:"Dyer & Dyer Psychologists",      accepting:true,  telehealth:false },
+  { slug:"cerenova",                       key:"ce-t9p2l8r4", name:"Cerenova",                        accepting:true,  telehealth:true  },
+];
+
+// ── VALIDATE ──
+const listing = LISTINGS.find(l => l.slug === slug && l.key === key);
+
+if (!listing) {
+  document.getElementById('invalidKey').style.display = 'block';
+  document.getElementById('formWrap').style.display   = 'none';
+  document.getElementById('heroTitle').textContent    = 'Invalid link';
+  document.getElementById('heroSub').textContent      = 'This update link could not be verified.';
+} else {
+  // Pre-fill from current data
+  document.getElementById('heroTitle').textContent = `Update: ${listing.name}`;
+  document.getElementById('heroSub').textContent   = 'Changes reviewed within 48 hours then published.';
+
+  // Set accepting toggle
+  document.getElementById(listing.accepting ? 'accYes' : 'accNo').checked = true;
+  const banner = document.getElementById('acceptingBanner');
+  if (listing.accepting) {
+    banner.className = 'accepting-banner open';
+    banner.textContent = 'Current status: ✓ Accepting new clients';
+  } else {
+    banner.className = 'accepting-banner closed';
+    banner.textContent = 'Current status: ⏱ Not accepting / waitlist only';
+  }
+
+  // Set telehealth toggle
+  document.getElementById(listing.telehealth ? 'telYes' : 'telNo').checked = true;
+}
+
+// ── SUBMIT ──
+async function submitUpdate() {
+  if (!listing) return;
+
+  const accepting   = document.querySelector('input[name="accepting"]:checked')?.value || 'yes';
+  const telehealth  = document.querySelector('input[name="telehealth"]:checked')?.value || 'yes';
+  const phone       = document.getElementById('phone').value.trim();
+  const email       = document.getElementById('email').value.trim();
+  const website     = document.getElementById('website').value.trim();
+  const hours       = document.getElementById('hours').value.trim();
+  const description = document.getElementById('description').value.trim();
+  const notes       = document.getElementById('notes').value.trim();
+
+  // Build form data
+  const body = new URLSearchParams({
+    slug, key,
+    name: listing.name,
+    accepting, telehealth,
+    phone, email, website, hours, description, notes
+  });
+
+  try {
+    const res = await fetch('/.netlify/functions/update-listing', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: body.toString()
+    });
+    const html = await res.text();
+    document.open(); document.write(html); document.close();
+  } catch(err) {
+    alert('Something went wrong — please try again or email us directly.');
+    console.error(err);
+  }
+}
+</script>
+</body>
+</html>
