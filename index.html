@@ -339,7 +339,7 @@
     <a href="psychologists.html" class="category-card">
       <span class="category-icon">🧠</span>
       <div class="category-name">Psychologists</div>
-      <div class="category-count">10 listings</div>
+      <div class="category-count" id="psychCountEl">11 listings</div>
     </a>
     <a href="#" class="category-card coming-soon">
       <span class="coming-badge">Soon</span>
@@ -496,5 +496,13 @@
 </footer>
 
 <link rel="stylesheet" href="css/style.css">
+<script>
+fetch('/data/psychologists.json?v='+Date.now())
+  .then(function(r){return r.json();})
+  .then(function(d){
+    var el=document.getElementById('psychCountEl');
+    if(el) el.textContent=d.listings.length+' listing'+(d.listings.length===1?'':'s');
+  }).catch(function(){});
+</script>
 </body>
 </html>

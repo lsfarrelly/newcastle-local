@@ -80,10 +80,10 @@ def generate_profile(l):
 
     ref_html = " · ".join(l["referral_types"])
 
-    website_btn = f'<a href="/profiles/psychologists/{l["slug"]}.html" class="btn-primary" style="display:inline-block;width:auto;padding:12px 28px;">View Profile</a>'
-    visit_website_btn = ""
+    website_btn = ""
     if l.get("website"):
-        visit_website_btn = f'<a href="{l["website"]}" target="_blank" rel="noopener" class="btn-secondary" style="display:inline-block;width:auto;padding:11px 28px;">Visit Website</a>'
+        website_btn = f'<a href="{l["website"]}" target="_blank" rel="noopener" class="btn-primary" style="display:inline-block;width:auto;padding:12px 28px;">View Website</a>'
+    visit_website_btn = ""
 
     email_btn = ""
     if l.get("email"):
@@ -222,13 +222,37 @@ def generate_profile(l):
           {GOOGLE_ICON} See Google Reviews
         </a>
       </div>
-      <a href="{update_url}" class="update-link">Are you the owner? Update your listing →</a>
-      <a href="/.netlify/functions/delete-listing?slug={l['slug']}&key={l['secret_key']}" style="display:block;text-align:center;font-size:11px;color:#c62828;text-decoration:none;margin-top:8px;">Remove this listing</a>
+      <div id="ownerControls" data-key="{l['secret_key']}" style="display:none;border-top:1px solid var(--rule);margin-top:14px;padding-top:14px;">
+        <a href="{update_url}" class="update-link" style="border:none;margin:0;padding:0;">Update your listing →</a>
+        <a href="/.netlify/functions/delete-listing?slug={l['slug']}&key={l['secret_key']}" style="display:block;text-align:center;font-size:11px;color:#c62828;text-decoration:none;margin-top:8px;">Remove this listing</a>
+      </div>
     </div>
   </aside>
 </div>
 
 {footer()}
+<script>
+(function(){{
+  var p = new URLSearchParams(window.location.search);
+  var k = p.get('key');
+  var ctrl = document.getElementById('ownerControls');
+  if(ctrl && k && k === ctrl.dataset.key) ctrl.style.display = 'block';
+  // Live status refresh
+  fetch('/data/psychologists.json?v='+Date.now())
+    .then(function(r){{return r.json();}})
+    .then(function(data){{
+      var l = data.listings.find(function(x){{return x.slug==='{l["slug"]}\';}});
+      if(!l) return;
+      var badge = document.querySelector('.profile-status');
+      if(badge){{
+        if(l.status==='accepting'){{badge.style.background='#e8f5e9';badge.style.color='#2e7d32';badge.textContent='\u2713 Accepting new clients';badge.style.display='';}}
+        else if(l.status==='waitlist'){{badge.style.background='#fff3e0';badge.style.color='#e65100';badge.textContent='\u23f1 Currently on waitlist';badge.style.display='';}}
+        else if(l.status==='hidden'){{badge.style.background='#f5f5f5';badge.style.color='#888';badge.textContent='Contact to confirm';badge.style.display='';}}
+        else{{badge.style.display='none';}}
+      }}
+    }}).catch(function(){{}});
+}})();
+</script>
 </body>
 </html>"""
 
@@ -263,8 +287,6 @@ accepting = sum(1 for l in listings if l["accepting"])
 suburbs   = len(set(l["suburb"] for l in listings))
 
 def generate_directory(listings):
-    js_array = listing_js_array(listings)
-
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -458,8 +480,15 @@ def generate_directory(listings):
 
 <script>
 const GOOGLE_ICON = `{GOOGLE_ICON}`;
-const LISTINGS = {js_array};
+let LISTINGS = [];
 let activeFilters = new Set();
+fetch('/data/psychologists.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(data => {{
+    LISTINGS = data.listings;
+    applyFilters();
+  }})
+  .catch(() => {{ document.getElementById('listingsContainer').innerHTML = '<p style="padding:20px">Could not load listings.</p>'; }});
 
 function renderCard(l) {{
   const tags = l.specialties.slice(0,5).map(s=>`<span class="tag">${{s}}</span>`).join('');
@@ -469,6 +498,8 @@ function renderCard(l) {{
     ? `<span class="accepting-badge open">✓ Accepting</span>`
     : status === "waitlist"
     ? `<span class="accepting-badge waitlist">⏱ Waitlist</span>`
+    : status === "hidden"
+    ? `<span class="accepting-badge" style="background:#f5f5f5;color:#888;border:1px solid #ddd;">Contact to confirm</span>`
     : "";
   const websiteBtn = `<a href="/profiles/psychologists/${{l.slug}}.html" class="btn-primary">View Profile</a>`;
   const googleUrl = `https://www.google.com/search?q=${{encodeURIComponent(l.google_search)}}`;
@@ -525,7 +556,6 @@ function applyFilters() {{
 function toggleChip(el) {{ const f=el.dataset.filter; el.classList.toggle('active'); activeFilters[el.classList.contains('active')?'add':'delete'](f); applyFilters(); }}
 function clearFilters() {{ activeFilters.clear(); document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active')); document.getElementById('searchInput').value=''; document.getElementById('suburbFilter').value=''; document.getElementById('chkTelehealth').checked=false; document.getElementById('chkAccepting').checked=false; applyFilters(); }}
 document.getElementById('searchInput').addEventListener('keyup',e=>{{ if(e.key==='Enter') applyFilters(); }});
-applyFilters();
 </script>
 </body>
 </html>"""

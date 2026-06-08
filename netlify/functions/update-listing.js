@@ -10,19 +10,7 @@
 //   GITHUB_BRANCH — defaults to "main"
 // ─────────────────────────────────────────────────────────────────────────────
 
-const SECRET_KEYS = {
-  "newpsych-psychologists":        "np-x7k9m2p4",
-  "elevated-wellbeing-psychology": "ew-r3t8n6q1",
-  "new-lambton-psychology":        "nl-b5w2j9k7",
-  "lacuna-clinical-psychology":    "lc-v9d4f2s8",
-  "oracle-psychology":             "op-m1z6c3h5",
-  "psychology-centre-newcastle":   "pc-a8y5t1w3",
-  "wildflower-psychology":         "wp-k4r7e9u2",
-  "eld-psychology":                "el-q2n8g5j6",
-  "esteem-psychology":             "es-f6h3b1c9",
-  "dyer-and-dyer-psychologists":   "dd-u5m7w4p3",
-  "cerenova":                      "ce-t9p2l8r4",
-};
+// Key validation now done against JSON (supports dynamically-added listings)
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
@@ -38,21 +26,7 @@ exports.handler = async (event) => {
     return { statusCode: 400, body: "Missing slug or key" };
   }
 
-  if (SECRET_KEYS[slug] !== key) {
-    return {
-      statusCode: 403,
-      headers: { "Content-Type": "text/html" },
-      body: `<!DOCTYPE html><html><head><meta charset="UTF-8">
-<title>Invalid link</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
-<style>body{font-family:'DM Sans',sans-serif;background:#f7f4ef;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
-.card{background:#fff;border:1px solid #d4cfc6;border-radius:4px;padding:48px;max-width:480px;text-align:center}
-h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14px;line-height:1.7}</style>
-</head><body><div class="card"><h1>Invalid link</h1>
-<p>This update link could not be verified. Please contact <a href="mailto:info@cerenova.com.au" style="color:#2d5f4e">info@cerenova.com.au</a>.</p>
-</div></body></html>`,
-    };
-  }
+  // Key validated below against JSON data
 
   const name = listing_name || slug;
 
@@ -81,6 +55,8 @@ h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14p
       );
 
       const idx = currentJson.listings.findIndex(l => l.slug === slug);
+      if (idx === -1) throw new Error("Listing not found");
+      if (currentJson.listings[idx].secret_key !== key) throw new Error("Invalid key");
       if (idx !== -1) {
         const l = currentJson.listings[idx];
 

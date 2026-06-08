@@ -216,141 +216,15 @@
 
 <script>
 const GOOGLE_ICON = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>`;
-const LISTINGS = [
-  {
-    id:1,slug:"newpsych-psychologists",name:"NewPsych Psychologists",
-    credentials:"Clinical Psychologists, Psychiatrists, Couples & Family Therapists",suburb:"Newcastle CBD",
-    address:"Level 4, 77 Hunter Street, Newcastle NSW 2300",phone:"02 4926 5005",website:"https://www.newpsych.com.au",
-    google_search:"NewPsych Psychologists Newcastle reviews",specialties:["Anxiety", "Depression", "Trauma & PTSD", "Couples Therapy", "EAP", "NDIS", "Workplace Mental Health"],referral_types:["MHCP", "EAP", "NDIS", "Private", "WorkCover"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"One of Newcastle's largest and most established psychology practices \u2014 psychologists, clinical psychologists, psychiatrists, and couples therapists working together. Over 25 years of service, with a comprehensive EAP offering for corporate clients.",
-    fee_note:"",
-    featured:true
-  },
-  {
-    id:2,slug:"elevated-wellbeing-psychology",name:"Elevated Wellbeing Psychology",
-    credentials:"Registered Psychologists, Mental Health Social Workers",suburb:"Wickham",
-    address:"44 Bishopsgate Street, Wickham NSW 2293",phone:"02 4005 0117",website:"https://elevatedwellbeing.com.au",
-    google_search:"Elevated Wellbeing Psychology Wickham Newcastle reviews",specialties:["Anxiety", "Depression", "Grief & Loss", "Trauma & PTSD", "EMDR"],referral_types:["MHCP", "Private"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Thu, 9am\u20135pm",
-    description:"A warm, welcoming team of Newcastle psychologists and mental health social workers providing evidence-based therapy including EMDR, CBT, ACT, and TF-CBT. Currently accepting new clients.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:3,slug:"new-lambton-psychology",name:"New Lambton Psychology",
-    credentials:"AHPRA-Endorsed Clinical Psychologists",suburb:"New Lambton",
-    address:"37 Freyberg Street, New Lambton NSW 2305",phone:"02 4950 9820",website:"https://newlambtonpsychology.com.au",
-    google_search:"New Lambton Psychology reviews",specialties:["Anxiety", "Depression", "Trauma & PTSD", "Eating Disorders", "Child & Adolescent", "Relationships", "Grief & Loss", "EMDR"],referral_types:["MHCP", "EAP", "Private Health", "DVA"],
-    telehealth:false,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"A highly regarded clinical psychology practice with over 10 years of experience. Specialises in individual therapy, group programs, psychological assessments for children, and clinical supervision.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:4,slug:"lacuna-clinical-psychology",name:"Lacuna Clinical Psychology",
-    credentials:"Clinical Psychologists",suburb:"Mayfield",
-    address:"36 Crebert Street, Mayfield NSW 2304",phone:"02 4003 4804",website:"https://www.lacunapsychology.com.au",
-    google_search:"Lacuna Clinical Psychology Mayfield Newcastle reviews",specialties:["Anxiety", "Depression", "Trauma & PTSD", "Emotional Regulation", "DBT"],referral_types:["MHCP", "Private Health", "DVA"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"Mayfield-based practice specialising in emotion-focused and trauma-informed therapy. Session fee $250, with ~$104.75 out-of-pocket after Medicare rebate.",
-    fee_note:"$250/session \u00b7 ~$104.75 out-of-pocket with MHCP",
-    featured:false
-  },
-  {
-    id:5,slug:"oracle-psychology",name:"Oracle Psychology",
-    credentials:"Clinical Psychologists \u2014 Child & Adolescent Specialists",suburb:"Newcastle CBD",
-    address:"Level 1, Suite 6, 19 Bolton Street, Newcastle NSW 2300",phone:"02 4929 2223",website:"https://www.oraclepsychology.com.au",
-    google_search:"Oracle Psychology Newcastle reviews",specialties:["Child & Adolescent", "ADHD", "Autism", "Learning Difficulties", "Anxiety", "Behavioural Issues"],referral_types:["MHCP", "NDIS", "Private"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"Newcastle's dedicated child and adolescent psychology practice, led by Principal Clinical Psychologist Daniel Wendt. Unique combination of Education and Psychology expertise.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:6,slug:"psychology-centre-newcastle",name:"Psychology Centre Newcastle",
-    credentials:"Clinical & Forensic Psychologists",suburb:"Broadmeadow",
-    address:"5 Brunker Road, Broadmeadow NSW 2292",phone:"02 4063 1352",website:"",
-    google_search:"Psychology Centre Newcastle Broadmeadow reviews",specialties:["Anxiety", "Trauma & PTSD", "Forensic Psychology", "CBT", "ACT", "EMDR", "Schema Therapy"],referral_types:["MHCP", "Private", "WorkCover"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"A team of clinical and forensic psychologists delivering specialised care across all ages using ACT, CBT, EMDR and Schema Therapy.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:7,slug:"wildflower-psychology",name:"Wildflower Psychology",
-    credentials:"Registered Psychologists",suburb:"Newcastle West",
-    address:"25 Denison Street, Newcastle West NSW 2302",phone:"0498 560 653",website:"https://www.wildflower-psychology.com.au",
-    google_search:"Wildflower Psychology Newcastle West reviews",specialties:["Anxiety", "Depression", "Women's Mental Health", "Relationships", "Life Transitions"],referral_types:["MHCP", "Private"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Fri, some evenings",
-    description:"A boutique Newcastle West practice with a warm, collaborative approach. Particularly experienced in women's mental health, relationships, and life transitions.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:8,slug:"eld-psychology",name:"ELD Psychology",
-    credentials:"Clinical Psychologists",suburb:"Newcastle West",
-    address:"Suite 3, Level 1, 744 Hunter Street, Newcastle West NSW 2302",phone:"0448 721 866",website:"",
-    google_search:"ELD Psychology Newcastle reviews",specialties:["Anxiety", "Depression", "Stress", "Eating Disorders", "OCD", "Trauma & PTSD", "Relationships"],referral_types:["MHCP", "Private"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"Clinical psychology services for adults across Newcastle, Lake Macquarie, and the Hunter region with a warm, evidence-based approach.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:9,slug:"esteem-psychology",name:"Esteem Psychology",
-    credentials:"AHPRA-Endorsed Clinical Psychologists",suburb:"Newcastle",
-    address:"Newcastle NSW",phone:"",website:"https://www.esteempsychology.com.au",
-    google_search:"Esteem Psychology Newcastle reviews",specialties:["Anxiety", "Depression", "Grief & Loss", "Eating Disorders", "Child & Adolescent", "Relationships"],referral_types:["MHCP", "Private"],
-    telehealth:true,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"AHPRA-endorsed clinical psychologists offering evidence-based therapy for adults, adolescents, and children across a broad range of concerns.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:10,slug:"dyer-and-dyer-psychologists",name:"Dyer & Dyer Psychologists",
-    credentials:"Clinical & Registered Psychologists",suburb:"Newcastle West",
-    address:"Suite 4, Ground Floor, 710 Hunter Street, Newcastle West NSW 2302",phone:"",website:"",
-    google_search:"Dyer Dyer Psychologists Newcastle reviews",specialties:["Anxiety", "Depression", "Trauma", "Grief & Loss", "Self-Esteem", "Anger Management"],referral_types:["MHCP", "Private", "WorkCover"],
-    telehealth:false,
-    accepting:true,
-    hours:"Mon\u2013Fri",
-    description:"A professional, well-established practice with experienced psychologists Frances Dunn, Dr Kristine Kafer, and Melinda Miller. Over 25 years serving Newcastle.",
-    fee_note:"",
-    featured:false
-  },
-  {
-    id:11,slug:"cerenova",name:"Cerenova",
-    credentials:"Registered Psychologists",suburb:"Cardiff",
-    address:"Cardiff NSW",phone:"",website:"",
-    google_search:"Cerenova Psychology Cardiff Newcastle reviews",specialties:["Anxiety", "Depression", "Trauma", "EMDR", "Telehealth"],referral_types:["MHCP", "EAP"],
-    telehealth:true,
-    accepting:false,
-    hours:"Mon\u2013Sun",
-    description:"Psychology practice based in Cardiff serving the Newcastle and Hunter region.",
-    fee_note:"",
-    featured:false
-  }
-];
+let LISTINGS = [];
 let activeFilters = new Set();
+fetch('/data/psychologists.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    LISTINGS = data.listings;
+    applyFilters();
+  })
+  .catch(() => { document.getElementById('listingsContainer').innerHTML = '<p style="padding:20px">Could not load listings.</p>'; });
 
 function renderCard(l) {
   const tags = l.specialties.slice(0,5).map(s=>`<span class="tag">${s}</span>`).join('');
@@ -360,6 +234,8 @@ function renderCard(l) {
     ? `<span class="accepting-badge open">✓ Accepting</span>`
     : status === "waitlist"
     ? `<span class="accepting-badge waitlist">⏱ Waitlist</span>`
+    : status === "hidden"
+    ? `<span class="accepting-badge" style="background:#f5f5f5;color:#888;border:1px solid #ddd;">Contact to confirm</span>`
     : "";
   const websiteBtn = `<a href="/profiles/psychologists/${l.slug}.html" class="btn-primary">View Profile</a>`;
   const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(l.google_search)}`;
@@ -416,7 +292,6 @@ function applyFilters() {
 function toggleChip(el) { const f=el.dataset.filter; el.classList.toggle('active'); activeFilters[el.classList.contains('active')?'add':'delete'](f); applyFilters(); }
 function clearFilters() { activeFilters.clear(); document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active')); document.getElementById('searchInput').value=''; document.getElementById('suburbFilter').value=''; document.getElementById('chkTelehealth').checked=false; document.getElementById('chkAccepting').checked=false; applyFilters(); }
 document.getElementById('searchInput').addEventListener('keyup',e=>{ if(e.key==='Enter') applyFilters(); });
-applyFilters();
 </script>
 </body>
 </html>

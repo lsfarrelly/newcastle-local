@@ -139,7 +139,7 @@
   <div id="formWrap">
 
     <div id="acceptingBanner" class="accepting-banner open">
-      Current status: ✓ Accepting new clients
+      Current status: ✓ Yes — Accepting new clients
     </div>
 
     <h2 class="section-title">Availability</h2>
@@ -147,9 +147,9 @@
     <div class="toggle-group">
       <span class="toggle-label">Availability status</span>
       <select name="status" id="statusSelect" style="margin-top:8px;padding:10px 14px;border:1px solid #d4cfc6;border-radius:3px;font-family:'DM Sans',sans-serif;font-size:14px;width:100%;background:#fff;color:#1a1a1a;">
-        <option value="accepting">✓ Accepting new clients</option>
-        <option value="waitlist">⏱ Waitlist only</option>
-        <option value="hidden">— Don't show availability status</option>
+        <option value="accepting">Yes — Accepting new clients</option>
+        <option value="waitlist">No — Waitlist only</option>
+        <option value="hidden">Neither — Contact to confirm</option>
       </select>
     </div>
 
@@ -257,7 +257,7 @@ if (!listing) {
   const banner = document.getElementById('acceptingBanner');
   if (statusVal === 'accepting') {
     banner.className   = 'accepting-banner open';
-    banner.textContent = 'Current status: ✓ Accepting new clients';
+    banner.textContent = 'Current status: ✓ Yes — Accepting new clients';
   } else if (statusVal === 'waitlist') {
     banner.className   = 'accepting-banner closed';
     banner.textContent = 'Current status: ⏱ Waitlist only';

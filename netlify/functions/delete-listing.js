@@ -7,19 +7,7 @@
 // Required env var: GITHUB_TOKEN (same as update-listing)
 // ─────────────────────────────────────────────────────────────────────────────
 
-const SECRET_KEYS = {
-  "newpsych-psychologists":        "np-x7k9m2p4",
-  "elevated-wellbeing-psychology": "ew-r3t8n6q1",
-  "new-lambton-psychology":        "nl-b5w2j9k7",
-  "lacuna-clinical-psychology":    "lc-v9d4f2s8",
-  "oracle-psychology":             "op-m1z6c3h5",
-  "psychology-centre-newcastle":   "pc-a8y5t1w3",
-  "wildflower-psychology":         "wp-k4r7e9u2",
-  "eld-psychology":                "el-q2n8g5j6",
-  "esteem-psychology":             "es-f6h3b1c9",
-  "dyer-and-dyer-psychologists":   "dd-u5m7w4p3",
-  "cerenova":                      "ce-t9p2l8r4",
-};
+// Key validation now done against JSON (supports dynamically-added listings)
 
 const STYLES = `
   *{box-sizing:border-box;margin:0;padding:0}
@@ -61,15 +49,35 @@ exports.handler = async (event) => {
     const slug = params.get("slug");
     const key  = params.get("key");
 
-    if (!slug || !key || SECRET_KEYS[slug] !== key) {
+    if (!slug || !key) {
       return {
         statusCode: 403,
         headers: { "Content-Type": "text/html" },
         body: `${HTML_HEAD}<div class="card"><div class="icon">🔒</div>
           <h1>Invalid link</h1>
-          <p>This delete link could not be verified. Please contact <a href="mailto:info@cerenova.com.au">info@cerenova.com.au</a>.</p>
+          <p>This delete link could not be verified.</p>
         </div></body></html>`,
       };
+    }
+    // Validate key against JSON
+    try {
+      const API_JSON = `https://api.github.com/repos/${REPO}/contents/data/psychologists.json`;
+      const res = await fetch(API_JSON, { headers: GH_HEADERS });
+      const fd = await res.json();
+      const json = JSON.parse(Buffer.from(fd.content, "base64").toString("utf-8"));
+      const listing = json.listings.find(l => l.slug === slug);
+      if (!listing || listing.secret_key !== key) {
+        return {
+          statusCode: 403,
+          headers: { "Content-Type": "text/html" },
+          body: `${HTML_HEAD}<div class="card"><div class="icon">🔒</div>
+            <h1>Invalid link</h1>
+            <p>This delete link could not be verified.</p>
+          </div></body></html>`,
+        };
+      }
+    } catch(e) {
+      return { statusCode: 500, body: "Server error during validation" };
     }
 
     return {
@@ -103,7 +111,7 @@ exports.handler = async (event) => {
   const key       = params.get("key");
   const confirmed = params.get("confirmed");
 
-  if (!slug || !key || SECRET_KEYS[slug] !== key || confirmed !== "yes") {
+  if (!slug || !key || confirmed !== "yes") {
     return {
       statusCode: 403,
       headers: { "Content-Type": "text/html" },
@@ -134,7 +142,8 @@ exports.handler = async (event) => {
 
       const before = currentJson.listings.length;
       const found  = currentJson.listings.find(l => l.slug === slug);
-      if (found) listingName = found.name;
+      if (!found || found.secret_key !== key) throw new Error("Invalid key");
+      listingName = found.name;
 
       currentJson.listings = currentJson.listings.filter(l => l.slug !== slug);
       currentJson.meta.total        = currentJson.listings.length;

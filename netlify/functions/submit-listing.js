@@ -65,7 +65,7 @@ function generateProfileHTML(l) {
   const refHtml = l.referral_types.map(r => `<span class="ref-chip">${r}</span>`).join('');
   const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(l.name + ' ' + l.suburb + ' Newcastle reviews')}`;
   const websiteBtn = l.website
-    ? `<a href="${l.website}" target="_blank" rel="noopener" class="btn-primary" style="display:inline-block;width:auto;padding:12px 28px;">Visit Website</a>`
+    ? `<a href="${l.website}" target="_blank" rel="noopener" class="btn-primary" style="display:inline-block;width:auto;padding:12px 28px;">View Website</a>`
     : '';
   const suburb = l.suburb || (l.address ? l.address.split(',').pop().trim() : 'Newcastle NSW');
   const updateUrl = `/update/index.html?slug=${l.slug}&key=${l.secret_key}`;
@@ -171,8 +171,10 @@ function generateProfileHTML(l) {
           ${GOOGLE_ICON} See Google Reviews
         </a>
       </div>
-      <a href="${updateUrl}" class="update-link">Are you the owner? Update your listing →</a>
-      <a href="${deleteUrl}" class="delete-link">Remove this listing</a>
+      <div id="ownerControls" data-key="${l.secret_key}" style="display:none;border-top:1px solid var(--rule);margin-top:14px;padding-top:14px;">
+        <a href="${updateUrl}" class="update-link" style="border:none;margin:0;padding:0;">Update your listing →</a>
+        <a href="${deleteUrl}" class="delete-link">Remove this listing</a>
+      </div>
     </div>
   </aside>
 </div>
@@ -185,6 +187,10 @@ function generateProfileHTML(l) {
 </footer>
 <script>
 (function() {
+  var p = new URLSearchParams(window.location.search);
+  var k = p.get('key');
+  var ctrl = document.getElementById('ownerControls');
+  if(ctrl && k && k === ctrl.dataset.key) ctrl.style.display = 'block';
   fetch("/data/psychologists.json?v=" + Date.now())
     .then(function(r){return r.json();})
     .then(function(data){
@@ -232,7 +238,7 @@ exports.handler = async (event) => {
 
   let statusVal = 'accepting';
   if (accepting === 'waitlist') statusVal = 'waitlist';
-  else if (accepting === 'no')  statusVal = 'hidden';
+  else if (accepting === 'no' || accepting === 'hidden') statusVal = 'hidden';
 
   const newListing = {
     id: Date.now(),
