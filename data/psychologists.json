@@ -2,7 +2,7 @@
   "meta": {
     "category": "Psychologists",
     "location": "Newcastle NSW",
-    "last_updated": "2025-06-08",
+    "last_updated": "2026-06-08",
     "total": 11
   },
   "listings": [
@@ -18,8 +18,22 @@
       "email": "reception@newpsych.com.au",
       "website": "https://www.newpsych.com.au",
       "google_search": "NewPsych Psychologists Newcastle reviews",
-      "specialties": ["Anxiety","Depression","Trauma & PTSD","Couples Therapy","EAP","NDIS","Workplace Mental Health"],
-      "referral_types": ["MHCP","EAP","NDIS","Private","WorkCover"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Trauma & PTSD",
+        "Couples Therapy",
+        "EAP",
+        "NDIS",
+        "Workplace Mental Health"
+      ],
+      "referral_types": [
+        "MHCP",
+        "EAP",
+        "NDIS",
+        "Private",
+        "WorkCover"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -39,8 +53,17 @@
       "email": "admin@elevatedwellbeing.com.au",
       "website": "https://elevatedwellbeing.com.au",
       "google_search": "Elevated Wellbeing Psychology Wickham Newcastle reviews",
-      "specialties": ["Anxiety","Depression","Grief & Loss","Trauma & PTSD","EMDR"],
-      "referral_types": ["MHCP","Private"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Grief & Loss",
+        "Trauma & PTSD",
+        "EMDR"
+      ],
+      "referral_types": [
+        "MHCP",
+        "Private"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Thu, 9am–5pm",
@@ -60,8 +83,22 @@
       "email": "reception@newlambtonpsychology.com.au",
       "website": "https://newlambtonpsychology.com.au",
       "google_search": "New Lambton Psychology reviews",
-      "specialties": ["Anxiety","Depression","Trauma & PTSD","Eating Disorders","Child & Adolescent","Relationships","Grief & Loss","EMDR"],
-      "referral_types": ["MHCP","EAP","Private Health","DVA"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Trauma & PTSD",
+        "Eating Disorders",
+        "Child & Adolescent",
+        "Relationships",
+        "Grief & Loss",
+        "EMDR"
+      ],
+      "referral_types": [
+        "MHCP",
+        "EAP",
+        "Private Health",
+        "DVA"
+      ],
       "telehealth": false,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -81,8 +118,18 @@
       "email": null,
       "website": "https://www.lacunapsychology.com.au",
       "google_search": "Lacuna Clinical Psychology Mayfield Newcastle reviews",
-      "specialties": ["Anxiety","Depression","Trauma & PTSD","Emotional Regulation","DBT"],
-      "referral_types": ["MHCP","Private Health","DVA"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Trauma & PTSD",
+        "Emotional Regulation",
+        "DBT"
+      ],
+      "referral_types": [
+        "MHCP",
+        "Private Health",
+        "DVA"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -103,8 +150,19 @@
       "email": "admin@oraclepsych.com.au",
       "website": "https://www.oraclepsychology.com.au",
       "google_search": "Oracle Psychology Newcastle reviews",
-      "specialties": ["Child & Adolescent","ADHD","Autism","Learning Difficulties","Anxiety","Behavioural Issues"],
-      "referral_types": ["MHCP","NDIS","Private"],
+      "specialties": [
+        "Child & Adolescent",
+        "ADHD",
+        "Autism",
+        "Learning Difficulties",
+        "Anxiety",
+        "Behavioural Issues"
+      ],
+      "referral_types": [
+        "MHCP",
+        "NDIS",
+        "Private"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -124,8 +182,20 @@
       "email": null,
       "website": null,
       "google_search": "Psychology Centre Newcastle Broadmeadow reviews",
-      "specialties": ["Anxiety","Trauma & PTSD","Forensic Psychology","CBT","ACT","EMDR","Schema Therapy"],
-      "referral_types": ["MHCP","Private","WorkCover"],
+      "specialties": [
+        "Anxiety",
+        "Trauma & PTSD",
+        "Forensic Psychology",
+        "CBT",
+        "ACT",
+        "EMDR",
+        "Schema Therapy"
+      ],
+      "referral_types": [
+        "MHCP",
+        "Private",
+        "WorkCover"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -145,8 +215,17 @@
       "email": "admin@wildflower-psychology.com.au",
       "website": "https://www.wildflower-psychology.com.au",
       "google_search": "Wildflower Psychology Newcastle West reviews",
-      "specialties": ["Anxiety","Depression","Women's Mental Health","Relationships","Life Transitions"],
-      "referral_types": ["MHCP","Private"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Women's Mental Health",
+        "Relationships",
+        "Life Transitions"
+      ],
+      "referral_types": [
+        "MHCP",
+        "Private"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Fri, some evenings",
@@ -166,8 +245,19 @@
       "email": null,
       "website": null,
       "google_search": "ELD Psychology Newcastle reviews",
-      "specialties": ["Anxiety","Depression","Stress","Eating Disorders","OCD","Trauma & PTSD","Relationships"],
-      "referral_types": ["MHCP","Private"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Stress",
+        "Eating Disorders",
+        "OCD",
+        "Trauma & PTSD",
+        "Relationships"
+      ],
+      "referral_types": [
+        "MHCP",
+        "Private"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -187,8 +277,18 @@
       "email": null,
       "website": "https://www.esteempsychology.com.au",
       "google_search": "Esteem Psychology Newcastle reviews",
-      "specialties": ["Anxiety","Depression","Grief & Loss","Eating Disorders","Child & Adolescent","Relationships"],
-      "referral_types": ["MHCP","Private"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Grief & Loss",
+        "Eating Disorders",
+        "Child & Adolescent",
+        "Relationships"
+      ],
+      "referral_types": [
+        "MHCP",
+        "Private"
+      ],
       "telehealth": true,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -208,8 +308,19 @@
       "email": null,
       "website": null,
       "google_search": "Dyer Dyer Psychologists Newcastle reviews",
-      "specialties": ["Anxiety","Depression","Trauma","Grief & Loss","Self-Esteem","Anger Management"],
-      "referral_types": ["MHCP","Private","WorkCover"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Trauma",
+        "Grief & Loss",
+        "Self-Esteem",
+        "Anger Management"
+      ],
+      "referral_types": [
+        "MHCP",
+        "Private",
+        "WorkCover"
+      ],
       "telehealth": false,
       "accepting": true,
       "hours": "Mon–Fri",
@@ -229,10 +340,19 @@
       "email": null,
       "website": null,
       "google_search": "Cerenova Psychology Cardiff Newcastle reviews",
-      "specialties": ["Anxiety","Depression","Trauma","EMDR","Telehealth"],
-      "referral_types": ["MHCP","EAP"],
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Trauma",
+        "EMDR",
+        "Telehealth"
+      ],
+      "referral_types": [
+        "MHCP",
+        "EAP"
+      ],
       "telehealth": true,
-      "accepting": true,
+      "accepting": false,
       "hours": "Mon–Sun",
       "description": "Psychology practice based in Cardiff serving the Newcastle and Hunter region.",
       "long_description": "Cerenova is a psychology practice based in Cardiff, serving clients across the Newcastle and Hunter region. The practice offers appointments seven days a week and provides telehealth services.\n\nPlease contact Cerenova directly for more information about their services, fees, and current availability.",
