@@ -182,7 +182,7 @@ exports.handler = async (event) => {
 
   const params = new URLSearchParams(event.body);
   const fields = Object.fromEntries(params.entries());
-  const { slug, key, listing_name, status, telehealth,
+  const { slug, key, cat: rawCat, listing_name, status, telehealth,
           phone, email, website, hours, description, notes } = fields;
 
   if (!slug || !key) {
@@ -193,10 +193,13 @@ exports.handler = async (event) => {
 
   const name = listing_name || slug;
 
+  const ALLOWED_CATS = ['psychologists','plumbers','gps','dentists','physiotherapists','electricians','builders','lawyers','accountants','ndis','mechanics','removalists'];
+  const cat = ALLOWED_CATS.includes(rawCat) ? rawCat : 'psychologists';
+
   const GITHUB_TOKEN  = process.env.GITHUB_TOKEN;
   const REPO          = process.env.GITHUB_REPO   || "lsfarrelly/newcastle-local";
   const BRANCH        = process.env.GITHUB_BRANCH || "main";
-  const FILE_PATH     = "data/psychologists.json";
+  const FILE_PATH     = "data/" + cat + ".json";
   const API_BASE      = `https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`;
   const GH_HEADERS    = {
     "Authorization": `Bearer ${GITHUB_TOKEN}`,
@@ -268,7 +271,7 @@ exports.handler = async (event) => {
         // Also regenerate the profile HTML page
         try {
           const updatedListing = currentJson.listings[idx];
-          const profilePath    = `profiles/psychologists/${updatedListing.slug}.html`;
+          const profilePath    = `profiles/${cat}/${updatedListing.slug}.html`;
           const API_PROFILE    = `https://api.github.com/repos/${REPO}/contents/${profilePath}`;
           const profileHtml    = generateProfileHTML(updatedListing);
           // Get existing SHA (if file exists)
@@ -332,7 +335,7 @@ exports.handler = async (event) => {
   <h1>Update received</h1>
   <p>Thank you — changes for <strong>${name}</strong> have been submitted.</p>
   <p>${deployNote}</p>
-  <p style="margin-top:24px"><a href="/psychologists.html">← Back to directory</a></p>
+  <p style="margin-top:24px"><a href="/${cat}.html">← Back to directory</a></p>
 </div>
 </body>
 </html>`,

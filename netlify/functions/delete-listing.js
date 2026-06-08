@@ -46,8 +46,11 @@ exports.handler = async (event) => {
   // ── GET: show confirmation page ───────────────────────────────────────────
   if (event.httpMethod === "GET") {
     const params = new URLSearchParams(event.queryStringParameters || {});
-    const slug = params.get("slug");
-    const key  = params.get("key");
+    const slug   = params.get("slug");
+    const key    = params.get("key");
+    const ALLOWED_CATS = ['psychologists','plumbers','gps','dentists','physiotherapists','electricians','builders','lawyers','accountants','ndis','mechanics','removalists'];
+    const rawCat = params.get("cat") || "psychologists";
+    const cat    = ALLOWED_CATS.includes(rawCat) ? rawCat : "psychologists";
 
     if (!slug || !key) {
       return {
@@ -61,7 +64,7 @@ exports.handler = async (event) => {
     }
     // Validate key against JSON
     try {
-      const API_JSON = `https://api.github.com/repos/${REPO}/contents/data/psychologists.json`;
+      const API_JSON = `https://api.github.com/repos/${REPO}/contents/data/${cat}.json`;
       const res = await fetch(API_JSON, { headers: GH_HEADERS });
       const fd = await res.json();
       const json = JSON.parse(Buffer.from(fd.content, "base64").toString("utf-8"));
@@ -91,12 +94,13 @@ exports.handler = async (event) => {
         <form method="POST" action="/.netlify/functions/delete-listing">
           <input type="hidden" name="slug" value="${slug}">
           <input type="hidden" name="key" value="${key}">
+          <input type="hidden" name="cat" value="${cat}">
           <input type="hidden" name="confirmed" value="yes">
           <br>
           <button type="submit" class="btn-danger">Yes, remove my listing</button>
         </form>
         <br>
-        <a href="/profiles/psychologists/${slug}.html" class="btn-cancel">Cancel — keep my listing</a>
+        <a href="/profiles/${cat}/${slug}.html" class="btn-cancel">Cancel — keep my listing</a>
       </div></body></html>`,
     };
   }
@@ -110,6 +114,9 @@ exports.handler = async (event) => {
   const slug      = params.get("slug");
   const key       = params.get("key");
   const confirmed = params.get("confirmed");
+  const ALLOWED_CATS_POST = ['psychologists','plumbers','gps','dentists','physiotherapists','electricians','builders','lawyers','accountants','ndis','mechanics','removalists'];
+  const rawCatPost = params.get("cat") || "psychologists";
+  const cat = ALLOWED_CATS_POST.includes(rawCatPost) ? rawCatPost : "psychologists";
 
   if (!slug || !key || confirmed !== "yes") {
     return {
@@ -118,7 +125,7 @@ exports.handler = async (event) => {
       body: `${HTML_HEAD}<div class="card"><div class="icon">🔒</div>
         <h1>Not authorised</h1>
         <p>Deletion could not be verified.</p>
-        <p><a href="/psychologists.html">Back to directory</a></p>
+        <p><a href="/${cat}.html">Back to directory</a></p>
       </div></body></html>`,
     };
   }
@@ -128,7 +135,7 @@ exports.handler = async (event) => {
 
   if (GITHUB_TOKEN) {
     try {
-      const JSON_PATH = "data/psychologists.json";
+      const JSON_PATH = `data/${cat}.json`;
       const API_JSON  = `https://api.github.com/repos/${REPO}/contents/${JSON_PATH}`;
 
       // 1. Fetch + update JSON (remove the listing)
@@ -169,7 +176,7 @@ exports.handler = async (event) => {
           deleted = true;
 
           // 2. Delete the profile HTML page
-          const PROFILE_PATH = `profiles/psychologists/${slug}.html`;
+          const PROFILE_PATH = `profiles/${cat}/${slug}.html`;
           const API_PROFILE  = `https://api.github.com/repos/${REPO}/contents/${PROFILE_PATH}`;
 
           try {
@@ -205,7 +212,7 @@ exports.handler = async (event) => {
         <h1>Listing removed</h1>
         <p><strong>${listingName}</strong> has been removed from NewcastleLocal.</p>
         <p>The directory will update within about 60 seconds.</p>
-        <p style="margin-top:24px"><a href="/psychologists.html">← Back to directory</a></p>
+        <p style="margin-top:24px"><a href="/${cat}.html">← Back to directory</a></p>
       </div></body></html>`,
     };
   } else {

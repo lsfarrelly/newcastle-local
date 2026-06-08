@@ -92,6 +92,7 @@
 <form name="listing-update" netlify netlify-honeypot="bot-field" hidden>
   <input type="hidden" name="form-name" value="listing-update">
   <input name="bot-field">
+  <input name="cat">
   <input name="slug">
   <input name="key">
   <input name="listing_name">
@@ -132,7 +133,7 @@
     <h2>Update received</h2>
     <p id="successName">Your changes have been submitted and will be reviewed within 48 hours.</p>
     <p>Once approved, your updated listing will be live on the site.</p>
-    <p style="margin-top:24px"><a href="/psychologists.html">← Back to directory</a></p>
+    <p style="margin-top:24px"><a id="backLink" href="/psychologists.html">← Back to directory</a></p>
   </div>
 
   <!-- Key entry (shown when no key in URL) -->
@@ -231,14 +232,24 @@
 </div>
 
 <footer>
-  © 2025 NewcastleLocal · <a href="/psychologists.html" style="color:#aaa">Back to directory</a>
+  © 2025 NewcastleLocal · <a id="footerBackLink" href="/psychologists.html" style="color:#aaa">Back to directory</a>
 </footer>
 
 <script>
 const params = new URLSearchParams(window.location.search);
 let slug = params.get('slug');
 let key  = params.get('key');
+let cat  = params.get('cat') || 'psychologists';
 let listing = null;
+
+// Update back links to point to the correct category
+(function() {
+  var backEl = document.getElementById('backLink');
+  var footerEl = document.getElementById('footerBackLink');
+  var href = '/' + cat + '.html';
+  if (backEl) backEl.href = href;
+  if (footerEl) footerEl.href = href;
+})();
 
 function showKeyEntry() {
   document.getElementById('heroTitle').textContent = 'Update Your Listing';
@@ -288,7 +299,7 @@ function loadForm(l) {
 
 async function validateAndLoad(s, k) {
   try {
-    const res  = await fetch('/data/psychologists.json?v=' + Date.now());
+    const res  = await fetch('/data/' + cat + '.json?v=' + Date.now());
     const data = await res.json();
     const l    = data.listings.find(x => x.slug === s);
     if (!l || l.secret_key !== k) { showInvalid(); return; }
@@ -334,7 +345,7 @@ async function submitUpdate() {
 
   try {
     const body = new URLSearchParams({
-      slug, key,
+      slug, key, cat,
       listing_name:  listing.name,
       status, telehealth,
       phone:         phone        || '(unchanged)',
