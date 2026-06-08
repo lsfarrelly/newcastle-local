@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPs in Newcastle NSW | Newcastle Local</title>
+<meta name="description" content="Find trusted GP practices in Newcastle, NSW. Compare bulk billing, mixed billing, after-hours, and telehealth options near you.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#FAF8F5;--warm-white:#F2EFE9;--sage:#7C9A7E;--sage-dark:#5A7A5C;--rust:#B5622C;--charcoal:#2C2C2C;--mid-grey:#6B6B6B;--light-grey:#D8D5CF;--card-bg:#FFFFFF;--radius:12px;--shadow:0 2px 12px rgba(0,0,0,0.07);}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--charcoal);}
+  a{color:inherit;text-decoration:none;}
+  /* NAV */
+  nav{background:#fff;border-bottom:1px solid var(--warm-white);padding:0 24px;display:flex;align-items:center;gap:32px;height:60px;position:sticky;top:0;z-index:100;}
+  .nav-logo{font-family:'Playfair Display',serif;font-size:20px;color:var(--charcoal);}
+  .nav-links{display:flex;gap:24px;font-size:14px;font-weight:500;}
+  .nav-links a:hover{color:var(--sage-dark);}
+  /* HERO */
+  .hero{background:linear-gradient(135deg,#e8f0e9 0%,#f5f0eb 100%);padding:48px 24px 40px;text-align:center;}
+  .hero h1{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,42px);margin-bottom:12px;}
+  .hero p{font-size:16px;color:var(--mid-grey);max-width:560px;margin:0 auto;}
+  .hero-meta{margin-top:16px;font-size:14px;color:var(--mid-grey);}
+  .hero-meta span{background:#fff;border-radius:20px;padding:4px 14px;margin:0 4px;display:inline-block;}
+  /* CONTROLS */
+  .controls{max-width:1100px;margin:32px auto 0;padding:0 24px;}
+  .search-row{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;}
+  .search-row input{flex:1;min-width:220px;padding:10px 16px;border:1px solid var(--light-grey);border-radius:8px;font-size:15px;font-family:inherit;background:#fff;}
+  .search-row select{padding:10px 16px;border:1px solid var(--light-grey);border-radius:8px;font-size:14px;font-family:inherit;background:#fff;cursor:pointer;}
+  .filter-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;}
+  .chip{padding:6px 14px;border-radius:20px;border:1px solid var(--light-grey);background:#fff;font-size:13px;cursor:pointer;transition:all 0.15s;}
+  .chip:hover{border-color:var(--sage);}
+  .chip.active{background:var(--sage);color:#fff;border-color:var(--sage);}
+  /* GRID */
+  .listing-grid{max-width:1100px;margin:24px auto 60px;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;}
+  /* CARD */
+  .card{background:var(--card-bg);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;transition:box-shadow 0.2s;}
+  .card:hover{box-shadow:0 6px 24px rgba(0,0,0,0.11);}
+  .card-header{background:linear-gradient(135deg,#e8f0e9,#f0ede8);padding:18px 20px 14px;}
+  .card-name{font-family:'Playfair Display',serif;font-size:18px;line-height:1.3;margin-bottom:4px;}
+  .card-suburb{font-size:13px;color:var(--mid-grey);}
+  .badge-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
+  .badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:10px;letter-spacing:0.3px;}
+  .badge-bulk{background:#d4edda;color:#1a6630;}
+  .badge-mixed{background:#fff3cd;color:#856404;}
+  .badge-telehealth{background:#cfe2ff;color:#084298;}
+  .badge-after-hours{background:#f8d7da;color:#842029;}
+  .badge-featured{background:#e2d9f3;color:#4a2c7d;}
+  .badge-new{background:#d1ecf1;color:#0c5460;}
+  .card-body{padding:16px 20px;flex:1;display:flex;flex-direction:column;gap:10px;}
+  .info-row{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--mid-grey);}
+  .info-row .icon{font-size:14px;margin-top:1px;flex-shrink:0;}
+  .info-row a{color:var(--sage-dark);}
+  .services-list{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px;}
+  .svc-tag{font-size:11px;background:var(--warm-white);padding:3px 8px;border-radius:6px;color:var(--charcoal);}
+  .card-footer{padding:14px 20px;border-top:1px solid var(--warm-white);display:flex;gap:10px;}
+  .btn{flex:1;text-align:center;padding:9px 12px;border-radius:8px;font-size:13px;font-weight:600;font-family:inherit;cursor:pointer;transition:all 0.15s;}
+  .btn-primary{background:var(--sage);color:#fff;border:none;}
+  .btn-primary:hover{background:var(--sage-dark);}
+  .btn-outline{background:#fff;color:var(--charcoal);border:1px solid var(--light-grey);}
+  .btn-outline:hover{border-color:var(--sage);color:var(--sage-dark);}
+  .no-results{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--mid-grey);}
+  /* BREADCRUMB */
+  .breadcrumb{max-width:1100px;margin:16px auto 0;padding:0 24px;font-size:13px;color:var(--mid-grey);}
+  .breadcrumb a{color:var(--sage-dark);}
+  .breadcrumb span{margin:0 6px;}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Newcastle Local</a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/psychologists.html">Psychologists</a>
+    <a href="/plumbers.html">Plumbers</a>
+    <a href="/gps.html">GPs</a>
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="/">Home</a><span>›</span>GPs
+</div>
+
+<div class="hero">
+  <h1>GPs in Newcastle, NSW</h1>
+  <p>Find trusted GP practices across Newcastle and the Hunter region — bulk billing, mixed billing, after-hours, and telehealth options.</p>
+  <div class="hero-meta">
+    <span id="totalCount">Loading...</span>
+    <span>Newcastle &amp; Hunter Region</span>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="search-row">
+    <input type="text" id="searchInput" placeholder="Search by name or service…">
+    <select id="suburbFilter">
+      <option value="">All suburbs</option>
+      <option value="Broadmeadow">Broadmeadow</option>
+      <option value="Charlestown">Charlestown</option>
+      <option value="Hamilton">Hamilton</option>
+      <option value="Jesmond">Jesmond</option>
+      <option value="Mayfield">Mayfield</option>
+      <option value="Newcastle West">Newcastle West</option>
+      <option value="Wallsend">Wallsend</option>
+    </select>
+    <select id="sortSelect">
+      <option value="az">A–Z</option>
+      <option value="featured">Featured first</option>
+      <option value="bulk">Bulk billing first</option>
+    </select>
+  </div>
+  <div class="filter-chips">
+    <button class="chip" data-filter="bulk_billing">Bulk Billing</button>
+    <button class="chip" data-filter="telehealth">Telehealth</button>
+    <button class="chip" data-filter="after_hours">After Hours</button>
+    <button class="chip" data-filter="accepting_new">Accepting New Patients</button>
+    <button class="chip" data-filter="Skin Cancer">Skin Cancer</button>
+    <button class="chip" data-filter="Women's Health">Women's Health</button>
+    <button class="chip" data-filter="Children's Health">Children's Health</button>
+    <button class="chip" data-filter="Mental Health">Mental Health</button>
+    <button class="chip" data-filter="Chronic Disease">Chronic Disease</button>
+  </div>
+</div>
+
+<div class="listing-grid" id="listingGrid"></div>
+
+<script>
+let allListings = [];
+let activeFilters = new Set();
+
+async function loadData() {
+  const r = await fetch('/data/gps.json?v=' + Date.now());
+  const d = await r.json();
+  allListings = d.listings;
+  document.getElementById('totalCount').textContent = allListings.length + ' practices listed';
+  render();
+}
+
+function matchesFilter(l, f) {
+  if (f === 'bulk_billing') return l.bulk_billing === true;
+  if (f === 'telehealth') return l.telehealth === true;
+  if (f === 'after_hours') return (l.services || []).some(s => s.toLowerCase().includes('after hours'));
+  if (f === 'accepting_new') return l.accepting_new === true;
+  return (l.services || []).some(s => s.toLowerCase().includes(f.toLowerCase()));
+}
+
+function render() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  const suburb = document.getElementById('suburbFilter').value;
+  const sort = document.getElementById('sortSelect').value;
+
+  let data = allListings.filter(l => {
+    if (suburb && l.suburb !== suburb) return false;
+    if (q && !l.name.toLowerCase().includes(q) && !(l.services||[]).join(' ').toLowerCase().includes(q) && !l.description.toLowerCase().includes(q)) return false;
+    for (const f of activeFilters) { if (!matchesFilter(l, f)) return false; }
+    return true;
+  });
+
+  if (sort === 'az') data.sort((a,b) => a.name.localeCompare(b.name));
+  else if (sort === 'featured') data.sort((a,b) => (b.featured?1:0)-(a.featured?1:0));
+  else if (sort === 'bulk') data.sort((a,b) => (b.bulk_billing?1:0)-(a.bulk_billing?1:0));
+
+  const grid = document.getElementById('listingGrid');
+  if (!data.length) { grid.innerHTML = '<div class="no-results">No practices match your filters.</div>'; return; }
+
+  grid.innerHTML = data.map(l => {
+    const badges = [];
+    if (l.bulk_billing) badges.push('<span class="badge badge-bulk">Bulk Billing</span>');
+    else badges.push('<span class="badge badge-mixed">Mixed Billing</span>');
+    if (l.telehealth) badges.push('<span class="badge badge-telehealth">Telehealth</span>');
+    if ((l.services||[]).some(s => s.toLowerCase().includes('after hours'))) badges.push('<span class="badge badge-after-hours">After Hours</span>');
+    if (l.featured) badges.push('<span class="badge badge-featured">Featured</span>');
+    if (l.accepting_new) badges.push('<span class="badge badge-new">Accepting New Patients</span>');
+
+    const svcs = (l.services||[]).slice(0,5).map(s => `<span class="svc-tag">${s}</span>`).join('');
+    const websiteHost = l.website ? l.website.replace(/https?:\/\//, '').replace(/\/$/, '') : '';
+    const emailRow = l.email ? `<div class="info-row"><span class="icon">✉</span><a href="mailto:${l.email}">${l.email}</a></div>` : '';
+    const webRow = l.website ? `<div class="info-row"><span class="icon">🌐</span><a href="${l.website}" target="_blank" rel="noopener">${websiteHost}</a></div>` : '';
+
+    return `<div class="card">
+  <div class="card-header">
+    <div class="card-name">${l.name}</div>
+    <div class="card-suburb">${l.suburb}</div>
+    <div class="badge-row">${badges.join('')}</div>
+  </div>
+  <div class="card-body">
+    <div class="info-row"><span class="icon">📍</span><span>${l.address}</span></div>
+    <div class="info-row"><span class="icon">📞</span><a href="tel:${l.phone.replace(/\s/g,'')}">${l.phone}</a></div>
+    ${emailRow}
+    ${webRow}
+    <div class="info-row"><span class="icon">🕐</span><span>${l.hours}</span></div>
+    <div class="services-list">${svcs}</div>
+  </div>
+  <div class="card-footer">
+    <a href="/profiles/gps/${l.slug}.html" class="btn btn-primary">View Profile</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(l.address)}" target="_blank" class="btn btn-outline">Directions</a>
+  </div>
+</div>`;
+  }).join('');
+}
+
+document.getElementById('searchInput').addEventListener('input', render);
+document.getElementById('suburbFilter').addEventListener('change', render);
+document.getElementById('sortSelect').addEventListener('change', render);
+document.querySelectorAll('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const f = chip.dataset.filter;
+    if (activeFilters.has(f)) { activeFilters.delete(f); chip.classList.remove('active'); }
+    else { activeFilters.add(f); chip.classList.add('active'); }
+    render();
+  });
+});
+
+loadData();
+</script>
+</body>
+</html>

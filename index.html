@@ -353,11 +353,10 @@
       <div class="category-name">Physiotherapists</div>
       <div class="category-count">Coming soon</div>
     </a>
-    <a href="#" class="category-card coming-soon">
-      <span class="coming-badge">Soon</span>
+    <a href="gps.html" class="category-card">
       <span class="category-icon">🩺</span>
-      <div class="category-name">GPs (Bulk Billing)</div>
-      <div class="category-count">Coming soon</div>
+      <div class="category-name">GPs</div>
+      <div class="category-count" id="gpsCountEl">Loading...</div>
     </a>
     <a href="#" class="category-card coming-soon">
       <span class="coming-badge">Soon</span>
@@ -502,6 +501,14 @@ fetch('/data/psychologists.json?v='+Date.now())
     var el=document.getElementById('psychCountEl');
     if(el) el.textContent=d.listings.length+' listing'+(d.listings.length===1?'':'s');
   }).catch(function(){});
-</script>
+
+    fetch('/data/gps.json?v=' + Date.now())
+      .then(r => r.json())
+      .then(d => {
+        const el = document.getElementById('gpsCountEl');
+        if (el) el.textContent = d.listings.length + ' practices';
+      })
+      .catch(() => {});
+  </script>
 </body>
 </html>
