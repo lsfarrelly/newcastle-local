@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>List Your Business — NewcastleLocal</title>
-<meta name="description" content="Get your Newcastle business listed on NewcastleLocal. Free basic listings or featured spots to appear at the top of your category.">
+<title>List Your Practice — NewcastleLocal</title>
+<meta name="description" content="Get your Newcastle psychology practice or health business listed on NewcastleLocal. Free listing, live within 48 hours.">
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 <style>
@@ -13,153 +13,83 @@
     padding: 72px 24px;
     text-align: center;
   }
-  .list-hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(36px, 5vw, 54px);
-    color: #fff;
-    margin-bottom: 16px;
-  }
+  .list-hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 5vw, 52px); color: #fff; margin-bottom: 16px; line-height: 1.15; }
   .list-hero h1 em { font-style: italic; color: var(--gold); }
-  .list-hero p { color: #aaa; font-size: 17px; font-weight: 300; max-width: 500px; margin: 0 auto; }
+  .list-hero p { color: #aaa; font-size: 17px; font-weight: 300; max-width: 480px; margin: 0 auto; line-height: 1.7; }
 
-  .pricing-section {
-    max-width: 900px;
+  .how-section {
+    max-width: 860px;
     margin: 0 auto;
-    padding: 64px 24px;
-  }
-  .pricing-grid {
+    padding: 64px 24px 48px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    margin-top: 36px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
   }
-  .pricing-card {
-    background: var(--warm-white);
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-    padding: 36px 32px;
+  .how-step { text-align: center; }
+  .how-num {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--accent-light); color: var(--accent);
+    font-weight: 600; font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 14px;
   }
-  .pricing-card.featured-plan {
-    border-color: var(--gold);
-    background: #fffdf8;
-    position: relative;
-  }
-  .plan-badge {
-    position: absolute;
-    top: -12px; left: 50%;
-    transform: translateX(-50%);
-    background: var(--gold);
-    color: #fff;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 4px 16px;
-    border-radius: 20px;
-    white-space: nowrap;
-  }
-  .plan-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    margin-bottom: 8px;
-  }
-  .plan-price {
-    font-size: 42px;
-    font-weight: 300;
-    color: var(--ink);
-    margin-bottom: 4px;
-  }
-  .plan-price sup { font-size: 20px; vertical-align: top; margin-top: 8px; }
-  .plan-price span { font-size: 15px; color: var(--muted); }
-  .plan-desc { font-size: 13px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
-  .plan-features { list-style: none; margin-bottom: 28px; }
-  .plan-features li {
-    padding: 8px 0;
-    border-bottom: 1px solid var(--rule);
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .plan-features li::before { content: '✓'; color: var(--accent); font-weight: 600; }
-  .plan-features li.no::before { content: '–'; color: var(--rule); }
-  .plan-features li.no { color: var(--muted); }
+  .how-title { font-weight: 500; font-size: 15px; margin-bottom: 8px; }
+  .how-text { font-size: 13px; color: var(--muted); line-height: 1.7; }
 
-  .form-section {
-    background: var(--cream);
-    border-top: 1px solid var(--rule);
-    padding: 64px 24px;
-  }
-  .form-inner {
-    max-width: 680px;
-    margin: 0 auto;
-  }
-  .form-inner h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-    margin-bottom: 8px;
-  }
-  .form-inner p { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  .form-section { background: var(--cream); border-top: 1px solid var(--rule); padding: 64px 24px; }
+  .form-inner { max-width: 640px; margin: 0 auto; }
+  .form-inner h2 { font-family: 'Playfair Display', serif; font-size: 30px; margin-bottom: 8px; }
+  .form-inner > p { color: var(--muted); font-size: 14px; margin-bottom: 32px; line-height: 1.7; }
+
   .form-group { margin-bottom: 20px; }
-  .form-group label {
-    display: block;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 6px;
-  }
+  .form-group label { display: block; font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
   .form-group input,
   .form-group select,
   .form-group textarea {
-    width: 100%;
-    padding: 12px 14px;
-    border: 1px solid var(--rule);
-    border-radius: 3px;
-    background: #fff;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
-    color: var(--ink);
-    outline: none;
-    transition: border-color 0.15s;
+    width: 100%; padding: 12px 14px;
+    border: 1px solid var(--rule); border-radius: 3px;
+    background: #fff; font-family: 'DM Sans', sans-serif;
+    font-size: 15px; color: var(--ink); outline: none; transition: border-color 0.15s;
   }
   .form-group input:focus,
   .form-group select:focus,
   .form-group textarea:focus { border-color: var(--accent); }
-  .form-group textarea { resize: vertical; min-height: 100px; }
+  .form-group textarea { resize: vertical; min-height: 90px; }
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
   .form-submit {
-    width: 100%;
-    padding: 15px;
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.2s;
-    margin-top: 8px;
+    width: 100%; padding: 15px;
+    background: var(--accent); color: #fff; border: none; border-radius: 3px;
+    font-family: 'DM Sans', sans-serif; font-size: 16px; font-weight: 500;
+    cursor: pointer; transition: background 0.2s; margin-top: 8px;
   }
   .form-submit:hover { background: #3a7a63; }
-  .form-note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 12px; }
+  .form-note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 12px; line-height: 1.6; }
 
-  .success-msg {
+  .success-panel {
     display: none;
-    background: #e8f5e9;
+    background: #fff;
     border: 1px solid #a5d6a7;
     border-radius: 4px;
-    padding: 20px;
+    padding: 36px;
     text-align: center;
-    color: #2e7d32;
-    font-weight: 500;
-    margin-top: 20px;
+    margin-top: 24px;
+  }
+  .success-panel h3 { font-family: 'Playfair Display', serif; font-size: 24px; margin-bottom: 10px; color: var(--accent); }
+  .success-panel p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+  .free-badge {
+    display: inline-block;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 5px 14px; border-radius: 20px;
+    margin-bottom: 18px;
   }
 
   @media (max-width: 640px) {
-    .pricing-grid { grid-template-columns: 1fr; }
+    .how-section { grid-template-columns: 1fr; }
     .form-row { grid-template-columns: 1fr; }
   }
 </style>
@@ -182,134 +112,141 @@
 </header>
 
 <section class="list-hero">
-  <div class="hero-eyebrow" style="color:var(--gold);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:20px;">For business owners</div>
-  <h1>Get your business<br><em>in front</em> of Newcastle locals</h1>
-  <p>Free basic listing or a featured spot at the top of your category. No lock-in contracts.</p>
+  <div class="free-badge">Always free</div>
+  <h1>Get your practice listed<br>on <em>NewcastleLocal</em></h1>
+  <p>We're building Newcastle's most detailed local directory. Add your practice and get in front of people actively looking for your service.</p>
 </section>
 
-<section class="pricing-section">
-  <div class="section-eyebrow">Pricing</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:32px;margin-top:8px;">Simple, honest pricing.</h2>
-  <div class="pricing-grid">
-    <div class="pricing-card">
-      <div class="plan-name">Free Listing</div>
-      <div class="plan-price"><sup>$</sup>0<span>/month</span></div>
-      <div class="plan-desc">Get found by Newcastle locals searching for your service.</div>
-      <ul class="plan-features">
-        <li>Listed in your category</li>
-        <li>Business name, address & phone</li>
-        <li>Up to 3 specialty tags</li>
-        <li>Accepting / waitlist status</li>
-        <li class="no">Featured placement</li>
-        <li class="no">Gold border highlight</li>
-        <li class="no">Unlimited specialty tags</li>
-        <li class="no">Priority in search results</li>
-      </ul>
-      <a href="#submit-form" class="btn-primary">Get Listed Free</a>
-    </div>
-    <div class="pricing-card featured-plan">
-      <div class="plan-badge">Most popular</div>
-      <div class="plan-name">Featured</div>
-      <div class="plan-price"><sup>$</sup>99<span>/month</span></div>
-      <div class="plan-desc">Stand out at the top of your category with a gold-highlighted listing.</div>
-      <ul class="plan-features">
-        <li>Listed in your category</li>
-        <li>Business name, address & phone</li>
-        <li>Unlimited specialty tags</li>
-        <li>Accepting / waitlist status</li>
-        <li>Featured placement (top of page)</li>
-        <li>Gold border highlight</li>
-        <li>Unlimited specialty tags</li>
-        <li>Priority in search results</li>
-      </ul>
-      <a href="#submit-form" class="btn-primary">Get Featured →</a>
-    </div>
+<div class="how-section">
+  <div class="how-step">
+    <div class="how-num">1</div>
+    <div class="how-title">Fill in the form</div>
+    <div class="how-text">Takes about 3 minutes. Just your practice details, specialties, and a short description.</div>
   </div>
-</section>
+  <div class="how-step">
+    <div class="how-num">2</div>
+    <div class="how-title">We review it</div>
+    <div class="how-text">We check the details are accurate before publishing. Usually within 48 hours.</div>
+  </div>
+  <div class="how-step">
+    <div class="how-num">3</div>
+    <div class="how-title">You're live</div>
+    <div class="how-text">Your practice appears in search results for people in Newcastle looking for what you offer.</div>
+  </div>
+</div>
 
-<section class="form-section" id="submit-form">
+<section class="form-section">
   <div class="form-inner">
     <h2>Submit your listing</h2>
-    <p>Fill out the form below and we'll have your listing live within 48 hours.</p>
+    <p>All fields marked * are required. We'll email you when your listing is live. We don't share your contact details publicly without your permission.</p>
 
-    <div class="form-group">
-      <label>Business / Practice Name *</label>
-      <input type="text" placeholder="e.g. Smith Psychology Services">
-    </div>
-    <div class="form-row">
-      <div class="form-group">
-        <label>Category *</label>
-        <select>
-          <option value="">Select category…</option>
-          <option>Psychologists</option>
-          <option>Physiotherapists</option>
-          <option>Dentists</option>
-          <option>GPs</option>
-          <option>Electricians</option>
-          <option>Plumbers</option>
-          <option>Builders</option>
-          <option>Lawyers</option>
-          <option>Accountants</option>
-          <option>NDIS Providers</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label>Listing Type *</label>
-        <select>
-          <option value="free">Free listing</option>
-          <option value="featured">Featured ($99/mo)</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group">
-      <label>Street Address *</label>
-      <input type="text" placeholder="e.g. 44 Bishopsgate Street, Wickham NSW 2293">
-    </div>
-    <div class="form-row">
-      <div class="form-group">
-        <label>Phone</label>
-        <input type="tel" placeholder="02 XXXX XXXX">
-      </div>
-      <div class="form-group">
-        <label>Email *</label>
-        <input type="email" placeholder="hello@yourpractice.com.au">
-      </div>
-    </div>
-    <div class="form-group">
-      <label>Website</label>
-      <input type="url" placeholder="https://yourwebsite.com.au">
-    </div>
-    <div class="form-group">
-      <label>Specialties / Services (comma separated)</label>
-      <input type="text" placeholder="e.g. Anxiety, Depression, Trauma, EMDR">
-    </div>
-    <div class="form-group">
-      <label>Short description (2–3 sentences)</label>
-      <textarea placeholder="Tell potential clients what makes your practice distinctive…"></textarea>
-    </div>
-    <div class="form-row">
-      <div class="form-group">
-        <label>Currently accepting new clients?</label>
-        <select>
-          <option>Yes — accepting</option>
-          <option>No — waitlist only</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label>Telehealth available?</label>
-        <select>
-          <option>Yes</option>
-          <option>No</option>
-          <option>Telehealth only</option>
-        </select>
-      </div>
-    </div>
+    <!-- Netlify Forms: add name="listing-submission" and data-netlify="true" to go live -->
+    <form name="listing-submission" data-netlify="true" onsubmit="handleSubmit(event)">
+      <!-- Required by Netlify Forms -->
+      <input type="hidden" name="form-name" value="listing-submission">
 
-    <button class="form-submit" onclick="handleSubmit(event)">Submit My Listing →</button>
-    <div class="form-note">We'll review your submission and confirm within 48 hours. For featured listings, we'll send a payment link separately.</div>
-    <div class="success-msg" id="successMsg">
-      ✓ Submission received! We'll be in touch within 48 hours to confirm your listing.
+      <div class="form-group">
+        <label>Practice / Business Name *</label>
+        <input type="text" name="business_name" placeholder="e.g. Smith Psychology Services" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Category *</label>
+          <select name="category" required>
+            <option value="">Select…</option>
+            <option>Psychologists</option>
+            <option>Physiotherapists</option>
+            <option>Dentists</option>
+            <option>GPs</option>
+            <option>Electricians</option>
+            <option>Plumbers</option>
+            <option>Builders</option>
+            <option>Lawyers</option>
+            <option>Accountants</option>
+            <option>NDIS Providers</option>
+            <option>Removalists</option>
+            <option>Mechanics</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Your Contact Email *</label>
+          <input type="email" name="contact_email" placeholder="you@yourpractice.com.au" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Street Address *</label>
+        <input type="text" name="address" placeholder="e.g. 44 Bishopsgate Street, Wickham NSW 2293" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Phone (displayed publicly)</label>
+          <input type="tel" name="phone" placeholder="02 XXXX XXXX">
+        </div>
+        <div class="form-group">
+          <label>Website</label>
+          <input type="url" name="website" placeholder="https://yourwebsite.com.au">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Specialties / Services *</label>
+        <input type="text" name="specialties" placeholder="e.g. Anxiety, Depression, Trauma, EMDR, ADHD" required>
+      </div>
+
+      <div class="form-group">
+        <label>Referral types accepted</label>
+        <input type="text" name="referral_types" placeholder="e.g. MHCP, NDIS, Private, EAP, WorkCover">
+      </div>
+
+      <div class="form-group">
+        <label>Short description *</label>
+        <textarea name="description" placeholder="2–3 sentences about your practice — who you help, your approach, and what makes you distinctive." required></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Currently accepting new clients?</label>
+          <select name="accepting">
+            <option value="yes">Yes — accepting</option>
+            <option value="waitlist">Waitlist only</option>
+            <option value="no">Not currently</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Telehealth available?</label>
+          <select name="telehealth">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="only">Telehealth only</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Hours of operation</label>
+        <input type="text" name="hours" placeholder="e.g. Mon–Fri 9am–5pm, some evenings">
+      </div>
+
+      <div class="form-group">
+        <label>Anything else we should know?</label>
+        <textarea name="notes" placeholder="Bulk billing, parking, AHPRA number, languages spoken, etc." style="min-height:60px;"></textarea>
+      </div>
+
+      <button type="submit" class="form-submit">Submit My Listing →</button>
+      <p class="form-note">
+        Listings are reviewed before going live — usually within 48 hours.<br>
+        We'll email you at the address above when it's published.
+      </p>
+    </form>
+
+    <div class="success-panel" id="successPanel">
+      <h3>✓ Submission received</h3>
+      <p>Thanks for getting in touch. We'll review your listing and have it live within 48 hours — we'll email you at the address you provided to confirm.</p>
+      <p style="margin-top:12px;"><a href="psychologists.html" style="color:var(--accent);font-weight:500;">Browse current listings →</a></p>
     </div>
   </div>
 </section>
@@ -329,9 +266,14 @@
 
 <script>
 function handleSubmit(e) {
+  // When deployed to Netlify, remove this function entirely —
+  // Netlify will handle the form submission natively and
+  // redirect to a thank-you page (or you can set action="/thank-you.html")
   e.preventDefault();
-  document.getElementById('successMsg').style.display = 'block';
-  window.scrollTo({ top: document.getElementById('successMsg').offsetTop - 100, behavior: 'smooth' });
+  document.querySelector('form').style.display = 'none';
+  const panel = document.getElementById('successPanel');
+  panel.style.display = 'block';
+  panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 </script>
 </body>

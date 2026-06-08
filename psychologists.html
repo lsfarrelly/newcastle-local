@@ -4,11 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Psychologists in Newcastle NSW — Find & Compare | NewcastleLocal</title>
-<meta name="description" content="Find AHPRA-registered psychologists in Newcastle NSW. Compare by suburb, specialty, and availability. Includes telehealth, bulk billing, and NDIS options.">
+<meta name="description" content="Find AHPRA-registered psychologists in Newcastle NSW. Compare by suburb, specialty, and availability. Includes telehealth and NDIS options.">
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 <style>
-  /* ── HERO ── */
   .hero {
     background: var(--ink);
     padding: 64px 24px 80px;
@@ -36,12 +35,7 @@
     color: var(--gold);
     margin-bottom: 20px;
   }
-  .hero-eyebrow::before {
-    content: '';
-    display: block;
-    width: 24px; height: 1px;
-    background: var(--gold);
-  }
+  .hero-eyebrow::before { content: ''; display: block; width: 24px; height: 1px; background: var(--gold); }
   .hero h1 {
     font-family: 'Playfair Display', serif;
     font-size: clamp(32px, 5vw, 54px);
@@ -51,14 +45,7 @@
     margin-bottom: 18px;
   }
   .hero h1 em { font-style: italic; color: var(--gold); }
-  .hero-sub {
-    color: #aaa;
-    font-size: 16px;
-    max-width: 500px;
-    margin-bottom: 32px;
-    font-weight: 300;
-    line-height: 1.7;
-  }
+  .hero-sub { color: #aaa; font-size: 16px; max-width: 500px; margin-bottom: 32px; font-weight: 300; line-height: 1.7; }
   .search-bar {
     display: flex;
     max-width: 620px;
@@ -68,255 +55,92 @@
     background: #252525;
   }
   .search-bar input {
-    flex: 1;
-    padding: 13px 18px;
-    background: transparent;
-    border: none;
-    color: #fff;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
-    outline: none;
+    flex: 1; padding: 13px 18px; background: transparent; border: none;
+    color: #fff; font-family: 'DM Sans', sans-serif; font-size: 15px; outline: none;
   }
   .search-bar input::placeholder { color: #555; }
   .search-bar select {
-    padding: 13px 14px;
-    background: #333;
-    border: none;
-    border-left: 1px solid #444;
-    color: #ccc;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 13px;
-    outline: none;
-    cursor: pointer;
+    padding: 13px 14px; background: #333; border: none; border-left: 1px solid #444;
+    color: #ccc; font-family: 'DM Sans', sans-serif; font-size: 13px; outline: none; cursor: pointer;
   }
   .search-bar button {
-    padding: 13px 22px;
-    background: var(--accent);
-    border: none;
-    color: #fff;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.2s;
+    padding: 13px 22px; background: var(--accent); border: none; color: #fff;
+    font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; cursor: pointer; transition: background 0.2s;
   }
   .search-bar button:hover { background: #3a7a63; }
-  .hero-stats {
-    display: flex;
-    gap: 32px;
-    margin-top: 32px;
-  }
+  .hero-stats { display: flex; gap: 32px; margin-top: 32px; }
   .stat-item { color: #888; font-size: 13px; }
   .stat-item strong { display: block; font-size: 20px; color: #fff; font-weight: 500; margin-bottom: 2px; }
 
-  /* ── LAYOUT ── */
   .main-wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 48px 24px;
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    gap: 36px;
-    align-items: start;
+    max-width: 1100px; margin: 0 auto; padding: 48px 24px;
+    display: grid; grid-template-columns: 250px 1fr; gap: 36px; align-items: start;
   }
-
-  /* ── SIDEBAR ── */
   .sidebar { position: sticky; top: 72px; }
-  .filter-panel {
-    background: var(--warm-white);
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-    overflow: hidden;
-  }
+  .filter-panel { background: var(--warm-white); border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
   .filter-panel-header {
-    padding: 14px 18px;
-    border-bottom: 1px solid var(--rule);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 14px 18px; border-bottom: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center;
   }
-  .filter-panel-header h3 {
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
-  .clear-btn {
-    font-size: 12px;
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 500;
-    cursor: pointer;
-    background: none;
-    border: none;
-    padding: 0;
-    font-family: 'DM Sans', sans-serif;
-  }
-  .filter-section {
-    padding: 18px;
-    border-bottom: 1px solid var(--rule);
-  }
+  .filter-panel-header h3 { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .clear-btn { font-size: 12px; color: var(--accent); font-weight: 500; cursor: pointer; background: none; border: none; padding: 0; font-family: 'DM Sans', sans-serif; }
+  .filter-section { padding: 18px; border-bottom: 1px solid var(--rule); }
   .filter-section:last-child { border-bottom: none; }
-  .filter-label {
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 10px;
-  }
-  .filter-chip-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
+  .filter-label { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .filter-chip-group { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip {
-    padding: 4px 11px;
-    border: 1px solid var(--rule);
-    border-radius: 20px;
-    font-size: 12px;
-    cursor: pointer;
-    background: #fff;
-    transition: all 0.15s;
-    color: var(--ink);
-    white-space: nowrap;
-    font-family: 'DM Sans', sans-serif;
-    user-select: none;
+    padding: 4px 11px; border: 1px solid var(--rule); border-radius: 20px;
+    font-size: 12px; cursor: pointer; background: #fff; transition: all 0.15s;
+    color: var(--ink); white-space: nowrap; font-family: 'DM Sans', sans-serif; user-select: none;
   }
   .chip:hover { border-color: var(--accent); color: var(--accent); }
   .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .filter-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 9px;
-    cursor: pointer;
-    font-size: 13px;
-    color: var(--ink);
-  }
+  .filter-checkbox { display: flex; align-items: center; gap: 10px; margin-bottom: 9px; cursor: pointer; font-size: 13px; color: var(--ink); }
   .filter-checkbox input { accent-color: var(--accent); }
 
-  /* ── RESULTS ── */
   .results-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-bottom: 14px;
-    border-bottom: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--rule);
   }
-  .results-count {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-  }
+  .results-count { font-family: 'Playfair Display', serif; font-size: 20px; }
   .results-count span { color: var(--muted); font-size: 14px; font-family: 'DM Sans', sans-serif; font-weight: 300; }
   .sort-select {
-    padding: 7px 12px;
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-    background: #fff;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 13px;
-    color: var(--ink);
-    outline: none;
-    cursor: pointer;
+    padding: 7px 12px; border: 1px solid var(--rule); border-radius: 4px;
+    background: #fff; font-family: 'DM Sans', sans-serif; font-size: 13px; color: var(--ink); outline: none; cursor: pointer;
   }
 
-  /* ── LISTING CARD ── */
+  /* ── CARD ── */
   .listing-card {
-    background: var(--warm-white);
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-    padding: 26px;
-    margin-bottom: 14px;
-    display: grid;
-    grid-template-columns: 1fr 152px;
-    gap: 20px;
-    transition: border-color 0.2s, box-shadow 0.2s;
-    animation: fadeUp 0.4s ease both;
+    background: var(--warm-white); border: 1px solid var(--rule); border-radius: 4px;
+    padding: 26px; margin-bottom: 14px;
+    display: grid; grid-template-columns: 1fr 160px; gap: 20px;
+    transition: border-color 0.2s, box-shadow 0.2s; animation: fadeUp 0.4s ease both;
   }
-  .listing-card:hover {
-    border-color: #b5c9c2;
-    box-shadow: 0 4px 20px rgba(45,95,78,0.07);
-  }
-  .listing-card.featured {
-    border-color: var(--gold);
-    background: #fffdf8;
-  }
-  .featured-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 8px;
-  }
-  .featured-badge::before { content: '★'; font-size: 10px; }
-  .listing-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 19px;
-    margin-bottom: 3px;
-    line-height: 1.2;
-  }
+  .listing-card:hover { border-color: #b5c9c2; box-shadow: 0 4px 20px rgba(45,95,78,0.07); }
+  .listing-name { font-family: 'Playfair Display', serif; font-size: 19px; margin-bottom: 3px; line-height: 1.2; }
   .listing-name a { color: var(--ink); text-decoration: none; transition: color 0.15s; }
   .listing-name a:hover { color: var(--accent); }
   .listing-credentials { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
-  .listing-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-bottom: 10px;
-  }
-  .listing-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    font-size: 12px;
-    color: var(--muted);
-    margin-bottom: 10px;
-  }
-  .listing-excerpt {
-    font-size: 13px;
-    color: #555;
-    line-height: 1.65;
-    border-top: 1px solid var(--rule);
-    padding-top: 10px;
-    margin-top: 4px;
-  }
-  .listing-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-  }
-  .rating-block { text-align: right; }
-  .rating-stars { color: var(--gold); font-size: 13px; letter-spacing: 1px; }
-  .rating-count { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .listing-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+  .listing-meta { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .listing-excerpt { font-size: 13px; color: #555; line-height: 1.65; border-top: 1px solid var(--rule); padding-top: 10px; margin-top: 4px; }
 
-  .no-results {
-    text-align: center;
-    padding: 60px 20px;
-    color: var(--muted);
+  .listing-right { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+
+  /* Google reviews link */
+  .google-reviews-link {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; color: var(--muted); text-decoration: none;
+    transition: color 0.15s;
   }
+  .google-reviews-link:hover { color: #4285F4; }
+  .google-reviews-link svg { flex-shrink: 0; }
+
+  .no-results { text-align: center; padding: 60px 20px; color: var(--muted); }
   .no-results h3 { font-family: 'Playfair Display', serif; font-size: 22px; margin-bottom: 10px; color: var(--ink); }
 
-  /* ── SEO BLOCK ── */
-  .seo-block {
-    background: var(--cream);
-    border-top: 1px solid var(--rule);
-    padding: 56px 24px;
-  }
-  .seo-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 56px;
-  }
+  .seo-block { background: var(--cream); border-top: 1px solid var(--rule); padding: 56px 24px; }
+  .seo-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
   .seo-block h2 { font-family: 'Playfair Display', serif; font-size: 26px; margin-bottom: 14px; }
   .seo-block p { font-size: 14px; color: #555; line-height: 1.8; margin-bottom: 10px; }
   .faq-item { border-bottom: 1px solid var(--rule); padding: 14px 0; }
@@ -382,7 +206,7 @@
     </div>
     <div class="hero-stats">
       <div class="stat-item"><strong id="statTotal">10</strong> Listed practices</div>
-      <div class="stat-item"><strong id="statSuburbs">7</strong> Suburbs covered</div>
+      <div class="stat-item"><strong>7</strong> Suburbs covered</div>
       <div class="stat-item"><strong id="statAccepting">10</strong> Accepting new clients</div>
     </div>
   </div>
@@ -412,7 +236,7 @@
           <div class="chip" data-filter="Child" onclick="toggleChip(this)">Child &amp; Adolescent</div>
           <div class="chip" data-filter="Relationships" onclick="toggleChip(this)">Relationships</div>
           <div class="chip" data-filter="Grief" onclick="toggleChip(this)">Grief &amp; Loss</div>
-          <div class="chip" data-filter="Eating Disorders" onclick="toggleChip(this)">Eating Disorders</div>
+          <div class="chip" data-filter="Eating" onclick="toggleChip(this)">Eating Disorders</div>
           <div class="chip" data-filter="OCD" onclick="toggleChip(this)">OCD</div>
           <div class="chip" data-filter="EMDR" onclick="toggleChip(this)">EMDR</div>
         </div>
@@ -420,7 +244,7 @@
       <div class="filter-section">
         <div class="filter-label">Referral type</div>
         <div class="filter-chip-group">
-          <div class="chip" data-filter="MHCP" onclick="toggleChip(this)">Mental Health Care Plan</div>
+          <div class="chip" data-filter="MHCP" onclick="toggleChip(this)">MHCP</div>
           <div class="chip" data-filter="NDIS" onclick="toggleChip(this)">NDIS</div>
           <div class="chip" data-filter="EAP" onclick="toggleChip(this)">EAP</div>
           <div class="chip" data-filter="WorkCover" onclick="toggleChip(this)">WorkCover</div>
@@ -440,9 +264,9 @@
         <span id="resultsCount">10</span> Psychologists <span>in Newcastle NSW</span>
       </div>
       <select class="sort-select" id="sortSelect" onchange="applyFilters()">
-        <option value="featured">Sort: Featured first</option>
-        <option value="rating">Sort: Highest rated</option>
         <option value="name">Sort: A–Z</option>
+        <option value="accepting">Sort: Accepting first</option>
+        <option value="telehealth">Sort: Telehealth first</option>
       </select>
     </div>
     <div id="listingsContainer"></div>
@@ -456,6 +280,7 @@
       <p>Newcastle and the broader Hunter Region has a growing network of registered psychologists offering a wide range of services — from anxiety and depression through to specialist eating disorder treatment, ADHD assessment, and trauma therapy.</p>
       <p>Most psychologists in Newcastle accept referrals under a Mental Health Care Plan (MHCP) from your GP, which entitles you to Medicare rebates on up to 10 individual sessions per calendar year.</p>
       <p>Telehealth options have expanded significantly, meaning you can access Newcastle-based psychologists from anywhere across NSW — useful for clients in the Hunter Valley, Maitland, and Lake Macquarie areas.</p>
+      <p style="margin-top:20px;"><a href="list.html" style="color:var(--accent);font-weight:500;">Are you a psychologist in Newcastle? Get listed free →</a></p>
     </div>
     <div>
       <h2>Frequently Asked Questions</h2>
@@ -469,15 +294,15 @@
       </div>
       <div class="faq-item">
         <div class="faq-q">How much does a session cost in Newcastle?</div>
-        <div class="faq-a">Private sessions typically range from $180–$280 per hour. With a Medicare rebate under an MHCP, you receive back approximately $141.85 (clinical) or $96.65 (registered) per session, significantly reducing out-of-pocket costs.</div>
+        <div class="faq-a">Private sessions typically range from $180–$280 per hour. With a Medicare rebate under an MHCP, you receive back approximately $141.85 (clinical) or $96.65 (registered) per session.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">Can I access telehealth psychology sessions from Newcastle?</div>
         <div class="faq-a">Yes. Most Newcastle psychologists now offer telehealth (video) sessions, attracting the same Medicare rebates as in-person sessions when conducted under an MHCP.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">What is an AHPRA registration number?</div>
-        <div class="faq-a">AHPRA is the Australian Health Practitioner Regulation Agency. All psychologists must be registered with AHPRA to practice legally in Australia. You can verify any practitioner at ahpra.gov.au.</div>
+        <div class="faq-q">How do I verify a psychologist is AHPRA registered?</div>
+        <div class="faq-a">You can search any practitioner's registration at ahpra.gov.au using their name. Registration must be current and active for them to legally practice in Australia.</div>
       </div>
     </div>
   </div>
@@ -497,241 +322,211 @@
 </footer>
 
 <script>
-// ── DATA ──
-// In production this would be fetched from data/psychologists.json
-// For static deployment it's embedded here
 const LISTINGS = [
   {
-    id: 1, name: "NewPsych Psychologists", type: "practice",
+    id: 1, name: "NewPsych Psychologists",
     credentials: "Clinical Psychologists, Psychiatrists, Couples & Family Therapists",
     address: "Level 4, 77 Hunter Street, Newcastle NSW 2300", suburb: "Newcastle CBD",
-    phone: "02 4926 5005", email: "reception@newpsych.com.au", website: "https://www.newpsych.com.au",
+    phone: "02 4926 5005", website: "https://www.newpsych.com.au",
+    google_search: "NewPsych Psychologists Newcastle reviews",
     specialties: ["Anxiety","Depression","Trauma & PTSD","Couples Therapy","EAP","NDIS","Workplace Mental Health"],
     referral_types: ["MHCP","EAP","NDIS","Private","WorkCover"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
-    description: "One of Newcastle's largest and most established psychology practices, with a diverse team of psychologists, clinical psychologists, psychiatrists, and couples therapists. Over 25 years of service, with a comprehensive EAP offering for corporate clients.",
-    featured: true, rating: 4.8, review_count: 42
+    telehealth: true, accepting: true, hours: "Mon–Fri",
+    description: "One of Newcastle's largest and most established psychology practices — psychologists, clinical psychologists, psychiatrists, and couples therapists working together. Over 25 years of service, with a comprehensive EAP offering for corporate clients."
   },
   {
-    id: 2, name: "Elevated Wellbeing Psychology", type: "practice",
+    id: 2, name: "Elevated Wellbeing Psychology",
     credentials: "Registered Psychologists, Mental Health Social Workers",
     address: "44 Bishopsgate Street, Wickham NSW 2293", suburb: "Wickham",
-    phone: "02 4005 0117", email: "admin@elevatedwellbeing.com.au", website: "https://elevatedwellbeing.com.au",
+    phone: "02 4005 0117", website: "https://elevatedwellbeing.com.au",
+    google_search: "Elevated Wellbeing Psychology Wickham Newcastle reviews",
     specialties: ["Anxiety","Depression","Grief & Loss","Trauma & PTSD","EMDR"],
     referral_types: ["MHCP","Private"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Thu, 9am–5pm",
-    description: "A warm, welcoming team of Newcastle psychologists and mental health social workers providing evidence-based therapy including EMDR, CBT, ACT, and TF-CBT. Currently accepting new clients.",
-    featured: false, rating: 4.9, review_count: 28
+    telehealth: true, accepting: true, hours: "Mon–Thu, 9am–5pm",
+    description: "A warm, welcoming team of Newcastle psychologists and mental health social workers providing evidence-based therapy including EMDR, CBT, ACT, and TF-CBT. Currently accepting new clients."
   },
   {
-    id: 3, name: "New Lambton Psychology", type: "practice",
+    id: 3, name: "New Lambton Psychology",
     credentials: "AHPRA-Endorsed Clinical Psychologists",
     address: "37 Freyberg Street, New Lambton NSW 2305", suburb: "New Lambton",
-    phone: "02 4950 9820", email: "reception@newlambtonpsychology.com.au", website: "https://newlambtonpsychology.com.au",
+    phone: "02 4950 9820", website: "https://newlambtonpsychology.com.au",
+    google_search: "New Lambton Psychology reviews",
     specialties: ["Anxiety","Depression","Trauma & PTSD","Eating Disorders","Child & Adolescent","Relationships","Grief & Loss","EMDR"],
     referral_types: ["MHCP","EAP","Private Health","DVA"],
-    telehealth: false, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
-    description: "A highly regarded clinical psychology practice with over 10 years of experience. Specialises in individual therapy, group programs, psychological assessments for children and adolescents, and clinical supervision. All clinicians AHPRA-endorsed.",
-    featured: false, rating: 4.9, review_count: 36
+    telehealth: false, accepting: true, hours: "Mon–Fri",
+    description: "A highly regarded clinical psychology practice with over 10 years of experience. Specialises in individual therapy, group programs, psychological assessments for children, and clinical supervision. All clinicians AHPRA-endorsed."
   },
   {
-    id: 4, name: "Lacuna Clinical Psychology", type: "practice",
+    id: 4, name: "Lacuna Clinical Psychology",
     credentials: "Clinical Psychologists",
     address: "36 Crebert Street, Mayfield NSW 2304", suburb: "Mayfield",
-    phone: "02 4003 4804", email: null, website: "https://www.lacunapsychology.com.au",
+    phone: "02 4003 4804", website: "https://www.lacunapsychology.com.au",
+    google_search: "Lacuna Clinical Psychology Mayfield Newcastle reviews",
     specialties: ["Anxiety","Depression","Trauma & PTSD","Emotional Regulation","DBT"],
     referral_types: ["MHCP","Private Health","DVA"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
+    telehealth: true, accepting: true, hours: "Mon–Fri",
     description: "Mayfield-based practice specialising in emotion-focused and trauma-informed therapy. Session fee $250, with ~$104.75 out-of-pocket after Medicare rebate (MHCP). Free street parking available nearby.",
-    featured: false, rating: 4.8, review_count: 19,
     fee_note: "$250/session · ~$104.75 out-of-pocket with MHCP"
   },
   {
-    id: 5, name: "Oracle Psychology", type: "practice",
+    id: 5, name: "Oracle Psychology",
     credentials: "Clinical Psychologists — Child & Adolescent Specialists",
     address: "Level 1, Suite 6, 19 Bolton Street, Newcastle NSW 2300", suburb: "Newcastle CBD",
-    phone: "02 4929 2223", email: "admin@oraclepsych.com.au", website: "https://www.oraclepsychology.com.au",
+    phone: "02 4929 2223", website: "https://www.oraclepsychology.com.au",
+    google_search: "Oracle Psychology Newcastle reviews",
     specialties: ["Child & Adolescent","ADHD","Autism","Learning Difficulties","Anxiety","Behavioural Issues"],
     referral_types: ["MHCP","NDIS","Private"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
-    description: "Newcastle's dedicated child and adolescent psychology practice, led by Principal Clinical Psychologist Daniel Wendt. Unique combination of Education and Psychology expertise for children and young people navigating school, behaviour, and mental health challenges.",
-    featured: false, rating: 4.7, review_count: 23
+    telehealth: true, accepting: true, hours: "Mon–Fri",
+    description: "Newcastle's dedicated child and adolescent psychology practice, led by Principal Clinical Psychologist Daniel Wendt. Unique combination of Education and Psychology expertise for children and young people navigating school, behaviour, and mental health."
   },
   {
-    id: 6, name: "Psychology Centre Newcastle", type: "practice",
+    id: 6, name: "Psychology Centre Newcastle",
     credentials: "Clinical & Forensic Psychologists",
     address: "5 Brunker Road, Broadmeadow NSW 2292", suburb: "Broadmeadow",
-    phone: "02 4063 1352", email: null, website: null,
+    phone: "02 4063 1352", website: null,
+    google_search: "Psychology Centre Newcastle Broadmeadow reviews",
     specialties: ["Anxiety","Trauma & PTSD","Forensic Psychology","CBT","ACT","EMDR","Schema Therapy"],
     referral_types: ["MHCP","Private","WorkCover"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
-    description: "A team of clinical and forensic psychologists delivering specialised care across all ages. Uses a range of evidence-based treatments including ACT, CBT, EMDR and Schema Therapy in a collaborative, client-centred environment.",
-    featured: false, rating: 4.6, review_count: 15
+    telehealth: true, accepting: true, hours: "Mon–Fri",
+    description: "A team of clinical and forensic psychologists delivering specialised care across all ages. Uses ACT, CBT, EMDR and Schema Therapy in a collaborative, client-centred environment."
   },
   {
-    id: 7, name: "Wildflower Psychology", type: "practice",
+    id: 7, name: "Wildflower Psychology",
     credentials: "Registered Psychologists",
     address: "25 Denison Street, Newcastle West NSW 2302", suburb: "Newcastle West",
-    phone: "0498 560 653", email: "admin@wildflower-psychology.com.au", website: "https://www.wildflower-psychology.com.au",
+    phone: "0498 560 653", website: "https://www.wildflower-psychology.com.au",
+    google_search: "Wildflower Psychology Newcastle West reviews",
     specialties: ["Anxiety","Depression","Women's Mental Health","Relationships","Life Transitions"],
     referral_types: ["MHCP","Private"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri, some evenings",
-    description: "A boutique Newcastle West practice with a warm, collaborative approach to therapy. Particularly experienced in women's mental health, relationships, and life transitions.",
-    featured: false, rating: 5.0, review_count: 11
+    telehealth: true, accepting: true, hours: "Mon–Fri, some evenings",
+    description: "A boutique Newcastle West practice with a warm, collaborative approach to therapy. Particularly experienced in women's mental health, relationships, and life transitions."
   },
   {
-    id: 8, name: "ELD Psychology", type: "practice",
+    id: 8, name: "ELD Psychology",
     credentials: "Clinical Psychologists",
     address: "Suite 3, Level 1, 744 Hunter Street, Newcastle West NSW 2302", suburb: "Newcastle West",
-    phone: "0448 721 866", email: null, website: null,
+    phone: "0448 721 866", website: null,
+    google_search: "ELD Psychology Newcastle reviews",
     specialties: ["Anxiety","Depression","Stress","Eating Disorders","OCD","Trauma & PTSD","Relationships"],
     referral_types: ["MHCP","Private"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
-    description: "Clinical psychology services for adults across Newcastle, Lake Macquarie, and the Hunter region. Evidence-based treatment with a warm, caring approach. Experienced across anxiety, depression, eating disorders, OCD, and trauma.",
-    featured: false, rating: 4.7, review_count: 8
+    telehealth: true, accepting: true, hours: "Mon–Fri",
+    description: "Clinical psychology services for adults across Newcastle, Lake Macquarie, and the Hunter region. Evidence-based treatment with a warm, caring approach across anxiety, depression, eating disorders, OCD, and trauma."
   },
   {
-    id: 9, name: "Esteem Psychology", type: "practice",
+    id: 9, name: "Esteem Psychology",
     credentials: "AHPRA-Endorsed Clinical Psychologists",
     address: "Newcastle NSW", suburb: "Newcastle",
-    phone: null, email: null, website: "https://www.esteempsychology.com.au",
+    phone: null, website: "https://www.esteempsychology.com.au",
+    google_search: "Esteem Psychology Newcastle reviews",
     specialties: ["Anxiety","Depression","Grief & Loss","Eating Disorders","Child & Adolescent","Relationships"],
     referral_types: ["MHCP","Private"],
-    telehealth: true, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
-    description: "AHPRA-endorsed clinical psychologists offering evidence-based therapy for adults, adolescents, and children. Compassionate, welcoming team with personalised service across a range of psychological concerns.",
-    featured: false, rating: 4.8, review_count: 14
+    telehealth: true, accepting: true, hours: "Mon–Fri",
+    description: "AHPRA-endorsed clinical psychologists offering evidence-based therapy for adults, adolescents, and children. Compassionate, welcoming team with personalised service across a broad range of psychological concerns."
   },
   {
-    id: 10, name: "Dyer & Dyer Psychologists", type: "practice",
+    id: 10, name: "Dyer & Dyer Psychologists",
     credentials: "Clinical & Registered Psychologists",
     address: "Suite 4, Ground Floor, 710 Hunter Street, Newcastle West NSW 2302", suburb: "Newcastle West",
-    phone: null, email: null, website: null,
+    phone: null, website: null,
+    google_search: "Dyer Dyer Psychologists Newcastle reviews",
     specialties: ["Anxiety","Depression","Trauma","Grief & Loss","Self-Esteem","Anger Management"],
     referral_types: ["MHCP","Private","WorkCover"],
-    telehealth: false, bulk_billing: false, accepting: true,
-    hours: "Mon–Fri",
-    description: "A professional, well-established practice with experienced Clinical and Registered Psychologists Frances Dunn, Dr Kristine Kafer, and Melinda Miller. Providing evidence-based psychological services to Newcastle for over 25 years.",
-    featured: false, rating: 4.6, review_count: 17
+    telehealth: false, accepting: true, hours: "Mon–Fri",
+    description: "A professional, well-established practice with experienced Clinical and Registered Psychologists Frances Dunn, Dr Kristine Kafer, and Melinda Miller. Providing evidence-based psychological services to Newcastle for over 25 years."
   }
 ];
 
-// ── STATE ──
 let activeFilters = new Set();
 
-// ── RENDER ──
-function renderStars(rating) {
-  const full = Math.floor(rating);
-  const half = rating % 1 >= 0.5;
-  return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(5 - full - (half ? 1 : 0));
-}
+// Google Reviews icon SVG
+const googleIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+  <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+  <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+  <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+</svg>`;
 
-function renderCard(listing) {
-  const tags = listing.specialties.slice(0, 5).map(s =>
-    `<span class="tag">${s}</span>`
-  ).join('');
-  const telTag = listing.telehealth ? `<span class="tag telehealth">Telehealth</span>` : '';
-  const bbTag = listing.bulk_billing ? `<span class="tag bulk-bill">Bulk billing</span>` : '';
-  const featBadge = listing.featured ? `<div class="featured-badge">Featured listing</div>` : '';
-  const acceptBadge = listing.accepting
+function renderCard(l) {
+  const tags = l.specialties.slice(0, 5).map(s => `<span class="tag">${s}</span>`).join('');
+  const telTag = l.telehealth ? `<span class="tag telehealth">Telehealth</span>` : '';
+  const acceptBadge = l.accepting
     ? `<span class="accepting-badge open">✓ Accepting</span>`
     : `<span class="accepting-badge waitlist">⏱ Waitlist</span>`;
-  const websiteBtn = listing.website
-    ? `<a href="${listing.website}" target="_blank" rel="noopener" class="btn-secondary">Visit Website</a>`
-    : `<a href="#" class="btn-secondary">Enquire</a>`;
-  const phoneStr = listing.phone ? `📞 ${listing.phone}` : '';
-  const feeStr = listing.fee_note ? `<span>💲 ${listing.fee_note}</span>` : '';
+  const websiteBtn = l.website
+    ? `<a href="${l.website}" target="_blank" rel="noopener" class="btn-primary">Visit Website</a>`
+    : `<a href="mailto:?subject=Enquiry%20-%20${encodeURIComponent(l.name)}" class="btn-primary">Enquire</a>`;
+  const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(l.google_search)}`;
+  const phoneEl = l.phone ? `<span>📞 ${l.phone}</span>` : '';
+  const feeEl = l.fee_note ? `<span>💲 ${l.fee_note}</span>` : '';
 
   return `
-    <div class="listing-card ${listing.featured ? 'featured' : ''} fade-up">
+    <div class="listing-card fade-up">
       <div>
-        ${featBadge}
-        <div class="listing-name"><a href="#" ${listing.website ? `onclick="window.open('${listing.website}','_blank');return false;"` : ''}>${listing.name}</a></div>
-        <div class="listing-credentials">${listing.credentials}</div>
-        <div class="listing-tags">${tags}${telTag}${bbTag}</div>
+        <div class="listing-name"><a href="${l.website || '#'}" ${l.website ? 'target="_blank" rel="noopener"' : ''}>${l.name}</a></div>
+        <div class="listing-credentials">${l.credentials}</div>
+        <div class="listing-tags">${tags}${telTag}</div>
         <div class="listing-meta">
-          <span>📍 ${listing.suburb}</span>
-          ${listing.hours ? `<span>🕐 ${listing.hours}</span>` : ''}
-          <span>📋 ${listing.referral_types.join(' · ')}</span>
-          ${phoneStr ? `<span>${phoneStr}</span>` : ''}
-          ${feeStr}
+          <span>📍 ${l.suburb}</span>
+          ${l.hours ? `<span>🕐 ${l.hours}</span>` : ''}
+          <span>📋 ${l.referral_types.join(' · ')}</span>
+          ${phoneEl}
+          ${feeEl}
         </div>
-        <div class="listing-excerpt">${listing.description}</div>
+        <div class="listing-excerpt">${l.description}</div>
       </div>
       <div class="listing-right">
-        <div class="rating-block">
-          <div class="rating-stars">${renderStars(listing.rating)}</div>
-          <div class="rating-count">${listing.rating} · ${listing.review_count} reviews</div>
-        </div>
         ${acceptBadge}
-        <a href="#" class="btn-primary">View Profile</a>
         ${websiteBtn}
+        <a href="${googleUrl}" target="_blank" rel="noopener" class="google-reviews-link">
+          ${googleIcon} See Google Reviews
+        </a>
       </div>
-    </div>
-  `;
+    </div>`;
 }
 
 function applyFilters() {
-  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  const term = document.getElementById('searchInput').value.toLowerCase();
   const suburb = document.getElementById('suburbFilter').value;
   const sort = document.getElementById('sortSelect').value;
-  const chkTelehealth = document.getElementById('chkTelehealth').checked;
-  const chkAccepting = document.getElementById('chkAccepting').checked;
+  const chkTel = document.getElementById('chkTelehealth').checked;
+  const chkAcc = document.getElementById('chkAccepting').checked;
 
-  let filtered = LISTINGS.filter(l => {
-    // Text search
-    if (searchTerm) {
-      const haystack = [l.name, l.suburb, l.address, ...l.specialties, l.description].join(' ').toLowerCase();
-      if (!haystack.includes(searchTerm)) return false;
+  let list = LISTINGS.filter(l => {
+    if (term) {
+      const hay = [l.name, l.suburb, l.address, ...l.specialties, l.description].join(' ').toLowerCase();
+      if (!hay.includes(term)) return false;
     }
-    // Suburb
     if (suburb && l.suburb !== suburb) return false;
-    // Checkboxes
-    if (chkTelehealth && !l.telehealth) return false;
-    if (chkAccepting && !l.accepting) return false;
-    // Chip filters
+    if (chkTel && !l.telehealth) return false;
+    if (chkAcc && !l.accepting) return false;
     for (const f of activeFilters) {
       if (f === 'telehealth' && !l.telehealth) return false;
       if (f === 'accepting' && !l.accepting) return false;
-      const matchesSpecialty = l.specialties.some(s => s.toLowerCase().includes(f.toLowerCase()));
-      const matchesReferral = l.referral_types.some(r => r.toLowerCase().includes(f.toLowerCase()));
-      if (!matchesSpecialty && !matchesReferral) return false;
+      const inSpec = l.specialties.some(s => s.toLowerCase().includes(f.toLowerCase()));
+      const inRef  = l.referral_types.some(r => r.toLowerCase().includes(f.toLowerCase()));
+      if (!inSpec && !inRef) return false;
     }
     return true;
   });
 
-  // Sort
-  if (sort === 'rating') filtered.sort((a, b) => b.rating - a.rating);
-  else if (sort === 'name') filtered.sort((a, b) => a.name.localeCompare(b.name));
-  else filtered.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+  if (sort === 'accepting') list.sort((a, b) => (b.accepting ? 1 : 0) - (a.accepting ? 1 : 0));
+  else if (sort === 'telehealth') list.sort((a, b) => (b.telehealth ? 1 : 0) - (a.telehealth ? 1 : 0));
+  else list.sort((a, b) => a.name.localeCompare(b.name));
 
-  // Render
   const container = document.getElementById('listingsContainer');
-  if (filtered.length === 0) {
-    container.innerHTML = `<div class="no-results"><h3>No results found</h3><p>Try adjusting your filters or search term.</p></div>`;
-  } else {
-    container.innerHTML = filtered.map(renderCard).join('');
-  }
-  document.getElementById('resultsCount').textContent = filtered.length;
+  container.innerHTML = list.length
+    ? list.map(renderCard).join('')
+    : `<div class="no-results"><h3>No results found</h3><p>Try adjusting your filters or search term.</p></div>`;
+
+  document.getElementById('resultsCount').textContent = list.length;
+  document.getElementById('statTotal').textContent = list.length;
+  document.getElementById('statAccepting').textContent = list.filter(l => l.accepting).length;
 }
 
 function toggleChip(el) {
-  const filter = el.dataset.filter;
-  if (el.classList.contains('active')) {
-    el.classList.remove('active');
-    activeFilters.delete(filter);
-  } else {
-    el.classList.add('active');
-    activeFilters.add(filter);
-  }
+  const f = el.dataset.filter;
+  el.classList.toggle('active');
+  activeFilters[el.classList.contains('active') ? 'add' : 'delete'](f);
   applyFilters();
 }
 
@@ -745,12 +540,7 @@ function clearFilters() {
   applyFilters();
 }
 
-// Search on enter
-document.getElementById('searchInput').addEventListener('keyup', e => {
-  if (e.key === 'Enter') applyFilters();
-});
-
-// Init
+document.getElementById('searchInput').addEventListener('keyup', e => { if (e.key === 'Enter') applyFilters(); });
 applyFilters();
 </script>
 </body>
