@@ -149,5 +149,27 @@
     <div>© 2025 NewcastleLocal · Not a medical referral service · Data sourced from public records</div>
   </div>
 </footer>
+
+<script>
+// Live status — fetches /data/psychologists.json and updates the accepting badge
+(function() {
+  var link = document.querySelector(".update-link");
+  if (!link) return;
+  var slug = new URLSearchParams(new URL(link.href, location.origin).search).get("slug");
+  fetch("/data/psychologists.json?v=" + Date.now())
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var l = data.listings.find(function(x) { return x.slug === slug; });
+      if (!l) return;
+      var badge = document.querySelector(".profile-status");
+      if (badge) {
+        badge.style.background = l.accepting ? "#e8f5e9" : "#fff3e0";
+        badge.style.color      = l.accepting ? "#2e7d32" : "#e65100";
+        badge.textContent      = l.accepting ? "\u2713 Accepting new clients" : "\u23f1 Currently on waitlist";
+      }
+    })
+    .catch(function() {});
+})();
+</script>
 </body>
 </html>

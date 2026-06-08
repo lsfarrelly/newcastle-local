@@ -1,15 +1,19 @@
 // netlify/functions/update-listing.js
-// ─────────────────────────────────────
-// BACKUP endpoint: validates the secret key and returns a success page.
-// Email delivery is handled by Netlify Forms (configured in the dashboard).
-// This function is called by the old direct-fetch path — the new path posts
-// to Netlify Forms via '/' and does NOT call this function.
+// ─────────────────────────────────────────────────────────────────────────────
+// Validates the secret key and automatically updates data/psychologists.json
+// via the GitHub API, triggering a Netlify redeploy. Zero manual steps needed.
 //
-// To use this function as the primary email path instead, set:
-//   RESEND_API_KEY  — from resend.com (free account, 3000 emails/month)
-//   EMAIL_TO        — defaults to info@cerenova.com.au
+// Required Netlify environment variable:
+//   GITHUB_TOKEN  — a GitHub Fine-Grained PAT with Contents: Read & Write
+//                   for the newcastle-local repo.
+//                   Create at: github.com → Settings → Developer settings →
+//                   Personal access tokens → Fine-grained tokens
+//
+// Optional:
+//   GITHUB_REPO   — defaults to "lsfarrelly/newcastle-local"
+//   GITHUB_BRANCH — defaults to "main"
+// ─────────────────────────────────────────────────────────────────────────────
 
-// Secret keys embedded here — never need to read the filesystem
 const SECRET_KEYS = {
   "newpsych-psychologists":        "np-x7k9m2p4",
   "elevated-wellbeing-psychology": "ew-r3t8n6q1",
@@ -29,121 +33,117 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: "Method not allowed" };
   }
 
-  // Parse URL-encoded form body
+  // ── Parse body ──────────────────────────────────────────────────────────────
   const params = new URLSearchParams(event.body);
   const fields = Object.fromEntries(params.entries());
-  const { slug, key, name, phone, email, website, hours, accepting, telehealth, description, notes } = fields;
+  const { slug, key, listing_name, accepting, telehealth,
+          phone, email, website, hours, description, notes } = fields;
 
-  // Basic validation
-  if (!slug || !key || !name) {
-    return {
-      statusCode: 400,
-      body: JSON.stringify({ error: "Missing required fields" }),
-    };
+  if (!slug || !key) {
+    return { statusCode: 400, body: "Missing slug or key" };
   }
 
-  // Validate secret key
+  // ── Validate secret key ─────────────────────────────────────────────────────
   if (SECRET_KEYS[slug] !== key) {
     return {
       statusCode: 403,
-      body: JSON.stringify({ error: "Invalid listing or key" }),
+      headers: { "Content-Type": "text/html" },
+      body: `<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Invalid link</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>body{font-family:'DM Sans',sans-serif;background:#f7f4ef;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+.card{background:#fff;border:1px solid #d4cfc6;border-radius:4px;padding:48px;max-width:480px;text-align:center}
+h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14px;line-height:1.7}</style>
+</head><body><div class="card"><h1>Invalid link</h1>
+<p>This update link could not be verified. Please contact <a href="mailto:info@cerenova.com.au" style="color:#2d5f4e">info@cerenova.com.au</a>.</p>
+</div></body></html>`,
     };
   }
 
-  // ── OPTIONAL: send email via Resend API ──────────────────────────────────
-  // Sign up at resend.com, add RESEND_API_KEY to Netlify environment variables.
-  // From address: once you verify your domain, change to no-reply@newcastlelocal.com.au
-  const resendKey = process.env.RESEND_API_KEY;
-  const emailTo   = process.env.EMAIL_TO || "info@cerenova.com.au";
+  const name = listing_name || slug;
 
-  if (resendKey) {
-    const acceptingLabel  = accepting  === "yes" ? "✓ Accepting new clients" : "⏱ Waitlist only";
-    const telehealthLabel = telehealth === "yes" ? "Yes" : "No";
+  // ── Update JSON via GitHub API ──────────────────────────────────────────────
+  const GITHUB_TOKEN  = process.env.GITHUB_TOKEN;
+  const REPO          = process.env.GITHUB_REPO   || "lsfarrelly/newcastle-local";
+  const BRANCH        = process.env.GITHUB_BRANCH || "main";
+  const FILE_PATH     = "data/psychologists.json";
+  const API_BASE      = `https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`;
+  const GH_HEADERS    = {
+    "Authorization": `Bearer ${GITHUB_TOKEN}`,
+    "Accept":        "application/vnd.github.v3+json",
+    "Content-Type":  "application/json",
+    "User-Agent":    "newcastle-local-update-function",
+  };
 
-    const html = `
-      <div style="font-family:sans-serif;max-width:600px;margin:0 auto;">
-        <h2 style="font-size:20px;border-bottom:2px solid #2d5f4e;padding-bottom:10px;color:#1a1a1a;">
-          NewcastleLocal — Listing Update
-        </h2>
-        <p style="color:#555;margin-bottom:20px;">
-          A business owner has submitted changes. Review and update
-          <code>data/psychologists.json</code>, re-run <code>generate.py</code>, and push.
-        </p>
-        <table style="width:100%;border-collapse:collapse;font-size:15px;">
-          <tr style="background:#f7f4ef;">
-            <td style="padding:10px 14px;font-weight:600;width:160px;">Practice</td>
-            <td style="padding:10px 14px;">${name}</td>
-          </tr>
-          <tr>
-            <td style="padding:10px 14px;font-weight:600;">Slug</td>
-            <td style="padding:10px 14px;font-family:monospace;">${slug}</td>
-          </tr>
-          <tr style="background:#f7f4ef;">
-            <td style="padding:10px 14px;font-weight:600;">Accepting</td>
-            <td style="padding:10px 14px;">${acceptingLabel}</td>
-          </tr>
-          <tr>
-            <td style="padding:10px 14px;font-weight:600;">Telehealth</td>
-            <td style="padding:10px 14px;">${telehealthLabel}</td>
-          </tr>
-          <tr style="background:#f7f4ef;">
-            <td style="padding:10px 14px;font-weight:600;">Phone</td>
-            <td style="padding:10px 14px;">${phone || "(unchanged)"}</td>
-          </tr>
-          <tr>
-            <td style="padding:10px 14px;font-weight:600;">Email</td>
-            <td style="padding:10px 14px;">${email || "(unchanged)"}</td>
-          </tr>
-          <tr style="background:#f7f4ef;">
-            <td style="padding:10px 14px;font-weight:600;">Website</td>
-            <td style="padding:10px 14px;">${website || "(unchanged)"}</td>
-          </tr>
-          <tr>
-            <td style="padding:10px 14px;font-weight:600;">Hours</td>
-            <td style="padding:10px 14px;">${hours || "(unchanged)"}</td>
-          </tr>
-          ${description ? `
-          <tr style="background:#f7f4ef;">
-            <td style="padding:10px 14px;font-weight:600;vertical-align:top;">Description</td>
-            <td style="padding:10px 14px;">${description}</td>
-          </tr>` : ""}
-          ${notes ? `
-          <tr>
-            <td style="padding:10px 14px;font-weight:600;vertical-align:top;">Notes</td>
-            <td style="padding:10px 14px;">${notes}</td>
-          </tr>` : ""}
-        </table>
-        <p style="margin-top:20px;font-size:12px;color:#888;">
-          Secret key verified ✓ &nbsp;·&nbsp;
-          Edit <code>data/psychologists.json</code> → run <code>python generate.py</code> → git push
-        </p>
-      </div>
-    `;
+  let updateApplied = false;
 
+  if (GITHUB_TOKEN) {
     try {
-      await fetch("https://api.resend.com/emails", {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${resendKey}`,
-          "Content-Type": "application/json",
-        },
+      // 1. Fetch current file + SHA
+      const getRes  = await fetch(API_BASE, { headers: GH_HEADERS });
+      const fileData = await getRes.json();
+
+      if (!fileData.sha) throw new Error("Could not retrieve file SHA");
+
+      const currentJson = JSON.parse(
+        Buffer.from(fileData.content, "base64").toString("utf-8")
+      );
+
+      // 2. Find listing and apply changes
+      const idx = currentJson.listings.findIndex(l => l.slug === slug);
+      if (idx !== -1) {
+        const l = currentJson.listings[idx];
+
+        l.accepting  = (accepting  === "yes");
+        l.telehealth = (telehealth === "yes");
+
+        const changed = (val) => val && val !== "(unchanged)" && val.trim() !== "";
+        if (changed(phone))       l.phone       = phone.trim();
+        if (changed(email))       l.email       = email.trim();
+        if (changed(website))     l.website     = website.trim();
+        if (changed(hours))       l.hours       = hours.trim();
+        if (changed(description)) l.description = description.trim();
+
+        currentJson.meta.last_updated = new Date().toISOString().split("T")[0];
+      }
+
+      // 3. Commit updated file back to GitHub
+      const newContent = Buffer.from(
+        JSON.stringify(currentJson, null, 2)
+      ).toString("base64");
+
+      const putRes = await fetch(API_BASE, {
+        method:  "PUT",
+        headers: GH_HEADERS,
         body: JSON.stringify({
-          from:    "NewcastleLocal <onboarding@resend.dev>",
-          to:      [emailTo],
-          subject: `[NewcastleLocal] Update: ${name}`,
-          html,
+          message: `Update listing: ${name} (via update form)`,
+          content: newContent,
+          sha:     fileData.sha,
+          branch:  BRANCH,
         }),
       });
+
+      if (putRes.ok) {
+        updateApplied = true;
+        console.log(`[update-listing] ✓ Updated ${slug} — Netlify redeploy triggered`);
+      } else {
+        const err = await putRes.text();
+        console.error(`[update-listing] GitHub PUT failed: ${err}`);
+      }
+
     } catch (err) {
-      // Don't fail the user-facing response if email errors
-      console.error("Resend error:", err.message);
+      console.error(`[update-listing] GitHub API error: ${err.message}`);
     }
   } else {
-    // Log if no Resend key — visible in Netlify function logs
-    console.log(`[listing-update] Key not set. Submission from: ${name} (${slug})`);
+    console.warn("[update-listing] GITHUB_TOKEN not set — changes were NOT saved automatically.");
+    console.warn(`[update-listing] Manual update needed for: ${slug} — accepting=${accepting}, telehealth=${telehealth}`);
   }
 
-  // ── SUCCESS RESPONSE ────────────────────────────────────────────────────
+  // ── Success response ────────────────────────────────────────────────────────
+  const deployNote = updateApplied
+    ? "Your listing will update automatically within about 60 seconds."
+    : "Your changes have been submitted and will be reviewed within 48 hours.";
+
   return {
     statusCode: 200,
     headers: { "Content-Type": "text/html" },
@@ -156,20 +156,21 @@ exports.handler = async (event) => {
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:'DM Sans',sans-serif;background:#f7f4ef;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
-  .card{background:#fff;border:1px solid #d4cfc6;border-radius:4px;padding:48px;max-width:520px;text-align:center}
+  body{font-family:'DM Sans',sans-serif;background:#f7f4ef;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+  .card{background:#fff;border:1px solid #d4cfc6;border-radius:4px;padding:48px;max-width:520px;width:100%;text-align:center}
   .icon{font-size:48px;margin-bottom:20px}
   h1{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:12px;color:#1a1a1a}
-  p{color:#7a756d;font-size:15px;line-height:1.7;margin-bottom:12px}
+  p{color:#7a756d;font-size:15px;line-height:1.7;margin-bottom:10px}
   a{color:#2d5f4e;font-weight:500;text-decoration:none}
+  .note{font-size:12px;color:#aaa;margin-top:8px}
 </style>
 </head>
 <body>
 <div class="card">
   <div class="icon">✅</div>
   <h1>Update received</h1>
-  <p>Thank you — changes for <strong>${name}</strong> have been submitted and will be reviewed within 48 hours.</p>
-  <p>Once approved, your updated listing will be live on the site.</p>
+  <p>Thank you — changes for <strong>${name}</strong> have been submitted.</p>
+  <p>${deployNote}</p>
   <p style="margin-top:24px"><a href="/psychologists.html">← Back to directory</a></p>
 </div>
 </body>

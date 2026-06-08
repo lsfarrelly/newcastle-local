@@ -267,7 +267,7 @@ if (!listing) {
   }
 }
 
-// ── SUBMIT via Netlify Forms ──
+// ── SUBMIT to Netlify Function (auto-updates JSON + redeploys) ──
 async function submitUpdate() {
   if (!listing) return;
 
@@ -281,13 +281,11 @@ async function submitUpdate() {
   const description = document.getElementById('description').value.trim();
   const notes       = document.getElementById('notes').value.trim();
 
-  btn.disabled      = true;
-  btn.textContent   = 'Submitting…';
+  btn.disabled    = true;
+  btn.textContent = 'Submitting…';
 
   try {
     const body = new URLSearchParams({
-      'form-name':   'listing-update',
-      'bot-field':   '',
       slug,
       key,
       listing_name:  listing.name,
@@ -301,23 +299,14 @@ async function submitUpdate() {
       notes:         notes       || '(none)',
     });
 
-    const res = await fetch('/', {
+    const res  = await fetch('/.netlify/functions/update-listing', {
       method:  'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body:    body.toString(),
     });
 
-    if (!res.ok && res.status !== 200) {
-      throw new Error(`HTTP ${res.status}`);
-    }
-
-    // Show success state
-    document.getElementById('formWrap').style.display   = 'none';
-    document.getElementById('successCard').style.display = 'block';
-    document.getElementById('successName').textContent  =
-      `Thank you — your changes for ${listing.name} have been submitted.`;
-    document.getElementById('heroTitle').textContent    = 'Update received ✓';
-    document.getElementById('heroSub').textContent      = 'We\'ll review and publish within 48 hours.';
+    const html = await res.text();
+    document.open(); document.write(html); document.close();
 
   } catch (err) {
     console.error(err);
