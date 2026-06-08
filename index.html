@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newcastle Local — Find Local Services in Newcastle NSW</title>
+<meta name="description" content="Newcastle's most detailed local business directory. Find psychologists, tradies, lawyers, accountants and more across Newcastle, Maitland, Hunter Valley and Lake Macquarie.">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+  /* HOME-SPECIFIC STYLES */
+  .home-hero {
+    background: var(--ink);
+    padding: 80px 24px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .home-hero::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; left: 0; right: 0;
+    height: 60px;
+    background: var(--paper);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .hero-pattern {
+    position: absolute;
+    top: 0; right: 0;
+    width: 50%;
+    height: 100%;
+    opacity: 0.03;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #fff 0, #fff 1px,
+      transparent 0, transparent 50%
+    );
+    background-size: 20px 20px;
+  }
+  .home-hero-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .home-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(40px, 6vw, 72px);
+    color: #fff;
+    line-height: 1.08;
+    margin-bottom: 24px;
+  }
+  .home-hero h1 em { font-style: italic; color: var(--gold); }
+  .home-hero p {
+    color: #aaa;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 560px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+  }
+  .home-search {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1.5px solid #3a3a3a;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #1e1e1e;
+  }
+  .home-search input {
+    flex: 1;
+    padding: 16px 20px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    outline: none;
+  }
+  .home-search input::placeholder { color: #555; }
+  .home-search button {
+    padding: 16px 28px;
+    background: var(--accent);
+    border: none;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: background 0.2s;
+  }
+  .home-search button:hover { background: #3a7a63; }
+
+  /* CATEGORIES */
+  .categories-section {
+    padding: 72px 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .section-header {
+    margin-bottom: 36px;
+  }
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .section-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    line-height: 1.15;
+  }
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 14px;
+  }
+  .category-card {
+    display: block;
+    text-decoration: none;
+    background: var(--warm-white);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 24px 20px;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .category-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    height: 3px;
+    width: 0;
+    background: var(--accent);
+    transition: width 0.25s;
+  }
+  .category-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 20px rgba(45,95,78,0.08);
+    transform: translateY(-2px);
+  }
+  .category-card:hover::before { width: 100%; }
+  .category-icon { font-size: 28px; margin-bottom: 12px; display: block; }
+  .category-name {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .category-count {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .category-card.coming-soon { opacity: 0.5; cursor: default; pointer-events: none; }
+  .coming-badge {
+    position: absolute;
+    top: 10px; right: 10px;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--cream);
+    color: var(--muted);
+    padding: 3px 7px;
+    border-radius: 2px;
+  }
+
+  /* FEATURED STRIP */
+  .featured-strip {
+    background: var(--cream);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 56px 24px;
+  }
+  .featured-strip-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .featured-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 32px;
+  }
+  .featured-mini {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 22px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+  }
+  .featured-mini:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  }
+  .featured-mini-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .featured-mini-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    color: var(--ink);
+    margin-bottom: 6px;
+    line-height: 1.25;
+  }
+  .featured-mini-sub {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .featured-mini-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .mini-tag {
+    padding: 2px 8px;
+    background: var(--accent-light);
+    color: var(--accent);
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  /* WHY US */
+  .why-section {
+    padding: 72px 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .why-item { }
+  .why-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: var(--rule);
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+  .why-title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .why-text { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+  /* CTA */
+  .cta-section {
+    background: var(--accent);
+    padding: 64px 24px;
+    text-align: center;
+  }
+  .cta-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+  .cta-section p { color: rgba(255,255,255,0.75); font-size: 16px; margin-bottom: 28px; font-weight: 300; }
+  .cta-btn {
+    display: inline-block;
+    padding: 14px 36px;
+    background: #fff;
+    color: var(--accent);
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    transition: all 0.2s;
+  }
+  .cta-btn:hover { background: var(--paper); transform: translateY(-1px); }
+
+  @media (max-width: 768px) {
+    .category-grid { grid-template-columns: repeat(2, 1fr); }
+    .featured-cards { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr; gap: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-logo">Newcastle<span>Local</span></div>
+    <nav>
+      <ul class="site-nav">
+        <li><a href="psychologists.html">Health</a></li>
+        <li><a href="#">Trades</a></li>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">NDIS</a></li>
+        <li><a href="list.html" style="color:var(--gold)">List Your Business</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="home-hero">
+  <div class="hero-pattern"></div>
+  <div class="home-hero-inner">
+    <div class="hero-eyebrow" style="color:var(--gold);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:20px;">Newcastle NSW · Hunter Region</div>
+    <h1>Find the <em>right</em> local<br>service, first time.</h1>
+    <p>Detailed, up-to-date listings for psychologists, tradies, lawyers, and more — across Newcastle, Maitland, Hunter Valley, and Lake Macquarie.</p>
+    <div class="home-search">
+      <input type="text" placeholder="Search by service, suburb, or name…">
+      <button>Search</button>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories-section">
+  <div class="section-header">
+    <div class="section-eyebrow">Browse by category</div>
+    <h2>What are you looking for?</h2>
+  </div>
+  <div class="category-grid">
+    <a href="psychologists.html" class="category-card">
+      <span class="category-icon">🧠</span>
+      <div class="category-name">Psychologists</div>
+      <div class="category-count">10 listings</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">🦷</span>
+      <div class="category-name">Dentists</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">🏃</span>
+      <div class="category-name">Physiotherapists</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">🩺</span>
+      <div class="category-name">GPs (Bulk Billing)</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">⚡</span>
+      <div class="category-name">Electricians</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">🔧</span>
+      <div class="category-name">Plumbers</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">🏗️</span>
+      <div class="category-name">Builders</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">⚖️</span>
+      <div class="category-name">Lawyers</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">💰</span>
+      <div class="category-name">Accountants</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">♿</span>
+      <div class="category-name">NDIS Providers</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">🚗</span>
+      <div class="category-name">Mechanics</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+    <a href="#" class="category-card coming-soon">
+      <span class="coming-badge">Soon</span>
+      <span class="category-icon">🏠</span>
+      <div class="category-name">Removalists</div>
+      <div class="category-count">Coming soon</div>
+    </a>
+  </div>
+</section>
+
+<!-- FEATURED STRIP -->
+<section class="featured-strip">
+  <div class="featured-strip-inner">
+    <div class="section-eyebrow">Featured practices</div>
+    <h2 style="font-family:'Playfair Display',serif;font-size:30px;margin-top:8px;">Trusted by Newcastle locals</h2>
+    <div class="featured-cards">
+      <a href="psychologists.html" class="featured-mini">
+        <div class="featured-mini-label">★ Featured</div>
+        <div class="featured-mini-name">NewPsych Psychologists</div>
+        <div class="featured-mini-sub">Level 4, 77 Hunter St, Newcastle CBD</div>
+        <div class="featured-mini-tags">
+          <span class="mini-tag">Anxiety</span>
+          <span class="mini-tag">EAP</span>
+          <span class="mini-tag">NDIS</span>
+          <span class="mini-tag">Telehealth</span>
+        </div>
+      </a>
+      <a href="psychologists.html" class="featured-mini">
+        <div class="featured-mini-label">★ Featured</div>
+        <div class="featured-mini-name">New Lambton Psychology</div>
+        <div class="featured-mini-sub">37 Freyberg St, New Lambton</div>
+        <div class="featured-mini-tags">
+          <span class="mini-tag">Clinical</span>
+          <span class="mini-tag">EMDR</span>
+          <span class="mini-tag">Child & Adolescent</span>
+        </div>
+      </a>
+      <a href="psychologists.html" class="featured-mini">
+        <div class="featured-mini-label">★ Featured</div>
+        <div class="featured-mini-name">Lacuna Clinical Psychology</div>
+        <div class="featured-mini-sub">36 Crebert St, Mayfield</div>
+        <div class="featured-mini-tags">
+          <span class="mini-tag">Trauma</span>
+          <span class="mini-tag">DBT</span>
+          <span class="mini-tag">Telehealth</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why-section">
+  <div class="section-eyebrow">Why NewcastleLocal</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:34px;margin-top:8px;margin-bottom:0;">More detail than any<br>other local directory.</h2>
+  <div class="why-grid">
+    <div class="why-item">
+      <div class="why-number">01</div>
+      <div class="why-title">Real, verified information</div>
+      <div class="why-text">Every listing is sourced from public records and verified websites — not auto-generated. We show addresses, phone numbers, specialties, and referral types.</div>
+    </div>
+    <div class="why-item">
+      <div class="why-number">02</div>
+      <div class="why-title">Accepting clients — or not</div>
+      <div class="why-text">We track availability so you don't waste time calling practices that have a 6-month waitlist. Filter by who's accepting new clients right now.</div>
+    </div>
+    <div class="why-item">
+      <div class="why-number">03</div>
+      <div class="why-title">Newcastle-only focus</div>
+      <div class="why-text">No national noise. Every listing is genuinely local — Newcastle CBD, Maitland, Hunter Valley, Lake Macquarie, and surrounding suburbs.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Run a local business?</h2>
+  <p>Get listed for free, or upgrade to a featured spot to appear at the top of your category.</p>
+  <a href="list.html" class="cta-btn">List Your Business →</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div style="font-family:'Playfair Display',serif;color:#fff;font-size:16px;">Newcastle<span style="color:var(--gold)">Local</span></div>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="list.html">List Your Business</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact</a>
+    </div>
+    <div>© 2025 NewcastleLocal · Not a medical referral service</div>
+  </div>
+</footer>
+
+<link rel="stylesheet" href="css/style.css">
+</body>
+</html>
