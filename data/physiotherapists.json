@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "category": "physiotherapists",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "Peak Physio",
+      "credentials": "Physiotherapy Practice",
+      "address": "Level 1, 7 Newcomen Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 3898",
+      "email": "",
+      "website": "https://peak-physio.com.au",
+      "services": [
+        "Sports Physiotherapy",
+        "Musculoskeletal Physiotherapy",
+        "Exercise Rehabilitation",
+        "Dry Needling",
+        "Manual Therapy",
+        "Post-Surgery Rehabilitation"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-7:00pm, Sat 8:00am-12:00pm",
+      "description": "Two Newcastle locations. Evidence-based assessment and treatment for sports injuries, chronic pain, and post-surgical rehab.",
+      "featured": true,
+      "slug": "peak-physio",
+      "secret_key": "pe-7fb5w0ad",
+      "last_verified": "2026-06-08",
+      "google_search": "Peak Physio physiotherapist Newcastle NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Newcastle Integrated Physiotherapy",
+      "credentials": "Physiotherapy Practice",
+      "address": "2c/282 Brunker Road, Adamstown NSW 2289",
+      "suburb": "Adamstown",
+      "phone": "(02) 4957 2961",
+      "email": "",
+      "website": "https://newcastleintegratedphysiotherapy.com.au",
+      "services": [
+        "Physiotherapy",
+        "Exercise Physiology",
+        "Hydrotherapy",
+        "Pilates",
+        "Women's Health",
+        "Continence Physiotherapy"
+      ],
+      "service_areas": [
+        "Adamstown",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm",
+      "description": "Integrative approach combining physiotherapy, exercise physiology, and hydrotherapy. Specialists in women's health and continence.",
+      "featured": false,
+      "slug": "newcastle-integrated-physiotherapy",
+      "secret_key": "ne-4jbapf3h",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Integrated Physiotherapy physiotherapist Adamstown NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Action Physiotherapy",
+      "credentials": "Physiotherapy Practice",
+      "address": "235 Darby Street, Cooks Hill NSW 2300",
+      "suburb": "Cooks Hill",
+      "phone": "(02) 4940 8300",
+      "email": "",
+      "website": "https://actionphysio.net.au",
+      "services": [
+        "Sports Physiotherapy",
+        "Manual Therapy",
+        "Dry Needling",
+        "Exercise Rehabilitation",
+        "Pilates",
+        "Workplace Injuries"
+      ],
+      "service_areas": [
+        "Cooks Hill",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-6:30pm, Sat 8:00am-12:00pm",
+      "description": "Well-established Darby Street practice. Experienced team treating sports injuries, workplace injuries, and chronic conditions.",
+      "featured": false,
+      "slug": "action-physiotherapy",
+      "secret_key": "ac-y4gipqnf",
+      "last_verified": "2026-06-08",
+      "google_search": "Action Physiotherapy physiotherapist Cooks Hill NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Broadmeadow Physiotherapy",
+      "credentials": "Physiotherapy Practice",
+      "address": "Level 1, 154 Lambton Road, Broadmeadow NSW 2292",
+      "suburb": "Broadmeadow",
+      "phone": "(02) 4957 9800",
+      "email": "",
+      "website": "https://broadmeadowphysio.com.au",
+      "services": [
+        "Physiotherapy",
+        "Sports Injury",
+        "Manual Therapy",
+        "Exercise Rehabilitation",
+        "Hydrotherapy",
+        "NDIS"
+      ],
+      "service_areas": [
+        "Broadmeadow",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm, Sat 8:00am-12:00pm",
+      "description": "Trusted Broadmeadow practice serving Hamilton North, Georgetown, and Hamilton. NDIS registered.",
+      "featured": true,
+      "slug": "broadmeadow-physiotherapy",
+      "secret_key": "br-kkjbdo6y",
+      "last_verified": "2026-06-08",
+      "google_search": "Broadmeadow Physiotherapy physiotherapist Broadmeadow NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "NextGen Physio",
+      "credentials": "Physiotherapy Practice",
+      "address": "3/3 Molyneaux Avenue, Kotara NSW 2289",
+      "suburb": "Kotara",
+      "phone": "(02) 4965 5712",
+      "email": "",
+      "website": "https://nextgenphysio.com.au",
+      "services": [
+        "Sports Physiotherapy",
+        "Dry Needling",
+        "Exercise Rehabilitation",
+        "Manual Therapy",
+        "Post-Surgery Rehabilitation"
+      ],
+      "service_areas": [
+        "Kotara",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-7:00pm",
+      "description": "Modern physiotherapy practice in Kotara. Focus on evidence-based treatments and personalised rehab programs.",
+      "featured": false,
+      "slug": "nextgen-physio",
+      "secret_key": "ne-056rg40s",
+      "last_verified": "2026-06-08",
+      "google_search": "NextGen Physio physiotherapist Kotara NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Hunter Allied Care",
+      "credentials": "Physiotherapy Practice",
+      "address": "44 Hudson Street, Hamilton NSW 2303",
+      "suburb": "Hamilton",
+      "phone": "(02) 4940 0730",
+      "email": "",
+      "website": "https://hunteralliedcare.com.au",
+      "services": [
+        "Physiotherapy",
+        "Occupational Therapy",
+        "Speech Pathology",
+        "Exercise Physiology",
+        "NDIS"
+      ],
+      "service_areas": [
+        "Hamilton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:30pm",
+      "description": "Allied health hub in Hamilton. Multidisciplinary team including physio, OT, speech pathology, and exercise physiology. NDIS registered.",
+      "featured": false,
+      "slug": "hunter-allied-care",
+      "secret_key": "hu-8rs3mb5e",
+      "last_verified": "2026-06-08",
+      "google_search": "Hunter Allied Care physiotherapist Hamilton NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Newcastle Performance Physiotherapy",
+      "credentials": "Physiotherapy Practice",
+      "address": "1/184 Parry Street, Newcastle West NSW 2302",
+      "suburb": "Newcastle West",
+      "phone": "(02) 4009 1580",
+      "email": "",
+      "website": "https://ncperformancephysio.com.au",
+      "services": [
+        "Sports Physiotherapy",
+        "Running Analysis",
+        "Strength & Conditioning",
+        "Exercise Rehabilitation",
+        "Dry Needling"
+      ],
+      "service_areas": [
+        "Newcastle West",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-7:00pm",
+      "description": "Specialist performance-focused physio clinic. High-performance athletes and general patients welcome. Running analysis specialists.",
+      "featured": false,
+      "slug": "newcastle-performance-physiotherapy",
+      "secret_key": "ne-cbjafg6n",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Performance Physiotherapy physiotherapist Newcastle West NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Macquarie Physiotherapy Belmont",
+      "credentials": "Physiotherapy Practice",
+      "address": "14 Macquarie Street, Belmont NSW 2280",
+      "suburb": "Belmont",
+      "phone": "(02) 4945 4622",
+      "email": "",
+      "website": "https://macquariephysio.com.au",
+      "services": [
+        "Physiotherapy",
+        "Sports Injury",
+        "Manual Therapy",
+        "Exercise Rehabilitation",
+        "Pilates",
+        "Hydrotherapy"
+      ],
+      "service_areas": [
+        "Belmont",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm, Sat 8:00am-12:00pm",
+      "description": "Lake Macquarie area physio serving Belmont, Warners Bay, and surrounding suburbs.",
+      "featured": false,
+      "slug": "macquarie-physiotherapy-belmont",
+      "secret_key": "ma-f1kgys35",
+      "last_verified": "2026-06-08",
+      "google_search": "Macquarie Physiotherapy Belmont physiotherapist Belmont NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Community Therapy Newcastle",
+      "credentials": "Physiotherapy Practice",
+      "address": "47 Glebe Road, The Junction NSW 2291",
+      "suburb": "The Junction",
+      "phone": "(02) 4062 9200",
+      "email": "",
+      "website": "https://communitytherapy.com.au",
+      "services": [
+        "Physiotherapy",
+        "Occupational Therapy",
+        "Exercise Physiology",
+        "NDIS",
+        "Aged Care",
+        "Home Visits"
+      ],
+      "service_areas": [
+        "The Junction",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm",
+      "description": "Mobile and clinic-based allied health. Specialists in home visits, aged care, and NDIS participants across Newcastle.",
+      "featured": false,
+      "slug": "community-therapy-newcastle",
+      "secret_key": "co-8zm1qsf7",
+      "last_verified": "2026-06-08",
+      "google_search": "Community Therapy Newcastle physiotherapist The Junction NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "The Physio Group Newcastle",
+      "credentials": "Physiotherapy Practice",
+      "address": "121 Tudor Street, Hamilton NSW 2303",
+      "suburb": "Hamilton",
+      "phone": "(02) 4961 4848",
+      "email": "",
+      "website": "https://thephysio-group.com",
+      "services": [
+        "Sports Physiotherapy",
+        "Manual Therapy",
+        "Dry Needling",
+        "Exercise Rehabilitation",
+        "Pilates",
+        "Post-Surgery Rehabilitation"
+      ],
+      "service_areas": [
+        "Hamilton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-6:30pm",
+      "description": "Part of The Physio Group network. Experienced team treating a wide range of musculoskeletal conditions.",
+      "featured": false,
+      "slug": "the-physio-group-newcastle",
+      "secret_key": "th-uumrx47z",
+      "last_verified": "2026-06-08",
+      "google_search": "The Physio Group Newcastle physiotherapist Hamilton NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    }
+  ]
+}

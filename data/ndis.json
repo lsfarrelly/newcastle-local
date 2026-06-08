@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "category": "ndis",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "EnableU Newcastle",
+      "credentials": "NDIS Registered Provider",
+      "address": "3 Kirkloch Close, Wallsend NSW 2287",
+      "suburb": "Wallsend",
+      "phone": "1300 197 943",
+      "email": "",
+      "website": "https://enableu.com.au",
+      "services": [
+        "Support Coordination",
+        "Daily Activities",
+        "Community Participation",
+        "Home Care",
+        "Nursing",
+        "Allied Health"
+      ],
+      "service_areas": [
+        "Wallsend",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Registered NDIS service provider and approved home care provider. Serving Newcastle and Hunter region.",
+      "featured": true,
+      "slug": "enableu-newcastle",
+      "secret_key": "en-h2rip7j5",
+      "last_verified": "2026-06-08",
+      "google_search": "EnableU Newcastle ndis provider Wallsend NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Steadway Disability Support",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4915 5400",
+      "email": "",
+      "website": "https://steadway.com.au",
+      "services": [
+        "Support Coordination",
+        "Daily Activities",
+        "Community Participation",
+        "Supported Independent Living",
+        "Life Skills"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Registered NDIS provider specialising in disability support across Newcastle and the Hunter region.",
+      "featured": true,
+      "slug": "steadway-disability-support",
+      "secret_key": "st-fv7o1zyz",
+      "last_verified": "2026-06-08",
+      "google_search": "Steadway Disability Support ndis provider Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Apex Support Services Newcastle",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "info@apexsupportservices.org",
+      "website": "https://apexsupportservices.org",
+      "services": [
+        "Support Coordination",
+        "Daily Living",
+        "Community Access",
+        "Respite",
+        "Personal Care",
+        "Skill Development"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Registered NDIS provider serving Wallsend, Hamilton, Charlestown and across Newcastle suburbs.",
+      "featured": false,
+      "slug": "apex-support-services-newcastle",
+      "secret_key": "ap-bmncnz1h",
+      "last_verified": "2026-06-08",
+      "google_search": "Apex Support Services Newcastle ndis provider Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Sunflower Services Newcastle",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 786 369",
+      "email": "",
+      "website": "https://sunflowerservices.com.au",
+      "services": [
+        "Support Coordination",
+        "Therapeutic Supports",
+        "Community Participation",
+        "Daily Activities",
+        "Early Childhood"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Registered NDIS provider with comprehensive support coordination and therapeutic services across Newcastle.",
+      "featured": false,
+      "slug": "sunflower-services-newcastle",
+      "secret_key": "su-g9j7w67j",
+      "last_verified": "2026-06-08",
+      "google_search": "Sunflower Services Newcastle ndis provider Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Gleam Support Services",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 613 444",
+      "email": "",
+      "website": "https://gleamsupportservices.com.au",
+      "services": [
+        "Support Coordination",
+        "Daily Activities",
+        "Community Access",
+        "Supported Independent Living",
+        "Respite"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "NDIS registered provider operating across Newcastle, Maitland, Cessnock, Lake Macquarie and surrounding areas.",
+      "featured": false,
+      "slug": "gleam-support-services",
+      "secret_key": "gl-kt2ie8ee",
+      "last_verified": "2026-06-08",
+      "google_search": "Gleam Support Services ndis provider Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Uniting Newcastle",
+      "credentials": "NDIS Registered Provider",
+      "address": "Level 2, Suite 7, 3 Hopetoun Street, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "1300 453 303",
+      "email": "",
+      "website": "https://unitingcare.org.au",
+      "services": [
+        "Support Coordination",
+        "Aged Care",
+        "Disability Services",
+        "Community Services",
+        "Respite"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Major community services provider in Charlestown. NDIS registered with a broad range of disability and aged care supports.",
+      "featured": false,
+      "slug": "uniting-newcastle",
+      "secret_key": "un-a0rzsj7o",
+      "last_verified": "2026-06-08",
+      "google_search": "Uniting Newcastle ndis provider Charlestown NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Newcastle Social Workers",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 0600",
+      "email": "",
+      "website": "https://newcastlesocialworkers.com.au",
+      "services": [
+        "NDIS Support Coordination",
+        "Social Work",
+        "Mental Health Support",
+        "Case Management",
+        "Advocacy"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Professional NDIS support coordination. Experienced social workers providing coordination, advocacy, and case management.",
+      "featured": false,
+      "slug": "newcastle-social-workers",
+      "secret_key": "ne-3b030zqx",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Social Workers ndis provider Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Therapeutic Support Services",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4933 4800",
+      "email": "",
+      "website": "https://tssupport.com.au",
+      "services": [
+        "Therapeutic Supports",
+        "Behaviour Support",
+        "Support Coordination",
+        "Allied Health",
+        "Early Childhood"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Specialist disability services focused on therapeutic supports, behaviour support, and allied health for NDIS participants.",
+      "featured": false,
+      "slug": "therapeutic-support-services",
+      "secret_key": "th-chotd7gt",
+      "last_verified": "2026-06-08",
+      "google_search": "Therapeutic Support Services ndis provider Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Sublime Care Newcastle",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 795 474",
+      "email": "",
+      "website": "https://sublimecare.com.au",
+      "services": [
+        "Support Coordination",
+        "Daily Activities",
+        "Personal Care",
+        "Community Participation",
+        "Supported Independent Living"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Registered NDIS and aged care provider delivering quality disability and aged care services across NSW.",
+      "featured": false,
+      "slug": "sublime-care-newcastle",
+      "secret_key": "su-sg21n1ue",
+      "last_verified": "2026-06-08",
+      "google_search": "Sublime Care Newcastle ndis provider Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Loyal Support Services",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4934 1200",
+      "email": "",
+      "website": "https://loyalsupportservices.com.au",
+      "services": [
+        "NDIS Support Coordination",
+        "Daily Activities",
+        "Community Access",
+        "Respite",
+        "Personal Care"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Reputable registered NDIS provider supporting participants and families across Newcastle and the Hunter region.",
+      "featured": false,
+      "slug": "loyal-support-services",
+      "secret_key": "lo-bs1ustbt",
+      "last_verified": "2026-06-08",
+      "google_search": "Loyal Support Services ndis provider Newcastle NSW",
+      "ndis_registered": true
+    }
+  ]
+}

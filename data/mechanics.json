@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "category": "mechanics",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "Serv Auto Care Services",
+      "credentials": "Automotive Workshop",
+      "address": "66 Hannell Street, Wickham NSW 2293",
+      "suburb": "Wickham",
+      "phone": "(02) 4044 1710",
+      "email": "",
+      "website": "https://newcastleservautocareservices.com.au",
+      "services": [
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Brakes",
+        "Tyres",
+        "Suspension",
+        "Logbook Servicing",
+        "Air Conditioning"
+      ],
+      "service_areas": [
+        "Wickham",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Established 1978. One of Newcastle's longest-running automotive service centres. Full mechanical repairs and logbook servicing.",
+      "featured": true,
+      "slug": "serv-auto-care-services",
+      "secret_key": "se-rwfmb564",
+      "last_verified": "2026-06-08",
+      "google_search": "Serv Auto Care Services mechanic Wickham NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Newcastle Service Centre",
+      "credentials": "Automotive Workshop",
+      "address": "151 Brunker Road, Adamstown NSW 2289",
+      "suburb": "Adamstown",
+      "phone": "(02) 4961 1002",
+      "email": "",
+      "website": "https://newcastleservicecentre.com.au",
+      "services": [
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Brakes",
+        "Tyres",
+        "Suspension",
+        "Roadworthy Inspections",
+        "Air Conditioning"
+      ],
+      "service_areas": [
+        "Adamstown",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Established Adamstown service centre. Comprehensive mechanical repairs and servicing for all makes and models.",
+      "featured": false,
+      "slug": "newcastle-service-centre",
+      "secret_key": "ne-hvydytp9",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Service Centre mechanic Adamstown NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Edgy Car Mechanics",
+      "credentials": "Automotive Workshop",
+      "address": "686 Main Road, Edgeworth NSW 2285",
+      "suburb": "Edgeworth",
+      "phone": "(02) 4958 3111",
+      "email": "",
+      "website": "https://edgycarmechanics.com",
+      "services": [
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Brakes",
+        "Suspension",
+        "Air Conditioning",
+        "Tyres",
+        "Wheel Alignment"
+      ],
+      "service_areas": [
+        "Edgeworth",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Reliable car servicing and repairs in Edgeworth. Full mechanical services for all vehicle makes and models.",
+      "featured": false,
+      "slug": "edgy-car-mechanics",
+      "secret_key": "ed-koaz5c1z",
+      "last_verified": "2026-06-08",
+      "google_search": "Edgy Car Mechanics mechanic Edgeworth NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Green Bean Auto",
+      "credentials": "Automotive Workshop",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0402 960 188",
+      "email": "info@greenbeanauto.com.au",
+      "website": "https://greenbeanauto.com.au",
+      "services": [
+        "Mobile Mechanic",
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Brakes",
+        "Logbook Servicing",
+        "Pre-Purchase Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Mobile mechanics serving Newcastle, Mayfield, Kotara, Charlestown, and surrounds. We come to you.",
+      "featured": false,
+      "slug": "green-bean-auto",
+      "secret_key": "gr-xtfcb8oy",
+      "last_verified": "2026-06-08",
+      "google_search": "Green Bean Auto mechanic Newcastle NSW",
+      "mobile": true,
+      "emergency_24_7": false
+    },
+    {
+      "name": "SG Mobile Mechanic",
+      "credentials": "Automotive Workshop",
+      "address": "Unit 9/33 Warabrook Boulevard, Warabrook NSW 2304",
+      "suburb": "Warabrook",
+      "phone": "0421 486 489",
+      "email": "",
+      "website": "https://sgmobilemechanic.com.au",
+      "services": [
+        "Mobile Mechanic",
+        "Car Servicing",
+        "Brake Repairs",
+        "Logbook Servicing",
+        "Pre-Purchase Inspections"
+      ],
+      "service_areas": [
+        "Warabrook",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm",
+      "description": "Mobile mechanic covering Adamstown, Broadmeadow, Hamilton, Georgetown and Newcastle. Qualified and experienced.",
+      "featured": false,
+      "slug": "sg-mobile-mechanic",
+      "secret_key": "sg-6sapzx36",
+      "last_verified": "2026-06-08",
+      "google_search": "SG Mobile Mechanic mechanic Warabrook NSW",
+      "mobile": true,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Motorserve Kotara",
+      "credentials": "Automotive Workshop",
+      "address": "Unit 3, 154 Park Avenue, Kotara NSW 2289",
+      "suburb": "Kotara",
+      "phone": "(02) 4960 8800",
+      "email": "kotara@motorserve.com.au",
+      "website": "https://motorserve.com.au",
+      "services": [
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Tyres",
+        "Brakes",
+        "Air Conditioning",
+        "Roadworthy Inspections"
+      ],
+      "service_areas": [
+        "Kotara",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:30pm, Sat 8:00am-1:00pm",
+      "description": "National service centre network with Kotara location. Quality servicing for all makes and models.",
+      "featured": false,
+      "slug": "motorserve-kotara",
+      "secret_key": "mo-vz7b011m",
+      "last_verified": "2026-06-08",
+      "google_search": "Motorserve Kotara mechanic Kotara NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Euromaster Autohaus",
+      "credentials": "Automotive Workshop",
+      "address": "Newcastle NSW 2291",
+      "suburb": "Merewether",
+      "phone": "(02) 4955 9538",
+      "email": "",
+      "website": "https://euromasterautohaus.com.au",
+      "services": [
+        "European Car Servicing",
+        "Mechanical Repairs",
+        "Diagnostics",
+        "BMW",
+        "Mercedes",
+        "Volkswagen",
+        "Audi",
+        "Porsche"
+      ],
+      "service_areas": [
+        "Merewether",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "European vehicle specialists. Expert servicing and repairs for BMW, Mercedes-Benz, Volkswagen, Audi, and Porsche.",
+      "featured": false,
+      "slug": "euromaster-autohaus",
+      "secret_key": "eu-adgf4smv",
+      "last_verified": "2026-06-08",
+      "google_search": "Euromaster Autohaus mechanic Merewether NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Adamstown Car Doctors",
+      "credentials": "Automotive Workshop",
+      "address": "Corner Park Ave & Dibb Street, Kotara NSW 2289",
+      "suburb": "Kotara",
+      "phone": "(02) 4957 2222",
+      "email": "",
+      "website": "https://adamstowncardoctors.com.au",
+      "services": [
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Brakes",
+        "Tyres",
+        "Suspension",
+        "Air Conditioning",
+        "Logbook Servicing"
+      ],
+      "service_areas": [
+        "Kotara",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Trusted local workshop at Kotara. Honest and reliable servicing and repairs for all makes and models.",
+      "featured": false,
+      "slug": "adamstown-car-doctors",
+      "secret_key": "ad-vro39lvi",
+      "last_verified": "2026-06-08",
+      "google_search": "Adamstown Car Doctors mechanic Kotara NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Blue Toro Mechanics Newcastle",
+      "credentials": "Automotive Workshop",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4050 0510",
+      "email": "",
+      "website": "https://bluetoro.com.au",
+      "services": [
+        "Mobile Mechanic",
+        "Car Servicing",
+        "Brakes",
+        "Logbook Servicing",
+        "Fleet Maintenance",
+        "Pre-Purchase Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm",
+      "description": "Mobile mechanics coming to home or workplace. Transparent pricing and qualified tradespeople.",
+      "featured": false,
+      "slug": "blue-toro-mechanics-newcastle",
+      "secret_key": "bl-9xwdk0i1",
+      "last_verified": "2026-06-08",
+      "google_search": "Blue Toro Mechanics Newcastle mechanic Newcastle NSW",
+      "mobile": true,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Mobile Mechanic Newcastle",
+      "credentials": "Automotive Workshop",
+      "address": "4/29 Watt Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4960 9003",
+      "email": "",
+      "website": "https://newcastlemobilemechanic.com.au",
+      "services": [
+        "Mobile Mechanic",
+        "Car Servicing",
+        "Brakes",
+        "Air Conditioning",
+        "Logbook Servicing",
+        "Pre-Purchase Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm",
+      "description": "Qualified mobile mechanics serving all Newcastle suburbs. Convenient on-site service at your home or work.",
+      "featured": false,
+      "slug": "mobile-mechanic-newcastle",
+      "secret_key": "mo-yzlc9g61",
+      "last_verified": "2026-06-08",
+      "google_search": "Mobile Mechanic Newcastle mechanic Newcastle NSW",
+      "mobile": true,
+      "emergency_24_7": false
+    }
+  ]
+}

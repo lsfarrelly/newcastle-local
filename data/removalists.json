@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "category": "removalists",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "TimeRite Removals",
+      "credentials": "Removalist",
+      "address": "5/49 Annie Street, Wickham NSW 2293",
+      "suburb": "Wickham",
+      "phone": "(02) 4927 6687",
+      "email": "",
+      "website": "https://timeriteremovals.com.au",
+      "services": [
+        "Home Removals",
+        "Office Removals",
+        "Piano Moving",
+        "Packing Services",
+        "Storage",
+        "Interstate Removals"
+      ],
+      "service_areas": [
+        "Wickham",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-6:00pm, Sat 7:00am-1:00pm",
+      "description": "Over 20 years experience. Home and office furniture removals with professional care across Newcastle and beyond.",
+      "featured": true,
+      "slug": "timerite-removals",
+      "secret_key": "ti-in9kizhj",
+      "last_verified": "2026-06-08",
+      "google_search": "TimeRite Removals removalist Wickham NSW",
+      "storage": true,
+      "interstate": false
+    },
+    {
+      "name": "Newcastle Moving & Storage",
+      "credentials": "Removalist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 769 467",
+      "email": "",
+      "website": "https://newcastlemoving.com.au",
+      "services": [
+        "Home Removals",
+        "Office Removals",
+        "Storage",
+        "Packing Services",
+        "Furniture Assembly",
+        "Interstate"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Affordable removals and storage solutions. Fully insured with competitive pricing for local and long-distance moves.",
+      "featured": true,
+      "slug": "newcastle-moving-storage",
+      "secret_key": "ne-6bwmpybd",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Moving & Storage removalist Newcastle NSW",
+      "storage": true,
+      "interstate": true
+    },
+    {
+      "name": "Carnall Removals",
+      "credentials": "Removalist",
+      "address": "Lake Macquarie NSW 2280",
+      "suburb": "Lake Macquarie",
+      "phone": "(02) 4953 6555",
+      "email": "",
+      "website": "https://carnallremovals.com.au",
+      "services": [
+        "Home Removals",
+        "Furniture Removals",
+        "Office Removals",
+        "Storage",
+        "Antiques & Specialised Items"
+      ],
+      "service_areas": [
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm, Sat 7:30am-12:00pm",
+      "description": "Family-owned Newcastle removalist since 1978. Experienced with furniture, antiques, and specialised items.",
+      "featured": false,
+      "slug": "carnall-removals",
+      "secret_key": "ca-54754hct",
+      "last_verified": "2026-06-08",
+      "google_search": "Carnall Removals removalist Lake Macquarie NSW",
+      "storage": true,
+      "interstate": false
+    },
+    {
+      "name": "Tim Farragher Removals & Storage",
+      "credentials": "Removalist",
+      "address": "Cardiff NSW 2285",
+      "suburb": "Cardiff",
+      "phone": "(02) 4956 6966",
+      "email": "",
+      "website": "https://farragherremovals.com.au",
+      "services": [
+        "Home Removals",
+        "Office Removals",
+        "Furniture Removals",
+        "Storage",
+        "Local & Interstate"
+      ],
+      "service_areas": [
+        "Cardiff",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm",
+      "description": "Operating since 1933 - one of Newcastle's oldest removalist businesses. Trusted for generations for local and office moves.",
+      "featured": false,
+      "slug": "tim-farragher-removals-storage",
+      "secret_key": "ti-k4rbdgl4",
+      "last_verified": "2026-06-08",
+      "google_search": "Tim Farragher Removals & Storage removalist Cardiff NSW",
+      "storage": true,
+      "interstate": true
+    },
+    {
+      "name": "Greater Newcastle Removals",
+      "credentials": "Removalist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 889 744",
+      "email": "",
+      "website": "https://greaternewcastleremovals.com.au",
+      "services": [
+        "Home Removals",
+        "Office Removals",
+        "Storage",
+        "Packing",
+        "Interstate",
+        "Backloading"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-5:30pm",
+      "description": "Trusted local removalists. Professional, reliable service for homes and offices across Newcastle and the Hunter region.",
+      "featured": false,
+      "slug": "greater-newcastle-removals",
+      "secret_key": "gr-hxtfya7o",
+      "last_verified": "2026-06-08",
+      "google_search": "Greater Newcastle Removals removalist Newcastle NSW",
+      "storage": false,
+      "interstate": true
+    },
+    {
+      "name": "Better Removalists Newcastle",
+      "credentials": "Removalist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 766 422",
+      "email": "",
+      "website": "https://betterremovalistsnewcastle.com.au",
+      "services": [
+        "Home Removals",
+        "Office Removals",
+        "Furniture Removals",
+        "Packing",
+        "Storage",
+        "Interstate"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Affordable and reliable Newcastle removalists. Fully insured with competitive pricing and professional service.",
+      "featured": false,
+      "slug": "better-removalists-newcastle",
+      "secret_key": "be-ieh4whqq",
+      "last_verified": "2026-06-08",
+      "google_search": "Better Removalists Newcastle removalist Newcastle NSW",
+      "storage": false,
+      "interstate": true
+    },
+    {
+      "name": "Acrobat Removals & Storage",
+      "credentials": "Removalist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4965 8800",
+      "email": "",
+      "website": "https://acrobatremovals.com",
+      "services": [
+        "Home Removals",
+        "Office Removals",
+        "Storage",
+        "Packing",
+        "Piano Moving",
+        "Fragile Items"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm, Sat 7:30am-12:00pm",
+      "description": "Reliable Newcastle removalists with secure storage options. Specialists in pianos and fragile/specialty items.",
+      "featured": false,
+      "slug": "acrobat-removals-storage",
+      "secret_key": "ac-05uth32h",
+      "last_verified": "2026-06-08",
+      "google_search": "Acrobat Removals & Storage removalist Newcastle NSW",
+      "storage": true,
+      "interstate": false
+    },
+    {
+      "name": "Allied Moving Services Newcastle",
+      "credentials": "Removalist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 255 438",
+      "email": "",
+      "website": "https://allied.com/au",
+      "services": [
+        "Interstate Removals",
+        "Home Removals",
+        "International Moving",
+        "Storage",
+        "Packing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Part of national Allied moving network. Full door-to-door service for local, interstate, and international moves.",
+      "featured": false,
+      "slug": "allied-moving-services-newcastle",
+      "secret_key": "al-jctgabu3",
+      "last_verified": "2026-06-08",
+      "google_search": "Allied Moving Services Newcastle removalist Newcastle NSW",
+      "storage": true,
+      "interstate": true
+    },
+    {
+      "name": "Kent Removals & Storage Newcastle",
+      "credentials": "Removalist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 257 669",
+      "email": "",
+      "website": "https://kentremovalsstorage.com.au",
+      "services": [
+        "Home Removals",
+        "Interstate Removals",
+        "International Moving",
+        "Storage",
+        "Packing",
+        "Pet Transport"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "80+ years combined experience moving households across Australia. Local Newcastle team with nationwide network.",
+      "featured": false,
+      "slug": "kent-removals-storage-newcastle",
+      "secret_key": "ke-0f82ppt2",
+      "last_verified": "2026-06-08",
+      "google_search": "Kent Removals & Storage Newcastle removalist Newcastle NSW",
+      "storage": true,
+      "interstate": true
+    },
+    {
+      "name": "Best Removalists Newcastle",
+      "credentials": "Removalist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 845 738",
+      "email": "",
+      "website": "https://bestremovalistsnewcastle.com.au",
+      "services": [
+        "Home Removals",
+        "Office Removals",
+        "Furniture Removals",
+        "Storage",
+        "Packing",
+        "Man & Van"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Local Newcastle removalists with competitive pricing. No job too big or small.",
+      "featured": false,
+      "slug": "best-removalists-newcastle",
+      "secret_key": "be-61ug7c9j",
+      "last_verified": "2026-06-08",
+      "google_search": "Best Removalists Newcastle removalist Newcastle NSW",
+      "storage": false,
+      "interstate": true
+    }
+  ]
+}

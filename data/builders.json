@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "category": "builders",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "Kingston Building",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4961 5555",
+      "email": "",
+      "website": "https://kingstonbuilding.com.au",
+      "services": [
+        "Commercial Construction",
+        "Industrial Construction",
+        "Residential Construction",
+        "Fit-Out",
+        "Design & Construct"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "2025 Commercial Builder of the Year. Award-winning Newcastle-owned construction company for commercial, industrial & residential projects.",
+      "featured": true,
+      "slug": "kingston-building",
+      "secret_key": "ki-66wnqwok",
+      "last_verified": "2026-06-08",
+      "google_search": "Kingston Building builder Newcastle NSW",
+      "residential": true,
+      "commercial": true
+    },
+    {
+      "name": "MARS Building",
+      "credentials": "Licensed Builder",
+      "address": "7 Yilen Close, Beresfield NSW 2322",
+      "suburb": "Beresfield",
+      "phone": "(02) 4964 1537",
+      "email": "admin@marsbuilding.com.au",
+      "website": "https://marsbuilding.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Renovations",
+        "Extensions",
+        "Custom Homes"
+      ],
+      "service_areas": [
+        "Beresfield",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Award-winning builder with 25+ years experience in Newcastle, Lake Macquarie and Hunter region.",
+      "featured": true,
+      "slug": "mars-building",
+      "secret_key": "ma-wjq72st5",
+      "last_verified": "2026-06-08",
+      "google_search": "MARS Building builder Beresfield NSW",
+      "residential": true,
+      "commercial": true
+    },
+    {
+      "name": "Buildingwise Construction",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4935 0800",
+      "email": "",
+      "website": "https://buildingwise.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Custom Homes",
+        "Renovations",
+        "Extensions"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Newcastle construction company building custom commercial and residential projects since 2015.",
+      "featured": false,
+      "slug": "buildingwise-construction",
+      "secret_key": "bu-pg4ersla",
+      "last_verified": "2026-06-08",
+      "google_search": "Buildingwise Construction builder Newcastle NSW",
+      "residential": true,
+      "commercial": true
+    },
+    {
+      "name": "BRW Constructions",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2302",
+      "suburb": "Newcastle",
+      "phone": "(02) 4969 0500",
+      "email": "",
+      "website": "https://brwconstructions.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "New Builds",
+        "Renovations",
+        "Architectural Projects"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Residential and commercial builder in Newcastle and Hunter Valley. Specialising in new builds, renovations, and architectural design.",
+      "featured": false,
+      "slug": "brw-constructions",
+      "secret_key": "br-s01771zg",
+      "last_verified": "2026-06-08",
+      "google_search": "BRW Constructions builder Newcastle NSW",
+      "residential": true,
+      "commercial": true
+    },
+    {
+      "name": "Bishop & Hart",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4927 3900",
+      "email": "",
+      "website": "https://bishopandhart.com.au",
+      "services": [
+        "Custom Residential",
+        "Commercial Building",
+        "New Homes",
+        "Renovations",
+        "Extensions",
+        "Developments"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Experts in custom residential and commercial building from new homes to renovations, extensions, and commercial developments.",
+      "featured": false,
+      "slug": "bishop-hart",
+      "secret_key": "bi-28w45yky",
+      "last_verified": "2026-06-08",
+      "google_search": "Bishop & Hart builder Newcastle NSW",
+      "residential": true,
+      "commercial": true
+    },
+    {
+      "name": "Sam Horn Building",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4940 8888",
+      "email": "",
+      "website": "https://samhornbuilding.com.au",
+      "services": [
+        "Custom Homes",
+        "High-End Residential",
+        "Renovations",
+        "Extensions",
+        "Design & Construct"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Award-winning custom home builder with 15+ years in Newcastle and Hunter Valley. Specialising in high-end, high-performing homes.",
+      "featured": false,
+      "slug": "sam-horn-building",
+      "secret_key": "sa-y91qbts2",
+      "last_verified": "2026-06-08",
+      "google_search": "Sam Horn Building builder Newcastle NSW",
+      "residential": true,
+      "commercial": false
+    },
+    {
+      "name": "Henderson Homes & Renovations",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4928 5500",
+      "email": "",
+      "website": "https://hendersonhomes.com.au",
+      "services": [
+        "Custom Homes",
+        "Renovations",
+        "Extensions",
+        "New Builds",
+        "Home Extensions",
+        "Knockdown Rebuild"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Complete range of customised building, home extension and renovation services across Newcastle and the Hunter region.",
+      "featured": false,
+      "slug": "henderson-homes-renovations",
+      "secret_key": "he-62beyvxr",
+      "last_verified": "2026-06-08",
+      "google_search": "Henderson Homes & Renovations builder Newcastle NSW",
+      "residential": true,
+      "commercial": false
+    },
+    {
+      "name": "Hunter Wide Building",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4950 0500",
+      "email": "",
+      "website": "https://hunterwidebuilding.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Custom Homes",
+        "Lifestyle Homes",
+        "Renovations"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Top-rated builders in Newcastle and NSW Central Coast. Focus on high-quality construction and lifestyle-driven homes.",
+      "featured": false,
+      "slug": "hunter-wide-building",
+      "secret_key": "hu-hwwjh2jk",
+      "last_verified": "2026-06-08",
+      "google_search": "Hunter Wide Building builder Newcastle NSW",
+      "residential": true,
+      "commercial": true
+    },
+    {
+      "name": "Walkom Constructions",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0496 098 940",
+      "email": "",
+      "website": "https://walkomconstructions.com",
+      "services": [
+        "Residential Renovations",
+        "Extensions",
+        "Bathroom Renovations",
+        "Kitchen Renovations",
+        "New Builds"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Specialist in residential renovations and extensions across Newcastle and the Hunter region.",
+      "featured": false,
+      "slug": "walkom-constructions",
+      "secret_key": "wa-d5svwfqi",
+      "last_verified": "2026-06-08",
+      "google_search": "Walkom Constructions builder Newcastle NSW",
+      "residential": true,
+      "commercial": false
+    },
+    {
+      "name": "North Construction & Building",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4910 2800",
+      "email": "",
+      "website": "https://north.com.au",
+      "services": [
+        "Commercial Construction",
+        "Government Projects",
+        "Healthcare Construction",
+        "Education Construction",
+        "Retail Fit-Out"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Regional commercial construction company with award-winning reputation. Offices in Newcastle, Central Coast, Dubbo, Orange, and Brisbane.",
+      "featured": false,
+      "slug": "north-construction-building",
+      "secret_key": "no-lv1b4g61",
+      "last_verified": "2026-06-08",
+      "google_search": "North Construction & Building builder Newcastle NSW",
+      "residential": false,
+      "commercial": true
+    }
+  ]
+}

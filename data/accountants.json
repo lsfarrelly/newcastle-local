@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "category": "accountants",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "Bottrell Accounting Newcastle",
+      "credentials": "Accounting Practice",
+      "address": "97 Scott Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4003 4808",
+      "email": "newcastle@bottrellaccounting.com.au",
+      "website": "https://bottrellaccounting.com.au",
+      "services": [
+        "Business Accounting",
+        "Tax Returns",
+        "BAS & GST",
+        "SMSF",
+        "Business Advisory",
+        "Bookkeeping",
+        "Financial Planning"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Full-service accounting firm with Newcastle and Maitland offices. Registered tax agents and business advisors.",
+      "featured": true,
+      "slug": "bottrell-accounting-newcastle",
+      "secret_key": "bo-55lz40jl",
+      "last_verified": "2026-06-08",
+      "google_search": "Bottrell Accounting Newcastle accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "Doyle Partners",
+      "credentials": "Accounting Practice",
+      "address": "Level 6, 19 Bolton Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 5400",
+      "email": "",
+      "website": "https://doylepartners.com.au",
+      "services": [
+        "Accounting",
+        "Business Advisory",
+        "Tax Planning",
+        "Audit & Assurance",
+        "Financial Planning",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Prominent Newcastle accounting and business advisory firm with a strong reputation for commercial and private clients.",
+      "featured": true,
+      "slug": "doyle-partners",
+      "secret_key": "do-bcdkbx5q",
+      "last_verified": "2026-06-08",
+      "google_search": "Doyle Partners accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "Lambourne Partners",
+      "credentials": "Accounting Practice",
+      "address": "Level 1, 56 Hudson Street, Hamilton NSW 2303",
+      "suburb": "Hamilton",
+      "phone": "(02) 4969 6600",
+      "email": "info@lambourne.com.au",
+      "website": "https://lambourne.com.au",
+      "services": [
+        "Accounting",
+        "Wealth Management",
+        "Financial Advisory",
+        "Tax Planning",
+        "SMSF",
+        "Business Advisory"
+      ],
+      "service_areas": [
+        "Hamilton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Full-service accounting, wealth and advisory firm serving Newcastle and Hunter region clients.",
+      "featured": false,
+      "slug": "lambourne-partners",
+      "secret_key": "la-936fr18g",
+      "last_verified": "2026-06-08",
+      "google_search": "Lambourne Partners accountant Hamilton NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "Neil Hocquard Chartered Accountant",
+      "credentials": "Accounting Practice",
+      "address": "4 Cromwell Street, New Lambton NSW 2305",
+      "suburb": "New Lambton",
+      "phone": "(02) 4952 9141",
+      "email": "alison@hocquard.com.au",
+      "website": "https://hocquard.com.au",
+      "services": [
+        "Tax Returns",
+        "Small Business Accounting",
+        "BAS & GST",
+        "Business Advisory",
+        "Bookkeeping"
+      ],
+      "service_areas": [
+        "New Lambton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Chartered accountant specialising in small business tax and accounting. Personal service and expert advice in New Lambton.",
+      "featured": false,
+      "slug": "neil-hocquard-chartered-accountant",
+      "secret_key": "ne-3cix3lgk",
+      "last_verified": "2026-06-08",
+      "google_search": "Neil Hocquard Chartered Accountant accountant New Lambton NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "H&R Block Newcastle City",
+      "credentials": "Accounting Practice",
+      "address": "Shop 3, 81-85 Hunter Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4914 6700",
+      "email": "newcastlecity@hrblock.com.au",
+      "website": "https://hrblock.com.au",
+      "services": [
+        "Personal Tax Returns",
+        "Business Tax",
+        "BAS & GST",
+        "Investment Properties",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:30pm, Sat 9:00am-1:00pm",
+      "description": "National tax specialists with Newcastle City office. Individual and business tax returns, investment property tax, and SMSF advice.",
+      "featured": false,
+      "slug": "h-r-block-newcastle-city",
+      "secret_key": "hr-9rshx7qa",
+      "last_verified": "2026-06-08",
+      "google_search": "H&R Block Newcastle City accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "GC Accountants",
+      "credentials": "Accounting Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 8700",
+      "email": "",
+      "website": "https://gcaccountants.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Accounting",
+        "BAS & GST",
+        "Business Advisory",
+        "Bookkeeping",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Local Newcastle accountants providing tax and business advisory services to individuals and businesses.",
+      "featured": false,
+      "slug": "gc-accountants",
+      "secret_key": "gc-ksr2o0qv",
+      "last_verified": "2026-06-08",
+      "google_search": "GC Accountants accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "Newcastle Accountants",
+      "credentials": "Accounting Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 3100",
+      "email": "",
+      "website": "https://newcastle-accountants.com.au",
+      "services": [
+        "Business Accounting",
+        "Tax Returns",
+        "BAS & GST",
+        "Business Advisory",
+        "Bookkeeping"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Independent Newcastle accounting practice. Specialists in small business accounting, tax returns, and business advisory.",
+      "featured": false,
+      "slug": "newcastle-accountants",
+      "secret_key": "ne-la94lcb1",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Accountants accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "Chan & Naylor Newcastle",
+      "credentials": "Accounting Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 250 855",
+      "email": "",
+      "website": "https://chan-naylor.com.au",
+      "services": [
+        "Property Tax",
+        "Investment Property",
+        "SMSF",
+        "Tax Planning",
+        "Business Structures",
+        "Asset Protection"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Specialists in property investment accounting, SMSF, and wealth creation strategies. National firm with Newcastle presence.",
+      "featured": false,
+      "slug": "chan-naylor-newcastle",
+      "secret_key": "ch-ynzihtgv",
+      "last_verified": "2026-06-08",
+      "google_search": "Chan & Naylor Newcastle accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "William Buck Newcastle",
+      "credentials": "Accounting Practice",
+      "address": "Level 6, 251 Wharf Road, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 4211",
+      "email": "",
+      "website": "https://williambuck.com",
+      "services": [
+        "Audit & Assurance",
+        "Tax Planning",
+        "Business Advisory",
+        "Corporate Finance",
+        "Restructuring"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "National mid-tier firm with Newcastle office. Strong reputation in audit, tax, and advisory for medium and large businesses.",
+      "featured": false,
+      "slug": "william-buck-newcastle",
+      "secret_key": "wi-tn3p8rzg",
+      "last_verified": "2026-06-08",
+      "google_search": "William Buck Newcastle accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "RSM Australia Newcastle",
+      "credentials": "Accounting Practice",
+      "address": "Level 5, 251 Wharf Road, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4926 5000",
+      "email": "",
+      "website": "https://rsm.com.au",
+      "services": [
+        "Audit",
+        "Tax & Compliance",
+        "Business Advisory",
+        "Corporate Finance",
+        "Insolvency & Restructuring"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "International accounting network with Newcastle office. Full range of accounting, audit, and advisory services.",
+      "featured": false,
+      "slug": "rsm-australia-newcastle",
+      "secret_key": "rs-ibh6bit0",
+      "last_verified": "2026-06-08",
+      "google_search": "RSM Australia Newcastle accountant Newcastle NSW",
+      "registered_tax_agent": true
+    }
+  ]
+}

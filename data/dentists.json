@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "category": "dentists",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "King Street Dental",
+      "credentials": "Dental Practice",
+      "address": "255 King Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 4143",
+      "email": "info@kingstreetdental.com.au",
+      "website": "https://kingstreetdental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Emergency Dental",
+        "Orthodontics",
+        "Invisalign",
+        "Wisdom Tooth Removal",
+        "Dental Implants",
+        "Dentures"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Sun 7:00am-8:00pm",
+      "description": "HCF & CBHS preferred provider. Led by Dr Singh with 30+ years experience. Wheelchair accessible.",
+      "featured": true,
+      "slug": "king-street-dental",
+      "secret_key": "ki-qumpmhs4",
+      "last_verified": "2026-06-08",
+      "google_search": "King Street Dental dentist Newcastle NSW",
+      "emergency_dental": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Boulton Dental",
+      "credentials": "Dental Practice",
+      "address": "202 Glebe Road, Merewether NSW 2291",
+      "suburb": "Merewether",
+      "phone": "(02) 4961 6300",
+      "email": "",
+      "website": "https://boultondental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Emergency Dental",
+        "Children's Dentistry",
+        "Bioclear Veneers",
+        "Teeth Whitening",
+        "Invisalign Go",
+        "Implants"
+      ],
+      "service_areas": [
+        "Merewether",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm, Sat by appointment",
+      "description": "Award-winning Merewether practice. First in NSW to achieve practice accreditation across six healthcare standards. Afterpay and Zip Pay available.",
+      "featured": true,
+      "slug": "boulton-dental",
+      "secret_key": "bo-9pj96arb",
+      "last_verified": "2026-06-08",
+      "google_search": "Boulton Dental dentist Merewether NSW",
+      "emergency_dental": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Newcastle Dental Care",
+      "credentials": "Dental Practice",
+      "address": "161 King Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 4287",
+      "email": "info@newcastledentalcare.com.au",
+      "website": "https://www.newcastledentalcare.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Emergency Dental",
+        "Family Dentistry",
+        "Teeth Whitening",
+        "Crowns & Bridges"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:30pm, Wed till 7:30pm",
+      "description": "Family dental clinic on King Street. Extended Wednesday hours. Comprehensive care for all ages.",
+      "featured": false,
+      "slug": "newcastle-dental-care",
+      "secret_key": "ne-5lm6ylvu",
+      "last_verified": "2026-06-08",
+      "google_search": "Newcastle Dental Care dentist Newcastle NSW",
+      "emergency_dental": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Profilo Dental Newcastle",
+      "credentials": "Dental Practice",
+      "address": "Suite 1, 19 Honeysuckle Drive, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "",
+      "website": "https://profilodental.com.au",
+      "services": [
+        "Cosmetic Dentistry",
+        "Invisalign",
+        "Teeth Whitening",
+        "Veneers",
+        "General Dentistry"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "By appointment",
+      "description": "Modern cosmetic dental practice at Honeysuckle. Specialising in smile design, Invisalign, and premium cosmetic procedures.",
+      "featured": true,
+      "slug": "profilo-dental-newcastle",
+      "secret_key": "pr-hf9q84no",
+      "last_verified": "2026-06-08",
+      "google_search": "Profilo Dental Newcastle dentist Newcastle NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
+    },
+    {
+      "name": "Supercare Dental & Cosmetics Kotara",
+      "credentials": "Dental Practice",
+      "address": "Shop 2131, Westfield Kotara, Kotara NSW 2289",
+      "suburb": "Kotara",
+      "phone": "(02) 4910 3839",
+      "email": "",
+      "website": "https://supercaredental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Invisalign",
+        "Root Canal",
+        "Emergency Dental"
+      ],
+      "service_areas": [
+        "Kotara",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:30pm, Sat 9:00am-3:00pm",
+      "description": "Budget-friendly dental care in Westfield Kotara. Wide range of services from urgent root canals to Invisalign treatments.",
+      "featured": false,
+      "slug": "supercare-dental-cosmetics-kotara",
+      "secret_key": "su-mefm928e",
+      "last_verified": "2026-06-08",
+      "google_search": "Supercare Dental & Cosmetics Kotara dentist Kotara NSW",
+      "emergency_dental": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Redhead Family Dental",
+      "credentials": "Dental Practice",
+      "address": "48 Cowlishaw Street, Redhead NSW 2290",
+      "suburb": "Redhead",
+      "phone": "(02) 4944 8829",
+      "email": "",
+      "website": "https://redheadfamilydental.com.au",
+      "services": [
+        "Family Dentistry",
+        "General Dentistry",
+        "Children's Dentistry",
+        "Emergency Dental",
+        "Preventive Care"
+      ],
+      "service_areas": [
+        "Redhead",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Modern family dental practice in Redhead committed to quality care for the whole family. Comfortable modern facility.",
+      "featured": false,
+      "slug": "redhead-family-dental",
+      "secret_key": "re-gnvfg3f8",
+      "last_verified": "2026-06-08",
+      "google_search": "Redhead Family Dental dentist Redhead NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
+    },
+    {
+      "name": "Bay Arcade Dental",
+      "credentials": "Dental Practice",
+      "address": "Suite 10B, 478 The Esplanade, Warners Bay NSW 2282",
+      "suburb": "Warners Bay",
+      "phone": "(02) 4948 8589",
+      "email": "",
+      "website": "https://bayarcadedental.com.au",
+      "services": [
+        "General Dentistry",
+        "Family Dentistry",
+        "Cosmetic Dentistry",
+        "Children's Dentistry",
+        "Preventive Care"
+      ],
+      "service_areas": [
+        "Warners Bay",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Warm and friendly dental practice at Warners Bay. Focus on patient education and informed decision-making.",
+      "featured": false,
+      "slug": "bay-arcade-dental",
+      "secret_key": "ba-gr29hw7d",
+      "last_verified": "2026-06-08",
+      "google_search": "Bay Arcade Dental dentist Warners Bay NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
+    },
+    {
+      "name": "Maple Dental The Junction",
+      "credentials": "Dental Practice",
+      "address": "104 Darby Street, Cooks Hill NSW 2300",
+      "suburb": "Cooks Hill",
+      "phone": "(02) 4929 5000",
+      "email": "",
+      "website": "https://mapledental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Family Dentistry",
+        "Emergency Dental",
+        "Orthodontics"
+      ],
+      "service_areas": [
+        "Cooks Hill",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Popular practice serving The Junction and Merewether. Family-friendly environment with experienced dental team.",
+      "featured": false,
+      "slug": "maple-dental-the-junction",
+      "secret_key": "ma-z7po4ziy",
+      "last_verified": "2026-06-08",
+      "google_search": "Maple Dental The Junction dentist Cooks Hill NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
+    },
+    {
+      "name": "Honeysuckle Dental",
+      "credentials": "Dental Practice",
+      "address": "2/19 Honeysuckle Drive, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 7700",
+      "email": "",
+      "website": "https://honeysucklental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Teeth Whitening",
+        "Veneers",
+        "Invisalign"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:30pm",
+      "description": "Waterfront dental practice at Honeysuckle. Modern equipment and techniques in a relaxed harbour-side setting.",
+      "featured": false,
+      "slug": "honeysuckle-dental",
+      "secret_key": "ho-acd5cw1h",
+      "last_verified": "2026-06-08",
+      "google_search": "Honeysuckle Dental dentist Newcastle NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
+    },
+    {
+      "name": "Cosmopolitan Dental Centre",
+      "credentials": "Dental Practice",
+      "address": "318 Hunter Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4927 7788",
+      "email": "",
+      "website": "https://cosmodental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Emergency Dental",
+        "Orthodontics",
+        "Dental Implants"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm",
+      "description": "Long-established Newcastle City practice offering comprehensive dental health services. Experienced team covering all aspects of dental care.",
+      "featured": false,
+      "slug": "cosmopolitan-dental-centre",
+      "secret_key": "co-q65d4gjt",
+      "last_verified": "2026-06-08",
+      "google_search": "Cosmopolitan Dental Centre dentist Newcastle NSW",
+      "emergency_dental": true,
+      "accepting_patients": true
+    }
+  ]
+}

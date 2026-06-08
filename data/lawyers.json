@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "category": "lawyers",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "Fourtree Lawyers Newcastle",
+      "credentials": "Legal Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 529 444",
+      "email": "",
+      "website": "https://fourtreelawyers.com.au",
+      "services": [
+        "Criminal Law",
+        "Traffic Law",
+        "Family Law",
+        "Wills & Estates",
+        "Employment Law",
+        "Heavy Vehicle Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:30pm, 24/7 for emergencies",
+      "description": "24/7 legal assistance. Specialists in criminal, traffic, and family law across Newcastle and the Hunter region.",
+      "featured": true,
+      "slug": "fourtree-lawyers-newcastle",
+      "secret_key": "fo-omc4g1bf",
+      "last_verified": "2026-06-08",
+      "google_search": "Fourtree Lawyers Newcastle lawyer Newcastle NSW",
+      "practice_areas": [
+        "Criminal Law",
+        "Traffic Law",
+        "Family Law",
+        "Wills & Estates",
+        "Employment Law",
+        "Heavy Vehicle Law"
+      ]
+    },
+    {
+      "name": "Charlestown Law Firm",
+      "credentials": "Legal Practice",
+      "address": "2/169 Pacific Highway, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "(02) 4942 1212",
+      "email": "",
+      "website": "https://charlestownlawfirm.com.au",
+      "services": [
+        "Family Law",
+        "Criminal Law",
+        "Commercial Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Property Law"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Established in Newcastle since 1990. Comprehensive legal advice in family, criminal, commercial, conveyancing, and estate matters.",
+      "featured": true,
+      "slug": "charlestown-law-firm",
+      "secret_key": "ch-bdw53rz8",
+      "last_verified": "2026-06-08",
+      "google_search": "Charlestown Law Firm lawyer Charlestown NSW",
+      "practice_areas": [
+        "Family Law",
+        "Criminal Law",
+        "Commercial Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Property Law"
+      ]
+    },
+    {
+      "name": "Braye Cragg Solicitors",
+      "credentials": "Legal Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 7002",
+      "email": "",
+      "website": "https://brayecragg.com.au",
+      "services": [
+        "Personal Injury",
+        "Criminal Law",
+        "Family Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Commercial Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Experienced Newcastle solicitors offering personal injury, criminal, family, and commercial legal services.",
+      "featured": false,
+      "slug": "braye-cragg-solicitors",
+      "secret_key": "br-em6x7ock",
+      "last_verified": "2026-06-08",
+      "google_search": "Braye Cragg Solicitors lawyer Newcastle NSW",
+      "practice_areas": [
+        "Personal Injury",
+        "Criminal Law",
+        "Family Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Commercial Law"
+      ]
+    },
+    {
+      "name": "Orbell Family Lawyers",
+      "credentials": "Legal Practice",
+      "address": "2 Dick Street, Newcastle West NSW 2302",
+      "suburb": "Newcastle West",
+      "phone": "(02) 4929 6600",
+      "email": "",
+      "website": "https://orbellfamilylawyers.com.au",
+      "services": [
+        "Family Law",
+        "Divorce",
+        "Property Settlements",
+        "Parenting Arrangements",
+        "De Facto Relationships"
+      ],
+      "service_areas": [
+        "Newcastle West",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Specialists in family, relationship and divorce law. Compassionate and experienced representation for Newcastle families.",
+      "featured": false,
+      "slug": "orbell-family-lawyers",
+      "secret_key": "or-l9nrwtd8",
+      "last_verified": "2026-06-08",
+      "google_search": "Orbell Family Lawyers lawyer Newcastle West NSW",
+      "practice_areas": [
+        "Family Law",
+        "Divorce",
+        "Property Settlements",
+        "Parenting Arrangements",
+        "De Facto Relationships"
+      ]
+    },
+    {
+      "name": "Ann Legal",
+      "credentials": "Legal Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4086 6766",
+      "email": "admin@annlegal.com.au",
+      "website": "https://annlegal.com.au",
+      "services": [
+        "Family Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Property Law",
+        "Commercial Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Boutique Newcastle law firm offering personalised legal services in family law, conveyancing, and wills & estates.",
+      "featured": false,
+      "slug": "ann-legal",
+      "secret_key": "an-8f7mx24p",
+      "last_verified": "2026-06-08",
+      "google_search": "Ann Legal lawyer Newcastle NSW",
+      "practice_areas": [
+        "Family Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Property Law",
+        "Commercial Law"
+      ]
+    },
+    {
+      "name": "LY Lawyers Newcastle",
+      "credentials": "Legal Practice",
+      "address": "Level 1, 19 Darby Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 595 299",
+      "email": "",
+      "website": "https://lylawyers.com.au",
+      "services": [
+        "Criminal Law",
+        "Traffic Law",
+        "Drug Offences",
+        "Domestic Violence",
+        "Assault",
+        "Fraud"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Criminal law specialists with Newcastle CBD offices. Experienced defence lawyers for all criminal and traffic matters.",
+      "featured": false,
+      "slug": "ly-lawyers-newcastle",
+      "secret_key": "ly-h842y03g",
+      "last_verified": "2026-06-08",
+      "google_search": "LY Lawyers Newcastle lawyer Newcastle NSW",
+      "practice_areas": [
+        "Criminal Law",
+        "Traffic Law",
+        "Drug Offences",
+        "Domestic Violence",
+        "Assault",
+        "Fraud"
+      ]
+    },
+    {
+      "name": "Lambton Law Solicitors",
+      "credentials": "Legal Practice",
+      "address": "Lambton NSW 2299",
+      "suburb": "Lambton",
+      "phone": "(02) 4952 1222",
+      "email": "",
+      "website": "https://lambtonlaw.com.au",
+      "services": [
+        "Criminal Law",
+        "Family Law",
+        "Wills & Estate Planning",
+        "Conveyancing",
+        "Probate",
+        "Civil Law"
+      ],
+      "service_areas": [
+        "Lambton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Established 2007. Trusted Newcastle solicitors serving Lambton and surrounding suburbs.",
+      "featured": false,
+      "slug": "lambton-law-solicitors",
+      "secret_key": "la-xkh5os6u",
+      "last_verified": "2026-06-08",
+      "google_search": "Lambton Law Solicitors lawyer Lambton NSW",
+      "practice_areas": [
+        "Criminal Law",
+        "Family Law",
+        "Wills & Estate Planning",
+        "Conveyancing",
+        "Probate",
+        "Civil Law"
+      ]
+    },
+    {
+      "name": "O'Brien Winter Partners",
+      "credentials": "Legal Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 3995",
+      "email": "",
+      "website": "https://owplaw.com.au",
+      "services": [
+        "Criminal Law",
+        "Traffic Law",
+        "Family Law",
+        "Wills & Estates",
+        "Conveyancing",
+        "Commercial Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Full-service Newcastle law firm with decades of combined experience across all major practice areas.",
+      "featured": false,
+      "slug": "o-brien-winter-partners",
+      "secret_key": "ob-qv4xuobc",
+      "last_verified": "2026-06-08",
+      "google_search": "O'Brien Winter Partners lawyer Newcastle NSW",
+      "practice_areas": [
+        "Criminal Law",
+        "Traffic Law",
+        "Family Law",
+        "Wills & Estates",
+        "Conveyancing",
+        "Commercial Law"
+      ]
+    },
+    {
+      "name": "Attwaters Solicitors",
+      "credentials": "Legal Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4926 2255",
+      "email": "",
+      "website": "https://attwaters.com.au",
+      "services": [
+        "Family Law",
+        "Property Law",
+        "Conveyancing",
+        "De Facto Relationships",
+        "Parenting Disputes"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Focused on family and property law. Experienced solicitors for divorce, property settlements, and parenting arrangements.",
+      "featured": false,
+      "slug": "attwaters-solicitors",
+      "secret_key": "at-b9pb1fn1",
+      "last_verified": "2026-06-08",
+      "google_search": "Attwaters Solicitors lawyer Newcastle NSW",
+      "practice_areas": [
+        "Family Law",
+        "Property Law",
+        "Conveyancing",
+        "De Facto Relationships",
+        "Parenting Disputes"
+      ]
+    },
+    {
+      "name": "Coutts Legal Newcastle",
+      "credentials": "Legal Practice",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 268 887",
+      "email": "",
+      "website": "https://couttslegal.com.au",
+      "services": [
+        "Conveyancing",
+        "Property Law",
+        "Family Law",
+        "Wills & Estates",
+        "Business Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Fixed-fee solicitors in Newcastle. Transparent pricing for conveyancing, family law, and business legal services.",
+      "featured": false,
+      "slug": "coutts-legal-newcastle",
+      "secret_key": "co-o5ptvphv",
+      "last_verified": "2026-06-08",
+      "google_search": "Coutts Legal Newcastle lawyer Newcastle NSW",
+      "practice_areas": [
+        "Conveyancing",
+        "Property Law",
+        "Family Law",
+        "Wills & Estates",
+        "Business Law"
+      ]
+    }
+  ]
+}

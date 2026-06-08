@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "category": "electricians",
+    "location": "Newcastle NSW",
+    "last_updated": "2026-06-08",
+    "total": 10
+  },
+  "listings": [
+    {
+      "name": "Insight Electrical & Data",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0431 514 436",
+      "email": "josh@insight-electrical.com.au",
+      "website": "https://insight-electrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Data & Communications",
+        "Solar Installation",
+        "Safety Inspections",
+        "Emergency Repairs"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Licensed electricians serving all Newcastle suburbs. Residential and commercial specialists with data cabling and solar expertise.",
+      "featured": false,
+      "slug": "insight-electrical-data",
+      "secret_key": "in-68zqy9tf",
+      "last_verified": "2026-06-08",
+      "google_search": "Insight Electrical & Data electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "DMP Electrical Contractors",
+      "credentials": "Licensed Electrician",
+      "address": "Lake Macquarie NSW 2280",
+      "suburb": "Lake Macquarie",
+      "phone": "0428 935 018",
+      "email": "",
+      "website": "https://dmpelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Level 2 ASP",
+        "Solar",
+        "Air Conditioning",
+        "Safety Inspections"
+      ],
+      "service_areas": [
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Family-owned, NSW Level 2 ASP accredited with 20+ years experience serving Newcastle, Lake Macquarie, Port Stephens, Maitland and Singleton.",
+      "featured": false,
+      "slug": "dmp-electrical-contractors",
+      "secret_key": "dm-rgjixdn9",
+      "last_verified": "2026-06-08",
+      "google_search": "DMP Electrical Contractors electrician Lake Macquarie NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "AMCM Electrical",
+      "credentials": "Licensed Electrician",
+      "address": "Whitebridge NSW 2290",
+      "suburb": "Whitebridge",
+      "phone": "0449 634 794",
+      "email": "",
+      "website": "https://amcmelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Switchboard Upgrades",
+        "Safety Inspections",
+        "Solar",
+        "Air Conditioning"
+      ],
+      "service_areas": [
+        "Whitebridge",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Licensed and insured serving Newcastle and Lake Macquarie since 2013. Fully licensed, insured, and committed to quality work.",
+      "featured": true,
+      "slug": "amcm-electrical",
+      "secret_key": "am-d7bhirkv",
+      "last_verified": "2026-06-08",
+      "google_search": "AMCM Electrical electrician Whitebridge NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "AAA Electrical Newcastle",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0418 493 320",
+      "email": "",
+      "website": "https://aaaelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Safety Inspections",
+        "Switchboard Upgrades"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Established 1986. Over 35 years delivering high-quality electrical services to domestic and commercial customers in and around Newcastle.",
+      "featured": false,
+      "slug": "aaa-electrical-newcastle",
+      "secret_key": "aa-d7yftfx3",
+      "last_verified": "2026-06-08",
+      "google_search": "AAA Electrical Newcastle electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "56 Electrical",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0403 261 256",
+      "email": "",
+      "website": "https://56electrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Renovations",
+        "Switchboard Upgrades",
+        "Safety Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "20+ years industry experience. Residential upgrades to large construction projects.",
+      "featured": false,
+      "slug": "56-electrical",
+      "secret_key": "el-ad2j5z8e",
+      "last_verified": "2026-06-08",
+      "google_search": "56 Electrical electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "Elevated Electrical & Automation",
+      "credentials": "Licensed Electrician",
+      "address": "12/48 Oakdale Road, Gateshead NSW 2290",
+      "suburb": "Gateshead",
+      "phone": "0497 046 823",
+      "email": "admin@elevatedelectrical.com.au",
+      "website": "https://elevatedelectrical.com.au",
+      "services": [
+        "Level 2 ASP",
+        "Emergency Electrical",
+        "Residential",
+        "Commercial",
+        "Automation",
+        "Solar"
+      ],
+      "service_areas": [
+        "Gateshead",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm, 24/7 Emergency",
+      "description": "Level 2 ASP accredited across all four categories. 16+ years experience. 24/7 emergency service.",
+      "featured": true,
+      "slug": "elevated-electrical-automation",
+      "secret_key": "el-1ahcyicq",
+      "last_verified": "2026-06-08",
+      "google_search": "Elevated Electrical & Automation electrician Gateshead NSW",
+      "emergency_24_7": true,
+      "licensed": true
+    },
+    {
+      "name": "KGB Electrical",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4944 9988",
+      "email": "",
+      "website": "https://kgbelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Industrial",
+        "Switchboard Upgrades",
+        "Safety Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Trusted Newcastle electrical contractor serving residential and commercial clients across Newcastle and Lake Macquarie.",
+      "featured": false,
+      "slug": "kgb-electrical",
+      "secret_key": "kg-ql8fec9y",
+      "last_verified": "2026-06-08",
+      "google_search": "KGB Electrical electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "Maxx Electrical",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 2000",
+      "email": "",
+      "website": "https://maxxelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Renovations",
+        "Air Conditioning",
+        "Safety Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Experienced and reliable Newcastle electricians. Serving Charlestown, Hamilton, and surrounding suburbs.",
+      "featured": false,
+      "slug": "maxx-electrical",
+      "secret_key": "ma-6el4n8uu",
+      "last_verified": "2026-06-08",
+      "google_search": "Maxx Electrical electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "Full Circle Electrics",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0414 800 900",
+      "email": "",
+      "website": "https://fullcircleelectrics.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Lighting",
+        "Air Conditioning",
+        "Solar",
+        "Safety Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Full-service electrical contractor covering Newcastle, Charlestown, Wickham, Hamilton, and Lambton.",
+      "featured": false,
+      "slug": "full-circle-electrics",
+      "secret_key": "fu-4om51y9m",
+      "last_verified": "2026-06-08",
+      "google_search": "Full Circle Electrics electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "SKE Electrical",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4940 0200",
+      "email": "",
+      "website": "https://ske.com.au",
+      "services": [
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Residential",
+        "Data & Comms",
+        "Energy Management"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Expert electricians in Newcastle with extensive commercial and industrial experience alongside residential services.",
+      "featured": false,
+      "slug": "ske-electrical",
+      "secret_key": "sk-zgntvv1m",
+      "last_verified": "2026-06-08",
+      "google_search": "SKE Electrical electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    }
+  ]
+}
