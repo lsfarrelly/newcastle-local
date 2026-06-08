@@ -273,21 +273,21 @@ function applyFilters() {
     if (term) { const hay=[l.name,l.suburb,l.address,...l.specialties,l.description].join(' ').toLowerCase(); if(!hay.includes(term)) return false; }
     if (suburb && l.suburb!==suburb) return false;
     if (chkTel && !l.telehealth) return false;
-    if (chkAcc && !l.accepting) return false;
+    if (chkAcc && l.status !== "accepting") return false;
     for (const f of activeFilters) {
       if (f==='telehealth' && !l.telehealth) return false;
-      if (f==='accepting' && !l.accepting) return false;
+      if (f==='accepting' && l.status !== 'accepting') return false;
       if (!l.specialties.some(s=>s.toLowerCase().includes(f.toLowerCase())) && !l.referral_types.some(r=>r.toLowerCase().includes(f.toLowerCase()))) return false;
     }
     return true;
   });
-  if (sort==='accepting') list.sort((a,b)=>(b.accepting?1:0)-(a.accepting?1:0));
+  if (sort==='accepting') list.sort((a,b)=>(b.status==='accepting'?1:0)-(a.status==='accepting'?1:0));
   else if (sort==='telehealth') list.sort((a,b)=>(b.telehealth?1:0)-(a.telehealth?1:0));
   else list.sort((a,b)=>a.name.localeCompare(b.name));
   document.getElementById('listingsContainer').innerHTML = list.length ? list.map(renderCard).join('') : '<div class="no-results"><h3>No results found</h3><p>Try adjusting your filters.</p></div>';
   document.getElementById('resultsCount').textContent = list.length;
   document.getElementById('statTotal').textContent = list.length;
-  document.getElementById('statAccepting').textContent = list.filter(l=>l.accepting).length;
+  document.getElementById('statAccepting').textContent = list.filter(l=>l.status==='accepting').length;
 }
 function toggleChip(el) { const f=el.dataset.filter; el.classList.toggle('active'); activeFilters[el.classList.contains('active')?'add':'delete'](f); applyFilters(); }
 function clearFilters() { activeFilters.clear(); document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active')); document.getElementById('searchInput').value=''; document.getElementById('suburbFilter').value=''; document.getElementById('chkTelehealth').checked=false; document.getElementById('chkAccepting').checked=false; applyFilters(); }
