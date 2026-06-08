@@ -3,12 +3,8 @@
 // Validates the secret key and automatically updates data/psychologists.json
 // via the GitHub API, triggering a Netlify redeploy. Zero manual steps needed.
 //
-// Required Netlify environment variable:
-//   GITHUB_TOKEN  — a GitHub Fine-Grained PAT with Contents: Read & Write
-//                   for the newcastle-local repo.
-//                   Create at: github.com → Settings → Developer settings →
-//                   Personal access tokens → Fine-grained tokens
-//
+// Required Netlify env var:
+//   GITHUB_TOKEN  — Fine-Grained PAT with Contents: Read & Write
 // Optional:
 //   GITHUB_REPO   — defaults to "lsfarrelly/newcastle-local"
 //   GITHUB_BRANCH — defaults to "main"
@@ -33,17 +29,15 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: "Method not allowed" };
   }
 
-  // ── Parse body ──────────────────────────────────────────────────────────────
   const params = new URLSearchParams(event.body);
   const fields = Object.fromEntries(params.entries());
-  const { slug, key, listing_name, accepting, telehealth,
+  const { slug, key, listing_name, status, telehealth,
           phone, email, website, hours, description, notes } = fields;
 
   if (!slug || !key) {
     return { statusCode: 400, body: "Missing slug or key" };
   }
 
-  // ── Validate secret key ─────────────────────────────────────────────────────
   if (SECRET_KEYS[slug] !== key) {
     return {
       statusCode: 403,
@@ -62,7 +56,6 @@ h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14p
 
   const name = listing_name || slug;
 
-  // ── Update JSON via GitHub API ──────────────────────────────────────────────
   const GITHUB_TOKEN  = process.env.GITHUB_TOKEN;
   const REPO          = process.env.GITHUB_REPO   || "lsfarrelly/newcastle-local";
   const BRANCH        = process.env.GITHUB_BRANCH || "main";
@@ -79,22 +72,28 @@ h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14p
 
   if (GITHUB_TOKEN) {
     try {
-      // 1. Fetch current file + SHA
       const getRes  = await fetch(API_BASE, { headers: GH_HEADERS });
       const fileData = await getRes.json();
-
       if (!fileData.sha) throw new Error("Could not retrieve file SHA");
 
       const currentJson = JSON.parse(
         Buffer.from(fileData.content, "base64").toString("utf-8")
       );
 
-      // 2. Find listing and apply changes
       const idx = currentJson.listings.findIndex(l => l.slug === slug);
       if (idx !== -1) {
         const l = currentJson.listings[idx];
 
-        l.accepting  = (accepting  === "yes");
+        // 3-way status: "accepting" | "waitlist" | "hidden"
+        if (status === "accepting" || status === "waitlist" || status === "hidden") {
+          l.status   = status;
+          l.accepting = status === "accepting";
+        } else {
+          // Legacy: map old yes/no accepting field
+          if (fields.accepting === "yes") { l.status = "accepting"; l.accepting = true; }
+          else if (fields.accepting === "no") { l.status = "waitlist"; l.accepting = false; }
+        }
+
         l.telehealth = (telehealth === "yes");
 
         const changed = (val) => val && val !== "(unchanged)" && val.trim() !== "";
@@ -107,7 +106,6 @@ h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14p
         currentJson.meta.last_updated = new Date().toISOString().split("T")[0];
       }
 
-      // 3. Commit updated file back to GitHub
       const newContent = Buffer.from(
         JSON.stringify(currentJson, null, 2)
       ).toString("base64");
@@ -125,7 +123,6 @@ h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14p
 
       if (putRes.ok) {
         updateApplied = true;
-        console.log(`[update-listing] ✓ Updated ${slug} — Netlify redeploy triggered`);
       } else {
         const err = await putRes.text();
         console.error(`[update-listing] GitHub PUT failed: ${err}`);
@@ -134,12 +131,8 @@ h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14p
     } catch (err) {
       console.error(`[update-listing] GitHub API error: ${err.message}`);
     }
-  } else {
-    console.warn("[update-listing] GITHUB_TOKEN not set — changes were NOT saved automatically.");
-    console.warn(`[update-listing] Manual update needed for: ${slug} — accepting=${accepting}, telehealth=${telehealth}`);
   }
 
-  // ── Success response ────────────────────────────────────────────────────────
   const deployNote = updateApplied
     ? "Your listing will update automatically within about 60 seconds."
     : "Your changes have been submitted and will be reviewed within 48 hours.";
@@ -162,7 +155,6 @@ h1{font-size:22px;margin-bottom:10px;color:#1a1a1a}p{color:#7a756d;font-size:14p
   h1{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:12px;color:#1a1a1a}
   p{color:#7a756d;font-size:15px;line-height:1.7;margin-bottom:10px}
   a{color:#2d5f4e;font-weight:500;text-decoration:none}
-  .note{font-size:12px;color:#aaa;margin-top:8px}
 </style>
 </head>
 <body>

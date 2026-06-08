@@ -68,10 +68,11 @@ GOOGLE_ICON = """<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xml
 # ── PROFILE PAGE GENERATOR ───────────────────────────────────────────────────
 
 def generate_profile(l):
-    accepting_class = "open" if l["accepting"] else "waitlist"
-    accepting_text  = "✓ Accepting new clients" if l["accepting"] else "⏱ Currently on waitlist"
-    accepting_color = "#e8f5e9" if l["accepting"] else "#fff3e0"
-    accepting_tc    = "#2e7d32" if l["accepting"] else "#e65100"
+    status = l.get("status", "accepting" if l.get("accepting") else "waitlist")
+    accepting_class = "open" if status == "accepting" else "waitlist"
+    accepting_text  = "✓ Accepting new clients" if status == "accepting" else ("⏱ Currently on waitlist" if status == "waitlist" else "")
+    accepting_color = "#e8f5e9" if status == "accepting" else ("#fff3e0" if status == "waitlist" else "transparent")
+    accepting_tc    = "#2e7d32" if status == "accepting" else ("#e65100" if status == "waitlist" else "transparent")
 
     tags_html = "".join(f'<span class="tag">{s}</span>' for s in l["specialties"])
     if l["telehealth"]:
@@ -79,9 +80,10 @@ def generate_profile(l):
 
     ref_html = " · ".join(l["referral_types"])
 
-    website_btn = ""
+    website_btn = f'<a href="/profiles/psychologists/{l["slug"]}.html" class="btn-primary" style="display:inline-block;width:auto;padding:12px 28px;">View Profile</a>'
+    visit_website_btn = ""
     if l.get("website"):
-        website_btn = f'<a href="{l["website"]}" target="_blank" rel="noopener" class="btn-primary" style="display:inline-block;width:auto;padding:12px 28px;">Visit Website</a>'
+        visit_website_btn = f'<a href="{l["website"]}" target="_blank" rel="noopener" class="btn-secondary" style="display:inline-block;width:auto;padding:11px 28px;">Visit Website</a>'
 
     email_btn = ""
     if l.get("email"):
@@ -146,6 +148,8 @@ def generate_profile(l):
 
   .update-link {{ display: block; text-align: center; font-size: 11px; color: var(--muted); text-decoration: none; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--rule); }}
   .update-link:hover {{ color: var(--accent); }}
+  .delete-link {{ display: block; text-align: center; font-size: 11px; color: #c62828; text-decoration: none; margin-top: 8px; }}
+  .delete-link:hover {{ text-decoration: underline; }}
 
   @media (max-width: 768px) {{
     .profile-body {{ grid-template-columns: 1fr; }}
@@ -170,7 +174,7 @@ def generate_profile(l):
     <div class="profile-name">{l["name"]}</div>
     <div class="profile-credentials">{l["credentials"]}</div>
     <div class="profile-tags">{tags_html}</div>
-    <div class="profile-status">{accepting_text}</div>
+    {"<div class='profile-status'>" + accepting_text + "</div>" if accepting_text else ""}
   </div>
 </section>
 
@@ -219,6 +223,7 @@ def generate_profile(l):
         </a>
       </div>
       <a href="{update_url}" class="update-link">Are you the owner? Update your listing →</a>
+      <a href="/.netlify/functions/delete-listing?slug={l['slug']}&key={l['secret_key']}" style="display:block;text-align:center;font-size:11px;color:#c62828;text-decoration:none;margin-top:8px;">Remove this listing</a>
     </div>
   </aside>
 </div>
@@ -459,12 +464,13 @@ let activeFilters = new Set();
 function renderCard(l) {{
   const tags = l.specialties.slice(0,5).map(s=>`<span class="tag">${{s}}</span>`).join('');
   const telTag = l.telehealth ? `<span class="tag telehealth">Telehealth</span>` : '';
-  const badge = l.accepting
+  const status = l.status || (l.accepting ? "accepting" : "waitlist");
+  const badge = status === "accepting"
     ? `<span class="accepting-badge open">✓ Accepting</span>`
-    : `<span class="accepting-badge waitlist">⏱ Waitlist</span>`;
-  const websiteBtn = l.website
-    ? `<a href="${{l.website}}" target="_blank" rel="noopener" class="btn-primary">Visit Website</a>`
-    : `<a href="/profiles/psychologists/${{l.slug}}.html" class="btn-primary">View Profile</a>`;
+    : status === "waitlist"
+    ? `<span class="accepting-badge waitlist">⏱ Waitlist</span>`
+    : "";
+  const websiteBtn = `<a href="/profiles/psychologists/${{l.slug}}.html" class="btn-primary">View Profile</a>`;
   const googleUrl = `https://www.google.com/search?q=${{encodeURIComponent(l.google_search)}}`;
   const phoneEl = l.phone ? `<span>📞 ${{l.phone}}</span>` : '';
   const feeEl = l.fee_note ? `<span>💲 ${{l.fee_note}}</span>` : '';

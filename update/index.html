@@ -145,17 +145,12 @@
     <h2 class="section-title">Availability</h2>
 
     <div class="toggle-group">
-      <span class="toggle-label">Are you currently accepting new clients? *</span>
-      <div class="toggle-options">
-        <label class="opt-yes">
-          <input type="radio" name="accepting" value="yes" id="accYes">
-          <span></span>✓ Yes — accepting
-        </label>
-        <label class="opt-no">
-          <input type="radio" name="accepting" value="no" id="accNo">
-          <span></span>⏱ No — waitlist only
-        </label>
-      </div>
+      <span class="toggle-label">Availability status</span>
+      <select name="status" id="statusSelect" style="margin-top:8px;padding:10px 14px;border:1px solid #d4cfc6;border-radius:3px;font-family:'DM Sans',sans-serif;font-size:14px;width:100%;background:#fff;color:#1a1a1a;">
+        <option value="accepting">✓ Accepting new clients</option>
+        <option value="waitlist">⏱ Waitlist only</option>
+        <option value="hidden">— Don't show availability status</option>
+      </select>
     </div>
 
     <div class="toggle-group">
@@ -254,16 +249,21 @@ if (!listing) {
   document.getElementById('heroSub').textContent   = 'Changes reviewed within 48 hours then published.';
 
   // Pre-fill toggles from current data
-  document.getElementById(listing.accepting  ? 'accYes' : 'accNo').checked = true;
+  const statusVal = listing.status || (listing.accepting ? 'accepting' : 'waitlist');
+  const statusSel = document.getElementById('statusSelect');
+  if (statusSel) statusSel.value = statusVal;
   document.getElementById(listing.telehealth ? 'telYes' : 'telNo').checked = true;
 
   const banner = document.getElementById('acceptingBanner');
-  if (listing.accepting) {
+  if (statusVal === 'accepting') {
     banner.className   = 'accepting-banner open';
     banner.textContent = 'Current status: ✓ Accepting new clients';
+  } else if (statusVal === 'waitlist') {
+    banner.className   = 'accepting-banner closed';
+    banner.textContent = 'Current status: ⏱ Waitlist only';
   } else {
     banner.className   = 'accepting-banner closed';
-    banner.textContent = 'Current status: ⏱ Not accepting / waitlist only';
+    banner.textContent = 'Current status: — Not shown';
   }
 }
 
@@ -272,8 +272,8 @@ async function submitUpdate() {
   if (!listing) return;
 
   const btn         = document.getElementById('submitBtn');
-  const accepting   = document.querySelector('input[name="accepting"]:checked')?.value || 'yes';
-  const telehealth  = document.querySelector('input[name="telehealth"]:checked')?.value || 'yes';
+  const status     = document.getElementById('statusSelect')?.value || 'accepting';
+  const telehealth = document.querySelector('input[name="telehealth"]:checked')?.value || 'yes';
   const phone       = document.getElementById('phone').value.trim();
   const email       = document.getElementById('email').value.trim();
   const website     = document.getElementById('website').value.trim();
@@ -289,7 +289,7 @@ async function submitUpdate() {
       slug,
       key,
       listing_name:  listing.name,
-      accepting,
+      status,
       telehealth,
       phone:         phone       || '(unchanged)',
       email:         email       || '(unchanged)',

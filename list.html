@@ -140,8 +140,7 @@
     <h2>Submit your listing</h2>
     <p>All fields marked * are required. We'll email you when your listing is live. We don't share your contact details publicly without your permission.</p>
 
-    <!-- Netlify Forms: add name="listing-submission" and data-netlify="true" to go live -->
-    <form name="listing-submission" data-netlify="true" onsubmit="handleSubmit(event)">
+    <form name="listing-submission" data-netlify="true" method="POST" action="/.netlify/functions/submit-listing">
       <!-- Required by Netlify Forms -->
       <input type="hidden" name="form-name" value="listing-submission">
 
@@ -243,11 +242,7 @@
       </p>
     </form>
 
-    <div class="success-panel" id="successPanel">
-      <h3>✓ Submission received</h3>
-      <p>Thanks for getting in touch. We'll review your listing and have it live within 48 hours — we'll email you at the address you provided to confirm.</p>
-      <p style="margin-top:12px;"><a href="psychologists.html" style="color:var(--accent);font-weight:500;">Browse current listings →</a></p>
-    </div>
+
   </div>
 </section>
 
@@ -264,17 +259,6 @@
   </div>
 </footer>
 
-<script>
-function handleSubmit(e) {
-  // When deployed to Netlify, remove this function entirely —
-  // Netlify will handle the form submission natively and
-  // redirect to a thank-you page (or you can set action="/thank-you.html")
-  e.preventDefault();
-  document.querySelector('form').style.display = 'none';
-  const panel = document.getElementById('successPanel');
-  panel.style.display = 'block';
-  panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-</script>
+<!-- form handled by /.netlify/functions/submit-listing -->
 </body>
 </html>
