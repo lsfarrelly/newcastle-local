@@ -3,153 +3,155 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HealthSure Medical Centre Jesmond | Newcastle Local GPs</title>
+<title>HealthSure Medical Centre Jesmond — Newcastle GP | NewcastleLocal</title>
 <meta name="description" content="HealthSure Medical Centre Jesmond — GP practice in Jesmond, Newcastle NSW. Located in Stockland Mall Jesmond, HealthSure Medical Centre is a mixed billing practice covering all aspects of primary">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 <style>
-  :root{--cream:#FAF8F5;--warm-white:#F2EFE9;--sage:#7C9A7E;--sage-dark:#5A7A5C;--rust:#B5622C;--charcoal:#2C2C2C;--mid-grey:#6B6B6B;--light-grey:#D8D5CF;--radius:12px;--shadow:0 2px 12px rgba(0,0,0,0.07);}
-  *{box-sizing:border-box;margin:0;padding:0;}
-  body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--charcoal);}
-  a{color:inherit;text-decoration:none;}
-  nav{background:#fff;border-bottom:1px solid var(--warm-white);padding:0 24px;display:flex;align-items:center;gap:32px;height:60px;position:sticky;top:0;z-index:100;}
-  .nav-logo{font-family:'Playfair Display',serif;font-size:20px;}
-  .nav-links{display:flex;gap:24px;font-size:14px;font-weight:500;}
-  .nav-links a:hover{color:var(--sage-dark);}
-  .breadcrumb{max-width:860px;margin:16px auto 0;padding:0 24px;font-size:13px;color:var(--mid-grey);}
-  .breadcrumb a{color:var(--sage-dark);}
-  .breadcrumb span{margin:0 6px;}
-  .profile-body{max-width:860px;margin:24px auto 60px;padding:0 24px;}
-  .profile-header{background:linear-gradient(135deg,#e8f0e9,#f0ede8);border-radius:var(--radius);padding:32px;margin-bottom:24px;}
-  .profile-name{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,36px);line-height:1.2;margin-bottom:6px;}
-  .profile-suburb{font-size:15px;color:var(--mid-grey);margin-bottom:14px;}
-  .badge-row{display:flex;flex-wrap:wrap;gap:8px;}
-  .badge{font-size:12px;font-weight:600;padding:4px 10px;border-radius:10px;letter-spacing:0.3px;}
-  .badge-bulk{background:#d4edda;color:#1a6630;}
-  .badge-mixed{background:#fff3cd;color:#856404;}
-  .badge-telehealth{background:#cfe2ff;color:#084298;}
-  .badge-after-hours{background:#f8d7da;color:#842029;}
-  .badge-featured{background:#e2d9f3;color:#4a2c7d;}
-  .badge-new{background:#d1ecf1;color:#0c5460;}
-  .content-grid{display:grid;grid-template-columns:1fr 320px;gap:24px;}
-  @media(max-width:700px){.content-grid{grid-template-columns:1fr;}}
-  .card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;margin-bottom:20px;}
-  .card h2{font-family:'Playfair Display',serif;font-size:20px;margin-bottom:16px;}
-  .detail-row{display:flex;gap:12px;margin-bottom:12px;font-size:14px;align-items:flex-start;}
-  .detail-label{min-width:90px;font-weight:600;color:var(--mid-grey);}
-  .detail-row a{color:var(--sage-dark);}
-  .description{font-size:15px;line-height:1.7;color:var(--charcoal);}
-  .services-list{display:flex;flex-wrap:wrap;gap:7px;margin-top:4px;}
-  .svc-tag{font-size:12px;background:var(--warm-white);padding:4px 10px;border-radius:6px;}
-  .status-badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;}
-  .status-active{background:#d4edda;color:#1a6630;}
-  .status-inactive{background:#f8d7da;color:#842029;}
-  .btn{display:block;text-align:center;padding:11px 20px;border-radius:8px;font-size:14px;font-weight:600;font-family:inherit;cursor:pointer;transition:all 0.15s;margin-bottom:10px;}
-  .btn-primary{background:var(--sage);color:#fff;border:none;}
-  .btn-primary:hover{background:var(--sage-dark);}
-  .btn-outline{background:#fff;color:var(--charcoal);border:1px solid var(--light-grey);}
-  .btn-outline:hover{border-color:var(--sage);color:var(--sage-dark);}
-  .btn-danger{background:#fff;color:#842029;border:1px solid #f5c6cb;font-size:12px;padding:8px;}
-  .btn-danger:hover{background:#f8d7da;}
-  .owner-controls{display:none;margin-top:16px;padding-top:16px;border-top:1px solid var(--warm-white);}
-  .last-verified{font-size:12px;color:var(--mid-grey);margin-top:16px;}
+  .profile-hero{background:var(--ink);padding:56px 24px 64px;position:relative;overflow:hidden;}
+  .profile-hero::before{content:'';position:absolute;top:-60px;right:-60px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(45,95,78,0.15) 0%,transparent 70%);}
+  .profile-hero-inner{max-width:1100px;margin:0 auto;}
+  .profile-back{color:#888;font-size:13px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;margin-bottom:24px;transition:color 0.15s;}
+  .profile-back:hover{color:#fff;}
+  .profile-name{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,46px);color:#fff;line-height:1.1;margin-bottom:8px;}
+  .profile-suburb{color:#aaa;font-size:14px;margin-bottom:20px;}
+  .profile-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;}
+  .profile-status{display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border-radius:3px;font-size:13px;font-weight:600;}
+  .profile-body{max-width:1100px;margin:0 auto;padding:48px 24px;display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:start;}
+  .profile-section{margin-bottom:36px;}
+  .profile-section h2{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--rule);}
+  .profile-section p{font-size:15px;color:#444;line-height:1.8;margin-bottom:12px;}
+  .detail-card{background:var(--warm-white);border:1px solid var(--rule);border-radius:4px;padding:24px;position:sticky;top:80px;}
+  .detail-card h3{font-size:11px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;}
+  .detail-row{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--ink);margin-bottom:14px;line-height:1.5;}
+  .detail-icon{font-size:16px;flex-shrink:0;margin-top:1px;}
+  .detail-divider{border:none;border-top:1px solid var(--rule);margin:18px 0;}
+  .services-wrap{display:flex;flex-wrap:wrap;gap:8px;}
+  .btn-group{display:flex;flex-direction:column;gap:8px;margin-top:18px;}
+  .ext-link{display:block;text-align:center;font-size:11px;color:var(--muted);text-decoration:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--rule);}
+  .ext-link:hover{color:var(--accent);}
+  .owner-link{display:block;text-align:center;font-size:11px;color:var(--muted);text-decoration:none;margin-top:8px;}
+  .owner-link:hover{color:var(--accent);}
+  .delete-link{display:block;text-align:center;font-size:11px;color:#c62828;text-decoration:none;margin-top:8px;}
+  .delete-link:hover{text-decoration:underline;}
+  @media(max-width:768px){.profile-body{grid-template-columns:1fr;}.detail-card{position:static;}}
 </style>
 </head>
 <body>
 
-<nav>
-  <a href="/" class="nav-logo">Newcastle Local</a>
-  <div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/psychologists.html">Psychologists</a>
-    <a href="/plumbers.html">Plumbers</a>
-    <a href="/gps.html">GPs</a>
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/index.html" class="site-logo">Newcastle<span>Local</span></a>
+    <nav><ul class="site-nav">
+      <li><a href="/psychologists.html" style="color:#fff">Health</a></li>
+      <li><a href="/plumbers.html">Trades</a></li>
+      <li><a href="#">Legal</a></li>
+      <li><a href="#">Finance</a></li>
+      <li><a href="#">NDIS</a></li>
+      <li><a href="/list.html" style="color:var(--gold)">List Your Business</a></li>
+    </ul></nav>
   </div>
-</nav>
+</header>
 
-<div class="breadcrumb">
-  <a href="/">Home</a><span>›</span><a href="/gps.html">GPs</a><span>›</span>HealthSure Medical Centre Jesmond
+<div class="breadcrumb-bar">
+  <div class="breadcrumb-inner">
+    <a href="/index.html">Home</a><span>/</span>
+    <a href="/gps.html">GPs</a><span>/</span>
+    HealthSure Medical Centre Jesmond
+  </div>
 </div>
 
-<div class="profile-body" data-slug="healthsure-medical-centre-jesmond" data-key="hm-h2bhjo1m">
-
-  <div class="profile-header">
+<section class="profile-hero">
+  <div class="profile-hero-inner">
+    <a href="/gps.html" class="profile-back">&larr; Back to all GPs</a>
     <div class="profile-name">HealthSure Medical Centre Jesmond</div>
     <div class="profile-suburb">Jesmond, NSW</div>
-    <div class="badge-row">
-      <span class="badge badge-mixed">Mixed Billing</span>
-      <span class="badge badge-telehealth">Telehealth</span>
+    <div class="profile-tags">
+      <span class="tag" style="background:#e8f0ec;color:#2d5f4e;">Mixed Billing</span>
+      <span class="tag telehealth">Telehealth</span>
       
-      <span class="badge badge-new">Accepting New Patients</span>
+    </div>
+    <div class="profile-status" id="statusBadge" style="background:#e8f5e9;color:#2e7d32;">&#x2713; Accepting new patients</div>
+  </div>
+</section>
+
+<div class="profile-body" data-slug="healthsure-medical-centre-jesmond" data-key="hm-h2bhjo1m">
+  <div>
+    <div class="profile-section">
+      <h2>About HealthSure Medical Centre Jesmond</h2>
+      <p>Located in Stockland Mall Jesmond, HealthSure Medical Centre is a mixed billing practice covering all aspects of primary care. Bulk billing available for children under 16 and Centrelink concession holders aged 60+. Now offers ear microsuction (microsuction) on-site.</p>
+    </div>
+    <div class="profile-section">
+      <h2>Services</h2>
+      <div class="services-wrap"><span class="tag" style="font-size:13px;padding:5px 12px;">General Practice</span><span class="tag" style="font-size:13px;padding:5px 12px;">Chronic Disease Management</span><span class="tag" style="font-size:13px;padding:5px 12px;">Women's Health</span><span class="tag" style="font-size:13px;padding:5px 12px;">Men's Health</span><span class="tag" style="font-size:13px;padding:5px 12px;">Children's Health</span><span class="tag" style="font-size:13px;padding:5px 12px;">Ear Microsuction</span><span class="tag" style="font-size:13px;padding:5px 12px;">Preventive Health</span><span class="tag" style="font-size:13px;padding:5px 12px;">Overseas Student Health</span></div>
+    </div>
+    <div class="profile-section">
+      <h2>Hours &amp; Billing</h2>
+      <p><strong>Hours:</strong> Mon–Fri 8:00am–5:30pm, alternate Saturdays</p>
+      <p><strong>Billing:</strong> Mixed billing — bulk bill for children under 16 and Centrelink concession holders 60+</p>
     </div>
   </div>
-
-  <div class="content-grid">
-    <div>
-      <div class="card">
-        <h2>About This Practice</h2>
-        <p class="description">Located in Stockland Mall Jesmond, HealthSure Medical Centre is a mixed billing practice covering all aspects of primary care. Bulk billing available for children under 16 and Centrelink concession holders aged 60+. Now offers ear microsuction (microsuction) on-site.</p>
+  <aside>
+    <div class="detail-card">
+      <h3>Contact &amp; Details</h3>
+      <div class="detail-row"><span class="detail-icon">&#128205;</span>Level 1, Shop G01-G07, Stockland Mall, 28 Blue Gum Road, Jesmond NSW 2299</div>
+      <div class="detail-row"><span class="detail-icon">&#128222;</span><a href="tel:(02)49512700" style="color:var(--ink);text-decoration:none;">(02) 4951 2700</a></div>
+      <div class="detail-row"><span class="detail-icon">&#x2709;</span><a href="mailto:reception@hsmcjesmond.com.au" style="color:var(--accent);text-decoration:none;">reception@hsmcjesmond.com.au</a></div>
+      <div class="detail-row"><span class="detail-icon">&#127758;</span><a href="https://healthsuremc.com.au" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">healthsuremc.com.au</a></div>
+      <div class="detail-row"><span class="detail-icon">&#128336;</span>Mon–Fri 8:00am–5:30pm, alternate Saturdays</div>
+      <hr class="detail-divider">
+      <div class="btn-group">
+        <a href="https://healthsuremc.com.au" target="_blank" rel="noopener" class="btn-primary">Visit Website</a>
+        <a href="tel:(02)49512700" class="btn-secondary">Call (02) 4951 2700</a>
       </div>
-
-      <div class="card">
-        <h2>Services</h2>
-        <div class="services-list"><span class="svc-tag">General Practice</span><span class="svc-tag">Chronic Disease Management</span><span class="svc-tag">Women's Health</span><span class="svc-tag">Men's Health</span><span class="svc-tag">Children's Health</span><span class="svc-tag">Ear Microsuction</span><span class="svc-tag">Preventive Health</span><span class="svc-tag">Overseas Student Health</span></div>
-      </div>
-
-      <div class="card">
-        <h2>Contact &amp; Hours</h2>
-        <div class="detail-row"><span class="detail-label">Address</span><span>Level 1, Shop G01-G07, Stockland Mall, 28 Blue Gum Road, Jesmond NSW 2299</span></div>
-        <div class="detail-row"><span class="detail-label">Phone</span><a href="tel:(02)49512700">(02) 4951 2700</a></div>
-        <div class="detail-row"><span class="detail-label">Email</span><a href="mailto:reception@hsmcjesmond.com.au">reception@hsmcjesmond.com.au</a></div>
-        <div class="detail-row"><span class="detail-label">Website</span><a href="https://healthsuremc.com.au" target="_blank" rel="noopener">healthsuremc.com.au</a></div>
-        <div class="detail-row"><span class="detail-label">Hours</span><span>Mon–Fri 8:00am–5:30pm, alternate Saturdays</span></div>
-        <div class="detail-row"><span class="detail-label">Billing</span><span>Mixed billing — bulk bill for children under 16 and Centrelink concession holders 60+</span></div>
-      </div>
+      <a href="https://www.google.com/search?q=HealthSure+Medical+Centre+Jesmond" target="_blank" rel="noopener" class="ext-link">See on Google &rarr;</a>
+      <a href="#" class="owner-link" id="updateLink" style="display:none;">Update listing</a>
+      <a href="#" class="delete-link" id="deleteLink" style="display:none;">Remove listing</a>
     </div>
-
-    <div>
-      <div class="card">
-        <h2>Quick Actions</h2>
-        <a href="tel:(02)49512700" class="btn btn-primary">📞 Call Now</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=Level+1,+Shop+G01-G07,+Stockland+Mall,+28+Blue+Gum+Road,+Jesmond+NSW+2299'" target="_blank" class="btn btn-outline">📍 Get Directions</a>
-        <a href="https://healthsuremc.com.au" target="_blank" rel="noopener" class="btn btn-outline">🌐 Visit Website</a>
-        <a href="/gps.html" class="btn btn-outline">← Back to GPs</a>
-        <div class="last-verified">Last verified: 2026-06-08</div>
-        <div class="owner-controls" id="ownerControls">
-          <a href="/update/?slug=healthsure-medical-centre-jesmond&key=hm-h2bhjo1m&cat=gps" class="btn btn-outline">✏️ Update Listing</a>
-          <a href="/.netlify/functions/delete-listing?slug=healthsure-medical-centre-jesmond&key=hm-h2bhjo1m&cat=gps" class="btn btn-danger" onclick="return confirm('Remove this listing?')">🗑️ Remove Listing</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="detail-row"><span class="detail-label">Status</span><span class="status-badge status-active" id="statusBadge">Active</span></div>
-        <div class="detail-row"><span class="detail-label">Telehealth</span><span>Yes</span></div>
-        <div class="detail-row"><span class="detail-label">New Patients</span><span>Accepted</span></div>
-      </div>
-    </div>
-  </div>
+  </aside>
 </div>
 
+<footer>
+  <div class="footer-inner">
+    <a href="/index.html" style="font-family:'Playfair Display',serif;color:#fff;font-size:16px;text-decoration:none;">Newcastle<span style="color:var(--gold)">Local</span></a>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="/list.html">List Your Business</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact</a>
+    </div>
+    <div>&copy; 2025 NewcastleLocal &middot; GPs directory &middot; Data sourced from public records</div>
+  </div>
+</footer>
+
 <script>
-(function() {
-  const params = new URLSearchParams(window.location.search);
-  const urlKey = params.get('key');
-  const body = document.querySelector('.profile-body');
-  if (urlKey && urlKey === body.dataset.key) {
-    document.getElementById('ownerControls').style.display = 'block';
+(function(){
+  var params = new URLSearchParams(location.search);
+  var key = params.get('key');
+  var body = document.querySelector('.profile-body');
+  var slug = body.dataset.slug;
+  var dataKey = body.dataset.key;
+  if (key && key === dataKey) {
+    var base = 'https://splendid-salamander-8c08bf.netlify.app';
+    document.getElementById('updateLink').href = base + '/update/?slug=' + slug + '&key=' + key + '&cat=gps';
+    document.getElementById('deleteLink').href = base + '/.netlify/functions/delete-listing?slug=' + slug + '&key=' + key + '&cat=gps';
+    document.getElementById('updateLink').style.display = 'block';
+    document.getElementById('deleteLink').style.display = 'block';
   }
-  // Refresh status from JSON
   fetch('/data/gps.json?v=' + Date.now())
-    .then(r => r.json())
-    .then(d => {
-      const listing = d.listings.find(l => l.slug === body.dataset.slug);
-      if (listing) {
-        const badge = document.getElementById('statusBadge');
-        if (listing.status === 'active') { badge.textContent = 'Active'; badge.className = 'status-badge status-active'; }
-        else { badge.textContent = 'Inactive'; badge.className = 'status-badge status-inactive'; }
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      var listing = data.listings.find(function(l){ return l.slug === slug; });
+      if (!listing) return;
+      var badge = document.getElementById('statusBadge');
+      if (listing.accepting_new) {
+        badge.style.background = '#e8f5e9'; badge.style.color = '#2e7d32';
+        badge.innerHTML = '&#x2713; Accepting new patients';
+      } else {
+        badge.style.background = '#f5f5f5'; badge.style.color = '#888';
+        badge.innerHTML = 'Contact to confirm availability';
       }
-    });
+    }).catch(function(){});
 })();
 </script>
 </body>
