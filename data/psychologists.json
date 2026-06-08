@@ -3,7 +3,7 @@
     "category": "Psychologists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-08",
-    "total": 12
+    "total": 11
   },
   "listings": [
     {
@@ -237,39 +237,6 @@
       "hours": "Mon–Fri, some evenings",
       "description": "A boutique Newcastle West practice with a warm, collaborative approach. Particularly experienced in women's mental health, relationships, and life transitions.",
       "long_description": "Wildflower Psychology is a boutique practice in Newcastle West with a warm, collaborative approach to therapy. The team is particularly experienced in supporting women through mental health challenges, relationship difficulties, and major life transitions.\n\nTherapy is tailored to each individual, drawing on evidence-based approaches in a supportive, non-judgmental environment. Evening appointments are available for clients who cannot attend during standard business hours.\n\nTelehealth sessions are available, making the practice accessible to clients across the Hunter Region and NSW.",
-      "featured": false,
-      "status": "accepting"
-    },
-    {
-      "id": 8,
-      "slug": "eld-psychology",
-      "secret_key": "el-q2n8g5j6",
-      "name": "ELD Psychology",
-      "credentials": "Clinical Psychologists",
-      "address": "Suite 3, Level 1, 744 Hunter Street, Newcastle West NSW 2302",
-      "suburb": "Newcastle West",
-      "phone": "0448 721 866",
-      "email": null,
-      "website": null,
-      "google_search": "ELD Psychology Newcastle reviews",
-      "specialties": [
-        "Anxiety",
-        "Depression",
-        "Stress",
-        "Eating Disorders",
-        "OCD",
-        "Trauma & PTSD",
-        "Relationships"
-      ],
-      "referral_types": [
-        "MHCP",
-        "Private"
-      ],
-      "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Fri",
-      "description": "Clinical psychology services for adults across Newcastle, Lake Macquarie, and the Hunter region with a warm, evidence-based approach.",
-      "long_description": "ELD Psychology provides clinical psychology services to adults in the Newcastle, Lake Macquarie, and Hunter area. The practice has experience delivering therapies for a range of presentations including stress, anxiety, low mood and depression, eating disorders, OCD, post-traumatic stress, and relationship difficulties.\n\nEvidence-based treatments are used to help individuals identify and address the difficulties they are facing and obtain a sense of balance and wellbeing. The approach is warm and caring — listening to your story and working collaboratively to provide strategies and skills to overcome challenges.",
       "featured": false,
       "status": "accepting"
     },
