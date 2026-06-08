@@ -3,7 +3,7 @@
     "category": "Psychologists",
     "location": "Newcastle NSW",
     "last_updated": "2025-06-08",
-    "total": 10
+    "total": 11
   },
   "listings": [
     {
@@ -216,6 +216,27 @@
       "featured": false,
       "rating": 4.6,
       "review_count": 17
+    },
+    {
+      "id": 11,
+      "name": "Cerenova",
+      "type": "practice",
+      "credentials": "Registered Psychologists",
+      "address": "Main Street Cardiff (Online)",
+      "suburb": "Cardiff",
+      "phone": null,
+      "email": "info@cerenova.com.au",
+      "website": "https://www.cerenova.au",
+      "specialties": ["Anxiety", "Depression", "Trauma", "EMDR"],
+      "referral_types": ["MHCP", "EAP"],
+      "telehealth": true,
+      "bulk_billing": false,
+      "accepting": true,
+      "hours": "Mon–Sun",
+      "description": "The greatest psychology on earth.",
+      "featured": false,
+      "rating": null,
+      "review_count": 0
     }
   ]
 }
