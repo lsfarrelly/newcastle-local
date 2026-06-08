@@ -236,6 +236,12 @@ exports.handler = async (event) => {
   const specialtyList  = specialties ? specialties.split(',').map(s => s.trim()).filter(Boolean) : [];
   const referralList   = referral_types ? referral_types.split(',').map(s => s.trim()).filter(Boolean) : [];
 
+  // Normalise website URL — prepend https:// if no protocol present
+  let websiteUrl = (website || '').trim();
+  if (websiteUrl && !/^https?:\/\//i.test(websiteUrl)) {
+    websiteUrl = 'https://' + websiteUrl.replace(/^\/\//, '');
+  }
+
   let statusVal = 'accepting';
   if (accepting === 'waitlist') statusVal = 'waitlist';
   else if (accepting === 'no' || accepting === 'hidden') statusVal = 'hidden';
@@ -250,7 +256,7 @@ exports.handler = async (event) => {
     suburb,
     phone:         phone || '',
     email:         contact_email,
-    website:       website || '',
+    website:       websiteUrl,
     google_search: `${business_name} ${suburb} Newcastle reviews`,
     specialties:   specialtyList,
     referral_types: referralList,
