@@ -3,7 +3,7 @@
     "category": "plumbers",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -408,6 +408,101 @@
       "secret_key": "2f-2f0232",
       "last_verified": "2026-06-09",
       "google_search": "Level Plumbing Newcastle Plumber Newcastle NSW"
+    },
+    {
+      "name": "BDP Plumbing",
+      "credentials": "Family-Owned Plumber \u00b7 Maitland & Newcastle",
+      "address": "Maitland, NSW",
+      "suburb": "Maitland",
+      "phone": "0404 141 031",
+      "email": "",
+      "website": "https://bdpplumbing.com.au",
+      "services": [
+        "Leak Repairs",
+        "Blocked Drains",
+        "Hot Water Systems",
+        "Gas Fitting",
+        "Emergency Plumbing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Lake Macquarie",
+        "Cessnock",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm, 24/7 Emergency",
+      "description": "BDP Plumbing is a family-owned plumbing business based in Maitland with over a decade of reliable service to Newcastle and the Hunter Region. Fully licensed and insured, the team specialises in leak repairs, blocked drains, hot water system installations, gas line repairs and 24/7 emergency plumbing services, delivering fast and trustworthy solutions to residential and commercial clients.",
+      "featured": false,
+      "slug": "bdp-plumbing-maitland",
+      "secret_key": "rv-s32b78",
+      "last_verified": "2026-06-09",
+      "google_search": "BDP Plumbing Plumber Newcastle NSW",
+      "emergency_24_7": true
+    },
+    {
+      "name": "Down to Earth Plumbing",
+      "credentials": "Licensed Plumber \u00b7 Lake Macquarie & Newcastle",
+      "address": "7 Lake Road, Swansea NSW 2281",
+      "suburb": "Swansea",
+      "phone": "0422 131 555",
+      "email": "",
+      "website": "https://downtoearthplumbing.com.au",
+      "services": [
+        "Blocked Drains",
+        "Leak Detection",
+        "Hot Water Systems",
+        "Gas Fitting",
+        "Bathroom Renovations"
+      ],
+      "service_areas": [
+        "Lake Macquarie",
+        "Newcastle",
+        "Cardiff",
+        "Charlestown",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5:30pm",
+      "description": "Down to Earth Plumbing is a local Lake Macquarie plumbing business based in Swansea, serving the wider Newcastle and Hunter Region with honest, reliable plumbing and maintenance services. The experienced team handles everything from blocked drains and leak repairs to hot water system installations and bathroom renovations, with a strong reputation for quality work and fair pricing.",
+      "featured": false,
+      "slug": "down-to-earth-plumbing-swansea",
+      "secret_key": "qr-t39bf1",
+      "last_verified": "2026-06-09",
+      "google_search": "Down to Earth Plumbing Plumber Newcastle NSW",
+      "emergency_24_7": false
+    },
+    {
+      "name": "Advantage Plumbing Solutions",
+      "credentials": "Family-Owned Plumber \u00b7 Gateshead",
+      "address": "Unit 1/6 Metro Court, Gateshead NSW 2290",
+      "suburb": "Gateshead",
+      "phone": "0432 278 403",
+      "email": "",
+      "website": "https://advantageplumbingsolutions.com.au",
+      "services": [
+        "Residential Plumbing",
+        "Commercial Plumbing",
+        "Water Filtration",
+        "Hot Water Systems",
+        "Emergency Plumbing"
+      ],
+      "service_areas": [
+        "Lake Macquarie",
+        "Newcastle",
+        "Swansea",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm, 24/7 Emergency",
+      "description": "Advantage Plumbing Solutions is a family-operated Gateshead plumbing business with over a decade of experience servicing residential, commercial and industrial clients across Lake Macquarie and Newcastle. Known for professional and timely service, the team provides 24/7 emergency plumbing and specialises in water filtration, hot water systems and comprehensive plumbing maintenance.",
+      "featured": false,
+      "slug": "advantage-plumbing-solutions-gateshead",
+      "secret_key": "lu-j792hi",
+      "last_verified": "2026-06-09",
+      "google_search": "Advantage Plumbing Solutions Plumber Newcastle NSW",
+      "emergency_24_7": true
     }
   ]
 }

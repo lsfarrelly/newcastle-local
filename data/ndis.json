@@ -3,7 +3,7 @@
     "category": "ndis",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -391,6 +391,96 @@
       "secret_key": "ec-ef09a0",
       "last_verified": "2026-06-09",
       "google_search": "Newcastle & Hunter Community Health NDIS Provider Newcastle NSW"
+    },
+    {
+      "name": "Dynamic Ability Support",
+      "credentials": "Registered NDIS Provider \u00b7 Hamilton",
+      "address": "Hamilton, NSW 2303",
+      "suburb": "Hamilton",
+      "phone": "",
+      "email": "",
+      "website": "https://dasnsw.com.au",
+      "services": [
+        "1:1 Individual Support",
+        "Social Group Activities",
+        "Capacity Building",
+        "Short-Term Accommodation",
+        "Community Access"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Dynamic Ability Support is a registered NDIS provider based in Hamilton, offering person-centred disability support services across Newcastle, Lake Macquarie and the Hunter Region. Their experienced team delivers 1:1 individual support, social group activities, capacity building and short-term accommodation (respite), focused on helping participants build independence and connect with their community.",
+      "featured": false,
+      "slug": "dynamic-ability-support-hamilton",
+      "secret_key": "ym-pmkt1w",
+      "last_verified": "2026-06-09",
+      "google_search": "Dynamic Ability Support NDIS Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "Ability Action Australia Newcastle",
+      "credentials": "Allied Health NDIS Provider \u00b7 Broadmeadow",
+      "address": "Level 2, Suite 5, 15 Lambton Road, Broadmeadow NSW 2292",
+      "suburb": "Broadmeadow",
+      "phone": "1800 238 958",
+      "email": "hello@abilityactionaustralia.com.au",
+      "website": "https://abilityactionaustralia.com.au/our-offices/new-south-wales/newcastle/",
+      "services": [
+        "Occupational Therapy",
+        "Speech Pathology",
+        "Physiotherapy",
+        "Psychology",
+        "Dietetics"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Ability Action Australia Newcastle is an experienced and trusted NDIS allied health provider located in Broadmeadow, offering occupational therapy, speech pathology, physiotherapy and more to NDIS participants across Newcastle and the Hunter Region. Their team of mobile allied health professionals also provides home visits throughout the region, ensuring accessible therapy for all participants.",
+      "featured": false,
+      "slug": "ability-action-australia-newcastle",
+      "secret_key": "in-xrrm80",
+      "last_verified": "2026-06-09",
+      "google_search": "Ability Action Australia NDIS Newcastle NSW",
+      "ndis_registered": true
+    },
+    {
+      "name": "VHCC Newcastle",
+      "credentials": "Registered NDIS Provider \u00b7 Hunter Region",
+      "address": "Newcastle, NSW",
+      "suburb": "Newcastle",
+      "phone": "1300 048 422",
+      "email": "nsw@vhcc.au",
+      "website": "https://vhcc.au/ndis-provider-newcastle/",
+      "services": [
+        "Supported Independent Living",
+        "Personal Care",
+        "NDIS Plan Coordination",
+        "Community Participation",
+        "Disability Employment"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "VHCC is a registered NDIS provider delivering tailored disability support services across Newcastle and the Hunter Region. Offering supported independent living (SIL), personal care, NDIS plan coordination, community participation and disability employment services, VHCC is committed to helping participants achieve their goals and live independently with the right level of support.",
+      "featured": false,
+      "slug": "vhcc-newcastle",
+      "secret_key": "gq-ijc7vf",
+      "last_verified": "2026-06-09",
+      "google_search": "VHCC NDIS Newcastle NSW",
+      "ndis_registered": true
     }
   ]
 }

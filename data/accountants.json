@@ -3,7 +3,7 @@
     "category": "accountants",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -389,6 +389,96 @@
       "secret_key": "69-a2ad66",
       "last_verified": "2026-06-09",
       "google_search": "Eagle Financial Newcastle Accountant Newcastle NSW"
+    },
+    {
+      "name": "Pitcher Partners Newcastle",
+      "credentials": "Chartered Accountants \u00b7 Newcastle West",
+      "address": "Level 5, 12 Stewart Avenue, Newcastle West NSW 2302",
+      "suburb": "Newcastle West",
+      "phone": "(02) 4923 4000",
+      "email": "theteam@pitchernewcastle.com.au",
+      "website": "https://pitchernewcastle.com.au",
+      "services": [
+        "Tax Advisory",
+        "Business Advisory",
+        "Audit & Assurance",
+        "Financial Planning",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5pm",
+      "description": "Pitcher Partners Newcastle is a leading chartered accounting firm serving businesses and high-net-worth individuals across the Hunter region. With a team of experienced professionals, they provide holistic advice covering tax, audit, business advisory and financial planning. As part of the Pitcher Partners national network, they deliver big-firm expertise with a personalised local approach.",
+      "featured": false,
+      "slug": "pitcher-partners-newcastle-west",
+      "secret_key": "oz-nnm68c",
+      "last_verified": "2026-06-09",
+      "google_search": "Pitcher Partners Newcastle Accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "Jabour Accountants",
+      "credentials": "CPA Practice \u00b7 Newcastle CBD",
+      "address": "53 King Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4926 9900",
+      "email": "reception@jabouraccountants.com.au",
+      "website": "https://jabouraccountants.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Accounting",
+        "GST & BAS",
+        "Financial Planning",
+        "Superannuation"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Jabour Accountants is a long-standing Newcastle CBD accounting firm specialising in tax returns, business advisory and financial planning for individuals and small to medium businesses. Located on King Street in the heart of Newcastle, their experienced team delivers personalised accounting and taxation services backed by decades of local expertise.",
+      "featured": false,
+      "slug": "jabour-accountants-newcastle",
+      "secret_key": "qq-3y36ms",
+      "last_verified": "2026-06-09",
+      "google_search": "Jabour Accountants Accountant Newcastle NSW",
+      "registered_tax_agent": true
+    },
+    {
+      "name": "Nova Business Professionals",
+      "credentials": "Business Advisors & Accountants \u00b7 Hamilton",
+      "address": "5 Hudson Street, Hamilton NSW 2303",
+      "suburb": "Hamilton",
+      "phone": "(02) 4002 4529",
+      "email": "info@novabp.com",
+      "website": "https://novabp.com",
+      "services": [
+        "Tax Returns",
+        "Business Advisory",
+        "Bookkeeping",
+        "Superannuation",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hamilton",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Thu 8am-4pm",
+      "description": "Nova Business Professionals is a Hamilton-based accounting and advisory firm providing tailored business and tax solutions to individuals and businesses throughout Newcastle and the Hunter. The team specialises in working closely with business owners to provide proactive advice on tax planning, superannuation and financial management.",
+      "featured": false,
+      "slug": "nova-business-professionals-hamilton",
+      "secret_key": "qy-1whzfv",
+      "last_verified": "2026-06-09",
+      "google_search": "Nova Business Professionals Accountant Newcastle NSW",
+      "registered_tax_agent": true
     }
   ]
 }

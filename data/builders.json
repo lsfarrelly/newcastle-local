@@ -3,7 +3,7 @@
     "category": "builders",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -396,6 +396,99 @@
       "secret_key": "39-ddb59b",
       "last_verified": "2026-06-09",
       "google_search": "DGS Projects Builder Newcastle NSW"
+    },
+    {
+      "name": "Nathan Brown Building",
+      "credentials": "Licensed Builder \u00b7 28+ Years Experience",
+      "address": "Newcastle, NSW",
+      "suburb": "Newcastle",
+      "phone": "0422 622 264",
+      "email": "",
+      "website": "https://nathanbrownbuilding.com.au",
+      "services": [
+        "Bathroom Renovations",
+        "Extensions & Renovations",
+        "Decks & Pergolas",
+        "New Home Builds",
+        "Granny Flats"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Nathan Brown Building is a trusted licensed builder servicing Newcastle and Lake Macquarie with over 28 years of residential and commercial construction experience. Specialising in bathroom renovations, building extensions, decks and pergolas, the team brings quality craftsmanship and honest communication to every project, large or small.",
+      "featured": false,
+      "slug": "nathan-brown-building",
+      "secret_key": "cm-953y2e",
+      "last_verified": "2026-06-09",
+      "google_search": "Nathan Brown Building Builder Newcastle NSW",
+      "residential": true,
+      "commercial": true
+    },
+    {
+      "name": "QUAD Construction",
+      "credentials": "Custom Homes & Duplexes \u00b7 Cardiff",
+      "address": "Unit 2/26 Munibung Road, Cardiff NSW 2285",
+      "suburb": "Cardiff",
+      "phone": "(02) 4072 1593",
+      "email": "mail@quadconstruction.com.au",
+      "website": "https://quadconstruction.com.au",
+      "services": [
+        "Custom Homes",
+        "Duplexes",
+        "Townhouses",
+        "Multi-Unit Developments",
+        "Investor Builds"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "QUAD Construction is a Newcastle-based building company specialising in residential new builds including custom homes, duplexes, townhouses and multi-unit developments. Based in Cardiff, the team combines 30+ years of combined experience with a strong focus on quality craftsmanship and transparent communication throughout every build in the Newcastle and Hunter region.",
+      "featured": false,
+      "slug": "quad-construction-cardiff",
+      "secret_key": "ji-br8shc",
+      "last_verified": "2026-06-09",
+      "google_search": "QUAD Construction Builder Newcastle NSW",
+      "residential": true,
+      "commercial": false
+    },
+    {
+      "name": "All Design Construction",
+      "credentials": "Award-Winning Builder \u00b7 Newcastle",
+      "address": "Newcastle, NSW",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "",
+      "website": "https://alldesignconstruction.com.au",
+      "services": [
+        "Custom Homes",
+        "Renovations",
+        "Extensions",
+        "Commercial Construction",
+        "Residential Builds"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "All Design Construction is an award-winning Newcastle building company with over 20 years of experience delivering residential and commercial construction projects. Recognised by the Master Builders Association of NSW, the team develops meaningful partnerships with clients, designers and trades to deliver quality builds across Newcastle and the Hunter region.",
+      "featured": false,
+      "slug": "all-design-construction-newcastle",
+      "secret_key": "in-2hdcwa",
+      "last_verified": "2026-06-09",
+      "google_search": "All Design Construction Builder Newcastle NSW",
+      "residential": true,
+      "commercial": true
     }
   ]
 }

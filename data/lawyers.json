@@ -3,7 +3,7 @@
     "category": "lawyers",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -459,6 +459,113 @@
       "secret_key": "34-5436f8",
       "last_verified": "2026-06-09",
       "google_search": "Lamont Law Newcastle Lawyer Newcastle NSW"
+    },
+    {
+      "name": "Burgess Thomson",
+      "credentials": "Property & Estate Lawyers \u00b7 Newcastle CBD",
+      "address": "1 Newcomen Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 5602",
+      "email": "mail@burgessthomson.com.au",
+      "website": "https://burgessthomson.com.au",
+      "services": [
+        "Property Law & Conveyancing",
+        "Wills & Estate Planning",
+        "Deceased Estates",
+        "Business & Commercial Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Port Stephens",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5pm",
+      "description": "Burgess Thomson is one of Newcastle's leading law firms, established in 1984 and trusted by generations of clients for expert property law, conveyancing, wills and estate planning, and business legal services. Located in Newcastle CBD, their team of experienced lawyers and licensed conveyancers serve clients across Newcastle, Lake Macquarie, Maitland and the broader Hunter region.",
+      "featured": false,
+      "slug": "burgess-thomson-newcastle",
+      "secret_key": "hm-uxaemg",
+      "last_verified": "2026-06-09",
+      "google_search": "Burgess Thomson Lawyers Newcastle NSW",
+      "practice_areas": [
+        "Property Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Business Law"
+      ]
+    },
+    {
+      "name": "Berryman Partners",
+      "credentials": "Family & Property Law \u00b7 Charlestown",
+      "address": "1/5 Library Lane, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "(02) 4943 3988",
+      "email": "info@berrymanpartners.com.au",
+      "website": "https://berrymanpartners.com.au",
+      "services": [
+        "Family Law",
+        "Property & Conveyancing",
+        "Wills & Estates",
+        "Commercial Law",
+        "Dispute Resolution"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Berryman Partners is a family-owned Charlestown law firm with over 40 years of providing trusted legal services to Newcastle and Lake Macquarie families and businesses. Specialising in family law, property conveyancing, wills and estates, the team is known for their compassionate approach and practical, plain-language advice tailored to each client's needs.",
+      "featured": false,
+      "slug": "berryman-partners-charlestown",
+      "secret_key": "vh-c5taih",
+      "last_verified": "2026-06-09",
+      "google_search": "Berryman Partners Lawyers Newcastle NSW",
+      "practice_areas": [
+        "Family Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Commercial Law"
+      ]
+    },
+    {
+      "name": "Slater and Gordon Newcastle",
+      "credentials": "Personal Injury Lawyers \u00b7 Newcastle CBD",
+      "address": "Level 7, 352 Hunter Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4915 4800",
+      "email": "",
+      "website": "https://slatergordon.com.au/offices/newcastle",
+      "services": [
+        "Workers Compensation",
+        "Personal Injury",
+        "Motor Vehicle Accidents",
+        "Public Liability",
+        "Medical Negligence"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "NSW"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Slater and Gordon Newcastle is the local office of Australia's leading plaintiff law firm, providing expert legal advice on workers compensation, personal injury, motor vehicle accidents and public liability matters. The Newcastle team is committed to supporting the local community with compassionate, results-driven representation for people who have been injured or suffered loss.",
+      "featured": false,
+      "slug": "slater-and-gordon-newcastle",
+      "secret_key": "ds-p3exgn",
+      "last_verified": "2026-06-09",
+      "google_search": "Slater and Gordon Lawyers Newcastle NSW",
+      "practice_areas": [
+        "Personal Injury",
+        "Workers Compensation",
+        "Motor Vehicle Accidents",
+        "Public Liability"
+      ]
     }
   ]
 }

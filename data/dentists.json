@@ -3,7 +3,7 @@
     "category": "dentists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -403,6 +403,100 @@
       "secret_key": "c9-b2efd2",
       "last_verified": "2026-06-09",
       "google_search": "Wallsend Dental Dentist Newcastle NSW"
+    },
+    {
+      "name": "Graham Johnson Dental Surgery",
+      "credentials": "General & Cosmetic Dentist \u00b7 Jesmond",
+      "address": "39 Mordue Parade, Jesmond NSW 2299",
+      "suburb": "Jesmond",
+      "phone": "(02) 4951 5452",
+      "email": "",
+      "website": "https://grahamjohnsondental.com.au",
+      "services": [
+        "Dental Check-ups",
+        "Cosmetic Dentistry",
+        "Root Canal Treatment",
+        "Wisdom Teeth Removal",
+        "TMJ Treatment"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Jesmond",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Graham Johnson Dental Surgery is a trusted Jesmond dental practice providing comprehensive dental care to Newcastle families. The experienced team offers a full range of services from routine check-ups and preventive care through to cosmetic dentistry, root canal treatment and wisdom teeth removal, all delivered in a welcoming, patient-focused environment.",
+      "featured": false,
+      "slug": "graham-johnson-dental-jesmond",
+      "secret_key": "jy-j264my",
+      "last_verified": "2026-06-09",
+      "google_search": "Graham Johnson Dental Surgery Dentist Newcastle NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
+    },
+    {
+      "name": "7 Pearls Dental",
+      "credentials": "Family & Cosmetic Dentist \u00b7 Belmont",
+      "address": "Shop 3-6 Belmont Central, 1 Singleton Street, Belmont NSW 2280",
+      "suburb": "Belmont",
+      "phone": "(02) 4945 0881",
+      "email": "",
+      "website": "https://7pearlsdental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Clear Aligners",
+        "Oral Surgery",
+        "TMJ Treatment"
+      ],
+      "service_areas": [
+        "Belmont",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5pm",
+      "description": "7 Pearls Dental is a modern family and cosmetic dental practice located in Belmont Central Shopping Centre, serving the Lake Macquarie and Newcastle communities. The practice specialises in cosmetic dentistry, TMJ treatment and clear aligners, offering convenient free undercover parking and an approachable team focused on patient comfort and exceptional results.",
+      "featured": false,
+      "slug": "seven-pearls-dental-belmont",
+      "secret_key": "zr-apen98",
+      "last_verified": "2026-06-09",
+      "google_search": "7 Pearls Dental Dentist Newcastle NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
+    },
+    {
+      "name": "nib Dental Care Newcastle",
+      "credentials": "Family & Cosmetic Dentistry \u00b7 Newcastle West",
+      "address": "Marketown Shopping Centre, 23 Steel Street, Newcastle West NSW 2302",
+      "suburb": "Newcastle West",
+      "phone": "(02) 4940 7100",
+      "email": "",
+      "website": "https://nibdental.com.au/locations/dentist-newcastle/",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Dental Implants",
+        "Orthodontics",
+        "Teeth Whitening"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Newcastle West",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "nib Dental Care Newcastle is a trusted dental clinic conveniently located in Marketown Shopping Centre, Newcastle West. Offering a comprehensive range of family and cosmetic dental services including general check-ups, teeth whitening, implants and orthodontics, the practice accepts most major health funds and provides gentle, patient-centred care for the whole family.",
+      "featured": false,
+      "slug": "nib-dental-care-newcastle-west",
+      "secret_key": "vc-cw1ycg",
+      "last_verified": "2026-06-09",
+      "google_search": "nib Dental Care Newcastle Dentist Newcastle NSW",
+      "emergency_dental": false,
+      "accepting_patients": true
     }
   ]
 }

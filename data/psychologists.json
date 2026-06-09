@@ -3,7 +3,7 @@
     "category": "Psychologists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 27
+    "total": 30
   },
   "listings": [
     {
@@ -893,6 +893,96 @@
       "accepting": true,
       "long_description": "Newcastle Wellbeing Psychology provides professional clinical and general psychology services for adults and adolescents across Newcastle and the Hunter region.",
       "google_search": "Newcastle Wellbeing Psychology Psychologist Newcastle NSW"
+    },
+    {
+      "name": "Grant Lyall Psychology",
+      "credentials": "Psychologist \u00b7 East Maitland",
+      "address": "74 Brisbane Street, East Maitland NSW 2323",
+      "suburb": "East Maitland",
+      "phone": "0448 781 393",
+      "email": "admin@glpsychology.com.au",
+      "website": "https://glpsychology.com.au",
+      "services": [
+        "Child Psychology",
+        "Adolescent Psychology",
+        "Adult Psychology",
+        "Learning Assessments",
+        "ADHD Assessment"
+      ],
+      "service_areas": [
+        "East Maitland",
+        "Maitland",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "By appointment",
+      "description": "Grant Lyall Psychology Services is an East Maitland practice with over 10 years of experience supporting children, adolescents and adults through complex psychological, cognitive and developmental challenges. Located near Green Hills Shopping Centre, the practice provides individual therapy, psychological assessments and support for anxiety, depression, autism, learning disorders and ADHD.",
+      "featured": false,
+      "slug": "grant-lyall-psychology-east-maitland",
+      "secret_key": "ak-3aizwd",
+      "last_verified": "2026-06-09",
+      "google_search": "Grant Lyall Psychology Psychologist Newcastle NSW"
+    },
+    {
+      "name": "Haven Therapy Co",
+      "credentials": "Counsellors & Therapists \u00b7 East Maitland",
+      "address": "10-12 William Street, East Maitland NSW 2323",
+      "suburb": "East Maitland",
+      "phone": "0494 348 772",
+      "email": "Admin@haventherapyco.com.au",
+      "website": "https://haventherapyco.com.au",
+      "services": [
+        "Individual Therapy",
+        "Couples Counselling",
+        "Trauma Therapy",
+        "ADHD Support",
+        "Telehealth"
+      ],
+      "service_areas": [
+        "East Maitland",
+        "Maitland",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Haven Therapy Co is an East Maitland counselling and therapy practice offering face-to-face and telehealth sessions for clients aged 6 and above. Their skilled therapists, all registered with ACA or PACFA, support individuals through trauma, anxiety, depression, ADHD and relationship challenges, providing a warm and evidence-based approach to mental health care across the Hunter Region.",
+      "featured": false,
+      "slug": "haven-therapy-co-east-maitland",
+      "secret_key": "rs-9nzx44",
+      "last_verified": "2026-06-09",
+      "google_search": "Haven Therapy Co Psychologist Newcastle NSW"
+    },
+    {
+      "name": "Soulful Psychotherapy",
+      "credentials": "Trauma Counselling & EMDR \u00b7 Cessnock",
+      "address": "Cessnock, NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "0410 590 889",
+      "email": "hello@soulfulpsychotherapy.com.au",
+      "website": "https://soulfulpsychotherapy.com.au",
+      "services": [
+        "Trauma Counselling",
+        "EMDR Therapy",
+        "Adult Psychotherapy",
+        "NDIS Therapy",
+        "Victim Services"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Hunter Valley",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "By appointment",
+      "description": "Soulful Psychotherapy is a Cessnock-based psychotherapy practice specialising in trauma counselling and EMDR therapy for adults and young people across the Hunter Valley. Accepting clients through private practice, NDIS and Victim Services, the compassionate team provides evidence-based mental health support for trauma, PTSD, anxiety and depression in the Cessnock and greater Hunter region.",
+      "featured": false,
+      "slug": "soulful-psychotherapy-cessnock",
+      "secret_key": "et-68acxd",
+      "last_verified": "2026-06-09",
+      "google_search": "Soulful Psychotherapy Psychologist Newcastle NSW"
     }
   ]
 }

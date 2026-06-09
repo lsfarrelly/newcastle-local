@@ -3,7 +3,7 @@
     "category": "physiotherapists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -409,6 +409,99 @@
       "secret_key": "7d-64f9a7",
       "last_verified": "2026-06-09",
       "google_search": "Cameron McKenzie Physiotherapy Physiotherapist Newcastle NSW"
+    },
+    {
+      "name": "Physio 2U Newcastle",
+      "credentials": "Mobile Physiotherapy Service \u00b7 Newcastle",
+      "address": "Newcastle, NSW",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "",
+      "website": "https://physio-2u.com",
+      "services": [
+        "In-Home Physiotherapy",
+        "Injury Management",
+        "Rehabilitation",
+        "Strength & Conditioning",
+        "Aged Care Physio"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm, Sat 8am-12pm",
+      "description": "Physio 2U Newcastle is a convenient mobile physiotherapy service bringing expert physiotherapy care directly to patients in Newcastle and Lake Macquarie. Catering to those with injuries, post-surgical rehabilitation needs, or age-related conditions, the service offers in-home assessments and treatment plans, making quality physiotherapy accessible for those unable to attend a clinic.",
+      "featured": false,
+      "slug": "physio-2u-newcastle",
+      "secret_key": "hv-5za5qm",
+      "last_verified": "2026-06-09",
+      "google_search": "Physio 2U Newcastle Physiotherapist Newcastle NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Physiotherapy at Home Newcastle",
+      "credentials": "Mobile Physiotherapy \u00b7 Newcastle & Lake Macquarie",
+      "address": "Newcastle, NSW",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "",
+      "website": "https://physiotherapyathomenewcastle.com.au",
+      "services": [
+        "In-Home Physiotherapy",
+        "Aged Care Physio",
+        "NDIS Physiotherapy",
+        "Falls Prevention",
+        "Rehabilitation"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "By appointment Mon-Fri",
+      "description": "Physiotherapy at Home Newcastle is a dedicated mobile physiotherapy service specialising in delivering quality care to seniors and NDIS participants in the comfort of their own home. Led by an experienced physiotherapist with over 20 years in community care, aged care and rehabilitation, the service supports clients across Newcastle and Lake Macquarie to achieve their health goals.",
+      "featured": false,
+      "slug": "physiotherapy-at-home-newcastle",
+      "secret_key": "cx-pi8y6v",
+      "last_verified": "2026-06-09",
+      "google_search": "Physiotherapy at Home Newcastle Physiotherapist Newcastle NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
+    },
+    {
+      "name": "Ethos Health Newcastle",
+      "credentials": "Physiotherapy & Workplace Health \u00b7 Wickham",
+      "address": "Unit 1, 21 Annie Street, Wickham NSW 2293",
+      "suburb": "Wickham",
+      "phone": "(02) 4962 8700",
+      "email": "enquiries@ethoshealth.com.au",
+      "website": "https://ethoshealth.com.au",
+      "services": [
+        "Physiotherapy",
+        "Workplace Health",
+        "Occupational Rehabilitation",
+        "Exercise Physiology",
+        "NDIS Physiotherapy"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Wickham",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Thu 8am-7pm, Fri 8am-5pm",
+      "description": "Ethos Health Newcastle is a multidisciplinary clinic in Wickham providing physiotherapy, workplace health, occupational rehabilitation and exercise physiology services for individuals and organisations across Newcastle and the Hunter Region. With extended evening hours and a comprehensive range of services, Ethos Health supports clients through injury recovery, return-to-work programs and NDIS-funded therapy.",
+      "featured": false,
+      "slug": "ethos-health-newcastle-wickham",
+      "secret_key": "yx-f194bf",
+      "last_verified": "2026-06-09",
+      "google_search": "Ethos Health Newcastle Physiotherapist Newcastle NSW",
+      "medicare_rebate": true,
+      "accepting_patients": true
     }
   ]
 }

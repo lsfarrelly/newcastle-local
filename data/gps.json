@@ -3,7 +3,7 @@
     "category": "gps",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -387,6 +387,108 @@
       "secret_key": "86-9d2631",
       "last_verified": "2026-06-09",
       "google_search": "King Street Medical Practice GP Newcastle NSW"
+    },
+    {
+      "name": "Providence Medical Warners Bay",
+      "credentials": "GP & Skin Cancer Clinic \u00b7 Warners Bay",
+      "address": "Shop 7, 472 The Esplanade, Warners Bay NSW 2282",
+      "suburb": "Warners Bay",
+      "phone": "(02) 4989 3400",
+      "email": "warnersbay@providencemedical.com.au",
+      "website": "https://providencemedical.com.au/warnersbay/",
+      "services": [
+        "General Practice",
+        "Skin Cancer Clinic",
+        "Pathology On-site",
+        "Women's Health",
+        "Preventive Care"
+      ],
+      "service_areas": [
+        "Warners Bay",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-6pm",
+      "description": "Providence Medical Warners Bay is a state-of-the-art medical facility offering high-quality general practice care, a dedicated Skin Cancer Clinic with Surgical Suites, onsite Pathology and adjacent Radiology. Located on The Esplanade in Warners Bay, the practice serves the Lake Macquarie community with a team of experienced GPs committed to comprehensive, patient-centred care.",
+      "featured": false,
+      "slug": "providence-medical-warners-bay",
+      "secret_key": "wb-bnbx2b",
+      "last_verified": "2026-06-09",
+      "google_search": "Providence Medical Warners Bay GP Newcastle NSW",
+      "billing": "Mixed",
+      "bulk_billing": false,
+      "telehealth": true,
+      "accepting_new": true
+    },
+    {
+      "name": "Charlestown Square Medical Centre",
+      "credentials": "Bulk Billing GP Clinic \u00b7 Charlestown",
+      "address": "Charlestown Square, Pearson Street, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "(02) 4943 3166",
+      "email": "",
+      "website": "https://www.ipn.com.au/gp/nsw-charlestown-charlestown-square-medical-centre/",
+      "services": [
+        "General Practice",
+        "Chronic Disease Management",
+        "Mental Health Plans",
+        "Immunisations",
+        "Preventive Health"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm, Sat 8am-1pm",
+      "description": "Charlestown Square Medical Centre is a conveniently located GP clinic within Charlestown Square shopping centre, offering general practice services to Lake Macquarie and Newcastle families. The practice provides care for chronic disease management, mental health plans and preventive health, with bulk billing available for eligible patients including concession card holders and children.",
+      "featured": false,
+      "slug": "charlestown-square-medical-centre",
+      "secret_key": "yc-u846kx",
+      "last_verified": "2026-06-09",
+      "google_search": "Charlestown Square Medical Centre GP Newcastle NSW",
+      "billing": "Mixed",
+      "bulk_billing": true,
+      "telehealth": false,
+      "accepting_new": true
+    },
+    {
+      "name": "Smith Street Medical Centre Charlestown",
+      "credentials": "GP Clinic \u00b7 Charlestown",
+      "address": "Charlestown, NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "(02) 4943 1000",
+      "email": "",
+      "website": "https://www.smithstmedical.com.au/clinics/charlestown/",
+      "services": [
+        "General Practice",
+        "Family Medicine",
+        "Chronic Disease Management",
+        "Mental Health",
+        "Immunisations"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm",
+      "description": "Smith Street Medical Centre Charlestown is a well-established GP clinic providing comprehensive family medicine and general practice services to the Charlestown community. Part of the Smith Street Medical group, the practice offers a wide range of services from chronic disease management and mental health plans to routine check-ups and immunisations for all ages.",
+      "featured": false,
+      "slug": "smith-street-medical-charlestown",
+      "secret_key": "db-ojseg3",
+      "last_verified": "2026-06-09",
+      "google_search": "Smith Street Medical Centre Charlestown GP Newcastle NSW",
+      "billing": "Mixed",
+      "bulk_billing": false,
+      "telehealth": false,
+      "accepting_new": true
     }
   ]
 }

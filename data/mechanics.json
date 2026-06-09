@@ -3,7 +3,7 @@
     "category": "mechanics",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -415,6 +415,99 @@
       "secret_key": "95-b686d7",
       "last_verified": "2026-06-09",
       "google_search": "Car Tech Automotive Newcastle Mechanic Newcastle NSW"
+    },
+    {
+      "name": "Auto Service Newcastle",
+      "credentials": "Licensed Mechanic \u00b7 16+ Years",
+      "address": "34 Throsby Street, Wickham NSW 2293",
+      "suburb": "Wickham",
+      "phone": "(02) 4969 3166",
+      "email": "",
+      "website": "https://autoservicenewcastle.com",
+      "services": [
+        "Logbook Servicing",
+        "Brake Repairs",
+        "Engine Diagnostics",
+        "Suspension",
+        "Fuel System Service"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Wickham",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5pm",
+      "description": "Auto Service Newcastle has provided quality mechanical services and repairs to Newcastle customers for over 16 years from their Wickham workshop. Previously known as Ultra Tune Newcastle, Craig and his experienced team specialise in logbook servicing, brake repairs, engine diagnostics and all mechanical repairs, helping local drivers keep their vehicles in peak condition.",
+      "featured": false,
+      "slug": "auto-service-newcastle-wickham",
+      "secret_key": "uv-s9dt5p",
+      "last_verified": "2026-06-09",
+      "google_search": "Auto Service Newcastle Mechanic Newcastle NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Denstoj Auto Centre",
+      "credentials": "High Performance & General Mechanics \u00b7 Carrington",
+      "address": "12 Elizabeth Street, Carrington NSW 2294",
+      "suburb": "Carrington",
+      "phone": "(02) 4962 2008",
+      "email": "info@denstoj.com.au",
+      "website": "https://denstoj.com.au",
+      "services": [
+        "Log Book Servicing",
+        "Engine Rebuilds",
+        "High Performance Tuning",
+        "Pink Slips",
+        "Mechanical Repairs"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Carrington",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Denstoj Auto Centre is a well-respected Carrington automotive workshop with over 40 years of experience servicing and rebuilding high-performance vehicles alongside all general mechanical repairs. The team takes pride in honest, quality workmanship, offering logbook servicing, engine rebuilds, performance tuning and everything in between for cars and light trucks.",
+      "featured": false,
+      "slug": "denstoj-auto-centre-carrington",
+      "secret_key": "sv-p65w6q",
+      "last_verified": "2026-06-09",
+      "google_search": "Denstoj Auto Centre Mechanic Newcastle NSW",
+      "mobile": false,
+      "emergency_24_7": false
+    },
+    {
+      "name": "Newcastle Motor Repairs",
+      "credentials": "Automotive Repairs & Servicing \u00b7 Merewether",
+      "address": "12 Mitchell Street, Merewether NSW 2291",
+      "suburb": "Merewether",
+      "phone": "(02) 4963 1097",
+      "email": "",
+      "website": "https://newcastlemotorrepairs.com.au",
+      "services": [
+        "Log Book Servicing",
+        "Brake & Clutch Repairs",
+        "Cooling System Service",
+        "Steering & Suspension",
+        "Electronic Fuel Injection"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Merewether",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Thu 7:30am-5pm, Fri 7:30am-4:30pm",
+      "description": "Newcastle Motor Repairs has been located in Merewether since 1985, providing quality automotive servicing and repairs for all makes and models. The qualified, friendly team handles everything from logbook servicing and brake repairs to cooling system work, steering, suspension and electronic fuel injection servicing for both small and major jobs.",
+      "featured": false,
+      "slug": "newcastle-motor-repairs-merewether",
+      "secret_key": "fs-9g6512",
+      "last_verified": "2026-06-09",
+      "google_search": "Newcastle Motor Repairs Mechanic Newcastle NSW",
+      "mobile": false,
+      "emergency_24_7": false
     }
   ]
 }

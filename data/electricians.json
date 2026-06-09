@@ -3,7 +3,7 @@
     "category": "electricians",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 13
+    "total": 16
   },
   "listings": [
     {
@@ -400,6 +400,100 @@
       "secret_key": "a8-215629",
       "last_verified": "2026-06-09",
       "google_search": "Power On Electrical Electrician Newcastle NSW"
+    },
+    {
+      "name": "Wilton Electrical",
+      "credentials": "Licensed Electrician \u00b7 20+ Years",
+      "address": "Cooks Hill, Newcastle NSW 2291",
+      "suburb": "Cooks Hill",
+      "phone": "0414 494 902",
+      "email": "",
+      "website": "https://wiltonelectrical.com.au",
+      "services": [
+        "Domestic Electrical",
+        "Commercial Electrical",
+        "Lighting Design",
+        "Power Points & Switches",
+        "Ceiling Fans"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Wilton Electrical is a well-established Newcastle electrician based in Cooks Hill with over 20 years of experience serving residential and commercial clients across the Hunter Region. Specialising in lighting design for indoor and outdoor spaces, the team handles everything from installing a single power point through to comprehensive electrical fit-outs for homes and businesses.",
+      "featured": false,
+      "slug": "wilton-electrical-cooks-hill",
+      "secret_key": "dr-ccy1or",
+      "last_verified": "2026-06-09",
+      "google_search": "Wilton Electrical Electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "GBE Group",
+      "credentials": "Gold Master Electrician \u00b7 Mayfield West",
+      "address": "Unit 1, 2 Metal Pit Drive, Mayfield West NSW 2304",
+      "suburb": "Mayfield West",
+      "phone": "(02) 4968 7500",
+      "email": "office@gbelectrical.com.au",
+      "website": "https://gbegroup.com.au",
+      "services": [
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Domestic Electrical",
+        "Data & Communications",
+        "Solar"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-4:30pm",
+      "description": "GBE Group is a proudly Australian-owned Gold Master Electrician based in Mayfield West, providing domestic, commercial and industrial electrical services across Newcastle, the Hunter Region and Central Coast. ISO 9001 certified and a Sustainability Advantage Bronze Partner, GBE Group is trusted by businesses and homeowners for reliable, high-quality electrical solutions.",
+      "featured": false,
+      "slug": "gbe-group-mayfield-west",
+      "secret_key": "qa-ua9fjh",
+      "last_verified": "2026-06-09",
+      "google_search": "GBE Group Electrician Newcastle NSW",
+      "emergency_24_7": false,
+      "licensed": true
+    },
+    {
+      "name": "Entire Trades",
+      "credentials": "Licensed Electrical Contractor \u00b7 Newcastle",
+      "address": "Newcastle, NSW",
+      "suburb": "Newcastle",
+      "phone": "(02) 4905 0901",
+      "email": "",
+      "website": "https://entiretrades.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Safety Inspections",
+        "Emergency Electrical",
+        "Switchboard Upgrades"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm, 24/7 Emergency",
+      "description": "Entire Trades is a trusted Newcastle electrical contractor known for reliable service, fast response times and strict adherence to Australian safety regulations. The team handles both residential and commercial electrical projects across Newcastle and the Hunter Region, from safety inspections and switchboard upgrades to emergency callouts, all backed by quality workmanship.",
+      "featured": false,
+      "slug": "entire-trades-newcastle",
+      "secret_key": "el-k43tqv",
+      "last_verified": "2026-06-09",
+      "google_search": "Entire Trades Electrician Newcastle NSW",
+      "emergency_24_7": true,
+      "licensed": true
     }
   ]
 }
