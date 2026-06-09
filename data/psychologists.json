@@ -35,12 +35,12 @@
         "WorkCover"
       ],
       "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Fri",
-      "description": "One of Newcastle's largest and most established psychology practices — psychologists, clinical psychologists, psychiatrists, and couples therapists working together. Over 25 years of service, with a comprehensive EAP offering for corporate clients.",
+      "accepting": false,
+      "hours": "Mon\u2013Fri",
+      "description": "One of Newcastle's largest and most established psychology practices \u2014 psychologists, clinical psychologists, psychiatrists, and couples therapists working together. Over 25 years of service, with a comprehensive EAP offering for corporate clients.",
       "long_description": "NewPsych Psychologists has been serving the Newcastle community for over 25 years. Located in the heart of Newcastle CBD, the practice brings together a diverse team of psychologists, clinical psychologists, psychiatrists, and couples and family therapists.\n\nThe team at NewPsych understands that everyone experiences tough times and that talking things through with a trusted professional can help you think differently and take action. They help clients develop unique solutions to their particular situations.\n\nNewPsych also offers a comprehensive Employee Assistance Program (EAP) for corporate clients, including education and training, manager assist, fitness for work assessments, and support for organisations wanting to improve their psychological safety.",
       "featured": true,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 2,
@@ -66,12 +66,12 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Thu, 9am–5pm",
+      "accepting": false,
+      "hours": "Mon\u2013Thu, 9am\u20135pm",
       "description": "A warm, welcoming team of Newcastle psychologists and mental health social workers providing evidence-based therapy including EMDR, CBT, ACT, and TF-CBT. Currently accepting new clients.",
       "long_description": "Elevated Wellbeing Psychology is a team of Newcastle psychologists and mental health social workers who provide a warm, comfortable space for therapy and support.\n\nTheir friendly mental health professionals use a variety of evidence-based, practical, effective, and personalised psychological strategies to provide counselling for people in the Newcastle and Lake Macquarie region.\n\nTherapy approaches include EMDR (Eye Movement Desensitisation and Reprocessing), ACT (Acceptance and Commitment Therapy), TF-CBT (Trauma Focused Cognitive Behavioural Therapy), CBT (Cognitive Behavioural Therapy), Motivational Interviewing, and Mindfulness Strategies.",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 3,
@@ -102,12 +102,12 @@
         "DVA"
       ],
       "telehealth": false,
-      "accepting": true,
-      "hours": "Mon–Fri",
+      "accepting": false,
+      "hours": "Mon\u2013Fri",
       "description": "A highly regarded clinical psychology practice with over 10 years of experience. Specialises in individual therapy, group programs, psychological assessments for children, and clinical supervision.",
       "long_description": "New Lambton Psychology is a clinical psychology practice providing compassionate, ethical, evidence-based psychology services for a broad range of issues. Treatment approaches are individually tailored to help clients develop the tools and resources they need to create positive and lasting change.\n\nServices include individual therapy for children, adolescents and adults, group programs, psychological and diagnostic assessments for children up to age 16, and clinical supervision for psychologists and other health professionals.\n\nAll clinicians are endorsed as Clinical Psychologists by AHPRA and complete yearly professional training. The practice is located in a beautifully designed 'home' space at 37 Freyberg Street, specifically created to ensure clients feel safe and comfortable.",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 4,
@@ -134,20 +134,20 @@
         "DVA"
       ],
       "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Fri",
+      "accepting": false,
+      "hours": "Mon\u2013Fri",
       "description": "Mayfield-based practice specialising in emotion-focused and trauma-informed therapy. Session fee $250, with ~$104.75 out-of-pocket after Medicare rebate.",
       "long_description": "Lacuna Clinical Psychology is a Mayfield-based practice specialising in emotion-focused and trauma-informed therapy. The team works with clients whose difficulties are driven by emotions, emotional avoidance, or emotional vulnerability.\n\nSession fee is $250. If you have a Mental Health Care Plan your out-of-pocket cost will be approximately $104.75 after the Medicare rebate. Health funds and DVA are also accepted.\n\nA GP referral is not required to book, however a Mental Health Care Plan referral from your GP will provide Medicare rebates for up to 10 sessions per calendar year. Free untimed street parking is available nearby.",
-      "fee_note": "$250/session · ~$104.75 out-of-pocket with MHCP",
+      "fee_note": "$250/session \u00b7 ~$104.75 out-of-pocket with MHCP",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 5,
       "slug": "oracle-psychology",
       "secret_key": "op-m1z6c3h5",
       "name": "Oracle Psychology",
-      "credentials": "Clinical Psychologists — Child & Adolescent Specialists",
+      "credentials": "Clinical Psychologists \u2014 Child & Adolescent Specialists",
       "address": "Level 1, Suite 6, 19 Bolton Street, Newcastle NSW 2300",
       "suburb": "Newcastle CBD",
       "phone": "02 4929 2223",
@@ -168,12 +168,12 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Fri",
+      "accepting": false,
+      "hours": "Mon\u2013Fri",
       "description": "Newcastle's dedicated child and adolescent psychology practice, led by Principal Clinical Psychologist Daniel Wendt. Unique combination of Education and Psychology expertise.",
       "long_description": "Oracle Psychology is Newcastle's dedicated child and adolescent psychology practice, led by Principal Clinical Psychologist and Director Daniel Wendt. Daniel's qualifications in both Education and Psychology offer a unique combination of expertise well-suited to assisting children and young people.\n\nThe practice works with children, adolescents, and their families across a broad range of presentations including ADHD assessment and management, Autism Spectrum Disorder, learning difficulties, anxiety, and behavioural issues. Oracle also assists adults and practises across the lifespan.\n\nThe team accepts NDIS funding and Mental Health Care Plans, and offers telehealth services.",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 6,
@@ -202,12 +202,12 @@
         "WorkCover"
       ],
       "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Fri",
+      "accepting": false,
+      "hours": "Mon\u2013Fri",
       "description": "A team of clinical and forensic psychologists delivering specialised care across all ages using ACT, CBT, EMDR and Schema Therapy.",
       "long_description": "Psychology Centre Newcastle brings together a team of clinical and forensic psychologists combining rigorous clinical training and experience to deliver specialised care to all ages.\n\nThe practice uses a range of evidence-based treatments including Acceptance and Commitment Therapy (ACT), Cognitive Behavioural Therapy (CBT), Eye Movement Desensitisation and Reprocessing (EMDR), and Schema Therapy to meet individual client needs.\n\nThey provide a collaborative environment to help clients better understand themselves and learn skills required to improve their quality of life. WorkCover referrals are accepted.",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 7,
@@ -233,12 +233,12 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Fri, some evenings",
+      "accepting": false,
+      "hours": "Mon\u2013Fri, some evenings",
       "description": "A boutique Newcastle West practice with a warm, collaborative approach. Particularly experienced in women's mental health, relationships, and life transitions.",
       "long_description": "Wildflower Psychology is a boutique practice in Newcastle West with a warm, collaborative approach to therapy. The team is particularly experienced in supporting women through mental health challenges, relationship difficulties, and major life transitions.\n\nTherapy is tailored to each individual, drawing on evidence-based approaches in a supportive, non-judgmental environment. Evening appointments are available for clients who cannot attend during standard business hours.\n\nTelehealth sessions are available, making the practice accessible to clients across the Hunter Region and NSW.",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 9,
@@ -265,12 +265,12 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "hours": "Mon–Fri",
+      "accepting": false,
+      "hours": "Mon\u2013Fri",
       "description": "AHPRA-endorsed clinical psychologists offering evidence-based therapy for adults, adolescents, and children across a broad range of concerns.",
       "long_description": "Esteem Psychology's AHPRA-endorsed clinical psychologists offer evidence-based psychological therapy for adults, adolescents, and children. The team works with people experiencing a range of concerns including anxiety, depression, grief, eating disorders, adjustment difficulties, and relationship challenges.\n\nThe practice takes a compassionate and welcoming approach, with clinicians specialising in a range of psychological issues and dedicated to providing a personalised service. Clients are encouraged to contact the practice for more information about services offered and current availability.",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 10,
@@ -298,12 +298,12 @@
         "WorkCover"
       ],
       "telehealth": false,
-      "accepting": true,
-      "hours": "Mon–Fri",
+      "accepting": false,
+      "hours": "Mon\u2013Fri",
       "description": "A professional, well-established practice with experienced psychologists Frances Dunn, Dr Kristine Kafer, and Melinda Miller. Over 25 years serving Newcastle.",
       "long_description": "Dyer & Dyer Psychologists is a professional, well-established practice with experienced Clinical and Registered Psychologists Frances Dunn, Dr Kristine Kafer, and Melinda Miller.\n\nThe practice has been providing evidence-based psychological services to the Newcastle community for over 25 years, treating concerns including anger, anxiety, abuse, depression, relationship difficulties, loss and grief, self-esteem issues, trauma, and more.\n\nWorCover referrals are accepted. The practice is conveniently located at ground floor level on Hunter Street in Newcastle West.",
       "featured": false,
-      "status": "accepting"
+      "status": "hidden"
     },
     {
       "id": 11,
@@ -330,7 +330,7 @@
       ],
       "telehealth": true,
       "accepting": false,
-      "hours": "Mon–Sun",
+      "hours": "Mon\u2013Sun",
       "description": "Psychology practice based in Cardiff serving the Newcastle and Hunter region.",
       "long_description": "Cerenova is a psychology practice based in Cardiff, serving clients across the Newcastle and Hunter region. The practice offers appointments seven days a week and provides telehealth services.\n\nPlease contact Cerenova directly for more information about their services, fees, and current availability.",
       "featured": false,
@@ -357,8 +357,8 @@
       ],
       "referral_types": [],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
+      "accepting": false,
+      "status": "hidden",
       "hours": "Mon - Sun ",
       "description": "sdfs",
       "long_description": "sdfs",
@@ -388,8 +388,8 @@
         "EAP"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
+      "accepting": false,
+      "status": "hidden",
       "hours": "Mon - Sun ",
       "description": "sdfdsds",
       "long_description": "sdfdsds",
@@ -423,9 +423,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Fri 8am–6pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Fri 8am\u20136pm",
       "description": "Pillar Allied Health offers compassionate, evidence-based psychology in the heart of Newcastle. Our team of registered psychologists and counsellors support individuals, children, teens, couples, and families with anxiety, depression, trauma, EMDR, and life transitions. Medicare, NDIS, and private health rebates available.",
       "featured": false,
       "fee_note": "",
@@ -457,9 +457,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Thu 8am–6pm, Fri 8:30am–4:30pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Thu 8am\u20136pm, Fri 8:30am\u20134:30pm",
       "description": "Wise Mind Psychology is a purpose-built clinic in New Lambton delivering personalised mental health care with empathy. A team of accredited clinical psychologists and registered psychologists provide evidence-based therapy for children, adolescents, and adults in a welcoming, stigma-free environment. In-person and telehealth available.",
       "featured": false,
       "fee_note": "",
@@ -490,9 +490,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Thu 7am–3pm, Fri 7am–1pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Thu 7am\u20133pm, Fri 7am\u20131pm",
       "description": "Clinic of Psychology is a supportive mental health clinic providing exceptional psychological care in Hamilton and the Hunter region. Their team assists clients through assessment and evidence-based therapy to facilitate positive and sustainable change, with values of respect, compassion, kindness, and acceptance.",
       "featured": false,
       "fee_note": "",
@@ -521,9 +521,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Fri 8am–5pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Fri 8am\u20135pm",
       "description": "Newcastle Anxiety Clinic provides specialist psychological treatment for anxiety, stress, depression, and OCD in Newcastle CBD. Led by Clinical Psychologist Luke Brock, the clinic offers highly personalised, evidence-based CBT therapy for adults in a caring, non-judgemental environment. Medicare rebates available.",
       "featured": false,
       "fee_note": "",
@@ -555,9 +555,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Fri 9am–5pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Fri 9am\u20135pm",
       "description": "Newcastle Psychology & Health is a warm, compassionate practice in Charlestown serving adults across the Hunter region. The experienced team provides a broad range of evidence-based therapies including ADHD assessments, eCounselling, and specialist support for LGBTQ+ clients. Adult ADHD assessment packages also available.",
       "featured": false,
       "fee_note": "",
@@ -590,9 +590,9 @@
         "Private"
       ],
       "telehealth": false,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Thu 9am–5pm, Fri 9am–2pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Thu 9am\u20135pm, Fri 9am\u20132pm",
       "description": "Anona House is a multi-disciplinary psychology and psychiatry practice in Hamilton providing quality evidence-based mental health services for people of all ages. Their team of clinical psychologists and psychiatrists offer individual therapy, cognitive assessments, and specialist support in a safe, compassionate environment.",
       "featured": false,
       "fee_note": "",
@@ -624,9 +624,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Fri",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Fri",
       "description": "ELD Psychology provides compassionate, evidence-based clinical psychology for adults and children across Newcastle, Lake Macquarie, and the Hunter region. Their experienced clinical psychologists draw on CBT, Schema Therapy, ACT, and Compassion-Focused Therapy to support anxiety, depression, trauma, eating disorders, perfectionism, and stress.",
       "featured": false,
       "fee_note": "",
@@ -655,8 +655,8 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
+      "accepting": false,
+      "status": "hidden",
       "hours": "",
       "description": "My Healthy Mind Psychology is a specialist clinical psychology practice in Broadmeadow offering expert treatment for OCD and all anxiety disorders. Founded in 2018, the practice provides evidence-based online and in-person therapy including CBT and Exposure and Response Prevention (ERP). Welcoming new clients with no long wait times.",
       "featured": false,
@@ -691,9 +691,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Mon–Fri 9am–5pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Mon\u2013Fri 9am\u20135pm",
       "description": "The Hummingbird Centre is a multi-clinic psychology service with locations in Broadmeadow, Newcastle West, Warners Bay, and East Maitland. Directed by Clinical Psychologist Alikki Russell, the centre provides therapy, assessments, and psychiatry for children and adults across the lifespan. Telehealth available Australia-wide.",
       "featured": false,
       "fee_note": "",
@@ -724,8 +724,8 @@
         "Private"
       ],
       "telehealth": false,
-      "accepting": true,
-      "status": "accepting",
+      "accepting": false,
+      "status": "hidden",
       "hours": "",
       "description": "Brighter Horizon Psychology is a Newcastle-based psychology practice in Lambton providing professional psychological support across Newcastle, Lake Macquarie, and the Hunter Valley. The practice offers compassionate, personalised care to help clients work towards a brighter future.",
       "featured": false,
@@ -758,8 +758,8 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
+      "accepting": false,
+      "status": "hidden",
       "hours": "",
       "description": "Aire Psychology provides client-centred counselling across Lake Macquarie and Newcastle. Founded in 2016 by Registered Psychologist Skye Stewart, the practice offers a broad range of approaches including CBT, EMDR, ACT, and hypnotherapy. WorkCover, CTP, and self-managed NDIS also accepted.",
       "featured": false,
@@ -790,9 +790,9 @@
         "Private"
       ],
       "telehealth": true,
-      "accepting": true,
-      "status": "accepting",
-      "hours": "Tue–Thu 10am–5pm",
+      "accepting": false,
+      "status": "hidden",
+      "hours": "Tue\u2013Thu 10am\u20135pm",
       "description": "Hunter Psychology is a boutique practice at Speers Point overlooking Lake Macquarie, 20 minutes from Newcastle. Led by Dr Maryann Gauci with over 25 years of experience, the practice provides private counselling, couples therapy, and specialist psychology services in a warm, supportive environment.",
       "featured": false,
       "fee_note": "",
