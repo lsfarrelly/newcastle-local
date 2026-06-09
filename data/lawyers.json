@@ -3,7 +3,7 @@
     "category": "lawyers",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 19
   },
   "listings": [
     {
@@ -373,7 +373,7 @@
     },
     {
       "name": "Baker Love Lawyers",
-      "credentials": "Corporate & Commercial Law \u00b7 Newcastle",
+      "credentials": "Corporate & Commercial Law · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 7778",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Conditsis Lawyers",
-      "credentials": "Criminal & Family Law Specialists \u00b7 150+ Years Combined",
+      "credentials": "Criminal & Family Law Specialists · 150+ Years Combined",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 3000",
@@ -462,7 +462,7 @@
     },
     {
       "name": "Burgess Thomson",
-      "credentials": "Property & Estate Lawyers \u00b7 Newcastle CBD",
+      "credentials": "Property & Estate Lawyers · Newcastle CBD",
       "address": "1 Newcomen Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5602",
@@ -498,7 +498,7 @@
     },
     {
       "name": "Berryman Partners",
-      "credentials": "Family & Property Law \u00b7 Charlestown",
+      "credentials": "Family & Property Law · Charlestown",
       "address": "1/5 Library Lane, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4943 3988",
@@ -534,7 +534,7 @@
     },
     {
       "name": "Slater and Gordon Newcastle",
-      "credentials": "Personal Injury Lawyers \u00b7 Newcastle CBD",
+      "credentials": "Personal Injury Lawyers · Newcastle CBD",
       "address": "Level 7, 352 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4915 4800",
@@ -566,6 +566,99 @@
         "Motor Vehicle Accidents",
         "Public Liability"
       ]
+    },
+    {
+      "name": "Turnbull Hill Lawyers",
+      "credentials": "Law Firm · Charlestown",
+      "address": "Level 1, 29 Smith Street, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "(02) 4904 8000",
+      "email": "",
+      "website": "https://www.turnbullhill.com.au",
+      "services": [
+        "Conveyancing",
+        "Property Law",
+        "Wills & Estates",
+        "Family Law",
+        "Personal Injury",
+        "Criminal Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Lake Macquarie",
+        "Central Coast",
+        "Sydney"
+      ],
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Turnbull Hill Lawyers has been providing professional legal services to the people and businesses of Newcastle, Maitland, Sydney, Central Coast and Lake Macquarie since 1969. Their experienced team of solicitors specialises in property law, conveyancing, wills and estates, family law and personal injury. Turnbull Hill Lawyers is known for their personalised service and commitment to achieving the best outcomes for clients.",
+      "slug": "turnbull-hill-lawyers-charlestown",
+      "secret_key": "th-lw7382yx",
+      "google_search": "Turnbull Hill Lawyers solicitor Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Duncan and Co Lawyers",
+      "credentials": "Boutique Law Firm · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 2800",
+      "email": "",
+      "website": "https://www.duncancolaw.com.au",
+      "services": [
+        "Criminal Law",
+        "Traffic Law",
+        "Litigation",
+        "Dispute Resolution",
+        "Wills & Estates"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Valley",
+        "Lake Macquarie",
+        "Maitland"
+      ],
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Duncan and Co Lawyers is a boutique Newcastle and Hunter Valley law firm specialising in criminal and traffic law, litigation, dispute resolution and wills and estates. Their team of experienced solicitors provides expert legal representation with a focus on achieving the best possible outcomes for clients. Duncan and Co is known for their approachable, client-focused service and in-depth knowledge of local courts.",
+      "slug": "duncan-co-lawyers-newcastle",
+      "secret_key": "dc-lw8431mp",
+      "google_search": "Duncan Co Lawyers solicitor Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Taylor and Scott Lawyers Newcastle",
+      "credentials": "Law Firm · Newcastle West",
+      "address": "406 King Street, Newcastle West NSW 2302",
+      "suburb": "Newcastle West",
+      "phone": "1800 600 664",
+      "email": "",
+      "website": "https://www.taylorandscott.com.au",
+      "services": [
+        "Personal Injury",
+        "Workers Compensation",
+        "Family Law",
+        "Commercial Law",
+        "Wills & Estates",
+        "Criminal Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Valley",
+        "Lake Macquarie",
+        "Central Coast"
+      ],
+      "hours": "Mon-Fri 8:30am-5:30pm",
+      "description": "Taylor and Scott Lawyers is a nationally established firm with over 120 years of experience, providing legal services from their Newcastle West office. Their specialist lawyers handle personal injury, workers compensation, family law, commercial law and estate matters. Taylor and Scott Lawyers is committed to fighting for clients' rights with experienced, dedicated legal representation.",
+      "slug": "taylor-scott-lawyers-newcastle",
+      "secret_key": "ts-lw2947np",
+      "google_search": "Taylor Scott Lawyers Newcastle West NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

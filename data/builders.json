@@ -3,7 +3,7 @@
     "category": "builders",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 20
   },
   "listings": [
     {
@@ -311,7 +311,7 @@
     },
     {
       "name": "East Maitland Building",
-      "credentials": "Licensed Builder \u00b7 50 Years Combined Experience",
+      "credentials": "Licensed Builder · 50 Years Combined Experience",
       "address": "East Maitland NSW 2323",
       "suburb": "East Maitland",
       "phone": "(02) 4933 5200",
@@ -341,7 +341,7 @@
     },
     {
       "name": "P & D Kay Constructions",
-      "credentials": "Custom Home Builders \u00b7 Maitland",
+      "credentials": "Custom Home Builders · Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4933 0000",
@@ -399,7 +399,7 @@
     },
     {
       "name": "Nathan Brown Building",
-      "credentials": "Licensed Builder \u00b7 28+ Years Experience",
+      "credentials": "Licensed Builder · 28+ Years Experience",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "0422 622 264",
@@ -430,7 +430,7 @@
     },
     {
       "name": "QUAD Construction",
-      "credentials": "Custom Homes & Duplexes \u00b7 Cardiff",
+      "credentials": "Custom Homes & Duplexes · Cardiff",
       "address": "Unit 2/26 Munibung Road, Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "(02) 4072 1593",
@@ -461,7 +461,7 @@
     },
     {
       "name": "All Design Construction",
-      "credentials": "Award-Winning Builder \u00b7 Newcastle",
+      "credentials": "Award-Winning Builder · Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -489,6 +489,126 @@
       "google_search": "All Design Construction Builder Newcastle NSW",
       "residential": true,
       "commercial": true
+    },
+    {
+      "name": "Port Hunter Building",
+      "credentials": "Residential & Commercial Builder · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4032 0100",
+      "email": "",
+      "website": "https://www.porthunterbuilding.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Renovations",
+        "Extensions",
+        "Design & Build"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Valley",
+        "Maitland"
+      ],
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Port Hunter Building is a leading Newcastle building company specialising in exceptional quality residential and commercial construction. Their team brings extensive local expertise and a commitment to delivering premium builds on time and on budget. From custom homes to commercial fitouts, Port Hunter Building manages every project with care and professionalism.",
+      "slug": "port-hunter-building-newcastle",
+      "secret_key": "ph-bu2947wk",
+      "google_search": "Port Hunter Building builder Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "SNL Building",
+      "credentials": "Construction & Development · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4023 5500",
+      "email": "",
+      "website": "https://www.snlbuilding.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Industrial Builds",
+        "Civil Construction",
+        "Renovations"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Maitland",
+        "Lake Macquarie"
+      ],
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "SNL Building is a trusted leader in construction and development in Newcastle and the Hunter Region with over 30 years of experience. They handle residential, industrial, commercial and civil construction projects of all sizes with transparency and proven project management. Their experienced team delivers high-quality outcomes across a wide range of build types.",
+      "slug": "snl-building-newcastle",
+      "secret_key": "sn-lb6172mq",
+      "google_search": "SNL Building builder Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "GWH Build",
+      "credentials": "Development & Construction · Newcastle",
+      "address": "Level 1, 420 Hunter Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4941 0777",
+      "email": "",
+      "website": "https://gwh.com.au",
+      "services": [
+        "Residential Development",
+        "Commercial Construction",
+        "Retail Construction",
+        "Industrial Construction",
+        "Project Management"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie",
+        "Maitland"
+      ],
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "GWH is a Hunter-founded development and construction company with more than 25 years of experience delivering major projects across the region. They bring together development, construction and project expertise across residential, commercial, retail and industrial sectors. Their landmark projects include Macquarie Tower in Charlestown, the Hunter region's first fully integrated mixed-use development.",
+      "slug": "gwh-build-newcastle",
+      "secret_key": "gw-hb3841ns",
+      "google_search": "GWH Build construction Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Hunter Coast Homes",
+      "credentials": "Award-Winning Home Builder · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4920 0200",
+      "email": "",
+      "website": "https://huntercoast.com.au",
+      "services": [
+        "Custom Home Builds",
+        "Multi-Unit Developments",
+        "Townhouses",
+        "Duplexes",
+        "Project Homes"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Valley",
+        "Lake Macquarie",
+        "Maitland"
+      ],
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Hunter Coast Homes is an award-winning construction company with over 30 years of experience specialising in multi-unit residential developments across Newcastle and the Hunter Valley. Their portfolio spans custom homes, townhouses and boutique apartment projects. Hunter Coast Homes is known for delivering high-quality builds with exceptional attention to detail throughout the Hunter Region.",
+      "slug": "hunter-coast-homes-newcastle",
+      "secret_key": "hc-hm1938vp",
+      "google_search": "Hunter Coast Homes builder Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

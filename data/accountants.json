@@ -3,7 +3,7 @@
     "category": "accountants",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 19
   },
   "listings": [
     {
@@ -308,7 +308,7 @@
     },
     {
       "name": "KLM Accountants",
-      "credentials": "CPA Firm \u00b7 45+ Years",
+      "credentials": "CPA Firm · 45+ Years",
       "address": "500 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5533",
@@ -392,7 +392,7 @@
     },
     {
       "name": "Pitcher Partners Newcastle",
-      "credentials": "Chartered Accountants \u00b7 Newcastle West",
+      "credentials": "Chartered Accountants · Newcastle West",
       "address": "Level 5, 12 Stewart Avenue, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "(02) 4923 4000",
@@ -422,7 +422,7 @@
     },
     {
       "name": "Jabour Accountants",
-      "credentials": "CPA Practice \u00b7 Newcastle CBD",
+      "credentials": "CPA Practice · Newcastle CBD",
       "address": "53 King Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4926 9900",
@@ -452,7 +452,7 @@
     },
     {
       "name": "Nova Business Professionals",
-      "credentials": "Business Advisors & Accountants \u00b7 Hamilton",
+      "credentials": "Business Advisors & Accountants · Hamilton",
       "address": "5 Hudson Street, Hamilton NSW 2303",
       "suburb": "Hamilton",
       "phone": "(02) 4002 4529",
@@ -479,6 +479,97 @@
       "last_verified": "2026-06-09",
       "google_search": "Nova Business Professionals Accountant Newcastle NSW",
       "registered_tax_agent": true
+    },
+    {
+      "name": "PKF Newcastle",
+      "credentials": "Chartered Accounting Firm · Newcastle",
+      "address": "Level 5, 45 Hunter Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4962 2688",
+      "email": "",
+      "website": "https://www.pkf.com.au/locations/newcastle/",
+      "services": [
+        "Business Advisory",
+        "Tax Planning",
+        "Audit & Assurance",
+        "SMSF",
+        "Wealth Management",
+        "Corporate Finance"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Valley",
+        "Lake Macquarie",
+        "Maitland"
+      ],
+      "hours": "Mon-Fri 8:30am-5:30pm",
+      "description": "PKF Newcastle is part of the national PKF network, providing experienced chartered accounting and advisory services to businesses and individuals across the Hunter Region. Their local team delivers specialist expertise in tax, audit, SMSF, business advisory and corporate finance. PKF Newcastle is trusted by private businesses, government entities and not-for-profit organisations throughout the region.",
+      "slug": "pkf-newcastle",
+      "secret_key": "pk-fn5817qz",
+      "google_search": "PKF Newcastle accountant Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Richard Latham Accounting",
+      "credentials": "Registered Tax Agent · Belmont",
+      "address": "607-609 Pacific Highway, Belmont NSW 2280",
+      "suburb": "Belmont",
+      "phone": "(02) 4945 0077",
+      "email": "",
+      "website": "https://www.yellowpages.com.au/nsw/belmont/richard-latham-accounting",
+      "services": [
+        "Tax Returns",
+        "Business Accounting",
+        "BAS & GST",
+        "Tax Planning",
+        "Bookkeeping"
+      ],
+      "service_areas": [
+        "Belmont",
+        "Lake Macquarie",
+        "Newcastle"
+      ],
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Richard Latham Accounting has been serving clients in the Belmont and Lake Macquarie area for over 31 years. As a registered tax agent, the practice provides friendly and effective accounting and taxation solutions for individuals and small businesses. Known for their personalised approach and deep local knowledge of the Lake Macquarie community.",
+      "slug": "richard-latham-accounting-belmont",
+      "secret_key": "rl-ac7823px",
+      "google_search": "Richard Latham Accounting accountant Belmont NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "BDO Newcastle",
+      "credentials": "Chartered Accounting Firm · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4962 2300",
+      "email": "",
+      "website": "https://www.bdo.com.au/en-au/offices/newcastle",
+      "services": [
+        "Audit & Assurance",
+        "Tax Advisory",
+        "Business Advisory",
+        "Risk Advisory",
+        "Corporate Finance",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Valley",
+        "Lake Macquarie",
+        "Maitland"
+      ],
+      "hours": "Mon-Fri 8:30am-5:30pm",
+      "description": "BDO Newcastle is part of BDO Australia, one of the country's leading chartered accounting and advisory firms with a national and global network. The Newcastle office provides comprehensive professional services including audit, tax, business advisory and risk management. Their experienced local team combines regional expertise with the resources of a global accounting organisation.",
+      "slug": "bdo-newcastle",
+      "secret_key": "bd-on5291zr",
+      "google_search": "BDO Newcastle accountant Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

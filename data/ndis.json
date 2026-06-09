@@ -3,7 +3,7 @@
     "category": "ndis",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 20
   },
   "listings": [
     {
@@ -334,7 +334,7 @@
     },
     {
       "name": "HEDSS Disability Services",
-      "credentials": "NDIS Provider \u00b7 Newcastle & Maitland",
+      "credentials": "NDIS Provider · Newcastle & Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4934 2600",
@@ -394,7 +394,7 @@
     },
     {
       "name": "Dynamic Ability Support",
-      "credentials": "Registered NDIS Provider \u00b7 Hamilton",
+      "credentials": "Registered NDIS Provider · Hamilton",
       "address": "Hamilton, NSW 2303",
       "suburb": "Hamilton",
       "phone": "",
@@ -424,7 +424,7 @@
     },
     {
       "name": "Ability Action Australia Newcastle",
-      "credentials": "Allied Health NDIS Provider \u00b7 Broadmeadow",
+      "credentials": "Allied Health NDIS Provider · Broadmeadow",
       "address": "Level 2, Suite 5, 15 Lambton Road, Broadmeadow NSW 2292",
       "suburb": "Broadmeadow",
       "phone": "1800 238 958",
@@ -454,7 +454,7 @@
     },
     {
       "name": "VHCC Newcastle",
-      "credentials": "Registered NDIS Provider \u00b7 Hunter Region",
+      "credentials": "Registered NDIS Provider · Hunter Region",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "1300 048 422",
@@ -481,6 +481,132 @@
       "last_verified": "2026-06-09",
       "google_search": "VHCC NDIS Newcastle NSW",
       "ndis_registered": true
+    },
+    {
+      "name": "Hunter Care Group",
+      "credentials": "Registered NDIS Provider · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4956 2000",
+      "email": "",
+      "website": "https://huntercaregroup.org",
+      "services": [
+        "Support Work",
+        "Support Coordination",
+        "Specialist Support Coordination",
+        "Supported Independent Living",
+        "Psychosocial Recovery Coaching"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Central Coast",
+        "Hunter Valley",
+        "Lake Macquarie",
+        "Maitland",
+        "Upper Hunter"
+      ],
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Hunter Care Group is a dedicated NDIS provider supporting participants with disability services across Newcastle, the Central Coast, Hunter Valley, Lake Macquarie, Maitland and the Upper Hunter. Their experienced support workers and coordinators deliver personalised care ranging from individual support to specialist support coordination and supported independent living. Hunter Care Group is committed to empowering participants to live the life they choose.",
+      "slug": "hunter-care-group-newcastle",
+      "secret_key": "hc-cg2847wx",
+      "google_search": "Hunter Care Group NDIS provider Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Samaritans Foundation Newcastle",
+      "credentials": "Registered NDIS Provider · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4920 4800",
+      "email": "",
+      "website": "https://www.samaritans.org.au/services/ndis-and-disability-support",
+      "services": [
+        "Individual Support",
+        "Community Participation",
+        "Supported Independent Living",
+        "24/7 Complex Needs Support",
+        "Support Coordination"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Upper Hunter",
+        "Central Coast",
+        "Mid North Coast"
+      ],
+      "hours": "Mon-Fri 8:30am-4:30pm",
+      "description": "Samaritans Foundation is a trusted registered NDIS provider delivering disability support services across Newcastle, Lake Macquarie, Maitland and the broader Hunter Region. Their services range from individual community support through to 24/7 care for people with complex needs. Samaritans is a values-driven organisation with decades of experience helping people with disability lead fulfilling, connected lives.",
+      "slug": "samaritans-newcastle-ndis",
+      "secret_key": "sm-nd7302ub",
+      "google_search": "Samaritans NDIS disability support Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Songbird Disability Services",
+      "credentials": "NDIS Support Provider · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4023 8700",
+      "email": "",
+      "website": "https://www.songbird.com.au",
+      "services": [
+        "Support Coordination",
+        "Supported Independent Living",
+        "Day Programs",
+        "Community Activities",
+        "Personal Care"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Cessnock",
+        "Hunter Region"
+      ],
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Songbird provides person-centred disability support services across the Hunter Region, from Cessnock and Maitland to Newcastle and Lake Macquarie. Their services include support coordination, supported independent living and engaging day programs and community activities. Songbird is dedicated to supporting NDIS participants to build capacity, pursue their interests and live life on their own terms.",
+      "slug": "songbird-disability-newcastle",
+      "secret_key": "sg-bd4182ck",
+      "google_search": "Songbird Disability Services NDIS Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Hunter Care Group Upper Hunter",
+      "credentials": "Registered NDIS Provider · Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "(02) 4956 2001",
+      "email": "",
+      "website": "https://huntercaregroup.org",
+      "services": [
+        "Support Work",
+        "Supported Independent Living",
+        "Support Coordination",
+        "Community Participation",
+        "Psychosocial Recovery Coaching"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Cessnock",
+        "Hunter Valley",
+        "Upper Hunter",
+        "Newcastle"
+      ],
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Hunter Care Group provides dedicated NDIS disability support services to participants in Maitland, Cessnock and the Upper Hunter Valley. Their team of compassionate support workers assists with daily living, community participation and supported independent living tailored to each participant's individual plan. Hunter Care Group is registered with the NDIS Quality and Safeguards Commission and committed to participant wellbeing.",
+      "slug": "hunter-care-group-maitland",
+      "secret_key": "hc-gm3918vq",
+      "google_search": "Hunter Care Group NDIS Maitland NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

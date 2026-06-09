@@ -3,7 +3,7 @@
     "category": "electricians",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 20
   },
   "listings": [
     {
@@ -316,7 +316,7 @@
     },
     {
       "name": "Novocastrian Electrical",
-      "credentials": "Licensed Electricians \u00b7 Est. 1993",
+      "credentials": "Licensed Electricians · Est. 1993",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4969 5633",
@@ -345,7 +345,7 @@
     },
     {
       "name": "Electix",
-      "credentials": "Licensed Electrical Contractors \u00b7 20+ Years",
+      "credentials": "Licensed Electrical Contractors · 20+ Years",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4003 5700",
@@ -374,7 +374,7 @@
     },
     {
       "name": "Power On Electrical",
-      "credentials": "Level 2 Electricians \u00b7 Newcastle",
+      "credentials": "Level 2 Electricians · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4965 5500",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Wilton Electrical",
-      "credentials": "Licensed Electrician \u00b7 20+ Years",
+      "credentials": "Licensed Electrician · 20+ Years",
       "address": "Cooks Hill, Newcastle NSW 2291",
       "suburb": "Cooks Hill",
       "phone": "0414 494 902",
@@ -434,7 +434,7 @@
     },
     {
       "name": "GBE Group",
-      "credentials": "Gold Master Electrician \u00b7 Mayfield West",
+      "credentials": "Gold Master Electrician · Mayfield West",
       "address": "Unit 1, 2 Metal Pit Drive, Mayfield West NSW 2304",
       "suburb": "Mayfield West",
       "phone": "(02) 4968 7500",
@@ -465,7 +465,7 @@
     },
     {
       "name": "Entire Trades",
-      "credentials": "Licensed Electrical Contractor \u00b7 Newcastle",
+      "credentials": "Licensed Electrical Contractor · Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "(02) 4905 0901",
@@ -494,6 +494,133 @@
       "google_search": "Entire Trades Electrician Newcastle NSW",
       "emergency_24_7": true,
       "licensed": true
+    },
+    {
+      "name": "NewAge Electrical",
+      "credentials": "Licensed Electricians · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4905 4200",
+      "email": "",
+      "website": "https://newageelectricians.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Switchboard Upgrades",
+        "Surge Protection",
+        "Lighting",
+        "Solar Installation"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Hunter Region",
+        "Port Stephens",
+        "Central Coast"
+      ],
+      "hours": "Mon-Fri 7:00am-5:00pm, Emergency 24/7",
+      "description": "NewAge Electrical is a trusted electrical contractor serving Newcastle, Lake Macquarie, Maitland and the Hunter Region. Their qualified electricians handle everything from switchboard upgrades and lighting to 3-phase installations and commercial electrical services. NewAge Electrical is known for their responsive service, competitive pricing and quality workmanship across residential and commercial projects.",
+      "slug": "newage-electrical-newcastle",
+      "secret_key": "na-el3921wv",
+      "google_search": "NewAge Electrical electrician Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Platinum Electricians Newcastle",
+      "credentials": "Residential & Commercial Electricians · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4062 6000",
+      "email": "",
+      "website": "https://www.platinumelectricians.com.au/nsw/newcastle-lakemacquarie-maitland",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Power Points",
+        "Lighting",
+        "Switchboard Upgrades",
+        "Data & Communications"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Hunter Region"
+      ],
+      "hours": "Mon-Fri 7:00am-5:00pm, Emergency 24/7",
+      "description": "Platinum Electricians Newcastle serves Newcastle, Lake Macquarie and Maitland with a comprehensive range of residential and commercial electrical services. Their licensed electricians are available 24/7 for emergency callouts and provide reliable service across all electrical needs. Platinum Electricians is part of a national network backed by extensive trade experience and full insurance.",
+      "slug": "platinum-electricians-newcastle",
+      "secret_key": "pl-el6284sk",
+      "google_search": "Platinum Electricians Newcastle electrician NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "SmartFlow Electrical",
+      "credentials": "Licensed Electrical Contractor · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4956 0400",
+      "email": "",
+      "website": "https://smartflowelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Power & Lighting",
+        "Data Solutions",
+        "Air Conditioning"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "hours": "Mon-Fri 7:30am-4:30pm, Emergency 24/7",
+      "description": "SmartFlow Electrical is a fully licensed and insured electrical contractor with over 10 years of experience in Newcastle and the Hunter Region. They assist residential, commercial and industrial customers with a full range of power, lighting, heating and cooling solutions. SmartFlow Electrical is known for their professional approach, competitive rates and commitment to safety on every job.",
+      "slug": "smartflow-electrical-newcastle",
+      "secret_key": "sf-el5831rp",
+      "google_search": "SmartFlow Electrical electrician Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Conlec Solutions",
+      "credentials": "Electrical Contractor · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4962 4700",
+      "email": "",
+      "website": "https://www.conlecsolutions.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Switchboard Upgrades",
+        "Safety Inspections",
+        "Fault Finding",
+        "Data & Communications"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Lower Hunter Valley",
+        "Maitland",
+        "Port Stephens"
+      ],
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Conlec Solutions is an experienced Newcastle-based electrical contractor serving Newcastle, Lake Macquarie, Lower Hunter Valley, Maitland and Port Stephens. Their licensed electricians provide expert residential and commercial electrical services with a focus on safety, reliability and quality workmanship. Conlec Solutions is trusted by homeowners, businesses and developers across the Hunter Region.",
+      "slug": "conlec-solutions-newcastle",
+      "secret_key": "co-sl4027mx",
+      "google_search": "Conlec Solutions electrician Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

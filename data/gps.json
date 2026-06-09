@@ -3,7 +3,7 @@
     "category": "gps",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 19
   },
   "listings": [
     {
@@ -16,7 +16,7 @@
       "billing": "Mixed billing",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 8:00am\u20135:00pm, Sat 9:00am\u20131:00pm",
+      "hours": "Mon–Fri 8:00am–5:00pm, Sat 9:00am–1:00pm",
       "services": [
         "General Practice",
         "Antenatal Care",
@@ -44,10 +44,10 @@
       "phone": "(02) 4041 4400",
       "email": "office@broadmeadowmedical.com.au",
       "website": "https://broadmeadowmedical.com.au",
-      "billing": "Mixed billing \u2014 bulk bill at doctor's discretion for concession holders and children",
+      "billing": "Mixed billing — bulk bill at doctor's discretion for concession holders and children",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 7:00am\u20135:00pm, Sat 8:30am\u201312:00pm",
+      "hours": "Mon–Fri 7:00am–5:00pm, Sat 8:30am–12:00pm",
       "services": [
         "General Practice",
         "Skin Cancer Clinic",
@@ -77,7 +77,7 @@
       "billing": "Mixed billing",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Tue, Thu\u2013Fri 9:30am\u20135:30pm",
+      "hours": "Mon–Tue, Thu–Fri 9:30am–5:30pm",
       "services": [
         "General Practice",
         "Chronic Disease Management",
@@ -106,7 +106,7 @@
       "billing": "Mixed billing",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 8:00am\u20135:00pm",
+      "hours": "Mon–Fri 8:00am–5:00pm",
       "services": [
         "General Practice",
         "Chronic Disease Management",
@@ -137,7 +137,7 @@
       "billing": "Mixed billing",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 9:00am\u20135:00pm",
+      "hours": "Mon–Fri 9:00am–5:00pm",
       "services": [
         "General Practice",
         "Chronic Disease Management",
@@ -165,7 +165,7 @@
       "billing": "Bulk billing",
       "bulk_billing": true,
       "telehealth": false,
-      "hours": "Mon\u2013Fri 6:00pm\u20139:00pm, Sat 12:00pm\u20139:00pm, Sun & Public Holidays 9:00am\u20139:00pm",
+      "hours": "Mon–Fri 6:00pm–9:00pm, Sat 12:00pm–9:00pm, Sun & Public Holidays 9:00am–9:00pm",
       "services": [
         "After Hours GP",
         "Urgent Care",
@@ -173,7 +173,7 @@
         "General Practice",
         "Children's Health"
       ],
-      "description": "Newcastle's oldest medical deputising service. NAHMS provides after-hours GP consultations at Broadmeadow and a mobile home doctor service across the Newcastle region. Fully bulk billed \u2014 no out-of-pocket cost for Medicare cardholders.",
+      "description": "Newcastle's oldest medical deputising service. NAHMS provides after-hours GP consultations at Broadmeadow and a mobile home doctor service across the Newcastle region. Fully bulk billed — no out-of-pocket cost for Medicare cardholders.",
       "accepting_new": true,
       "featured": true,
       "google_search": "Newcastle After Hours Medical Service NAHMS",
@@ -192,7 +192,7 @@
       "billing": "Mixed billing",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 8:00am\u20134:30pm",
+      "hours": "Mon–Fri 8:00am–4:30pm",
       "services": [
         "General Practice",
         "Chronic Disease Management",
@@ -218,10 +218,10 @@
       "phone": "(02) 4951 2700",
       "email": "reception@hsmcjesmond.com.au",
       "website": "https://healthsuremc.com.au",
-      "billing": "Mixed billing \u2014 bulk bill for children under 16 and Centrelink concession holders 60+",
+      "billing": "Mixed billing — bulk bill for children under 16 and Centrelink concession holders 60+",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 8:00am\u20135:30pm, alternate Saturdays",
+      "hours": "Mon–Fri 8:00am–5:30pm, alternate Saturdays",
       "services": [
         "General Practice",
         "Chronic Disease Management",
@@ -248,10 +248,10 @@
       "phone": "(02) 4915 1222",
       "email": "charlestownreception@forhealth.com.au",
       "website": "https://charlestownmedicalcentre.com.au",
-      "billing": "Mixed billing \u2014 bulk bill for concession cardholders and children under 16",
+      "billing": "Mixed billing — bulk bill for concession cardholders and children under 16",
       "bulk_billing": false,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 7:00am\u20135:00pm, Sun 8:00am\u20131:00pm",
+      "hours": "Mon–Fri 7:00am–5:00pm, Sun 8:00am–1:00pm",
       "services": [
         "General Practice",
         "Dental",
@@ -281,7 +281,7 @@
       "billing": "Bulk billing",
       "bulk_billing": true,
       "telehealth": true,
-      "hours": "Mon\u2013Fri 8:00am\u20135:00pm",
+      "hours": "Mon–Fri 8:00am–5:00pm",
       "services": [
         "General Practice",
         "Chronic Disease Management",
@@ -303,7 +303,7 @@
     },
     {
       "name": "Cooks Hill Medical Centre",
-      "credentials": "General Practice \u00b7 Bulk Billing Available",
+      "credentials": "General Practice · Bulk Billing Available",
       "address": "Cooks Hill NSW 2300",
       "suburb": "Cooks Hill",
       "phone": "(02) 4929 4933",
@@ -361,7 +361,7 @@
     },
     {
       "name": "King Street Medical Practice",
-      "credentials": "General Practice \u00b7 Newcastle CBD",
+      "credentials": "General Practice · Newcastle CBD",
       "address": "King Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5000",
@@ -390,7 +390,7 @@
     },
     {
       "name": "Providence Medical Warners Bay",
-      "credentials": "GP & Skin Cancer Clinic \u00b7 Warners Bay",
+      "credentials": "GP & Skin Cancer Clinic · Warners Bay",
       "address": "Shop 7, 472 The Esplanade, Warners Bay NSW 2282",
       "suburb": "Warners Bay",
       "phone": "(02) 4989 3400",
@@ -424,7 +424,7 @@
     },
     {
       "name": "Charlestown Square Medical Centre",
-      "credentials": "Bulk Billing GP Clinic \u00b7 Charlestown",
+      "credentials": "Bulk Billing GP Clinic · Charlestown",
       "address": "Charlestown Square, Pearson Street, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4943 3166",
@@ -458,7 +458,7 @@
     },
     {
       "name": "Smith Street Medical Centre Charlestown",
-      "credentials": "GP Clinic \u00b7 Charlestown",
+      "credentials": "GP Clinic · Charlestown",
       "address": "Charlestown, NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4943 1000",
@@ -489,6 +489,100 @@
       "bulk_billing": false,
       "telehealth": false,
       "accepting_new": true
+    },
+    {
+      "name": "Brunker Road Medical Centre",
+      "credentials": "General Practice · Adamstown",
+      "address": "1/282 Brunker Road, Adamstown NSW 2289",
+      "suburb": "Adamstown",
+      "phone": "(02) 4952 3700",
+      "email": "",
+      "website": "https://www.brunkermedical.com.au",
+      "services": [
+        "General Practice",
+        "Skin Cancer Clinic",
+        "Ear Examination & Microsuction",
+        "Family Planning",
+        "Urgent Care",
+        "Preventive Health"
+      ],
+      "service_areas": [
+        "Adamstown",
+        "Newcastle",
+        "New Lambton",
+        "Hamilton"
+      ],
+      "hours": "Mon-Fri 8:00am-6:00pm, Sat 8:00am-12:00pm",
+      "description": "Brunker Road Medical Centre is a well-established general practice in Adamstown offering comprehensive GP services including a skin cancer clinic, ear examination and microsuction, family planning and urgent care. The practice provides personalised, patient-centred medical care to families across Newcastle's inner suburbs. Their experienced team of GPs is committed to improving health outcomes for their local community.",
+      "slug": "brunker-road-medical-centre-adamstown",
+      "secret_key": "br-mc6142yk",
+      "google_search": "Brunker Road Medical Centre GP Adamstown NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Jewells Medical Centre",
+      "credentials": "General Practice · Jewells",
+      "address": "Jewells NSW 2280",
+      "suburb": "Jewells",
+      "phone": "(02) 4947 9333",
+      "email": "",
+      "website": "https://www.jewellsmedicalcentre.com.au",
+      "services": [
+        "General Practice",
+        "Family Medicine",
+        "Women's Health",
+        "Mental Health",
+        "Chronic Disease Management",
+        "Preventive Care"
+      ],
+      "service_areas": [
+        "Jewells",
+        "Lake Macquarie",
+        "Charlestown",
+        "Warners Bay",
+        "Belmont"
+      ],
+      "hours": "Mon-Fri 8:00am-6:00pm, Sat 8:00am-1:00pm",
+      "description": "Jewells Medical Centre is a long-established, purpose-built general practice conveniently located near the Jewells shopping precinct, between Charlestown, Belmont, Warners Bay and Redhead. The experienced team of GPs offers a full range of primary healthcare services for individuals and families. Jewells Medical Centre provides bulk billing for eligible patients and has on-site pathology services.",
+      "slug": "jewells-medical-centre",
+      "secret_key": "jw-mc8374pv",
+      "google_search": "Jewells Medical Centre GP Jewells NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Charlestown General Practice",
+      "credentials": "General Practice · Charlestown",
+      "address": "Charlestown Square Shopping Centre, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "(02) 4942 3999",
+      "email": "",
+      "website": "https://www.ipn.com.au/gp/nsw-charlestown-general-practice/",
+      "services": [
+        "General Practice",
+        "Skin Procedures",
+        "Mental Health",
+        "Women's Health",
+        "Childhood Immunisation",
+        "Chronic Disease Management"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Lake Macquarie",
+        "Newcastle",
+        "Gateshead"
+      ],
+      "hours": "Mon-Fri 8:00am-5:30pm, Sat 8:00am-12:00pm",
+      "description": "Charlestown General Practice is a state-of-the-art, purpose-built teaching medical centre in Charlestown with onsite pathology, radiology and skin services. Their team of male and female doctors provides services across the full spectrum of primary care including childhood medicine, adult health, minor skin procedures and women's health. The practice offers wheelchair access and onsite parking for patient convenience.",
+      "slug": "charlestown-general-practice",
+      "secret_key": "ch-gp5291zu",
+      "google_search": "Charlestown General Practice GP Charlestown NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

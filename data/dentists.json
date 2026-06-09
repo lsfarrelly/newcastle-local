@@ -3,7 +3,7 @@
     "category": "dentists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 20
   },
   "listings": [
     {
@@ -406,7 +406,7 @@
     },
     {
       "name": "Graham Johnson Dental Surgery",
-      "credentials": "General & Cosmetic Dentist \u00b7 Jesmond",
+      "credentials": "General & Cosmetic Dentist · Jesmond",
       "address": "39 Mordue Parade, Jesmond NSW 2299",
       "suburb": "Jesmond",
       "phone": "(02) 4951 5452",
@@ -437,7 +437,7 @@
     },
     {
       "name": "7 Pearls Dental",
-      "credentials": "Family & Cosmetic Dentist \u00b7 Belmont",
+      "credentials": "Family & Cosmetic Dentist · Belmont",
       "address": "Shop 3-6 Belmont Central, 1 Singleton Street, Belmont NSW 2280",
       "suburb": "Belmont",
       "phone": "(02) 4945 0881",
@@ -469,7 +469,7 @@
     },
     {
       "name": "nib Dental Care Newcastle",
-      "credentials": "Family & Cosmetic Dentistry \u00b7 Newcastle West",
+      "credentials": "Family & Cosmetic Dentistry · Newcastle West",
       "address": "Marketown Shopping Centre, 23 Steel Street, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "(02) 4940 7100",
@@ -497,6 +497,130 @@
       "google_search": "nib Dental Care Newcastle Dentist Newcastle NSW",
       "emergency_dental": false,
       "accepting_patients": true
+    },
+    {
+      "name": "Smile Star Dental",
+      "credentials": "Family Dental Practice · Warners Bay",
+      "address": "4/12 King Street, Warners Bay NSW 2282",
+      "suburb": "Warners Bay",
+      "phone": "(02) 4948 9888",
+      "email": "",
+      "website": "https://smilestardental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Teeth Whitening",
+        "Orthodontics",
+        "Family Dentistry",
+        "Preventive Care"
+      ],
+      "service_areas": [
+        "Warners Bay",
+        "Lake Macquarie",
+        "Newcastle",
+        "Charlestown"
+      ],
+      "hours": "Mon-Fri 8:30am-5:30pm, Sat 8:30am-2:00pm",
+      "description": "Smile Star Dental is a modern family dental clinic in Warners Bay, central to Lake Macquarie and a short drive from Newcastle. They offer preventative, general and family dentistry in a welcoming, patient-focused environment. Their experienced team uses the latest dental technology to provide comfortable, high-quality care for patients of all ages.",
+      "slug": "smile-star-dental-warners-bay",
+      "secret_key": "ss-de4729bk",
+      "google_search": "Smile Star Dental dentist Warners Bay NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "SmilesHQ",
+      "credentials": "Full-Service Dental Clinic · Warners Bay",
+      "address": "Warners Bay NSW 2282",
+      "suburb": "Warners Bay",
+      "phone": "(02) 4954 6633",
+      "email": "",
+      "website": "https://www.smileshq.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Dental Implants",
+        "Orthodontics",
+        "Emergency Dental",
+        "Teeth Whitening"
+      ],
+      "service_areas": [
+        "Warners Bay",
+        "Lake Macquarie",
+        "Newcastle",
+        "Charlestown"
+      ],
+      "hours": "Mon-Fri 8:00am-6:00pm, Sat 8:00am-2:00pm",
+      "description": "SmilesHQ is a full-service dental clinic in Warners Bay accepting new patients from across Lake Macquarie, Newcastle and the broader Hunter region. Their friendly, experienced team provides comprehensive dental care from routine check-ups to advanced cosmetic and restorative treatments. SmilesHQ is committed to creating confident, healthy smiles in a relaxed and modern environment.",
+      "slug": "smileshq-warners-bay",
+      "secret_key": "sm-hq8374ry",
+      "google_search": "SmilesHQ dentist Warners Bay NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Mayfield Dental Care",
+      "credentials": "Family Dentist · Mayfield",
+      "address": "181 Maitland Road, Mayfield NSW 2304",
+      "suburb": "Mayfield",
+      "phone": "(02) 4967 3888",
+      "email": "",
+      "website": "https://mayfielddentalcare.com.au",
+      "services": [
+        "General Dentistry",
+        "Family Dentistry",
+        "Cosmetic Dentistry",
+        "Preventive Care",
+        "Teeth Whitening",
+        "Emergency Dental"
+      ],
+      "service_areas": [
+        "Mayfield",
+        "Newcastle",
+        "Waratah",
+        "Maitland"
+      ],
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Mayfield Dental Care is a trusted family dental practice on Maitland Road serving the Mayfield community with gentle, professional care. Their welcoming team provides dental services for patients of all ages, from young children to seniors. With a focus on preventive dentistry and patient comfort, Mayfield Dental Care helps families maintain healthy smiles for life.",
+      "slug": "mayfield-dental-care-mayfield",
+      "secret_key": "md-ca5821qx",
+      "google_search": "Mayfield Dental Care dentist Mayfield NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Rutherford Dental",
+      "credentials": "Independent Family Dentist · Rutherford",
+      "address": "Rutherford NSW 2320",
+      "suburb": "Rutherford",
+      "phone": "(02) 4932 5333",
+      "email": "",
+      "website": "https://rutherforddental.com.au",
+      "services": [
+        "General Dentistry",
+        "Family Dentistry",
+        "Restorative Dentistry",
+        "Preventive Care",
+        "Children's Dentistry",
+        "Emergency Dental"
+      ],
+      "service_areas": [
+        "Rutherford",
+        "Maitland",
+        "Hunter Valley",
+        "Newcastle"
+      ],
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Rutherford Dental is a family-owned and operated dental practice serving patients in Maitland, Rutherford and the surrounding Hunter Valley. As an independent practice not owned by a health fund or corporate entity, they pride themselves on personalised, patient-first care. Their experienced team offers a warm, friendly environment for patients of all ages.",
+      "slug": "rutherford-dental-maitland",
+      "secret_key": "ru-de7293lk",
+      "google_search": "Rutherford Dental dentist Maitland NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

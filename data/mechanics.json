@@ -3,7 +3,7 @@
     "category": "mechanics",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 20
   },
   "listings": [
     {
@@ -330,7 +330,7 @@
     },
     {
       "name": "PA Autocare",
-      "credentials": "Qualified Mechanics \u00b7 Warabrook",
+      "credentials": "Qualified Mechanics · Warabrook",
       "address": "3/23 Ironbark Close, Warabrook NSW 2304",
       "suburb": "Warabrook",
       "phone": "(02) 4940 8000",
@@ -360,7 +360,7 @@
     },
     {
       "name": "Hawkins Mechanical",
-      "credentials": "Est. 2003 \u00b7 15+ Years Experience",
+      "credentials": "Est. 2003 · 15+ Years Experience",
       "address": "Lambton NSW 2299",
       "suburb": "Lambton",
       "phone": "(02) 4952 4000",
@@ -418,7 +418,7 @@
     },
     {
       "name": "Auto Service Newcastle",
-      "credentials": "Licensed Mechanic \u00b7 16+ Years",
+      "credentials": "Licensed Mechanic · 16+ Years",
       "address": "34 Throsby Street, Wickham NSW 2293",
       "suburb": "Wickham",
       "phone": "(02) 4969 3166",
@@ -449,7 +449,7 @@
     },
     {
       "name": "Denstoj Auto Centre",
-      "credentials": "High Performance & General Mechanics \u00b7 Carrington",
+      "credentials": "High Performance & General Mechanics · Carrington",
       "address": "12 Elizabeth Street, Carrington NSW 2294",
       "suburb": "Carrington",
       "phone": "(02) 4962 2008",
@@ -480,7 +480,7 @@
     },
     {
       "name": "Newcastle Motor Repairs",
-      "credentials": "Automotive Repairs & Servicing \u00b7 Merewether",
+      "credentials": "Automotive Repairs & Servicing · Merewether",
       "address": "12 Mitchell Street, Merewether NSW 2291",
       "suburb": "Merewether",
       "phone": "(02) 4963 1097",
@@ -508,6 +508,131 @@
       "google_search": "Newcastle Motor Repairs Mechanic Newcastle NSW",
       "mobile": false,
       "emergency_24_7": false
+    },
+    {
+      "name": "Aarons Automotive Repairs",
+      "credentials": "Mobile & Workshop Mechanic · Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "(02) 4934 7800",
+      "email": "",
+      "website": "https://www.aaronsautomotiverepairs.com.au",
+      "services": [
+        "Logbook Servicing",
+        "Car Repairs",
+        "Mobile Mechanic",
+        "Brake Repairs",
+        "Clutch Repairs",
+        "Pre-Purchase Inspections"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Newcastle",
+        "Hunter Valley",
+        "Cessnock"
+      ],
+      "hours": "Mon-Fri 8:00am-5:00pm, Sat 8:00am-1:00pm",
+      "description": "Aarons Automotive Repairs provides professional mobile mechanic and car repair services throughout Maitland, Newcastle and the Hunter Valley. Their qualified technicians offer logbook servicing, brake and clutch repairs, diagnostics and pre-purchase inspections. Aarons Automotive Repairs is trusted by local families and businesses for reliable, honest and affordable automotive care.",
+      "slug": "aarons-automotive-maitland",
+      "secret_key": "aa-am7391vx",
+      "google_search": "Aarons Automotive Repairs mechanic Maitland NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Fast Andys Mobile Mechanical",
+      "credentials": "Mobile Mechanic · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0421 893 547",
+      "email": "",
+      "website": "https://fastandys.com.au",
+      "services": [
+        "Logbook Servicing",
+        "Oil & Filter Changes",
+        "Diagnostics",
+        "Battery & Charging",
+        "Brake Repairs",
+        "Pre-Purchase Inspections"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "hours": "Mon-Sat 7:00am-5:00pm",
+      "description": "Fast Andys Mobile Mechanical is a family-owned mobile mechanic service with over 20 years of mechanical experience, coming directly to your home or workplace across Newcastle, Maitland and the Hunter Region. They specialise in manufacturer logbook servicing, diagnostics, brake repairs and pre-purchase vehicle inspections at competitive rates. Fast Andys is known for honest assessments and the convenience of coming to you.",
+      "slug": "fast-andys-mobile-mechanical",
+      "secret_key": "fa-mm4218pk",
+      "google_search": "Fast Andys Mobile Mechanical mechanic Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Shifters Automotive",
+      "credentials": "Mobile Mechanic · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "0431 284 157",
+      "email": "",
+      "website": "https://www.shiftersautomotive.com.au",
+      "services": [
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Emergency Breakdown",
+        "Air Conditioning Regas",
+        "Pre-Purchase Inspections",
+        "Fleet Servicing"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Newcastle",
+        "Maitland",
+        "Port Stephens",
+        "Hunter Valley"
+      ],
+      "hours": "Mon-Fri 8:00am-5:00pm, Emergency Callout Available",
+      "description": "Shifters Automotive is a mobile mechanic service based in Cessnock, providing expert vehicle servicing and repairs across Newcastle, Maitland, Port Stephens and the Hunter Valley. Their qualified mechanics come directly to your location for all service and repair needs including emergency breakdown callout and air conditioning regas. Shifters Automotive delivers workshop-quality service without the trip to the garage.",
+      "slug": "shifters-automotive-cessnock",
+      "secret_key": "sh-au6142tz",
+      "google_search": "Shifters Automotive mechanic Cessnock NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "The Service Centre Thornton",
+      "credentials": "Mechanical Workshop · Thornton",
+      "address": "Thornton NSW 2322",
+      "suburb": "Thornton",
+      "phone": "(02) 4966 1199",
+      "email": "",
+      "website": "https://www.the-servicecentre.com.au",
+      "services": [
+        "Car Servicing",
+        "Logbook Servicing",
+        "Brake Repairs",
+        "Tyre Fitting",
+        "Wheel Alignment",
+        "Air Conditioning Service"
+      ],
+      "service_areas": [
+        "Thornton",
+        "Maitland",
+        "Newcastle",
+        "Hunter Valley"
+      ],
+      "hours": "Mon-Fri 7:30am-5:30pm, Sat 8:00am-12:00pm",
+      "description": "The Service Centre is a well-established group of mechanical workshops serving Thornton, Maitland and the broader Hunter Valley with over 50 years of combined experience. Their team of expert mechanics provides quality car servicing, logbook maintenance, brake repairs and tyre services. The Service Centre is dedicated to transparent, reliable and affordable automotive care for all makes and models.",
+      "slug": "the-service-centre-thornton",
+      "secret_key": "sc-th9281rx",
+      "google_search": "The Service Centre mechanic Thornton NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

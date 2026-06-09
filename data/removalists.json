@@ -3,7 +3,7 @@
     "category": "removalists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 19
   },
   "listings": [
     {
@@ -318,7 +318,7 @@
     },
     {
       "name": "John's Removals Newcastle",
-      "credentials": "Family-Owned \u00b7 30+ Years",
+      "credentials": "Family-Owned · 30+ Years",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4961 6661",
@@ -349,7 +349,7 @@
     },
     {
       "name": "Grace Removals Newcastle",
-      "credentials": "National Removalists \u00b7 Local Team",
+      "credentials": "National Removalists · Local Team",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4961 4900",
@@ -411,7 +411,7 @@
     },
     {
       "name": "Staples Removals",
-      "credentials": "Home & Office Movers \u00b7 Adamstown",
+      "credentials": "Home & Office Movers · Adamstown",
       "address": "18 Pacific Highway, Adamstown NSW 2289",
       "suburb": "Adamstown",
       "phone": "(02) 4957 7695",
@@ -442,7 +442,7 @@
     },
     {
       "name": "A1 Group Newcastle Removals",
-      "credentials": "Family-Owned Removalist \u00b7 Cardiff",
+      "credentials": "Family-Owned Removalist · Cardiff",
       "address": "6 Aminya Place, Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "1800 681 055",
@@ -474,7 +474,7 @@
     },
     {
       "name": "LW Hodgins Removalists",
-      "credentials": "Removalists Since 2002 \u00b7 Adamstown",
+      "credentials": "Removalists Since 2002 · Adamstown",
       "address": "Unit D, 85/2 Gow Street, Adamstown NSW 2289",
       "suburb": "Adamstown",
       "phone": "(02) 4952 7552",
@@ -503,6 +503,101 @@
       "google_search": "LW Hodgins Removalists Newcastle NSW",
       "storage": false,
       "interstate": false
+    },
+    {
+      "name": "Two Men And A Truck Newcastle",
+      "credentials": "Professional Removalists · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 880 412",
+      "email": "",
+      "website": "https://www.twomen.com.au/newcastle-removalists/",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Furniture Moving",
+        "Packing Services",
+        "Storage Solutions",
+        "Office Relocations"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Port Stephens",
+        "Maitland",
+        "Hunter Valley",
+        "Sydney"
+      ],
+      "hours": "Mon-Sat 7:00am-7:00pm",
+      "description": "Two Men And A Truck Newcastle is part of Australia's leading removalist franchise with over 30 years of experience and 16,000 moves annually. Their professional Newcastle removalists specialise in local and interstate moves for families, couples and businesses. Two Men And A Truck is known for their careful handling, competitive pricing and dedicated customer service from quote to completion.",
+      "slug": "two-men-and-a-truck-newcastle",
+      "secret_key": "tm-at8291vz",
+      "google_search": "Two Men And A Truck removalist Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Men In Black Removals",
+      "credentials": "Professional Removalists · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4062 8500",
+      "email": "",
+      "website": "https://www.meninblackremovals.com.au",
+      "services": [
+        "Local Removals",
+        "Furniture Moving",
+        "Packing Services",
+        "Interstate Removals",
+        "Office Relocations"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Hunter Region"
+      ],
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Men In Black Removals provides professional furniture removal services across Newcastle and the Hunter Region from $150 per hour. Their experienced, fully insured removalists handle local and interstate moves with care and efficiency. Men In Black Removals is praised for their punctuality, friendly service and careful handling of furniture and valuables.",
+      "slug": "men-in-black-removals-newcastle",
+      "secret_key": "mb-rm6284wy",
+      "google_search": "Men In Black Removals removalist Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Mighty Mouse Movers",
+      "credentials": "Furniture Removalists · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4058 5600",
+      "email": "",
+      "website": "https://www.mightymousemovers.com.au",
+      "services": [
+        "Furniture Removals",
+        "Local Moving",
+        "Interstate Moving",
+        "Packing & Unpacking",
+        "Piano Moving",
+        "Storage"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region",
+        "Maitland",
+        "Port Stephens"
+      ],
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Mighty Mouse Movers is a trusted Newcastle removalist company offering professional furniture removal services for local and interstate moves. Their careful, experienced team handles everything from small apartment moves to large family homes, including specialist piano moving. Mighty Mouse Movers is known for competitive rates, punctuality and treating customers belongings with the utmost care.",
+      "slug": "mighty-mouse-movers-newcastle",
+      "secret_key": "mm-mv3718py",
+      "google_search": "Mighty Mouse Movers removalist Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }

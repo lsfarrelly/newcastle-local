@@ -3,7 +3,7 @@
     "category": "physiotherapists",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 16
+    "total": 19
   },
   "listings": [
     {
@@ -324,7 +324,7 @@
     },
     {
       "name": "Hunter Physio Sports Clinic",
-      "credentials": "Sports Physiotherapy \u00b7 20+ Years",
+      "credentials": "Sports Physiotherapy · 20+ Years",
       "address": "55 Belford Street, Broadmeadow NSW 2292",
       "suburb": "Broadmeadow",
       "phone": "(02) 4961 4222",
@@ -383,7 +383,7 @@
     },
     {
       "name": "Cameron McKenzie Physiotherapy",
-      "credentials": "Expert Holistic Physio \u00b7 Newcastle & Lake Macquarie",
+      "credentials": "Expert Holistic Physio · Newcastle & Lake Macquarie",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4910 0000",
@@ -412,7 +412,7 @@
     },
     {
       "name": "Physio 2U Newcastle",
-      "credentials": "Mobile Physiotherapy Service \u00b7 Newcastle",
+      "credentials": "Mobile Physiotherapy Service · Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -443,7 +443,7 @@
     },
     {
       "name": "Physiotherapy at Home Newcastle",
-      "credentials": "Mobile Physiotherapy \u00b7 Newcastle & Lake Macquarie",
+      "credentials": "Mobile Physiotherapy · Newcastle & Lake Macquarie",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -474,7 +474,7 @@
     },
     {
       "name": "Ethos Health Newcastle",
-      "credentials": "Physiotherapy & Workplace Health \u00b7 Wickham",
+      "credentials": "Physiotherapy & Workplace Health · Wickham",
       "address": "Unit 1, 21 Annie Street, Wickham NSW 2293",
       "suburb": "Wickham",
       "phone": "(02) 4962 8700",
@@ -502,6 +502,101 @@
       "google_search": "Ethos Health Newcastle Physiotherapist Newcastle NSW",
       "medicare_rebate": true,
       "accepting_patients": true
+    },
+    {
+      "name": "Kids Physio Newcastle",
+      "credentials": "Paediatric Physiotherapy · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4038 2200",
+      "email": "",
+      "website": "https://www.kidsphysionewcastle.com.au",
+      "services": [
+        "Paediatric Physiotherapy",
+        "Developmental Assessment",
+        "Neurological Physiotherapy",
+        "Musculoskeletal Treatment",
+        "Mobile Physiotherapy"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Port Stephens",
+        "Maitland",
+        "Lake Macquarie",
+        "Cessnock",
+        "Singleton"
+      ],
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Kids Physio Newcastle is a specialist paediatric physiotherapy service providing both mobile and in-clinic care for children across Greater Newcastle, Port Stephens, Maitland and Lake Macquarie. Their experienced paediatric physiotherapists assess and treat a wide range of developmental, neurological and musculoskeletal conditions in infants, children and teenagers. Kids Physio Newcastle is committed to helping children achieve their physical potential in a fun, supportive environment.",
+      "slug": "kids-physio-newcastle",
+      "secret_key": "kp-nx6341mw",
+      "google_search": "Kids Physio Newcastle physiotherapist Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "NUmoves Physio",
+      "credentials": "University Physiotherapy Clinic · Callaghan",
+      "address": "The Forum Sports & Aquatic Centre, University of Newcastle, Callaghan NSW 2308",
+      "suburb": "Callaghan",
+      "phone": "(02) 4921 6879",
+      "email": "",
+      "website": "https://numovesphysio.com.au",
+      "services": [
+        "Physiotherapy",
+        "Sports Injury Assessment",
+        "Rehabilitation",
+        "Musculoskeletal Treatment",
+        "Exercise Prescription",
+        "Injury Prevention"
+      ],
+      "service_areas": [
+        "Callaghan",
+        "Newcastle",
+        "New Lambton",
+        "Jesmond",
+        "Hunter Region"
+      ],
+      "hours": "Mon-Fri 8:00am-5:30pm",
+      "description": "NUmoves Physio is a leading physiotherapy clinic located on the University of Newcastle Callaghan Campus, within The Forum Sports and Aquatic Centre. Their qualified team of five physiotherapists specialises in sports injury assessment, diagnosis and management across a wide range of musculoskeletal conditions. NUmoves Physio delivers excellence and innovation in every session, combining evidence-based treatment with personalised care.",
+      "slug": "numoves-physio-callaghan",
+      "secret_key": "nu-ph4219mz",
+      "google_search": "NUmoves Physio physiotherapist Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Newcastle Physiotherapy and Exercise Physiology",
+      "credentials": "Specialist Physiotherapy Clinic · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4962 1000",
+      "email": "",
+      "website": "https://www.newcastle-physiotherapy.com.au",
+      "services": [
+        "Physiotherapy",
+        "Exercise Physiology",
+        "Sports Physiotherapy",
+        "Musculoskeletal Rehab",
+        "Post-Surgical Rehab",
+        "Chronic Pain Management"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Hunter Region"
+      ],
+      "hours": "Mon-Fri 7:30am-6:00pm, Sat 8:00am-12:00pm",
+      "description": "Newcastle Physiotherapy and Exercise Physiology is a specialist clinic with 6 team members holding titled physiotherapist accreditation — an elite qualification held by only 5% of physiotherapists nationally. The clinic provides expert assessment and treatment for sports injuries, musculoskeletal conditions and chronic pain. Their evidence-based, highly skilled team delivers outstanding outcomes for athletes, workers and everyday Novocastrians.",
+      "slug": "newcastle-physio-exercise-physiology",
+      "secret_key": "np-ep8371wy",
+      "google_search": "Newcastle Physiotherapy Exercise Physiology Newcastle NSW",
+      "status": "active",
+      "featured": false,
+      "last_verified": "2026-06-09"
     }
   ]
 }
