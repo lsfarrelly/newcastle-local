@@ -985,6 +985,9 @@
       "google_search": "Soulful Psychotherapy Psychologist Newcastle NSW"
     },
     {
+      "id": 1780906229340,
+      "slug": "educare-psychology-charlestown",
+      "secret_key": "ed-ps6182zt",
       "name": "Educare Specialist Services",
       "credentials": "Multi-Disciplinary Psychology Practice · Charlestown",
       "address": "Charlestown NSW 2290",
@@ -992,30 +995,34 @@
       "phone": "(02) 4943 4444",
       "email": "",
       "website": "https://www.educare.net.au",
-      "services": [
+      "google_search": "Educare Specialist Services psychologist Charlestown NSW",
+      "specialties": [
         "Psychology Assessments",
-        "Child & Adolescent Therapy",
         "CBT",
-        "Anxiety & Depression",
-        "Learning Difficulties",
-        "Trauma Therapy"
+        "Anxiety",
+        "Depression",
+        "Trauma",
+        "Child & Adolescent",
+        "Learning Difficulties"
       ],
-      "service_areas": [
-        "Charlestown",
-        "Lake Macquarie",
-        "Newcastle",
-        "Hunter Region"
+      "referral_types": [
+        "MHCP",
+        "NDIS",
+        "Private",
+        "DVA"
       ],
+      "telehealth": true,
+      "accepting": true,
       "hours": "Mon-Fri 8:30am-5:00pm",
       "description": "Educare Specialist Services is a multi-disciplinary health practice in Charlestown proudly serving families in the Newcastle-Hunter region since 1999. Their psychologists assess, diagnose and provide therapy for psychological, emotional, social, developmental and learning needs across all age groups. Educare offers evidence-based CBT, trauma therapy and specialised assessments for children, adolescents and adults.",
-      "slug": "educare-psychology-charlestown",
-      "secret_key": "ed-ps6182zt",
-      "google_search": "Educare Specialist Services psychologist Charlestown NSW",
-      "status": "active",
+      "long_description": "Educare Specialist Services is a multi-disciplinary health practice in Charlestown proudly serving families in the Newcastle-Hunter region since 1999. Their psychologists assess, diagnose and provide therapy for psychological, emotional, social, developmental and learning needs across all age groups.\n\nEducare offers evidence-based CBT, trauma therapy and specialised assessments for children, adolescents and adults. The practice accepts NDIS, Mental Health Care Plans and private referrals.",
       "featured": false,
-      "last_verified": "2026-06-09"
+      "status": "active"
     },
     {
+      "id": 1780906229341,
+      "slug": "lake-macquarie-counselling-cardiff",
+      "secret_key": "lm-cs4738px",
       "name": "Lake Macquarie Counselling",
       "credentials": "Psychotherapy & Counselling · Cardiff",
       "address": "Cardiff NSW 2285",
@@ -1023,32 +1030,32 @@
       "phone": "0431 576 406",
       "email": "",
       "website": "https://www.lakemacquariecounselling.com.au",
-      "services": [
-        "Counselling",
-        "Psychotherapy",
-        "Anxiety & Depression",
+      "google_search": "Lake Macquarie Counselling psychologist Cardiff NSW",
+      "specialties": [
+        "Anxiety",
+        "Depression",
+        "Trauma",
         "Relationship Counselling",
         "Grief & Loss",
-        "Trauma Therapy"
+        "Psychotherapy"
       ],
-      "service_areas": [
-        "Cardiff",
-        "Lake Macquarie",
-        "Newcastle",
-        "Toronto",
-        "Maitland",
-        "Cessnock"
+      "referral_types": [
+        "MHCP",
+        "Private",
+        "EAP"
       ],
+      "telehealth": true,
+      "accepting": true,
       "hours": "Mon-Fri 9:00am-5:00pm",
       "description": "Lake Macquarie Counselling and Psychotherapy is a warm, welcoming practice based in Cardiff providing therapeutic support to clients from Newcastle, Lake Macquarie, Maitland and beyond. Their experienced counsellors and psychotherapists offer evidence-based treatment for anxiety, depression, relationship difficulties, grief and trauma. With a compassionate, client-centred approach, Lake Macquarie Counselling helps people navigate life's challenges with greater confidence.",
-      "slug": "lake-macquarie-counselling-cardiff",
-      "secret_key": "lm-cs4738px",
-      "google_search": "Lake Macquarie Counselling psychologist Cardiff NSW",
-      "status": "active",
+      "long_description": "Lake Macquarie Counselling and Psychotherapy is a warm, welcoming practice based in Cardiff providing therapeutic support to clients from Newcastle, Lake Macquarie, Maitland and beyond.\n\nTheir experienced counsellors and psychotherapists offer evidence-based treatment for anxiety, depression, relationship difficulties, grief and trauma. With a compassionate, client-centred approach, Lake Macquarie Counselling helps people navigate life's challenges with greater confidence and wellbeing.",
       "featured": false,
-      "last_verified": "2026-06-09"
+      "status": "active"
     },
     {
+      "id": 1780906229342,
+      "slug": "psychology-one-newcastle",
+      "secret_key": "py-on7392mk",
       "name": "Psychology One",
       "credentials": "Clinical Psychologists · Newcastle",
       "address": "Newcastle NSW 2300",
@@ -1056,27 +1063,28 @@
       "phone": "(02) 4932 1200",
       "email": "",
       "website": "https://www.psychologyone.com.au",
-      "services": [
-        "Individual Therapy",
-        "Depression Treatment",
-        "Anxiety Therapy",
+      "google_search": "Psychology One psychologist Newcastle NSW",
+      "specialties": [
+        "Depression",
+        "Anxiety",
         "Stress Management",
-        "Grief Counselling",
-        "Relationship Issues"
+        "Grief",
+        "Relationship Issues",
+        "Individual Therapy"
       ],
-      "service_areas": [
-        "Newcastle",
-        "Lake Macquarie",
-        "Hunter Region"
+      "referral_types": [
+        "MHCP",
+        "Private",
+        "EAP",
+        "WorkCover"
       ],
+      "telehealth": true,
+      "accepting": true,
       "hours": "Mon-Fri 9:00am-5:30pm",
       "description": "Psychology One is a clinical and consultant psychology practice serving Newcastle and Lake Macquarie, helping clients overcome depression, stress, grief, relationship challenges and other mental health concerns. Their experienced clinical psychologists provide personalised, evidence-based therapy in a confidential and supportive environment. Psychology One accepts Medicare rebates with a valid Mental Health Care Plan from your GP.",
-      "slug": "psychology-one-newcastle",
-      "secret_key": "py-on7392mk",
-      "google_search": "Psychology One psychologist Newcastle NSW",
-      "status": "active",
+      "long_description": "Psychology One is a clinical and consultant psychology practice serving Newcastle and Lake Macquarie, helping clients overcome depression, stress, grief, relationship challenges and other mental health concerns.\n\nTheir experienced clinical psychologists provide personalised, evidence-based therapy in a confidential and supportive environment. Psychology One accepts Medicare rebates with a valid Mental Health Care Plan from your GP.",
       "featured": false,
-      "last_verified": "2026-06-09"
+      "status": "active"
     }
   ]
 }
