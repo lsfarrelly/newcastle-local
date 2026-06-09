@@ -806,7 +806,13 @@
       "phone": "(02) 4929 6100",
       "email": "",
       "website": "",
-      "services": [
+      "status": "active",
+      "hours": "Mon-Fri 9am-6pm",
+      "description": "Open Mind Psychologists in Newcastle CBD offers evidence-based psychological therapies for anxiety, depression, trauma and other mental health concerns.",
+      "featured": false,
+      "slug": "open-mind-psychologists",
+      "secret_key": "49-da7aff",
+      "specialties": [
         "Individual Therapy",
         "Anxiety & Depression",
         "Trauma Therapy",
@@ -814,18 +820,14 @@
         "EMDR",
         "Mindfulness"
       ],
-      "service_areas": [
-        "Newcastle",
-        "Newcastle CBD",
-        "Hunter Region"
+      "referral_types": [
+        "MHCP",
+        "Private",
+        "EAP"
       ],
-      "status": "active",
-      "hours": "Mon-Fri 9am-6pm",
-      "description": "Open Mind Psychologists in Newcastle CBD offers evidence-based psychological therapies for anxiety, depression, trauma and other mental health concerns.",
-      "featured": false,
-      "slug": "open-mind-psychologists",
-      "secret_key": "49-da7aff",
-      "last_verified": "2026-06-09",
+      "telehealth": true,
+      "accepting": true,
+      "long_description": "Open Mind Psychologists in Newcastle CBD offers evidence-based psychological therapies for anxiety, depression, trauma and other mental health concerns.",
       "google_search": "Open Mind Psychologists Psychologist Newcastle NSW"
     },
     {
@@ -836,7 +838,13 @@
       "phone": "(02) 4910 0000",
       "email": "",
       "website": "",
-      "services": [
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm, Eve by appointment",
+      "description": "Begin Again Therapy is a Newcastle psychology practice offering compassionate, evidence-based therapy for individuals, couples and children across the Hunter Region.",
+      "featured": false,
+      "slug": "begin-again-therapy",
+      "secret_key": "c6-01d274",
+      "specialties": [
         "Individual Therapy",
         "Couples Therapy",
         "Child Psychology",
@@ -844,17 +852,14 @@
         "Anxiety",
         "Depression"
       ],
-      "service_areas": [
-        "Newcastle",
-        "Hunter Region"
+      "referral_types": [
+        "MHCP",
+        "Private",
+        "EAP"
       ],
-      "status": "active",
-      "hours": "Mon-Fri 9am-5pm, Eve by appointment",
-      "description": "Begin Again Therapy is a Newcastle psychology practice offering compassionate, evidence-based therapy for individuals, couples and children across the Hunter Region.",
-      "featured": false,
-      "slug": "begin-again-therapy",
-      "secret_key": "c6-01d274",
-      "last_verified": "2026-06-09",
+      "telehealth": true,
+      "accepting": true,
+      "long_description": "Begin Again Therapy is a Newcastle psychology practice offering compassionate, evidence-based therapy for individuals, couples and children across the Hunter Region.",
       "google_search": "Begin Again Therapy Psychologist Newcastle NSW"
     },
     {
@@ -865,7 +870,13 @@
       "phone": "(02) 4929 0000",
       "email": "",
       "website": "",
-      "services": [
+      "status": "active",
+      "hours": "Mon-Fri 9am-6pm",
+      "description": "Newcastle Wellbeing Psychology provides professional clinical and general psychology services for adults and adolescents across Newcastle and the Hunter region.",
+      "featured": false,
+      "slug": "newcastle-wellbeing-psychology",
+      "secret_key": "47-5ba616",
+      "specialties": [
         "Individual Therapy",
         "Anxiety & Depression",
         "PTSD",
@@ -873,18 +884,14 @@
         "Chronic Pain",
         "Life Transitions"
       ],
-      "service_areas": [
-        "Newcastle",
-        "Hunter Region",
-        "Lake Macquarie"
+      "referral_types": [
+        "MHCP",
+        "Private",
+        "EAP"
       ],
-      "status": "active",
-      "hours": "Mon-Fri 9am-6pm",
-      "description": "Newcastle Wellbeing Psychology provides professional clinical and general psychology services for adults and adolescents across Newcastle and the Hunter region.",
-      "featured": false,
-      "slug": "newcastle-wellbeing-psychology",
-      "secret_key": "47-5ba616",
-      "last_verified": "2026-06-09",
+      "telehealth": true,
+      "accepting": true,
+      "long_description": "Newcastle Wellbeing Psychology provides professional clinical and general psychology services for adults and adolescents across Newcastle and the Hunter region.",
       "google_search": "Newcastle Wellbeing Psychology Psychologist Newcastle NSW"
     }
   ]
