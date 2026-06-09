@@ -136,20 +136,29 @@
     <p style="margin-top:24px"><a id="backLink" href="/psychologists.html">← Back to directory</a></p>
   </div>
 
-  <!-- Key entry (shown when no key in URL) -->
+  <!-- Key entry — always shown first; slug field hidden when slug is known from URL -->
   <div id="keyEntryWrap" style="display:none;background:#fff;border:1px solid var(--rule);border-radius:4px;padding:40px;max-width:480px;margin:0 auto;">
-    <h2 style="font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px;">Enter your owner key</h2>
-    <p style="color:var(--muted);font-size:14px;margin-bottom:24px;">You would have received your secret key when your listing was created or approved.</p>
-    <div class="form-group">
+    <h2 style="font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px;">Enter your secret key</h2>
+    <p style="color:var(--muted);font-size:14px;margin-bottom:20px;">Your secret key is required to edit your listing. It was provided when your listing was created.</p>
+    <!-- Shown when slug is unknown (direct URL, no ?slug=) -->
+    <div id="slugFieldGroup" class="form-group" style="display:none;">
       <label>Business slug</label>
-      <input type="text" id="slugInput" placeholder="e.g. smith-psychology" style="font-family:monospace;">
-      <p class="hint">This is the URL-safe name of your practice (shown in your profile URL).</p>
+      <input type="text" id="slugInput" placeholder="e.g. hunter-eco-plumbing" style="font-family:monospace;">
+      <p class="hint">The URL-safe name shown in your profile URL.</p>
+    </div>
+    <!-- Shown when slug is known from URL -->
+    <div id="slugDisplay" style="display:none;background:var(--cream);border:1px solid var(--rule);border-radius:3px;padding:10px 14px;margin-bottom:20px;font-size:13px;color:var(--muted);">
+      Listing: <span id="slugDisplayVal" style="font-family:monospace;color:var(--ink);font-weight:500;"></span>
+    </div>
+    <div id="keyErrorMsg" style="display:none;background:#fff3e0;border:1px solid #ffcc80;border-radius:3px;padding:10px 14px;margin-bottom:16px;font-size:14px;color:#e65100;">
+      ⚠️ That key doesn't match our records. Please check and try again.
     </div>
     <div class="form-group">
       <label>Secret key</label>
-      <input type="text" id="keyInput" placeholder="e.g. sp-abc12345" style="font-family:monospace;">
+      <input type="text" id="keyInput" placeholder="e.g. sp-abc12345" style="font-family:monospace;" autocomplete="off">
+      <p class="hint" style="margin-top:5px;">Check your original confirmation email or the directory spreadsheet.</p>
     </div>
-    <button id="keyEntryBtn" onclick="tryKeyEntry()" class="submit-btn" style="margin-top:4px;">Continue →</button>
+    <button id="keyEntryBtn" onclick="tryKeyEntry()" class="submit-btn" style="margin-top:4px;">Verify &amp; continue →</button>
     <p style="font-size:12px;color:var(--muted);text-align:center;margin-top:16px;">
       Don't have a key? <a href="mailto:info@cerenova.com.au" style="color:var(--accent)">Contact us</a> and we'll resend it.
     </p>
@@ -251,12 +260,25 @@ let listing = null;
   if (footerEl) footerEl.href = href;
 })();
 
-function showKeyEntry() {
+function showKeyEntry(showError) {
   document.getElementById('heroTitle').textContent = 'Update Your Listing';
-  document.getElementById('heroSub').textContent   = 'Enter your business slug and secret key to continue.';
-  document.getElementById('formWrap').style.display = 'none';
+  document.getElementById('heroSub').textContent   = 'Enter your secret key to continue.';
+  document.getElementById('formWrap').style.display   = 'none';
+  document.getElementById('invalidKey').style.display = 'none';
   document.getElementById('keyEntryWrap').style.display = 'block';
-  if (slug) document.getElementById('slugInput').value = slug;
+  // Show/hide slug field depending on whether slug is pre-known from URL
+  if (slug) {
+    document.getElementById('slugFieldGroup').style.display = 'none';
+    document.getElementById('slugDisplay').style.display    = 'block';
+    document.getElementById('slugDisplayVal').textContent   = slug;
+  } else {
+    document.getElementById('slugFieldGroup').style.display = 'block';
+    document.getElementById('slugDisplay').style.display    = 'none';
+  }
+  // Show inline error if key was wrong
+  var errEl = document.getElementById('keyErrorMsg');
+  errEl.style.display = showError ? 'block' : 'none';
+  if (showError) document.getElementById('keyInput').value = '';
 }
 
 function showInvalid() {
@@ -302,30 +324,29 @@ async function validateAndLoad(s, k) {
     const res  = await fetch('/data/' + cat + '.json?v=' + Date.now());
     const data = await res.json();
     const l    = data.listings.find(x => x.slug === s);
-    if (!l || l.secret_key !== k) { showInvalid(); return; }
+    if (!l) { showInvalid(); return; }       // listing genuinely not found
+    if (l.secret_key !== k) { showKeyEntry(true); return; }  // wrong key — show error inline
     slug = s; key = k;
     loadForm(l);
   } catch(e) { showInvalid(); }
 }
 
 function tryKeyEntry() {
-  const s = document.getElementById('slugInput').value.trim();
+  const slugVisible = document.getElementById('slugFieldGroup').style.display !== 'none';
+  const s = slug || (slugVisible ? document.getElementById('slugInput').value.trim() : '');
   const k = document.getElementById('keyInput').value.trim();
-  if (!s || !k) { alert('Please enter both your business slug and secret key.'); return; }
+  if (!s) { alert('Please enter your business slug.'); return; }
+  if (!k) { alert('Please enter your secret key.'); return; }
   document.getElementById('keyEntryBtn').textContent = 'Checking…';
   document.getElementById('keyEntryBtn').disabled = true;
   validateAndLoad(s, k).then(() => {
-    document.getElementById('keyEntryBtn').textContent = 'Continue →';
+    document.getElementById('keyEntryBtn').textContent = 'Verify & continue →';
     document.getElementById('keyEntryBtn').disabled = false;
   });
 }
 
-// ── INIT ──
-if (slug && key) {
-  validateAndLoad(slug, key);
-} else {
-  showKeyEntry();
-}
+// ── INIT ── always require key entry; key must never be auto-loaded from URL
+showKeyEntry();
 
 // ── SUBMIT ──
 async function submitUpdate() {
