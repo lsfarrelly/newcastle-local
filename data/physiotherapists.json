@@ -2,8 +2,8 @@
   "meta": {
     "category": "physiotherapists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -321,6 +321,94 @@
       "google_search": "The Physio Group Newcastle physiotherapist Hamilton NSW",
       "medicare_rebate": true,
       "accepting_patients": true
+    },
+    {
+      "name": "Hunter Physio Sports Clinic",
+      "credentials": "Sports Physiotherapy \u00b7 20+ Years",
+      "address": "55 Belford Street, Broadmeadow NSW 2292",
+      "suburb": "Broadmeadow",
+      "phone": "(02) 4961 4222",
+      "email": "",
+      "website": "https://www.hunterphysio.com.au",
+      "services": [
+        "Sports Physiotherapy",
+        "Musculoskeletal Physio",
+        "Injury Rehabilitation",
+        "Exercise Programs",
+        "Dry Needling"
+      ],
+      "service_areas": [
+        "Broadmeadow",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-6pm, Sat 8am-12pm",
+      "description": "Hunter Physio Sports Clinic at Broadmeadow are Newcastle's top sports physiotherapists with 20+ years treating injuries and supporting athletes across the Hunter Region.",
+      "featured": false,
+      "slug": "hunter-physio-sports-clinic",
+      "secret_key": "d2-01a6b5",
+      "last_verified": "2026-06-09",
+      "google_search": "Hunter Physio Sports Clinic Physiotherapist Newcastle NSW"
+    },
+    {
+      "name": "ATUNE Health Centres",
+      "credentials": "Multi-Disciplinary Health Centres",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4941 8820",
+      "email": "",
+      "website": "https://atune.com.au",
+      "services": [
+        "Physiotherapy",
+        "Pilates",
+        "Exercise Physiology",
+        "Massage",
+        "Nutrition",
+        "Psychology"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-7pm",
+      "description": "ATUNE Health Centres deliver physiotherapy and multi-disciplinary health services across Newcastle, Lake Macquarie and the Hunter region with a focus on holistic care.",
+      "featured": false,
+      "slug": "atune-health-centres",
+      "secret_key": "3a-6c2f00",
+      "last_verified": "2026-06-09",
+      "google_search": "ATUNE Health Centres Physiotherapist Newcastle NSW"
+    },
+    {
+      "name": "Cameron McKenzie Physiotherapy",
+      "credentials": "Expert Holistic Physio \u00b7 Newcastle & Lake Macquarie",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4910 0000",
+      "email": "",
+      "website": "https://www.cameronmckenziephysiotherapy.com",
+      "services": [
+        "Physiotherapy",
+        "Sports Injury",
+        "Post-Operative Rehab",
+        "Women's Health",
+        "Hydrotherapy"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm",
+      "description": "Cameron McKenzie Physiotherapy provides expert holistic physiotherapy care for the Newcastle and Lake Macquarie community, with a personalised approach to recovery.",
+      "featured": false,
+      "slug": "cameron-mckenzie-physiotherapy",
+      "secret_key": "7d-64f9a7",
+      "last_verified": "2026-06-09",
+      "google_search": "Cameron McKenzie Physiotherapy Physiotherapist Newcastle NSW"
     }
   ]
 }

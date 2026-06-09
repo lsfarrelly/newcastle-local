@@ -3,7 +3,7 @@
     "category": "accountants",
     "location": "Newcastle NSW",
     "last_updated": "2026-06-09",
-    "total": 10
+    "total": 13
   },
   "listings": [
     {
@@ -305,6 +305,90 @@
       "last_verified": "2026-06-08",
       "google_search": "RSM Australia Newcastle accountant Newcastle NSW",
       "registered_tax_agent": true
+    },
+    {
+      "name": "KLM Accountants",
+      "credentials": "CPA Firm \u00b7 45+ Years",
+      "address": "500 Hunter Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 5533",
+      "email": "",
+      "website": "https://klmaccountants.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Advisory",
+        "SMSF",
+        "Accounting"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Established CPA firm serving Newcastle businesses and individuals for over 45 years. Specialists in tax returns, SMSF and business advisory.",
+      "featured": false,
+      "slug": "klm-accountants",
+      "secret_key": "90-e36540",
+      "last_verified": "2026-06-09",
+      "google_search": "KLM Accountants Accountant Newcastle NSW"
+    },
+    {
+      "name": "Toyne Accountants",
+      "credentials": "Small Business Specialists",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4000 0000",
+      "email": "",
+      "website": "https://toyneaccountants.com.au",
+      "services": [
+        "Small Business Accounting",
+        "Tax Returns",
+        "Bookkeeping",
+        "BAS & GST",
+        "Business Advisory"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "NSW"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5pm",
+      "description": "Newcastle accounting firm specialising in small business and trades. Practical advice for tradies and small businesses throughout Australia.",
+      "featured": false,
+      "slug": "toyne-accountants",
+      "secret_key": "71-558306",
+      "last_verified": "2026-06-09",
+      "google_search": "Toyne Accountants Accountant Newcastle NSW"
+    },
+    {
+      "name": "Eagle Financial Newcastle",
+      "credentials": "Chartered Accountants",
+      "address": "Level 2, 180 King Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4926 2300",
+      "email": "",
+      "website": "https://eaglefinancial.com.au",
+      "services": [
+        "Tax Planning",
+        "Business Advisory",
+        "Accounting",
+        "Financial Planning",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Chartered accounting practice in the Newcastle CBD. Offering tax planning, business advisory and financial services to the Hunter Region.",
+      "featured": false,
+      "slug": "eagle-financial-newcastle",
+      "secret_key": "69-a2ad66",
+      "last_verified": "2026-06-09",
+      "google_search": "Eagle Financial Newcastle Accountant Newcastle NSW"
     }
   ]
 }

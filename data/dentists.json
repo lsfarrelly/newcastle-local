@@ -2,8 +2,8 @@
   "meta": {
     "category": "dentists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -317,6 +317,92 @@
       "google_search": "Cosmopolitan Dental Centre dentist Newcastle NSW",
       "emergency_dental": true,
       "accepting_patients": true
+    },
+    {
+      "name": "Maven Dental Newcastle",
+      "credentials": "General & Cosmetic Dentist",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 2377",
+      "email": "",
+      "website": "https://mavendental.com.au/dentists/maven-dental-newcastle",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Children's Dentistry",
+        "Teeth Whitening",
+        "Dental Check-ups"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm, Sat 8am-1pm",
+      "description": "Maven Dental Newcastle provides general and cosmetic dental care in a comfortable, family-friendly environment. Experienced dentists for children and adults.",
+      "featured": false,
+      "slug": "maven-dental-newcastle",
+      "secret_key": "eb-1462cb",
+      "last_verified": "2026-06-09",
+      "google_search": "Maven Dental Newcastle Dentist Newcastle NSW"
+    },
+    {
+      "name": "Newcastle City Dental",
+      "credentials": "Comprehensive Dental Care",
+      "address": "Newcastle CBD NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 3399",
+      "email": "",
+      "website": "https://newcastlecitydental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Emergency Dentistry",
+        "Orthodontics",
+        "Implants"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Newcastle CBD",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm, Sat 8am-2pm",
+      "description": "Newcastle City Dental offers comprehensive dental services including general, cosmetic and emergency dentistry in the heart of Newcastle's CBD.",
+      "featured": false,
+      "slug": "newcastle-city-dental",
+      "secret_key": "54-09f7c7",
+      "last_verified": "2026-06-09",
+      "google_search": "Newcastle City Dental Dentist Newcastle NSW"
+    },
+    {
+      "name": "Wallsend Dental",
+      "credentials": "Family Dental Practice",
+      "address": "Wallsend NSW 2287",
+      "suburb": "Wallsend",
+      "phone": "(02) 4955 1555",
+      "email": "",
+      "website": "https://newcastledental.com.au",
+      "services": [
+        "General Dentistry",
+        "Family Dentistry",
+        "Children's Dentistry",
+        "Preventive Dentistry",
+        "Cosmetic Dentistry"
+      ],
+      "service_areas": [
+        "Wallsend",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5:30pm",
+      "description": "Wallsend Dental is a family-focused practice offering comprehensive dental services with emphasis on preventive care for all ages.",
+      "featured": false,
+      "slug": "wallsend-dental",
+      "secret_key": "c9-b2efd2",
+      "last_verified": "2026-06-09",
+      "google_search": "Wallsend Dental Dentist Newcastle NSW"
     }
   ]
 }

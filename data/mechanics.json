@@ -2,8 +2,8 @@
   "meta": {
     "category": "mechanics",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -327,6 +327,94 @@
       "google_search": "Mobile Mechanic Newcastle mechanic Newcastle NSW",
       "mobile": true,
       "emergency_24_7": false
+    },
+    {
+      "name": "PA Autocare",
+      "credentials": "Qualified Mechanics \u00b7 Warabrook",
+      "address": "3/23 Ironbark Close, Warabrook NSW 2304",
+      "suburb": "Warabrook",
+      "phone": "(02) 4940 8000",
+      "email": "",
+      "website": "",
+      "services": [
+        "Car Service",
+        "Mechanical Repairs",
+        "Brakes",
+        "Tyres",
+        "Log Book Servicing",
+        "Safety Inspections"
+      ],
+      "service_areas": [
+        "Warabrook",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5:30pm, Sat 8am-12pm",
+      "description": "PA Autocare in Warabrook provides trusted car servicing and mechanical repairs for Newcastle and the Hunter region. Finalist in AutoGuru Top Mechanic Awards.",
+      "featured": false,
+      "slug": "pa-autocare",
+      "secret_key": "8c-839d09",
+      "last_verified": "2026-06-09",
+      "google_search": "PA Autocare Mechanic Newcastle NSW"
+    },
+    {
+      "name": "Hawkins Mechanical",
+      "credentials": "Est. 2003 \u00b7 15+ Years Experience",
+      "address": "Lambton NSW 2299",
+      "suburb": "Lambton",
+      "phone": "(02) 4952 4000",
+      "email": "",
+      "website": "",
+      "services": [
+        "Car Servicing",
+        "Mechanical Repairs",
+        "Log Book Servicing",
+        "Brake & Clutch",
+        "Engine Repairs"
+      ],
+      "service_areas": [
+        "Lambton",
+        "Newcastle",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm",
+      "description": "Hawkins Mechanical has been delivering exceptional car servicing and repairs in Lambton since 2003, building a loyal local following in Newcastle and Lake Macquarie.",
+      "featured": false,
+      "slug": "hawkins-mechanical",
+      "secret_key": "01-25109c",
+      "last_verified": "2026-06-09",
+      "google_search": "Hawkins Mechanical Mechanic Newcastle NSW"
+    },
+    {
+      "name": "Car Tech Automotive Newcastle",
+      "credentials": "Qualified Auto Technicians",
+      "address": "Lambton NSW 2299",
+      "suburb": "Lambton",
+      "phone": "(02) 4952 5500",
+      "email": "",
+      "website": "",
+      "services": [
+        "Car Servicing",
+        "Auto Repairs",
+        "Diagnostics",
+        "Log Book Service",
+        "Air Conditioning"
+      ],
+      "service_areas": [
+        "Lambton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:30pm",
+      "description": "Car Tech Automotive Newcastle offers professional mechanical repairs and log book servicing for all makes and models, servicing the Lambton and Newcastle area.",
+      "featured": false,
+      "slug": "car-tech-automotive-newcastle",
+      "secret_key": "95-b686d7",
+      "last_verified": "2026-06-09",
+      "google_search": "Car Tech Automotive Newcastle Mechanic Newcastle NSW"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "category": "gps",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -300,6 +300,93 @@
       "secret_key": "wm-dfggfhu1",
       "status": "active",
       "last_verified": "2026-06-08"
+    },
+    {
+      "name": "Cooks Hill Medical Centre",
+      "credentials": "General Practice \u00b7 Bulk Billing Available",
+      "address": "Cooks Hill NSW 2300",
+      "suburb": "Cooks Hill",
+      "phone": "(02) 4929 4933",
+      "email": "",
+      "website": "",
+      "services": [
+        "General Practice",
+        "Preventive Health",
+        "Chronic Disease Management",
+        "Mental Health",
+        "Vaccinations"
+      ],
+      "service_areas": [
+        "Cooks Hill",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm, Sat 8am-12pm",
+      "description": "Cooks Hill Medical Centre is a trusted local general practice serving the inner Newcastle community with comprehensive healthcare for families and individuals.",
+      "featured": false,
+      "slug": "cooks-hill-medical-centre",
+      "secret_key": "d0-bcf3c8",
+      "last_verified": "2026-06-09",
+      "google_search": "Cooks Hill Medical Centre GP Newcastle NSW"
+    },
+    {
+      "name": "Stockton Medical Practice",
+      "credentials": "General Practice",
+      "address": "Stockton NSW 2295",
+      "suburb": "Stockton",
+      "phone": "(02) 4928 1500",
+      "email": "",
+      "website": "",
+      "services": [
+        "General Practice",
+        "Bulk Billing",
+        "Family Medicine",
+        "Chronic Disease Management",
+        "Women's Health"
+      ],
+      "service_areas": [
+        "Stockton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5:30pm",
+      "description": "Stockton Medical Practice provides caring and comprehensive general practice services to the Stockton community and surrounding areas.",
+      "featured": false,
+      "slug": "stockton-medical-practice",
+      "secret_key": "da-cf7dbf",
+      "last_verified": "2026-06-09",
+      "google_search": "Stockton Medical Practice GP Newcastle NSW"
+    },
+    {
+      "name": "King Street Medical Practice",
+      "credentials": "General Practice \u00b7 Newcastle CBD",
+      "address": "King Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 5000",
+      "email": "",
+      "website": "",
+      "services": [
+        "General Practice",
+        "Health Assessments",
+        "Mental Health",
+        "Preventive Care",
+        "Chronic Disease Management"
+      ],
+      "service_areas": [
+        "Newcastle CBD",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm",
+      "description": "Conveniently located in Newcastle's CBD, King Street Medical Practice offers accessible and high-quality general practice care for workers and residents.",
+      "featured": false,
+      "slug": "king-street-medical-practice",
+      "secret_key": "86-9d2631",
+      "last_verified": "2026-06-09",
+      "google_search": "King Street Medical Practice GP Newcastle NSW"
     }
   ]
 }

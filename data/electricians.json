@@ -2,8 +2,8 @@
   "meta": {
     "category": "electricians",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -313,6 +313,93 @@
       "google_search": "SKE Electrical electrician Newcastle NSW",
       "emergency_24_7": false,
       "licensed": true
+    },
+    {
+      "name": "Novocastrian Electrical",
+      "credentials": "Licensed Electricians \u00b7 Est. 1993",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4969 5633",
+      "email": "",
+      "website": "http://www.novocastrianelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Data & Cabling",
+        "Solar Installation"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Established in 1993, Novocastrian Electrical is an innovative and reliable provider of high-level electrical services across Newcastle and the Hunter Region.",
+      "featured": false,
+      "slug": "novocastrian-electrical",
+      "secret_key": "43-796a21",
+      "last_verified": "2026-06-09",
+      "google_search": "Novocastrian Electrical Electrician Newcastle NSW"
+    },
+    {
+      "name": "Electix",
+      "credentials": "Licensed Electrical Contractors \u00b7 20+ Years",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4003 5700",
+      "email": "",
+      "website": "https://www.electix.com.au",
+      "services": [
+        "Domestic Electrical",
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Level 2 ASP",
+        "Switchboard Upgrades"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Maitland"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm, Emergency 24/7",
+      "description": "With over 20 years of experience, Electix provides fully licensed electrical contractors for residential, commercial and industrial projects across Newcastle and the Hunter.",
+      "featured": false,
+      "slug": "electix",
+      "secret_key": "a7-42c9f7",
+      "last_verified": "2026-06-09",
+      "google_search": "Electix Electrician Newcastle NSW"
+    },
+    {
+      "name": "Power On Electrical",
+      "credentials": "Level 2 Electricians \u00b7 Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4965 5500",
+      "email": "",
+      "website": "https://poweroneg.com.au",
+      "services": [
+        "Level 2 Electrical",
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Metering",
+        "Underground Supply"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Power On Electrical are Level 2 Accredited Service Providers (ASP) serving Newcastle and the Hunter region for all residential and commercial electrical needs.",
+      "featured": false,
+      "slug": "power-on-electrical",
+      "secret_key": "a8-215629",
+      "last_verified": "2026-06-09",
+      "google_search": "Power On Electrical Electrician Newcastle NSW"
     }
   ]
 }

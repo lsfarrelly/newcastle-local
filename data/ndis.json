@@ -2,8 +2,8 @@
   "meta": {
     "category": "ndis",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -299,6 +299,98 @@
       "last_verified": "2026-06-08",
       "google_search": "Loyal Support Services ndis provider Newcastle NSW",
       "ndis_registered": true
+    },
+    {
+      "name": "Hunter Community Hub",
+      "credentials": "NDIS Registered Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4040 7700",
+      "email": "",
+      "website": "https://huntercommunityhub.org.au",
+      "services": [
+        "Support Workers",
+        "Daily Activities",
+        "Community Participation",
+        "Personal Care",
+        "Capacity Building",
+        "Respite Care"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Port Stephens",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "24/7 Support Available",
+      "description": "Hunter Community Hub provides high-quality NDIS disability support services across Newcastle and the Hunter, with trained support workers delivering personalised assistance.",
+      "featured": false,
+      "slug": "hunter-community-hub",
+      "secret_key": "d0-6e8e0b",
+      "last_verified": "2026-06-09",
+      "google_search": "Hunter Community Hub NDIS Provider Newcastle NSW"
+    },
+    {
+      "name": "HEDSS Disability Services",
+      "credentials": "NDIS Provider \u00b7 Newcastle & Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "(02) 4934 2600",
+      "email": "",
+      "website": "https://hedss.com.au",
+      "services": [
+        "Supported Independent Living",
+        "Daily Activities",
+        "Community Access",
+        "Short Term Accommodation",
+        "Positive Behaviour Support"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5pm",
+      "description": "HEDSS provides specialist NDIS support services across Newcastle and Maitland, empowering people with disability to live independently and participate in their community.",
+      "featured": false,
+      "slug": "hedss-disability-services",
+      "secret_key": "31-175d45",
+      "last_verified": "2026-06-09",
+      "google_search": "HEDSS Disability Services NDIS Provider Newcastle NSW"
+    },
+    {
+      "name": "Newcastle & Hunter Community Health",
+      "credentials": "NDIS Registered Nurses & Support Workers",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4920 7600",
+      "email": "",
+      "website": "https://nhch.com.au",
+      "services": [
+        "Personal Care",
+        "Nursing Support",
+        "Domestic Care",
+        "Community Nursing",
+        "Disability Services"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie",
+        "Port Stephens",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "24/7 Support Available",
+      "description": "Newcastle & Hunter Community Health provides dedicated Registered Nurses and Support Workers under NDIS for comprehensive disability and community health services.",
+      "featured": false,
+      "slug": "newcastle-hunter-community-health",
+      "secret_key": "ec-ef09a0",
+      "last_verified": "2026-06-09",
+      "google_search": "Newcastle & Hunter Community Health NDIS Provider Newcastle NSW"
     }
   ]
 }

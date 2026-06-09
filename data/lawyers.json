@@ -2,8 +2,8 @@
   "meta": {
     "category": "lawyers",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -370,6 +370,95 @@
         "Wills & Estates",
         "Business Law"
       ]
+    },
+    {
+      "name": "Baker Love Lawyers",
+      "credentials": "Corporate & Commercial Law \u00b7 Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 7778",
+      "email": "",
+      "website": "https://bakerlove.com.au",
+      "services": [
+        "Corporate Law",
+        "Commercial Law",
+        "Wills & Estates",
+        "Property Law",
+        "Business Law",
+        "Conveyancing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "NSW"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5pm",
+      "description": "Baker Love Lawyers is a Newcastle-based corporate law firm providing legal advice on corporate and commercial matters, wills, estates, property and business law.",
+      "featured": false,
+      "slug": "baker-love-lawyers",
+      "secret_key": "99-5cd0c7",
+      "last_verified": "2026-06-09",
+      "google_search": "Baker Love Lawyers Lawyer Newcastle NSW"
+    },
+    {
+      "name": "Conditsis Lawyers",
+      "credentials": "Criminal & Family Law Specialists \u00b7 150+ Years Combined",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 3000",
+      "email": "",
+      "website": "https://www.conditsisnewcastle.com.au",
+      "services": [
+        "Criminal Law",
+        "Family Law",
+        "Traffic Law",
+        "Wills & Estates",
+        "Domestic Violence"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "NSW"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:30pm, Emergency 24/7",
+      "description": "Award-winning criminal and family law firm with over 150 years combined experience. Conditsis Lawyers Newcastle is trusted for strong representation across the Hunter region.",
+      "featured": false,
+      "slug": "conditsis-lawyers",
+      "secret_key": "02-7f7eff",
+      "last_verified": "2026-06-09",
+      "google_search": "Conditsis Lawyers Lawyer Newcastle NSW"
+    },
+    {
+      "name": "Lamont Law Newcastle",
+      "credentials": "Criminal, Family & Traffic Law",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4929 2000",
+      "email": "",
+      "website": "https://lamontlaw.com.au/nsw/lawyers-newcastle",
+      "services": [
+        "Criminal Law",
+        "Family Law",
+        "Traffic Law",
+        "Wills & Estates",
+        "Property Law",
+        "Business Law"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "NSW"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:30pm",
+      "description": "Lamont Law provides expert legal services across criminal law, traffic matters, family law, wills and estates, property, and business law in Newcastle.",
+      "featured": false,
+      "slug": "lamont-law-newcastle",
+      "secret_key": "34-5436f8",
+      "last_verified": "2026-06-09",
+      "google_search": "Lamont Law Newcastle Lawyer Newcastle NSW"
     }
   ]
 }

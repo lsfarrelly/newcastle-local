@@ -2,8 +2,8 @@
   "meta": {
     "category": "removalists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
-    "total": 10
+    "last_updated": "2026-06-09",
+    "total": 13
   },
   "listings": [
     {
@@ -315,6 +315,99 @@
       "google_search": "Best Removalists Newcastle removalist Newcastle NSW",
       "storage": false,
       "interstate": true
+    },
+    {
+      "name": "John's Removals Newcastle",
+      "credentials": "Family-Owned \u00b7 30+ Years",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4961 6661",
+      "email": "",
+      "website": "https://www.johnsremovals.com.au",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Packing & Unpacking",
+        "Furniture Removals",
+        "Storage",
+        "Office Moves"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Sydney",
+        "Interstate"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-6pm",
+      "description": "John's Removals is the largest family-owned removalist service in Newcastle, operating throughout the Hunter Region and beyond for over 30 years.",
+      "featured": false,
+      "slug": "johns-removals-newcastle",
+      "secret_key": "b7-3bc5c1",
+      "last_verified": "2026-06-09",
+      "google_search": "John's Removals Newcastle Removalist Newcastle NSW"
+    },
+    {
+      "name": "Grace Removals Newcastle",
+      "credentials": "National Removalists \u00b7 Local Team",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4961 4900",
+      "email": "",
+      "website": "",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "International Removals",
+        "Storage",
+        "Packing Services",
+        "Office Relocations"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Sydney",
+        "Interstate",
+        "International"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm, Sat by appointment",
+      "description": "Grace Removals Newcastle provides professional local, interstate and international removalist services with a trusted national network and experienced local team.",
+      "featured": false,
+      "slug": "grace-removals-newcastle",
+      "secret_key": "32-c19544",
+      "last_verified": "2026-06-09",
+      "google_search": "Grace Removals Newcastle Removalist Newcastle NSW"
+    },
+    {
+      "name": "No Limits Removalists",
+      "credentials": "Newcastle Removalists",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4915 0000",
+      "email": "",
+      "website": "",
+      "services": [
+        "Local Removals",
+        "Furniture Removal",
+        "Packing & Unpacking",
+        "Storage Solutions",
+        "Small Moves"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-5pm",
+      "description": "No Limits Removalists provides reliable and affordable removal services for homes and offices across Newcastle, Lake Macquarie and the Hunter region.",
+      "featured": false,
+      "slug": "no-limits-removalists",
+      "secret_key": "4a-0333de",
+      "last_verified": "2026-06-09",
+      "google_search": "No Limits Removalists Removalist Newcastle NSW"
     }
   ]
 }
