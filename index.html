@@ -649,41 +649,66 @@
 <!-- FEATURED STRIP -->
 <section class="featured-strip">
   <div class="featured-strip-inner">
-    <div class="section-eyebrow">Featured practices</div>
-    <h2 style="font-family:'Playfair Display',serif;font-size:30px;margin-top:8px;">Trusted by Newcastle locals</h2>
-    <div class="featured-cards">
-      <a href="psychologists.html" class="featured-mini">
-        <div class="featured-mini-label">★ Featured</div>
-        <div class="featured-mini-name">NewPsych Psychologists</div>
-        <div class="featured-mini-sub">Level 4, 77 Hunter St, Newcastle CBD</div>
-        <div class="featured-mini-tags">
-          <span class="mini-tag">Anxiety</span>
-          <span class="mini-tag">EAP</span>
-          <span class="mini-tag">NDIS</span>
-          <span class="mini-tag">Telehealth</span>
-        </div>
-      </a>
-      <a href="psychologists.html" class="featured-mini">
-        <div class="featured-mini-label">★ Featured</div>
-        <div class="featured-mini-name">New Lambton Psychology</div>
-        <div class="featured-mini-sub">37 Freyberg St, New Lambton</div>
-        <div class="featured-mini-tags">
-          <span class="mini-tag">Clinical</span>
-          <span class="mini-tag">EMDR</span>
-          <span class="mini-tag">Child & Adolescent</span>
-        </div>
-      </a>
-      <a href="psychologists.html" class="featured-mini">
-        <div class="featured-mini-label">★ Featured</div>
-        <div class="featured-mini-name">Lacuna Clinical Psychology</div>
-        <div class="featured-mini-sub">36 Crebert St, Mayfield</div>
-        <div class="featured-mini-tags">
-          <span class="mini-tag">Trauma</span>
-          <span class="mini-tag">DBT</span>
-          <span class="mini-tag">Telehealth</span>
-        </div>
-      </a>
+    <div class="section-eyebrow">Spotlight on Newcastle Locals</div>
+    <h2 style="font-family:'Playfair Display',serif;font-size:30px;margin-top:8px;">Spotlight on Newcastle Locals</h2>
+    <div class="featured-cards" id="spotlightCards">
+      <!-- populated by JS -->
     </div>
+    <script>
+    (function(){
+      var SPOT_CATS = [
+        {slug:'psychologists',label:'Psychologists',serviceField:'specialties'},
+        {slug:'plumbers',label:'Plumbers',serviceField:'services'},
+        {slug:'gps',label:'GPs',serviceField:'services'},
+        {slug:'dentists',label:'Dentists',serviceField:'services'},
+        {slug:'physiotherapists',label:'Physiotherapists',serviceField:'services'},
+        {slug:'electricians',label:'Electricians',serviceField:'services'},
+        {slug:'builders',label:'Builders',serviceField:'services'},
+        {slug:'lawyers',label:'Lawyers',serviceField:'services'},
+        {slug:'accountants',label:'Accountants',serviceField:'services'},
+        {slug:'ndis',label:'NDIS Providers',serviceField:'services'},
+        {slug:'mechanics',label:'Mechanics',serviceField:'services'},
+        {slug:'removalists',label:'Removalists',serviceField:'services'}
+      ];
+      function shuffle(arr){
+        for(var i=arr.length-1;i>0;i--){
+          var j=Math.floor(Math.random()*(i+1));
+          var t=arr[i]; arr[i]=arr[j]; arr[j]=t;
+        }
+        return arr;
+      }
+      function cardHTML(listing, catSlug, catLabel){
+        var tags = (listing.specialties||listing.services||listing.service_types||[]).slice(0,4);
+        var tagsHTML = tags.map(function(t){ return '<span class="mini-tag">'+t+'</span>'; }).join('');
+        var suburb = listing.suburb || '';
+        return '<a href="/'+catSlug+'.html" class="featured-mini">'
+          +'<div class="featured-mini-label">'+catLabel+'</div>'
+          +'<div class="featured-mini-name">'+listing.name+'</div>'
+          +'<div class="featured-mini-sub">'+suburb+'</div>'
+          +'<div class="featured-mini-tags">'+tagsHTML+'</div>'
+          +'</a>';
+      }
+      var container = document.getElementById('spotlightCards');
+      var shuffledCats = shuffle(SPOT_CATS.slice()).slice(0, 6);
+      var promises = shuffledCats.map(function(cat){
+        return fetch('/data/'+cat.slug+'.json')
+          .then(function(r){ return r.json(); })
+          .then(function(d){ return {cat:cat, listings:d.listings||[]}; })
+          .catch(function(){ return null; });
+      });
+      Promise.all(promises).then(function(results){
+        var pool = [];
+        results.forEach(function(r){
+          if(!r||!r.listings.length) return;
+          r.listings.forEach(function(l){ pool.push({l:l, cat:r.cat}); });
+        });
+        shuffle(pool);
+        container.innerHTML = pool.slice(0,3).map(function(item){
+          return cardHTML(item.l, item.cat.slug, item.cat.label);
+        }).join('');
+      });
+    })();
+    </script>
   </div>
 </section>
 
