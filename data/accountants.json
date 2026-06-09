@@ -2,7 +2,7 @@
   "meta": {
     "category": "accountants",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-08",
+    "last_updated": "2026-06-09",
     "total": 10
   },
   "listings": [
@@ -118,7 +118,7 @@
         "Newcastle",
         "Hunter Region"
       ],
-      "status": "active",
+      "status": "accepting",
       "hours": "Mon-Fri 9:00am-5:00pm",
       "description": "Chartered accountant specialising in small business tax and accounting. Personal service and expert advice in New Lambton.",
       "featured": false,
@@ -126,7 +126,9 @@
       "secret_key": "ne-3cix3lgk",
       "last_verified": "2026-06-08",
       "google_search": "Neil Hocquard Chartered Accountant accountant New Lambton NSW",
-      "registered_tax_agent": true
+      "registered_tax_agent": true,
+      "accepting": true,
+      "telehealth": false
     },
     {
       "name": "H&R Block Newcastle City",
