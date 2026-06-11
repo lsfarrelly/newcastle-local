@@ -2,8 +2,8 @@
   "meta": {
     "category": "ndis",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 20
+    "last_updated": "2026-06-11",
+    "total": 23
   },
   "listings": [
     {
@@ -334,7 +334,7 @@
     },
     {
       "name": "HEDSS Disability Services",
-      "credentials": "NDIS Provider · Newcastle & Maitland",
+      "credentials": "NDIS Provider \u00b7 Newcastle & Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4934 2600",
@@ -394,7 +394,7 @@
     },
     {
       "name": "Dynamic Ability Support",
-      "credentials": "Registered NDIS Provider · Hamilton",
+      "credentials": "Registered NDIS Provider \u00b7 Hamilton",
       "address": "Hamilton, NSW 2303",
       "suburb": "Hamilton",
       "phone": "",
@@ -424,7 +424,7 @@
     },
     {
       "name": "Ability Action Australia Newcastle",
-      "credentials": "Allied Health NDIS Provider · Broadmeadow",
+      "credentials": "Allied Health NDIS Provider \u00b7 Broadmeadow",
       "address": "Level 2, Suite 5, 15 Lambton Road, Broadmeadow NSW 2292",
       "suburb": "Broadmeadow",
       "phone": "1800 238 958",
@@ -454,7 +454,7 @@
     },
     {
       "name": "VHCC Newcastle",
-      "credentials": "Registered NDIS Provider · Hunter Region",
+      "credentials": "Registered NDIS Provider \u00b7 Hunter Region",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "1300 048 422",
@@ -484,7 +484,7 @@
     },
     {
       "name": "Hunter Care Group",
-      "credentials": "Registered NDIS Provider · Newcastle",
+      "credentials": "Registered NDIS Provider \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4956 2000",
@@ -516,7 +516,7 @@
     },
     {
       "name": "Samaritans Foundation Newcastle",
-      "credentials": "Registered NDIS Provider · Newcastle",
+      "credentials": "Registered NDIS Provider \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4920 4800",
@@ -548,7 +548,7 @@
     },
     {
       "name": "Songbird Disability Services",
-      "credentials": "NDIS Support Provider · Newcastle",
+      "credentials": "NDIS Support Provider \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4023 8700",
@@ -579,7 +579,7 @@
     },
     {
       "name": "Hunter Care Group Upper Hunter",
-      "credentials": "Registered NDIS Provider · Maitland",
+      "credentials": "Registered NDIS Provider \u00b7 Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4956 2001",
@@ -607,6 +607,102 @@
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Person of Value",
+      "credentials": "NDIS Support Provider \u00b7 Maryland",
+      "address": "Maryland Drive, Maryland NSW 2287",
+      "suburb": "Maryland",
+      "phone": "0410 639 415",
+      "email": "info@personofvalue.com.au",
+      "website": "https://personofvalue.com.au",
+      "services": [
+        "Daily Living Support",
+        "Community Participation",
+        "Social Support",
+        "Life Skills Development",
+        "Support Coordination",
+        "Recreational Activities",
+        "Personal Care"
+      ],
+      "service_areas": [
+        "Maryland",
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Person of Value is a registered NDIS provider based in Maryland, delivering person-centred disability support services across Newcastle and the Hunter region. Their dedicated team focuses on empowering participants to live fulfilling lives through daily living support, community participation, life skills development and social activities tailored to individual goals.",
+      "featured": false,
+      "slug": "person-of-value-maryland",
+      "secret_key": "mx-rn0298",
+      "last_verified": "2026-06-11",
+      "google_search": "Person of Value NDIS Support Maryland NSW"
+    },
+    {
+      "name": "Care Alliance",
+      "credentials": "NDIS Support Provider \u00b7 Charlestown",
+      "address": "Corner Frederick & Pearson Street, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "1300 206 309",
+      "email": "info@carealliance.com.au",
+      "website": "https://carealliance.com.au",
+      "services": [
+        "Personal Care",
+        "Community Access",
+        "Daily Living Assistance",
+        "Respite Care",
+        "Supported Independent Living",
+        "Support Coordination",
+        "Behaviour Support"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Care Alliance is a registered NDIS provider operating from Charlestown, offering comprehensive disability support services to participants across Newcastle and the Hunter region. Their experienced support workers deliver personalised care including daily living assistance, community access, respite care and supported independent living, all designed around each participant's NDIS plan.",
+      "featured": false,
+      "slug": "care-alliance-charlestown",
+      "secret_key": "on-zi6483",
+      "last_verified": "2026-06-11",
+      "google_search": "Care Alliance NDIS Charlestown NSW"
+    },
+    {
+      "name": "Solid Holistic Care",
+      "credentials": "NDIS Support Provider \u00b7 Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1800 716 697",
+      "email": "",
+      "website": "https://solidholisticcare.com.au",
+      "services": [
+        "Supported Independent Living",
+        "Community Access",
+        "Daily Living Support",
+        "Respite Care",
+        "Psychosocial Disability Support",
+        "SIL Housing",
+        "Personal Care"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Maitland",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Solid Holistic Care is a registered NDIS provider delivering holistic disability support services across Newcastle, Lake Macquarie and Maitland. Specialising in supported independent living, community access and psychosocial disability support, their compassionate team provides quality care that respects the dignity and individual goals of every participant.",
+      "featured": false,
+      "slug": "solid-holistic-care-newcastle",
+      "secret_key": "bd-nf6815",
+      "last_verified": "2026-06-11",
+      "google_search": "Solid Holistic Care NDIS Newcastle NSW"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "category": "lawyers",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 19
+    "last_updated": "2026-06-11",
+    "total": 22
   },
   "listings": [
     {
@@ -373,7 +373,7 @@
     },
     {
       "name": "Baker Love Lawyers",
-      "credentials": "Corporate & Commercial Law · Newcastle",
+      "credentials": "Corporate & Commercial Law \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 7778",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Conditsis Lawyers",
-      "credentials": "Criminal & Family Law Specialists · 150+ Years Combined",
+      "credentials": "Criminal & Family Law Specialists \u00b7 150+ Years Combined",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 3000",
@@ -462,7 +462,7 @@
     },
     {
       "name": "Burgess Thomson",
-      "credentials": "Property & Estate Lawyers · Newcastle CBD",
+      "credentials": "Property & Estate Lawyers \u00b7 Newcastle CBD",
       "address": "1 Newcomen Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5602",
@@ -498,7 +498,7 @@
     },
     {
       "name": "Berryman Partners",
-      "credentials": "Family & Property Law · Charlestown",
+      "credentials": "Family & Property Law \u00b7 Charlestown",
       "address": "1/5 Library Lane, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4943 3988",
@@ -534,7 +534,7 @@
     },
     {
       "name": "Slater and Gordon Newcastle",
-      "credentials": "Personal Injury Lawyers · Newcastle CBD",
+      "credentials": "Personal Injury Lawyers \u00b7 Newcastle CBD",
       "address": "Level 7, 352 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4915 4800",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Turnbull Hill Lawyers",
-      "credentials": "Law Firm · Charlestown",
+      "credentials": "Law Firm \u00b7 Charlestown",
       "address": "Level 1, 29 Smith Street, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4904 8000",
@@ -601,7 +601,7 @@
     },
     {
       "name": "Duncan and Co Lawyers",
-      "credentials": "Boutique Law Firm · Newcastle",
+      "credentials": "Boutique Law Firm \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 2800",
@@ -631,7 +631,7 @@
     },
     {
       "name": "Taylor and Scott Lawyers Newcastle",
-      "credentials": "Law Firm · Newcastle West",
+      "credentials": "Law Firm \u00b7 Newcastle West",
       "address": "406 King Street, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "1800 600 664",
@@ -659,6 +659,102 @@
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Hunter Legal & Conveyancing",
+      "credentials": "Solicitors \u00b7 Maitland",
+      "address": "Suite 2, Level 1, 12 Elgin Street, Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "1300 224 828",
+      "email": "enquiries@hunterlegal.com.au",
+      "website": "https://hunterlegal.com.au",
+      "services": [
+        "Conveyancing",
+        "Property Law",
+        "Wills & Estates",
+        "Family Law",
+        "Commercial Law",
+        "Business Transactions",
+        "Dispute Resolution"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Newcastle",
+        "Hunter Region",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Hunter Legal & Conveyancing is a Maitland-based legal firm providing expert legal services to clients across the Hunter region. Specialising in property conveyancing, wills and estates, family law and commercial matters, their experienced solicitors deliver practical, cost-effective legal advice tailored to each client's needs.",
+      "featured": false,
+      "slug": "hunter-legal-conveyancing-maitland",
+      "secret_key": "kl-di9699",
+      "last_verified": "2026-06-11",
+      "google_search": "Hunter Legal Conveyancing Maitland NSW"
+    },
+    {
+      "name": "Joplin Lawyers",
+      "credentials": "Solicitors \u00b7 Maitland",
+      "address": "469 High Street, Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "1300 567 546",
+      "email": "office@joplinlawyers.com.au",
+      "website": "https://joplinlawyers.com.au",
+      "services": [
+        "Family Law",
+        "Property Law",
+        "Criminal Law",
+        "Wills & Estates",
+        "Commercial Law",
+        "Conveyancing",
+        "Dispute Resolution"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Newcastle",
+        "Hunter Region",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5pm",
+      "description": "Joplin Lawyers is an established Maitland law firm providing comprehensive legal services to individuals and businesses throughout the Hunter region. With expertise across family law, property, criminal matters and commercial law, their dedicated team offers clear, practical legal advice and strong representation to achieve the best outcomes for clients.",
+      "featured": false,
+      "slug": "joplin-lawyers-maitland",
+      "secret_key": "du-mu0496",
+      "last_verified": "2026-06-11",
+      "google_search": "Joplin Lawyers Maitland NSW"
+    },
+    {
+      "name": "HCN Law",
+      "credentials": "Solicitors \u00b7 Newcastle & Maitland",
+      "address": "161 Scott Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4934 6899",
+      "email": "",
+      "website": "https://hcnlaw.com.au",
+      "services": [
+        "Conveyancing & Property",
+        "Commercial & Business Law",
+        "Wills & Estate Planning",
+        "Probate & Estate Administration",
+        "Employment Law",
+        "Small Business Legal",
+        "Business Formation"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Hunter Region",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "HCN Law is a specialist legal firm with offices in Newcastle and Maitland, providing tailored legal advice for private clients and businesses across the Hunter region. Established in 2004, their experienced solicitors practise in conveyancing and property law, commercial and business law, wills and estate planning, and employment law.",
+      "featured": false,
+      "slug": "hcn-law-newcastle",
+      "secret_key": "kf-ps2599",
+      "last_verified": "2026-06-11",
+      "google_search": "HCN Law Newcastle NSW Solicitors"
     }
   ]
 }

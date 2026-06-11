@@ -2,8 +2,8 @@
   "meta": {
     "category": "physiotherapists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 19
+    "last_updated": "2026-06-11",
+    "total": 22
   },
   "listings": [
     {
@@ -324,7 +324,7 @@
     },
     {
       "name": "Hunter Physio Sports Clinic",
-      "credentials": "Sports Physiotherapy · 20+ Years",
+      "credentials": "Sports Physiotherapy \u00b7 20+ Years",
       "address": "55 Belford Street, Broadmeadow NSW 2292",
       "suburb": "Broadmeadow",
       "phone": "(02) 4961 4222",
@@ -383,7 +383,7 @@
     },
     {
       "name": "Cameron McKenzie Physiotherapy",
-      "credentials": "Expert Holistic Physio · Newcastle & Lake Macquarie",
+      "credentials": "Expert Holistic Physio \u00b7 Newcastle & Lake Macquarie",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4910 0000",
@@ -412,7 +412,7 @@
     },
     {
       "name": "Physio 2U Newcastle",
-      "credentials": "Mobile Physiotherapy Service · Newcastle",
+      "credentials": "Mobile Physiotherapy Service \u00b7 Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -443,7 +443,7 @@
     },
     {
       "name": "Physiotherapy at Home Newcastle",
-      "credentials": "Mobile Physiotherapy · Newcastle & Lake Macquarie",
+      "credentials": "Mobile Physiotherapy \u00b7 Newcastle & Lake Macquarie",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -474,7 +474,7 @@
     },
     {
       "name": "Ethos Health Newcastle",
-      "credentials": "Physiotherapy & Workplace Health · Wickham",
+      "credentials": "Physiotherapy & Workplace Health \u00b7 Wickham",
       "address": "Unit 1, 21 Annie Street, Wickham NSW 2293",
       "suburb": "Wickham",
       "phone": "(02) 4962 8700",
@@ -505,7 +505,7 @@
     },
     {
       "name": "Kids Physio Newcastle",
-      "credentials": "Paediatric Physiotherapy · Newcastle",
+      "credentials": "Paediatric Physiotherapy \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4038 2200",
@@ -537,7 +537,7 @@
     },
     {
       "name": "NUmoves Physio",
-      "credentials": "University Physiotherapy Clinic · Callaghan",
+      "credentials": "University Physiotherapy Clinic \u00b7 Callaghan",
       "address": "The Forum Sports & Aquatic Centre, University of Newcastle, Callaghan NSW 2308",
       "suburb": "Callaghan",
       "phone": "(02) 4921 6879",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Newcastle Physiotherapy and Exercise Physiology",
-      "credentials": "Specialist Physiotherapy Clinic · Newcastle",
+      "credentials": "Specialist Physiotherapy Clinic \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4962 1000",
@@ -590,13 +590,108 @@
         "Hunter Region"
       ],
       "hours": "Mon-Fri 7:30am-6:00pm, Sat 8:00am-12:00pm",
-      "description": "Newcastle Physiotherapy and Exercise Physiology is a specialist clinic with 6 team members holding titled physiotherapist accreditation — an elite qualification held by only 5% of physiotherapists nationally. The clinic provides expert assessment and treatment for sports injuries, musculoskeletal conditions and chronic pain. Their evidence-based, highly skilled team delivers outstanding outcomes for athletes, workers and everyday Novocastrians.",
+      "description": "Newcastle Physiotherapy and Exercise Physiology is a specialist clinic with 6 team members holding titled physiotherapist accreditation \u2014 an elite qualification held by only 5% of physiotherapists nationally. The clinic provides expert assessment and treatment for sports injuries, musculoskeletal conditions and chronic pain. Their evidence-based, highly skilled team delivers outstanding outcomes for athletes, workers and everyday Novocastrians.",
       "slug": "newcastle-physio-exercise-physiology",
       "secret_key": "np-ep8371wy",
       "google_search": "Newcastle Physiotherapy Exercise Physiology Newcastle NSW",
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Portside Sports Physiotherapy",
+      "credentials": "Sports Physiotherapy \u00b7 Wickham",
+      "address": "132 Hannell Street, Wickham NSW 2293",
+      "suburb": "Wickham",
+      "phone": "0423 576 006",
+      "email": "hello@portsidesportsphysio.com.au",
+      "website": "https://portsidesportsphysio.com.au",
+      "services": [
+        "Sports Physiotherapy",
+        "Musculoskeletal Physiotherapy",
+        "Injury Rehabilitation",
+        "Dry Needling",
+        "Exercise Rehabilitation",
+        "Sports Performance",
+        "Orthopaedic Physiotherapy"
+      ],
+      "service_areas": [
+        "Wickham",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-6pm, Sat 8am-12pm",
+      "description": "Portside Sports Physiotherapy is a specialist sports physiotherapy clinic in Wickham led by highly experienced practitioners with professional sport backgrounds, including a decade working with the Newcastle Knights. Offering expert assessment and rehabilitation for sports injuries, musculoskeletal conditions and post-surgical recovery.",
+      "featured": false,
+      "slug": "portside-sports-physio-wickham",
+      "secret_key": "wx-xz9211",
+      "last_verified": "2026-06-11",
+      "google_search": "Portside Sports Physiotherapy Wickham Newcastle NSW"
+    },
+    {
+      "name": "Lambton Physiotherapy",
+      "credentials": "Physiotherapy & Sports Medicine \u00b7 Lambton",
+      "address": "110 Elder Street, Lambton NSW 2299",
+      "suburb": "Lambton",
+      "phone": "(02) 4965 5655",
+      "email": "info@lambtonphysio.com.au",
+      "website": "https://lambtonphysio.com.au",
+      "services": [
+        "Physiotherapy",
+        "Sports Medicine",
+        "Hydrotherapy",
+        "Pilates",
+        "Dry Needling",
+        "Injury Rehabilitation",
+        "Pre & Post-Operative Care"
+      ],
+      "service_areas": [
+        "Lambton",
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-6:30pm, Sat 8am-12pm",
+      "description": "Lambton Physiotherapy is an experienced physiotherapy and sports medicine clinic based in Lambton, Newcastle. Set in a purpose-built facility with nine treatment rooms and a fully equipped rehabilitation gym, their qualified team delivers comprehensive physiotherapy, hydrotherapy, Pilates and injury rehabilitation for patients of all ages.",
+      "featured": false,
+      "slug": "lambton-physiotherapy",
+      "secret_key": "tw-yx5349",
+      "last_verified": "2026-06-11",
+      "google_search": "Lambton Physiotherapy Sports Medicine Lambton NSW"
+    },
+    {
+      "name": "Brightside Physio",
+      "credentials": "Physiotherapy \u00b7 Lambton",
+      "address": "90 Elder Street, Lambton NSW 2299",
+      "suburb": "Lambton",
+      "phone": "(02) 4062 8862",
+      "email": "info@brightsidephysio.com.au",
+      "website": "https://brightsidephysio.com.au",
+      "services": [
+        "Physiotherapy",
+        "Women's Health Physio",
+        "Sports Physiotherapy",
+        "Dry Needling",
+        "Exercise Rehabilitation",
+        "Pilates",
+        "Post-Natal Physio"
+      ],
+      "service_areas": [
+        "Lambton",
+        "Broadmeadow",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-7pm, Sat 8am-1pm",
+      "description": "Brightside Physio is a modern physiotherapy practice with locations in Lambton and Broadmeadow, delivering expert care for a wide range of musculoskeletal and women's health conditions. Their friendly team of qualified physiotherapists provide personalised treatment plans including manual therapy, exercise rehabilitation, women's health physio and Pilates.",
+      "featured": false,
+      "slug": "brightside-physio-lambton",
+      "secret_key": "yp-eq4516",
+      "last_verified": "2026-06-11",
+      "google_search": "Brightside Physio Lambton Newcastle NSW"
     }
   ]
 }

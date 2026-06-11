@@ -2,8 +2,8 @@
   "meta": {
     "category": "dentists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 20
+    "last_updated": "2026-06-11",
+    "total": 23
   },
   "listings": [
     {
@@ -406,7 +406,7 @@
     },
     {
       "name": "Graham Johnson Dental Surgery",
-      "credentials": "General & Cosmetic Dentist · Jesmond",
+      "credentials": "General & Cosmetic Dentist \u00b7 Jesmond",
       "address": "39 Mordue Parade, Jesmond NSW 2299",
       "suburb": "Jesmond",
       "phone": "(02) 4951 5452",
@@ -437,7 +437,7 @@
     },
     {
       "name": "7 Pearls Dental",
-      "credentials": "Family & Cosmetic Dentist · Belmont",
+      "credentials": "Family & Cosmetic Dentist \u00b7 Belmont",
       "address": "Shop 3-6 Belmont Central, 1 Singleton Street, Belmont NSW 2280",
       "suburb": "Belmont",
       "phone": "(02) 4945 0881",
@@ -469,7 +469,7 @@
     },
     {
       "name": "nib Dental Care Newcastle",
-      "credentials": "Family & Cosmetic Dentistry · Newcastle West",
+      "credentials": "Family & Cosmetic Dentistry \u00b7 Newcastle West",
       "address": "Marketown Shopping Centre, 23 Steel Street, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "(02) 4940 7100",
@@ -500,7 +500,7 @@
     },
     {
       "name": "Smile Star Dental",
-      "credentials": "Family Dental Practice · Warners Bay",
+      "credentials": "Family Dental Practice \u00b7 Warners Bay",
       "address": "4/12 King Street, Warners Bay NSW 2282",
       "suburb": "Warners Bay",
       "phone": "(02) 4948 9888",
@@ -531,7 +531,7 @@
     },
     {
       "name": "SmilesHQ",
-      "credentials": "Full-Service Dental Clinic · Warners Bay",
+      "credentials": "Full-Service Dental Clinic \u00b7 Warners Bay",
       "address": "Warners Bay NSW 2282",
       "suburb": "Warners Bay",
       "phone": "(02) 4954 6633",
@@ -562,7 +562,7 @@
     },
     {
       "name": "Mayfield Dental Care",
-      "credentials": "Family Dentist · Mayfield",
+      "credentials": "Family Dentist \u00b7 Mayfield",
       "address": "181 Maitland Road, Mayfield NSW 2304",
       "suburb": "Mayfield",
       "phone": "(02) 4967 3888",
@@ -593,7 +593,7 @@
     },
     {
       "name": "Rutherford Dental",
-      "credentials": "Independent Family Dentist · Rutherford",
+      "credentials": "Independent Family Dentist \u00b7 Rutherford",
       "address": "Rutherford NSW 2320",
       "suburb": "Rutherford",
       "phone": "(02) 4932 5333",
@@ -621,6 +621,101 @@
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Affordable Dental Charlestown",
+      "credentials": "General & Cosmetic Dentist \u00b7 Charlestown",
+      "address": "13/158 Pacific Highway, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "1300 715 578",
+      "email": "newhunter@affordabledental.com.au",
+      "website": "https://affordabledental.com.au",
+      "services": [
+        "General Dentistry",
+        "Teeth Whitening",
+        "Dental Implants",
+        "Orthodontics",
+        "Crowns & Bridges",
+        "Preventive Care",
+        "Emergency Dentistry"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Affordable Dental Charlestown provides comprehensive general and cosmetic dental care at their conveniently located Charlestown clinic. Offering a full range of dental services from routine check-ups and cleans to dental implants and teeth whitening, with a focus on accessible, quality dental care for the whole family.",
+      "featured": false,
+      "slug": "affordable-dental-charlestown",
+      "secret_key": "bi-zi9703",
+      "last_verified": "2026-06-11",
+      "google_search": "Affordable Dental Charlestown NSW"
+    },
+    {
+      "name": "Pacific Smiles Dental Glendale",
+      "credentials": "General & Cosmetic Dentist \u00b7 Glendale",
+      "address": "387 Lake Road, Glendale NSW 2285",
+      "suburb": "Glendale",
+      "phone": "(02) 4087 6400",
+      "email": "",
+      "website": "https://pacificsmilesdental.com.au/locations/glendale",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Orthodontics",
+        "Teeth Whitening",
+        "Dental Implants",
+        "Children's Dentistry",
+        "Preventive Care"
+      ],
+      "service_areas": [
+        "Glendale",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm, Sat 8am-4pm",
+      "description": "Pacific Smiles Dental Glendale is part of the trusted Pacific Smiles network, providing quality dental care to families in Glendale and Lake Macquarie. Their experienced team offers a comprehensive range of dental services including general dentistry, cosmetic treatments and orthodontics in a modern, welcoming environment.",
+      "featured": false,
+      "slug": "pacific-smiles-dental-glendale",
+      "secret_key": "zi-zo6790",
+      "last_verified": "2026-06-11",
+      "google_search": "Pacific Smiles Dental Glendale NSW"
+    },
+    {
+      "name": "Charlestown Dental Centre",
+      "credentials": "Family Dentist \u00b7 Charlestown",
+      "address": "8 Chapman Street, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "(02) 4058 2563",
+      "email": "",
+      "website": "https://charlestowndentalcentre.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Teeth Whitening",
+        "Veneers",
+        "Crowns & Bridges",
+        "Dental Implants",
+        "Preventive Care"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Newcastle",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:30pm",
+      "description": "Charlestown Dental Centre provides personalised family dental care from their boutique clinic in the heart of Charlestown. Their experienced dentists offer a wide range of general and cosmetic dental services in a relaxed, welcoming environment, helping patients of all ages achieve and maintain healthy, beautiful smiles.",
+      "featured": false,
+      "slug": "charlestown-dental-centre",
+      "secret_key": "pi-bp1231",
+      "last_verified": "2026-06-11",
+      "google_search": "Charlestown Dental Centre NSW"
     }
   ]
 }

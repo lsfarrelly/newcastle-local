@@ -2,8 +2,8 @@
   "meta": {
     "category": "builders",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 20
+    "last_updated": "2026-06-11",
+    "total": 23
   },
   "listings": [
     {
@@ -311,7 +311,7 @@
     },
     {
       "name": "East Maitland Building",
-      "credentials": "Licensed Builder · 50 Years Combined Experience",
+      "credentials": "Licensed Builder \u00b7 50 Years Combined Experience",
       "address": "East Maitland NSW 2323",
       "suburb": "East Maitland",
       "phone": "(02) 4933 5200",
@@ -341,7 +341,7 @@
     },
     {
       "name": "P & D Kay Constructions",
-      "credentials": "Custom Home Builders · Maitland",
+      "credentials": "Custom Home Builders \u00b7 Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4933 0000",
@@ -399,7 +399,7 @@
     },
     {
       "name": "Nathan Brown Building",
-      "credentials": "Licensed Builder · 28+ Years Experience",
+      "credentials": "Licensed Builder \u00b7 28+ Years Experience",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "0422 622 264",
@@ -430,7 +430,7 @@
     },
     {
       "name": "QUAD Construction",
-      "credentials": "Custom Homes & Duplexes · Cardiff",
+      "credentials": "Custom Homes & Duplexes \u00b7 Cardiff",
       "address": "Unit 2/26 Munibung Road, Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "(02) 4072 1593",
@@ -461,7 +461,7 @@
     },
     {
       "name": "All Design Construction",
-      "credentials": "Award-Winning Builder · Newcastle",
+      "credentials": "Award-Winning Builder \u00b7 Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -492,7 +492,7 @@
     },
     {
       "name": "Port Hunter Building",
-      "credentials": "Residential & Commercial Builder · Newcastle",
+      "credentials": "Residential & Commercial Builder \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4032 0100",
@@ -522,7 +522,7 @@
     },
     {
       "name": "SNL Building",
-      "credentials": "Construction & Development · Newcastle",
+      "credentials": "Construction & Development \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4023 5500",
@@ -552,7 +552,7 @@
     },
     {
       "name": "GWH Build",
-      "credentials": "Development & Construction · Newcastle",
+      "credentials": "Development & Construction \u00b7 Newcastle",
       "address": "Level 1, 420 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4941 0777",
@@ -582,7 +582,7 @@
     },
     {
       "name": "Hunter Coast Homes",
-      "credentials": "Award-Winning Home Builder · Newcastle",
+      "credentials": "Award-Winning Home Builder \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4920 0200",
@@ -609,6 +609,98 @@
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "SteenBuilt",
+      "credentials": "Licensed Builder \u00b7 Newcastle",
+      "address": "Cardiff NSW 2285",
+      "suburb": "Cardiff",
+      "phone": "0429 825 704",
+      "email": "steenbuilt@outlook.com",
+      "website": "https://steenbuilt.com",
+      "services": [
+        "New Home Builds",
+        "Extensions & Additions",
+        "Renovations",
+        "Decks & Patios",
+        "Project Management",
+        "Custom Builds"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm, Sat 9am-1pm",
+      "description": "SteenBuilt is a locally owned and operated building company servicing Newcastle and Lake Macquarie. Specialising in new home builds, extensions and renovations, they bring a hands-on approach and attention to detail to every project. Owner-operated for personalised service from quote to completion.",
+      "featured": false,
+      "slug": "steenbuilt-newcastle",
+      "secret_key": "su-au3259",
+      "last_verified": "2026-06-11",
+      "google_search": "SteenBuilt Builder Newcastle NSW"
+    },
+    {
+      "name": "Sloane Homes",
+      "credentials": "Custom Home Builder \u00b7 Swansea",
+      "address": "PO Box 386, Swansea NSW 2281",
+      "suburb": "Swansea",
+      "phone": "0413 199 490",
+      "email": "build@sloanehomes.com.au",
+      "website": "https://sloanehomes.com.au",
+      "services": [
+        "Custom Home Builds",
+        "Knock Down Rebuilds",
+        "Dual Occupancy",
+        "Extensions",
+        "Design & Build",
+        "Owner-Builder Support"
+      ],
+      "service_areas": [
+        "Swansea",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Sloane Homes is a boutique custom home builder based on the shores of Lake Macquarie. Delivering beautifully crafted custom homes, knock-down rebuilds and dual occupancies, they work closely with clients throughout the design and build process to create homes that exceed expectations.",
+      "featured": false,
+      "slug": "sloane-homes-swansea",
+      "secret_key": "nn-ku5734",
+      "last_verified": "2026-06-11",
+      "google_search": "Sloane Homes Builder Swansea NSW"
+    },
+    {
+      "name": "Indie Living",
+      "credentials": "Residential Builder \u00b7 Bennetts Green",
+      "address": "6/22 Templar Place, Bennetts Green NSW 2290",
+      "suburb": "Bennetts Green",
+      "phone": "1300 794 246",
+      "email": "",
+      "website": "https://indieliving.com.au",
+      "services": [
+        "Custom Home Builds",
+        "Granny Flats",
+        "Extensions",
+        "Renovations",
+        "Dual Occupancy",
+        "New Builds"
+      ],
+      "service_areas": [
+        "Bennetts Green",
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Indie Living is a residential building company based at Bennetts Green, offering creative and practical home solutions across Newcastle and the Hunter region. From custom new builds and granny flats to major renovations, Indie Living brings innovative design thinking and quality craftsmanship to every project.",
+      "featured": false,
+      "slug": "indie-living-bennetts-green",
+      "secret_key": "rj-ds8807",
+      "last_verified": "2026-06-11",
+      "google_search": "Indie Living Builder Bennetts Green NSW"
     }
   ]
 }

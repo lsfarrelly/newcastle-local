@@ -2,8 +2,8 @@
   "meta": {
     "category": "accountants",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 19
+    "last_updated": "2026-06-11",
+    "total": 22
   },
   "listings": [
     {
@@ -308,7 +308,7 @@
     },
     {
       "name": "KLM Accountants",
-      "credentials": "CPA Firm · 45+ Years",
+      "credentials": "CPA Firm \u00b7 45+ Years",
       "address": "500 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5533",
@@ -392,7 +392,7 @@
     },
     {
       "name": "Pitcher Partners Newcastle",
-      "credentials": "Chartered Accountants · Newcastle West",
+      "credentials": "Chartered Accountants \u00b7 Newcastle West",
       "address": "Level 5, 12 Stewart Avenue, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "(02) 4923 4000",
@@ -422,7 +422,7 @@
     },
     {
       "name": "Jabour Accountants",
-      "credentials": "CPA Practice · Newcastle CBD",
+      "credentials": "CPA Practice \u00b7 Newcastle CBD",
       "address": "53 King Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4926 9900",
@@ -452,7 +452,7 @@
     },
     {
       "name": "Nova Business Professionals",
-      "credentials": "Business Advisors & Accountants · Hamilton",
+      "credentials": "Business Advisors & Accountants \u00b7 Hamilton",
       "address": "5 Hudson Street, Hamilton NSW 2303",
       "suburb": "Hamilton",
       "phone": "(02) 4002 4529",
@@ -482,7 +482,7 @@
     },
     {
       "name": "PKF Newcastle",
-      "credentials": "Chartered Accounting Firm · Newcastle",
+      "credentials": "Chartered Accounting Firm \u00b7 Newcastle",
       "address": "Level 5, 45 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4962 2688",
@@ -513,7 +513,7 @@
     },
     {
       "name": "Richard Latham Accounting",
-      "credentials": "Registered Tax Agent · Belmont",
+      "credentials": "Registered Tax Agent \u00b7 Belmont",
       "address": "607-609 Pacific Highway, Belmont NSW 2280",
       "suburb": "Belmont",
       "phone": "(02) 4945 0077",
@@ -542,7 +542,7 @@
     },
     {
       "name": "BDO Newcastle",
-      "credentials": "Chartered Accounting Firm · Newcastle",
+      "credentials": "Chartered Accounting Firm \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4962 2300",
@@ -570,6 +570,100 @@
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "K H Perry & Co",
+      "credentials": "Registered Tax Agent \u00b7 Toronto",
+      "address": "Suite 12, Westlakes Arcade, 108-112 The Boulevarde, Toronto NSW 2283",
+      "suburb": "Toronto",
+      "phone": "(02) 4959 5322",
+      "email": "mail@khperry.com.au",
+      "website": "https://khperry.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Accounting",
+        "BAS & GST",
+        "Bookkeeping",
+        "Financial Advice",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Toronto",
+        "Lake Macquarie",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "K H Perry & Co is an established accounting firm servicing Toronto and the Lake Macquarie area for decades. Registered tax agents delivering expert business accounting, tax returns, and financial advice to individuals and small businesses across the Hunter region.",
+      "featured": false,
+      "slug": "kh-perry-toronto",
+      "secret_key": "eh-oq4517",
+      "last_verified": "2026-06-11",
+      "google_search": "K H Perry Co Accountant Toronto NSW"
+    },
+    {
+      "name": "TSP Accountants",
+      "credentials": "Business Advisors & Tax Agents \u00b7 Newcastle",
+      "address": "3rd Floor, 169 King Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4926 4155",
+      "email": "admin@tspaccountants.com.au",
+      "website": "https://tspaccountants.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Accounting",
+        "Financial Planning",
+        "SMSF",
+        "BAS & GST",
+        "Business Advisory",
+        "Payroll"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Maitland"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "TSP Accountants is a Newcastle city firm providing tailored accounting and tax services to businesses and individuals across the Hunter region. Located on King Street, their team of registered tax agents offers practical financial advice, SMSF management, and comprehensive business advisory services.",
+      "featured": false,
+      "slug": "tsp-accountants-newcastle",
+      "secret_key": "fh-fk2215",
+      "last_verified": "2026-06-11",
+      "google_search": "TSP Accountants Newcastle NSW"
+    },
+    {
+      "name": "Precision PTAM",
+      "credentials": "Accounting & Advisory \u00b7 Charlestown",
+      "address": "Level 1 Suite 2, 160 Pacific Highway, Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "1300 007 826",
+      "email": "",
+      "website": "https://ptam.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Accounting",
+        "BAS & GST",
+        "Financial Planning",
+        "Business Advisory",
+        "Bookkeeping",
+        "Cloud Accounting"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Newcastle",
+        "Lake Macquarie",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Precision PTAM delivers modern accounting and advisory solutions from their Charlestown office. Specialising in cloud accounting, tax planning and business advisory, their team helps small to medium businesses across Newcastle and Lake Macquarie achieve their financial goals with precision and expertise.",
+      "featured": false,
+      "slug": "precision-ptam-charlestown",
+      "secret_key": "vm-om8379",
+      "last_verified": "2026-06-11",
+      "google_search": "Precision PTAM Accountant Charlestown NSW"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "category": "removalists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 19
+    "last_updated": "2026-06-11",
+    "total": 22
   },
   "listings": [
     {
@@ -318,7 +318,7 @@
     },
     {
       "name": "John's Removals Newcastle",
-      "credentials": "Family-Owned · 30+ Years",
+      "credentials": "Family-Owned \u00b7 30+ Years",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4961 6661",
@@ -349,7 +349,7 @@
     },
     {
       "name": "Grace Removals Newcastle",
-      "credentials": "National Removalists · Local Team",
+      "credentials": "National Removalists \u00b7 Local Team",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4961 4900",
@@ -411,7 +411,7 @@
     },
     {
       "name": "Staples Removals",
-      "credentials": "Home & Office Movers · Adamstown",
+      "credentials": "Home & Office Movers \u00b7 Adamstown",
       "address": "18 Pacific Highway, Adamstown NSW 2289",
       "suburb": "Adamstown",
       "phone": "(02) 4957 7695",
@@ -442,7 +442,7 @@
     },
     {
       "name": "A1 Group Newcastle Removals",
-      "credentials": "Family-Owned Removalist · Cardiff",
+      "credentials": "Family-Owned Removalist \u00b7 Cardiff",
       "address": "6 Aminya Place, Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "1800 681 055",
@@ -474,7 +474,7 @@
     },
     {
       "name": "LW Hodgins Removalists",
-      "credentials": "Removalists Since 2002 · Adamstown",
+      "credentials": "Removalists Since 2002 \u00b7 Adamstown",
       "address": "Unit D, 85/2 Gow Street, Adamstown NSW 2289",
       "suburb": "Adamstown",
       "phone": "(02) 4952 7552",
@@ -506,7 +506,7 @@
     },
     {
       "name": "Two Men And A Truck Newcastle",
-      "credentials": "Professional Removalists · Newcastle",
+      "credentials": "Professional Removalists \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "1300 880 412",
@@ -539,7 +539,7 @@
     },
     {
       "name": "Men In Black Removals",
-      "credentials": "Professional Removalists · Newcastle",
+      "credentials": "Professional Removalists \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4062 8500",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Mighty Mouse Movers",
-      "credentials": "Furniture Removalists · Newcastle",
+      "credentials": "Furniture Removalists \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4058 5600",
@@ -598,6 +598,102 @@
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Hunter Coalfields Removals",
+      "credentials": "Removalists \u00b7 Branxton",
+      "address": "Branxton NSW 2335",
+      "suburb": "Branxton",
+      "phone": "0429 777 375",
+      "email": "",
+      "website": "https://huntercoalfieldsremovals.com.au",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Furniture Removals",
+        "Storage Solutions",
+        "Packing Services",
+        "Office Removals",
+        "Piano Moving"
+      ],
+      "service_areas": [
+        "Branxton",
+        "Newcastle",
+        "Maitland",
+        "Hunter Valley",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Hunter Coalfields Removals is a trusted removalist company based in Branxton, serving Newcastle, Maitland and the broader Hunter Valley with professional moving services. With years of local knowledge and experience, their team handles local and interstate relocations with care, offering packing services and storage solutions for a stress-free move.",
+      "featured": false,
+      "slug": "hunter-coalfields-removals",
+      "secret_key": "jk-zm4343",
+      "last_verified": "2026-06-11",
+      "google_search": "Hunter Coalfields Removals Branxton NSW"
+    },
+    {
+      "name": "NC Coast Removals",
+      "credentials": "Removalists \u00b7 Newcastle",
+      "address": "Carrington NSW 2294",
+      "suburb": "Carrington",
+      "phone": "1300 491 097",
+      "email": "contact@nccoastremovals.com.au",
+      "website": "https://nccoastremovals.com.au",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Furniture Removals",
+        "Office Relocations",
+        "Packing Services",
+        "Secure Storage",
+        "Piano Moving"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Central Coast",
+        "Hunter Region",
+        "Interstate"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-6pm",
+      "description": "NC Coast Removals provides professional and reliable removalist services across Newcastle, the Central Coast and beyond. Based in Carrington with secure storage facilities, their experienced crew handles everything from household furniture removals and office relocations to interstate moves, delivering careful, efficient service every time.",
+      "featured": false,
+      "slug": "nc-coast-removals",
+      "secret_key": "rl-ba8428",
+      "last_verified": "2026-06-11",
+      "google_search": "NC Coast Removals Newcastle NSW"
+    },
+    {
+      "name": "Men That Move Newcastle",
+      "credentials": "Removalists \u00b7 Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1800 438 668",
+      "email": "",
+      "website": "https://menthatmove.com/removalists-newcastle",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Furniture Removals",
+        "Packing & Unpacking",
+        "Office Relocations",
+        "Storage Solutions",
+        "Piano Moving"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Interstate"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-6pm",
+      "description": "Men That Move Newcastle is part of the reputable Men That Move network, providing professional removalist services to residential and commercial clients across Newcastle and the Hunter region. Established in 2006, their trained and experienced crews deliver careful, efficient moving services for local and interstate relocations.",
+      "featured": false,
+      "slug": "men-that-move-newcastle",
+      "secret_key": "pc-yf8813",
+      "last_verified": "2026-06-11",
+      "google_search": "Men That Move Removalists Newcastle NSW"
     }
   ]
 }

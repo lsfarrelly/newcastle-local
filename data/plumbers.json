@@ -2,8 +2,8 @@
   "meta": {
     "category": "plumbers",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-09",
-    "total": 19
+    "last_updated": "2026-06-11",
+    "total": 22
   },
   "listings": [
     {
@@ -72,7 +72,7 @@
     },
     {
       "name": "Fluid Plumbing Services",
-      "credentials": "Licensed Plumber · 25+ Years Experience",
+      "credentials": "Licensed Plumber \u00b7 25+ Years Experience",
       "address": "10 Ironbark Close, Warabrook NSW 2304",
       "suburb": "Warabrook",
       "phone": "0414 272 220",
@@ -105,7 +105,7 @@
     },
     {
       "name": "NHC Plumbing",
-      "credentials": "Licensed Plumber · Licence 196023C",
+      "credentials": "Licensed Plumber \u00b7 Licence 196023C",
       "address": "5/32 Templar Place, Bennetts Green NSW 2290",
       "suburb": "Bennetts Green",
       "phone": "0414 494 289",
@@ -137,7 +137,7 @@
     },
     {
       "name": "Laser Plumbing Newcastle Central",
-      "credentials": "Licensed Plumber · Licence 206102C",
+      "credentials": "Licensed Plumber \u00b7 Licence 206102C",
       "address": "62 Orlando Rd, Lambton NSW 2299",
       "suburb": "Lambton",
       "phone": "(02) 4968 3822",
@@ -188,7 +188,7 @@
       ],
       "emergency_24_7": false,
       "status": "accepting",
-      "hours": "Mon–Sat",
+      "hours": "Mon\u2013Sat",
       "description": "Summit Plumbing Services NSW is a family-owned plumbing business based in Tenambit, servicing the Maitland, Newcastle, and Hunter Region. Offering reliable, affordable blocked drains, hot water, and general repair services with a personal touch.",
       "featured": false,
       "slug": "summit-plumbing-services-nsw",
@@ -228,7 +228,7 @@
     },
     {
       "name": "Murphy Plumbing",
-      "credentials": "Licensed Plumber · Est. 1965",
+      "credentials": "Licensed Plumber \u00b7 Est. 1965",
       "address": "14 Mitchell Street, Merewether NSW 2291",
       "suburb": "Merewether",
       "phone": "(02) 4963 3922",
@@ -250,7 +250,7 @@
       "emergency_24_7": true,
       "status": "accepting",
       "hours": "24/7",
-      "description": "Murphy Plumbing has been a trusted Newcastle institution since 1965 — over 60 years of reliable service in the region. Based in Merewether, they specialise in emergency, commercial, and construction plumbing, gas fitting, and backflow prevention.",
+      "description": "Murphy Plumbing has been a trusted Newcastle institution since 1965 \u2014 over 60 years of reliable service in the region. Based in Merewether, they specialise in emergency, commercial, and construction plumbing, gas fitting, and backflow prevention.",
       "featured": true,
       "slug": "murphy-plumbing",
       "secret_key": "mp-g0fn9xuy",
@@ -288,7 +288,7 @@
     },
     {
       "name": "Newcastle Plumbing",
-      "credentials": "Licensed Plumber · 40+ Years Experience",
+      "credentials": "Licensed Plumber \u00b7 40+ Years Experience",
       "address": "Unit 6/17 Riverside Dr, Mayfield West NSW 2304",
       "suburb": "Mayfield West",
       "phone": "(02) 4942 3300",
@@ -313,7 +313,7 @@
       "emergency_24_7": true,
       "status": "accepting",
       "hours": "24/7",
-      "description": "Newcastle Plumbing brings over 40 years of industry experience to residential and commercial jobs across the Hunter Region. Based in Mayfield West, they cover the full spectrum — from emergency callouts and blocked drains through to home renovations, gas fitting, and water filtration systems.",
+      "description": "Newcastle Plumbing brings over 40 years of industry experience to residential and commercial jobs across the Hunter Region. Based in Mayfield West, they cover the full spectrum \u2014 from emergency callouts and blocked drains through to home renovations, gas fitting, and water filtration systems.",
       "featured": false,
       "slug": "newcastle-plumbing",
       "secret_key": "np-5lxo6qji",
@@ -322,7 +322,7 @@
     },
     {
       "name": "Enviromate Plumbing",
-      "credentials": "Licensed Plumbers · 20+ Years",
+      "credentials": "Licensed Plumbers \u00b7 20+ Years",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4969 7000",
@@ -352,7 +352,7 @@
     },
     {
       "name": "Green Planet Plumbing",
-      "credentials": "Family-Owned · Est. 2008",
+      "credentials": "Family-Owned \u00b7 Est. 2008",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4965 0800",
@@ -382,7 +382,7 @@
     },
     {
       "name": "Level Plumbing Newcastle",
-      "credentials": "Licensed Plumbers · Newcastle Central",
+      "credentials": "Licensed Plumbers \u00b7 Newcastle Central",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5555",
@@ -411,7 +411,7 @@
     },
     {
       "name": "BDP Plumbing",
-      "credentials": "Family-Owned Plumber · Maitland & Newcastle",
+      "credentials": "Family-Owned Plumber \u00b7 Maitland & Newcastle",
       "address": "Maitland, NSW",
       "suburb": "Maitland",
       "phone": "0404 141 031",
@@ -443,7 +443,7 @@
     },
     {
       "name": "Down to Earth Plumbing",
-      "credentials": "Licensed Plumber · Lake Macquarie & Newcastle",
+      "credentials": "Licensed Plumber \u00b7 Lake Macquarie & Newcastle",
       "address": "7 Lake Road, Swansea NSW 2281",
       "suburb": "Swansea",
       "phone": "0422 131 555",
@@ -475,7 +475,7 @@
     },
     {
       "name": "Advantage Plumbing Solutions",
-      "credentials": "Family-Owned Plumber · Gateshead",
+      "credentials": "Family-Owned Plumber \u00b7 Gateshead",
       "address": "Unit 1/6 Metro Court, Gateshead NSW 2290",
       "suburb": "Gateshead",
       "phone": "0432 278 403",
@@ -506,7 +506,7 @@
     },
     {
       "name": "Plumbers Express Newcastle",
-      "credentials": "Licensed Plumber · Newcastle",
+      "credentials": "Licensed Plumber \u00b7 Newcastle",
       "address": "Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "(02) 4058 1600",
@@ -538,7 +538,7 @@
     },
     {
       "name": "Across Plumbing",
-      "credentials": "Licensed Plumber · Newcastle",
+      "credentials": "Licensed Plumber \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4062 4300",
@@ -569,7 +569,7 @@
     },
     {
       "name": "All Day Plumbing Newcastle",
-      "credentials": "Licensed Plumber · Newcastle",
+      "credentials": "Licensed Plumber \u00b7 Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "1300 225 329",
@@ -597,6 +597,101 @@
       "status": "active",
       "featured": false,
       "last_verified": "2026-06-09"
+    },
+    {
+      "name": "Atkins Plumbing & Gas",
+      "credentials": "Licensed Plumber \u00b7 Beresfield",
+      "address": "2/18 Craftsman Close, Beresfield NSW 2322",
+      "suburb": "Beresfield",
+      "phone": "0409 879 009",
+      "email": "enquiries@atkinsplumbing.com.au",
+      "website": "https://atkinsplumbingandgas.com.au",
+      "services": [
+        "General Plumbing",
+        "Gas Fitting",
+        "Hot Water Systems",
+        "Emergency Plumbing",
+        "Drain Cleaning",
+        "Pipe Repairs",
+        "Bathroom Renovations"
+      ],
+      "service_areas": [
+        "Beresfield",
+        "Maitland",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "24/7",
+      "description": "Atkins Plumbing & Gas is a fully licensed plumbing and gas fitting company based in Beresfield, servicing Newcastle, Maitland and the broader Hunter region around the clock. Their experienced plumbers handle everything from routine repairs and hot water system replacements to emergency call-outs and complete bathroom renovations.",
+      "featured": false,
+      "slug": "atkins-plumbing-beresfield",
+      "secret_key": "jk-ja7903",
+      "last_verified": "2026-06-11",
+      "google_search": "Atkins Plumbing Gas Beresfield NSW"
+    },
+    {
+      "name": "Kenny O The Plumber",
+      "credentials": "Licensed Plumber \u00b7 Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0417 369 441",
+      "email": "kennyotheplumber@gmail.com",
+      "website": "https://kennyotheplumber.com.au",
+      "services": [
+        "General Plumbing",
+        "Hot Water Systems",
+        "Blocked Drains",
+        "Leak Detection",
+        "Pipe Repairs",
+        "Tapware & Fixtures",
+        "Emergency Plumbing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Hunter Region",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Kenny O The Plumber is a trusted local tradesperson serving Newcastle and Maitland with reliable, no-fuss plumbing services. Owner-operated for over a decade, Kenny offers friendly and honest plumbing solutions for residential customers, from blocked drains and hot water system repairs to leak detection and complete fixture installations.",
+      "featured": false,
+      "slug": "kenny-o-the-plumber",
+      "secret_key": "bt-sw9512",
+      "last_verified": "2026-06-11",
+      "google_search": "Kenny O The Plumber Newcastle NSW"
+    },
+    {
+      "name": "Plumbing Newcastle",
+      "credentials": "Licensed Plumber \u00b7 Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "hello@plumbingnewcastle.com.au",
+      "website": "https://plumbingnewcastle.com.au",
+      "services": [
+        "General Plumbing",
+        "Drain Cleaning",
+        "Hot Water Systems",
+        "Bathroom Renovations",
+        "Gas Fitting",
+        "Leak Detection",
+        "Emergency Plumbing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Plumbing Newcastle is a professional plumbing service operating across Newcastle, Maitland and the Hunter Valley. Their licensed plumbers deliver reliable, quality workmanship for residential and commercial clients, covering everything from routine maintenance and drain cleaning to hot water system installations and bathroom renovations.",
+      "featured": false,
+      "slug": "plumbing-newcastle",
+      "secret_key": "ca-hl0624",
+      "last_verified": "2026-06-11",
+      "google_search": "Plumbing Newcastle NSW"
     }
   ]
 }
