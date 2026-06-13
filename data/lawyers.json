@@ -2,8 +2,8 @@
   "meta": {
     "category": "lawyers",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 22
+    "last_updated": "2026-06-13",
+    "total": 25
   },
   "listings": [
     {
@@ -755,6 +755,93 @@
       "secret_key": "kf-ps2599",
       "last_verified": "2026-06-11",
       "google_search": "HCN Law Newcastle NSW Solicitors"
+    },
+    {
+      "name": "Gillard Family Lawyers",
+      "credentials": "Family Law Specialists",
+      "address": "Unit 24/1 Honeysuckle Drive, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4910 0740",
+      "website": "https://gillardfamilylawyers.com.au",
+      "services": [
+        "Family Law",
+        "Divorce",
+        "Property Settlements",
+        "Parenting Matters",
+        "Domestic Violence Orders",
+        "Child Support"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Newcastle-based family law firm specialising in divorce, property settlements, parenting matters, and domestic violence proceedings.",
+      "featured": false,
+      "slug": "gillard-family-lawyers-newcastle",
+      "secret_key": "gil-1t2tala7",
+      "last_verified": "2026-06-13",
+      "google_search": "Gillard Family Lawyers lawyer Newcastle NSW"
+    },
+    {
+      "name": "East Coast Law Group",
+      "credentials": "Solicitors & Barristers",
+      "address": "Level 1/5 Brunker Road, Broadmeadow NSW 2292",
+      "suburb": "Broadmeadow",
+      "phone": "(02) 4920 6511",
+      "website": "https://eastcoastlaw.com.au",
+      "services": [
+        "Commercial Law",
+        "Property Law",
+        "Employment Law",
+        "Dispute Resolution",
+        "Conveyancing",
+        "Contract Law"
+      ],
+      "service_areas": [
+        "Broadmeadow",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Broadmeadow law firm providing comprehensive legal services across commercial law, property, employment, and dispute resolution.",
+      "featured": false,
+      "slug": "east-coast-law-broadmeadow",
+      "secret_key": "eas-53lc58dr",
+      "last_verified": "2026-06-13",
+      "google_search": "East Coast Law Group lawyer Broadmeadow NSW"
+    },
+    {
+      "name": "CDG Law",
+      "credentials": "Solicitors",
+      "address": "Unit 7/1 Honeysuckle Drive, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 6572 2911",
+      "website": "https://cdglaw.com.au",
+      "services": [
+        "Family Law",
+        "Commercial Law",
+        "Conveyancing",
+        "Wills & Estates",
+        "Property Law",
+        "Dispute Resolution"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Maitland"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Newcastle CBD law firm offering a wide range of legal services including family law, commercial matters, conveyancing, and wills and estates.",
+      "featured": false,
+      "slug": "cdg-law-newcastle",
+      "secret_key": "cdg-c11ertj5",
+      "last_verified": "2026-06-13",
+      "google_search": "CDG Law solicitor Newcastle NSW"
     }
   ]
 }

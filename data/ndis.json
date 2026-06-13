@@ -2,8 +2,8 @@
   "meta": {
     "category": "ndis",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 23
+    "last_updated": "2026-06-13",
+    "total": 26
   },
   "listings": [
     {
@@ -703,6 +703,95 @@
       "secret_key": "bd-nf6815",
       "last_verified": "2026-06-11",
       "google_search": "Solid Holistic Care NDIS Newcastle NSW"
+    },
+    {
+      "name": "Empowered Community Services",
+      "credentials": "Registered NDIS Provider",
+      "address": "Suite 101/286 Main Road, Cardiff NSW 2285",
+      "suburb": "Cardiff",
+      "phone": "(02) 4054 9286",
+      "website": "https://empoweredcommunityservices.com",
+      "services": [
+        "Support Coordination",
+        "Community Access",
+        "Daily Living Assistance",
+        "Personal Care",
+        "NDIS Plan Management",
+        "Social Support"
+      ],
+      "service_areas": [
+        "Cardiff",
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "NDIS-registered provider in Cardiff offering support coordination, community access, and daily living assistance to people with disability across the Hunter Region.",
+      "featured": false,
+      "slug": "empowered-community-services-cardiff",
+      "secret_key": "emp-he7ur23g",
+      "last_verified": "2026-06-13",
+      "google_search": "Empowered Community Services NDIS provider Cardiff NSW"
+    },
+    {
+      "name": "Create Disability Services",
+      "credentials": "Registered NDIS Provider",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4930 0957",
+      "website": "https://createdisabilityservices.com.au",
+      "services": [
+        "Daily Living Support",
+        "Community Participation",
+        "Supported Independent Living",
+        "Capacity Building",
+        "Respite Care",
+        "Personal Care"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Newcastle-based NDIS provider delivering personalised disability support services including daily living assistance, community participation, and supported independent living.",
+      "featured": false,
+      "slug": "create-disability-services-newcastle",
+      "secret_key": "cre-dppq0y9d",
+      "last_verified": "2026-06-13",
+      "google_search": "Create Disability Services NDIS provider Newcastle NSW"
+    },
+    {
+      "name": "Paramount Care Solutions",
+      "credentials": "Registered NDIS Provider",
+      "address": "Unit 3/545 Main Road, Glendale NSW 2285",
+      "suburb": "Glendale",
+      "phone": "(02) 4044 3787",
+      "website": "https://paramountcaresolutions.com.au",
+      "services": [
+        "Support Coordination",
+        "Mental Health Support",
+        "In-Home Care",
+        "Community Access",
+        "NDIS Plan Management",
+        "Aged Care"
+      ],
+      "service_areas": [
+        "Glendale",
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Glendale-based NDIS and aged care provider offering support coordination, mental health support, and in-home care services across the Hunter Region.",
+      "featured": false,
+      "slug": "paramount-care-solutions-glendale",
+      "secret_key": "par-om5igqpk",
+      "last_verified": "2026-06-13",
+      "google_search": "Paramount Care Solutions NDIS provider Glendale NSW"
     }
   ]
 }

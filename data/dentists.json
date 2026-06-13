@@ -2,8 +2,8 @@
   "meta": {
     "category": "dentists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 23
+    "last_updated": "2026-06-13",
+    "total": 26
   },
   "listings": [
     {
@@ -716,6 +716,94 @@
       "secret_key": "pi-bp1231",
       "last_verified": "2026-06-11",
       "google_search": "Charlestown Dental Centre NSW"
+    },
+    {
+      "name": "Dentist for Chickens",
+      "credentials": "General & Family Dentist",
+      "address": "Shop 2/204-206 Pacific Highway, Swansea NSW 2281",
+      "suburb": "Swansea",
+      "phone": "(02) 4971 0144",
+      "website": "https://dentistforchickens.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Emergency Dental",
+        "Family Dentistry",
+        "Teeth Whitening",
+        "Dental Checkups"
+      ],
+      "service_areas": [
+        "Swansea",
+        "Lake Macquarie",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Friendly family dental practice in Swansea serving the Lake Macquarie community with general, cosmetic, and emergency dental care.",
+      "featured": false,
+      "slug": "dentist-for-chickens-swansea",
+      "secret_key": "den-wnnhj7xv",
+      "last_verified": "2026-06-13",
+      "google_search": "Dentist for Chickens Swansea Dental Care dentist Swansea NSW"
+    },
+    {
+      "name": "Merewether Dental Clinic",
+      "credentials": "General & Cosmetic Dentist",
+      "address": "31 Llewellyn Street, Merewether NSW 2291",
+      "suburb": "Merewether",
+      "phone": "(02) 4963 5009",
+      "website": "https://merewetherdental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Family Dentistry",
+        "Dental Implants",
+        "Orthodontics",
+        "Teeth Whitening"
+      ],
+      "service_areas": [
+        "Merewether",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:30pm",
+      "description": "Established dental practice in Merewether providing comprehensive general and cosmetic dental care to patients across Newcastle's inner suburbs.",
+      "featured": false,
+      "slug": "merewether-dental-merewether",
+      "secret_key": "mer-g0fn9xuy",
+      "last_verified": "2026-06-13",
+      "google_search": "Merewether Dental Clinic dentist Merewether NSW"
+    },
+    {
+      "name": "Evolution Dental Care",
+      "credentials": "General & Cosmetic Dentist",
+      "address": "20 Beaumont Street, Hamilton NSW 2303",
+      "suburb": "Hamilton",
+      "phone": "(02) 4040 0560",
+      "website": "https://evolutiondentalcare.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Orthodontics",
+        "Teeth Whitening",
+        "AIRFLOW Dental Spa",
+        "Children's Dentistry"
+      ],
+      "service_areas": [
+        "Hamilton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Thu 7:00am-6:00pm, Fri 9:00am-4:00pm",
+      "description": "Modern dental practice on Hamilton's Beaumont Street offering a full range of dental services including cosmetic dentistry, orthodontics, and AIRFLOW dental treatments.",
+      "featured": false,
+      "slug": "evolution-dental-care-hamilton",
+      "secret_key": "evo-41ibljh7",
+      "last_verified": "2026-06-13",
+      "google_search": "Evolution Dental Care dentist Hamilton NSW",
+      "email": "reception@evolutiondentalcare.com.au"
     }
   ]
 }

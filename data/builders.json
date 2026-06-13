@@ -2,8 +2,8 @@
   "meta": {
     "category": "builders",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 23
+    "last_updated": "2026-06-13",
+    "total": 26
   },
   "listings": [
     {
@@ -701,6 +701,93 @@
       "secret_key": "rj-ds8807",
       "last_verified": "2026-06-11",
       "google_search": "Indie Living Builder Bennetts Green NSW"
+    },
+    {
+      "name": "Arbuilt",
+      "credentials": "Licensed Builder",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0413 974 487",
+      "website": "https://arbuilt.com.au",
+      "services": [
+        "Residential Renovations",
+        "Extensions",
+        "New Homes",
+        "Knockdown Rebuild",
+        "Custom Builds"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Newcastle-based building company specialising in residential renovations, extensions, and new home constructions across the Hunter Region.",
+      "featured": false,
+      "slug": "arbuilt-newcastle",
+      "secret_key": "arb-8mdd4v30",
+      "last_verified": "2026-06-13",
+      "google_search": "Arbuilt builder Newcastle NSW",
+      "email": "ryan@arbuilt.com.au"
+    },
+    {
+      "name": "JLC Building Developments",
+      "credentials": "Licensed Builder",
+      "address": "Wallsend NSW 2287",
+      "suburb": "Wallsend",
+      "phone": "1300 878 929",
+      "website": "https://jlcbuildingdevelopments.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Renovations",
+        "New Homes",
+        "Developments"
+      ],
+      "service_areas": [
+        "Wallsend",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Wallsend-based builder delivering quality residential and commercial construction projects across Newcastle and the Hunter Region.",
+      "featured": false,
+      "slug": "jlc-building-wallsend",
+      "secret_key": "jlc-t9nt3w5u",
+      "last_verified": "2026-06-13",
+      "google_search": "JLC Building Developments builder Wallsend NSW"
+    },
+    {
+      "name": "Upton Construction",
+      "credentials": "Licensed Builder",
+      "address": "Rutherford NSW 2320",
+      "suburb": "Rutherford",
+      "phone": "",
+      "website": "https://uptonconstruction.com.au",
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Renovations",
+        "Custom Builds",
+        "Project Management"
+      ],
+      "service_areas": [
+        "Rutherford",
+        "Maitland",
+        "Newcastle",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Rutherford-based construction company offering residential and commercial building services throughout the Hunter Valley and Newcastle region.",
+      "featured": false,
+      "slug": "upton-construction-rutherford",
+      "secret_key": "upt-zbikcidk",
+      "last_verified": "2026-06-13",
+      "google_search": "Upton Construction builder Rutherford NSW",
+      "email": "admin@uptonconstruction.com.au"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "category": "mechanics",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 23
+    "last_updated": "2026-06-13",
+    "total": 26
   },
   "listings": [
     {
@@ -728,6 +728,93 @@
       "secret_key": "ld-nn4733",
       "last_verified": "2026-06-11",
       "google_search": "Lake Macquarie Mechanical Warners Bay NSW"
+    },
+    {
+      "name": "Newy Mobile Mechanics",
+      "credentials": "Mobile Mechanic",
+      "address": "Belmont North NSW 2280",
+      "suburb": "Belmont North",
+      "phone": "0410 188 333",
+      "website": "https://newymobilemechanics.com.au",
+      "services": [
+        "Mobile Mechanic",
+        "Log Book Servicing",
+        "Brake Repairs",
+        "Roadside Assistance",
+        "Pre-Purchase Inspections",
+        "Tyres"
+      ],
+      "service_areas": [
+        "Belmont North",
+        "Lake Macquarie",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-5:00pm",
+      "description": "Mobile mechanic service based in Belmont North, bringing professional car servicing and repairs directly to your home or workplace.",
+      "featured": false,
+      "slug": "newy-mobile-mechanics-belmont-north",
+      "secret_key": "new-pht0hl9x",
+      "last_verified": "2026-06-13",
+      "google_search": "Newy Mobile Mechanics mechanic Belmont North NSW"
+    },
+    {
+      "name": "InGear Mechanical",
+      "credentials": "Qualified Automotive Technicians",
+      "address": "2/13 Kennington Drive, Tomago NSW 2322",
+      "suburb": "Tomago",
+      "phone": "(02) 4964 9965",
+      "website": "https://ingearmechanical.com.au",
+      "services": [
+        "Log Book Servicing",
+        "Mechanical Repairs",
+        "4WD Servicing",
+        "Brake & Clutch",
+        "Suspension",
+        "Diagnostics"
+      ],
+      "service_areas": [
+        "Tomago",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:30am-5:00pm",
+      "description": "Tomago-based automotive workshop servicing passenger vehicles and 4WDs with log book servicing, mechanical repairs, and performance upgrades.",
+      "featured": false,
+      "slug": "ingear-mechanical-tomago",
+      "secret_key": "ing-pseimvih",
+      "last_verified": "2026-06-13",
+      "google_search": "InGear Mechanical mechanic Tomago NSW"
+    },
+    {
+      "name": "Cherry's Automotive Repairs",
+      "credentials": "Qualified Mechanics",
+      "address": "89 Elgin Street, Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "(02) 4934 7262",
+      "website": "https://cherrysautomotive.com.au",
+      "services": [
+        "Mechanical Repairs",
+        "Log Book Servicing",
+        "Brake Repairs",
+        "Engine Diagnostics",
+        "Air Conditioning",
+        "Tyres"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Hunter Region",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:00pm",
+      "description": "Family-owned automotive repair workshop in Maitland with decades of experience servicing cars, vans, and light commercial vehicles.",
+      "featured": false,
+      "slug": "cherrys-automotive-maitland",
+      "secret_key": "che-cwi64ciy",
+      "last_verified": "2026-06-13",
+      "google_search": "Cherry's Automotive Repairs mechanic Maitland NSW"
     }
   ]
 }

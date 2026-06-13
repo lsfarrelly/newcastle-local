@@ -2,8 +2,8 @@
   "meta": {
     "category": "physiotherapists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 22
+    "last_updated": "2026-06-13",
+    "total": 25
   },
   "listings": [
     {
@@ -692,6 +692,94 @@
       "secret_key": "yp-eq4516",
       "last_verified": "2026-06-11",
       "google_search": "Brightside Physio Lambton Newcastle NSW"
+    },
+    {
+      "name": "Charlestown Physiotherapy",
+      "credentials": "Registered Physiotherapists",
+      "address": "1 Skyline Way, Gateshead NSW 2290",
+      "suburb": "Gateshead",
+      "phone": "(02) 4942 1322",
+      "website": "https://charlestownphysio.com.au",
+      "services": [
+        "Sports Physiotherapy",
+        "Musculoskeletal Therapy",
+        "Post-Surgical Rehab",
+        "Dry Needling",
+        "Exercise Physiology",
+        "Hydrotherapy"
+      ],
+      "service_areas": [
+        "Gateshead",
+        "Charlestown",
+        "Newcastle",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm",
+      "description": "Established physiotherapy clinic in Gateshead providing evidence-based treatment for sports injuries, musculoskeletal conditions, and post-surgical rehabilitation.",
+      "featured": false,
+      "slug": "charlestown-physiotherapy-gateshead",
+      "secret_key": "cha-i7p5tb94",
+      "last_verified": "2026-06-13",
+      "google_search": "Charlestown Physiotherapy physiotherapist Gateshead NSW"
+    },
+    {
+      "name": "Transcend Health",
+      "credentials": "Allied Health Professionals",
+      "address": "Level 1/58 Broadmeadow Road, Broadmeadow NSW 2292",
+      "suburb": "Broadmeadow",
+      "phone": "(02) 4961 3399",
+      "website": "https://transcendhealth.com.au",
+      "services": [
+        "Physiotherapy",
+        "Exercise Physiology",
+        "Occupational Therapy",
+        "NDIS Support",
+        "Workers Compensation",
+        "Rehabilitation"
+      ],
+      "service_areas": [
+        "Broadmeadow",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-6:00pm",
+      "description": "Broadmeadow-based allied health clinic providing physiotherapy, exercise physiology, and occupational therapy services to clients across the Hunter Region.",
+      "featured": false,
+      "slug": "transcend-health-broadmeadow",
+      "secret_key": "tra-874frhoc",
+      "last_verified": "2026-06-13",
+      "google_search": "Transcend Health physiotherapist Broadmeadow NSW"
+    },
+    {
+      "name": "Back In Motion Cessnock",
+      "credentials": "Registered Physiotherapists",
+      "address": "298 Maitland Road, Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "(02) 4990 4540",
+      "website": "https://backinmotion.com.au/clinics/cessnock",
+      "services": [
+        "Physiotherapy",
+        "Sports Injury Treatment",
+        "Clinical Pilates",
+        "Dry Needling",
+        "Workplace Rehab",
+        "NDIS"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Hunter Valley",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:30pm",
+      "description": "Physiotherapy and allied health clinic in Cessnock, part of the Back In Motion national network, delivering evidence-based care and personalised treatment programs.",
+      "featured": false,
+      "slug": "back-in-motion-cessnock",
+      "secret_key": "bac-n9j2qp89",
+      "last_verified": "2026-06-13",
+      "google_search": "Back In Motion Cessnock physiotherapist Cessnock NSW"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "category": "Psychologists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 36
+    "last_updated": "2026-06-13",
+    "total": 39
   },
   "listings": [
     {
@@ -1185,6 +1185,92 @@
       "secret_key": "xf-gt9294",
       "last_verified": "2026-06-11",
       "google_search": "Life Matters Psychologists Hamilton Newcastle NSW"
+    },
+    {
+      "name": "Thrive Psychology Newcastle",
+      "credentials": "Registered Psychologists",
+      "address": "Unit 9/710 Hunter Street, Newcastle West NSW 2302",
+      "suburb": "Newcastle West",
+      "phone": "(02) 4942 0700",
+      "website": "https://thrivepsychology.com.au",
+      "services": [
+        "Individual Therapy",
+        "Couples Counselling",
+        "Anxiety Treatment",
+        "Depression Treatment",
+        "Psychological Assessment",
+        "Trauma Therapy"
+      ],
+      "service_areas": [
+        "Newcastle West",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:30pm",
+      "description": "Newcastle West psychology practice providing individual therapy, couples counselling, and psychological assessments for adults and young people.",
+      "featured": false,
+      "slug": "thrive-psychology-newcastle-west",
+      "secret_key": "thr-pvs7hzio",
+      "last_verified": "2026-06-13",
+      "google_search": "Thrive Psychology Newcastle psychologist Newcastle West NSW"
+    },
+    {
+      "name": "MVB Psychology & Consultancy Services",
+      "credentials": "Registered Psychologist",
+      "address": "107/17 Bolton Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4910 4005",
+      "website": "https://mvbpsychology.com.au",
+      "services": [
+        "Psychological Assessment",
+        "Individual Therapy",
+        "NDIS Psychology",
+        "Cognitive Assessments",
+        "Mental Health Treatment",
+        "Consultancy"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Newcastle City psychology practice providing a broad range of psychological services including assessments, individual therapy, and NDIS-funded supports.",
+      "featured": false,
+      "slug": "mvb-psychology-newcastle",
+      "secret_key": "mvb-ykl1cq99",
+      "last_verified": "2026-06-13",
+      "google_search": "MVB Psychology Consultancy psychologist Newcastle NSW"
+    },
+    {
+      "name": "Newcastle NeuroHealth",
+      "credentials": "Clinical Neuropsychologist",
+      "address": "17 Bolton Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4910 4043",
+      "website": "https://newcastleneuropsych.com.au",
+      "services": [
+        "Neuropsychological Assessment",
+        "Brain Injury Evaluation",
+        "Dementia Assessment",
+        "ADHD Assessment",
+        "Cognitive Assessment",
+        "Expert Reports"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Clinical neuropsychology practice in Newcastle CBD providing specialised neuropsychological assessments for adults with brain injury, dementia, and neurodevelopmental conditions.",
+      "featured": false,
+      "slug": "newcastle-neuropsych",
+      "secret_key": "new-chj755nf",
+      "last_verified": "2026-06-13",
+      "google_search": "Newcastle NeuroHealth neuropsychologist Newcastle NSW"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "category": "electricians",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 23
+    "last_updated": "2026-06-13",
+    "total": 26
   },
   "listings": [
     {
@@ -716,6 +716,93 @@
       "secret_key": "hc-dd5217",
       "last_verified": "2026-06-11",
       "google_search": "New Wave Electrical Charlestown NSW"
+    },
+    {
+      "name": "Your Favourite Electrician",
+      "credentials": "Licensed Electrician",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0418 461 946",
+      "website": "https://yourfavouriteelectrician.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Switchboard Upgrades",
+        "Safety Inspections",
+        "LED Lighting",
+        "Power Points"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Reliable local electrician servicing Newcastle and the Hunter Region for all residential and commercial electrical needs.",
+      "featured": false,
+      "slug": "your-favourite-electrician-newcastle",
+      "secret_key": "you-5lxo6qji",
+      "last_verified": "2026-06-13",
+      "google_search": "Your Favourite Electrician electrician Newcastle NSW"
+    },
+    {
+      "name": "Weiley Electrical",
+      "credentials": "Licensed Electrical Contractors",
+      "address": "Unit 7/11 McIntosh Drive, Mayfield West NSW 2304",
+      "suburb": "Mayfield West",
+      "phone": "(02) 6884 9292",
+      "website": "https://weiley.com.au",
+      "services": [
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Residential Electrical",
+        "Data Cabling",
+        "Switchboards",
+        "Testing & Tagging"
+      ],
+      "service_areas": [
+        "Mayfield West",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Mayfield West-based electrical contractors delivering quality residential and commercial electrical services across Newcastle and the Hunter Region.",
+      "featured": false,
+      "slug": "weiley-electrical-mayfield-west",
+      "secret_key": "wei-ujv6oh9s",
+      "last_verified": "2026-06-13",
+      "google_search": "Weiley Electrical electrician Mayfield West NSW"
+    },
+    {
+      "name": "Darren Worpel Electrical",
+      "credentials": "Licensed Electrician",
+      "address": "Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "0407 000 329",
+      "website": "https://darrenworpelelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Fault Finding",
+        "Switchboard Upgrades",
+        "Renovation Wiring",
+        "Safety Switches"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Newcastle",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Charlestown-based licensed electrician providing quality electrical services for residential and commercial customers across the Newcastle region.",
+      "featured": false,
+      "slug": "darren-worpel-electrical-charlestown",
+      "secret_key": "dar-dbdw2pcn",
+      "last_verified": "2026-06-13",
+      "google_search": "Darren Worpel Electrical electrician Charlestown NSW"
     }
   ]
 }

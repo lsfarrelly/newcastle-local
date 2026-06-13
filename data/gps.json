@@ -2,8 +2,8 @@
   "meta": {
     "category": "gps",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 22
+    "last_updated": "2026-06-13",
+    "total": 25
   },
   "listings": [
     {
@@ -676,6 +676,93 @@
       "secret_key": "hv-vn0557",
       "last_verified": "2026-06-11",
       "google_search": "New Lambton Family Practice GP NSW"
+    },
+    {
+      "name": "Wallsend GP Clinic",
+      "credentials": "General Practice",
+      "address": "Suite 5/136 Nelson Street, Wallsend NSW 2287",
+      "suburb": "Wallsend",
+      "phone": "(02) 4950 2338",
+      "website": "https://wallsendgp.com.au",
+      "services": [
+        "General Practice",
+        "Bulk Billing",
+        "Preventive Health",
+        "Chronic Disease Management",
+        "Mental Health Care Plans",
+        "Vaccinations"
+      ],
+      "service_areas": [
+        "Wallsend",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:30pm",
+      "description": "Bulk-billing general practice clinic in Wallsend providing comprehensive primary healthcare services to the local community.",
+      "featured": false,
+      "slug": "wallsend-gp-clinic",
+      "secret_key": "wal-9t84azyt",
+      "last_verified": "2026-06-13",
+      "google_search": "Wallsend GP Clinic general practitioner Wallsend NSW"
+    },
+    {
+      "name": "Hello Health Family Practice",
+      "credentials": "General Practice",
+      "address": "30 Newcastle Road, Wallsend NSW 2287",
+      "suburb": "Wallsend",
+      "phone": "(02) 4951 3988",
+      "website": "https://hellohealthfp.com.au",
+      "services": [
+        "General Practice",
+        "Family Medicine",
+        "Women's Health",
+        "Children's Health",
+        "Chronic Disease Management",
+        "Mental Health"
+      ],
+      "service_areas": [
+        "Wallsend",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:30pm",
+      "description": "Modern family medical practice in Wallsend focused on providing accessible, patient-centred care to individuals and families.",
+      "featured": false,
+      "slug": "hello-health-family-practice-wallsend",
+      "secret_key": "hel-jxepq85j",
+      "last_verified": "2026-06-13",
+      "google_search": "Hello Health Family Practice GP Wallsend NSW"
+    },
+    {
+      "name": "Wallsend Family Medical Centre",
+      "credentials": "General Practice",
+      "address": "124 Nelson Street, Wallsend NSW 2287",
+      "suburb": "Wallsend",
+      "phone": "(02) 4955 8341",
+      "website": "https://wallsendmedical.com.au",
+      "services": [
+        "General Practice",
+        "Family Medicine",
+        "Preventive Health",
+        "Chronic Disease Management",
+        "Mental Health",
+        "Vaccinations"
+      ],
+      "service_areas": [
+        "Wallsend",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:00am-5:30pm",
+      "description": "Established family medical centre in Wallsend providing comprehensive general practice services to the local community.",
+      "featured": false,
+      "slug": "wallsend-family-medical-centre",
+      "secret_key": "wal-sg65kxvf",
+      "last_verified": "2026-06-13",
+      "google_search": "Wallsend Family Medical Centre GP Wallsend NSW"
     }
   ]
 }

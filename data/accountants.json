@@ -2,8 +2,8 @@
   "meta": {
     "category": "accountants",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 22
+    "last_updated": "2026-06-13",
+    "total": 25
   },
   "listings": [
     {
@@ -664,6 +664,91 @@
       "secret_key": "vm-om8379",
       "last_verified": "2026-06-11",
       "google_search": "Precision PTAM Accountant Charlestown NSW"
+    },
+    {
+      "name": "The Garis Group",
+      "credentials": "Chartered Accountants & Business Advisors",
+      "address": "Level 1/83 Beaumont Street, Hamilton NSW 2303",
+      "suburb": "Hamilton",
+      "phone": "(02) 4969 4699",
+      "website": "https://garisgroup.com.au",
+      "services": [
+        "Business Accounting",
+        "Tax Returns",
+        "Business Advisory",
+        "Financial Planning",
+        "BAS & GST",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Hamilton",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "Chartered accountants and business advisors based in Hamilton, serving Newcastle and the Hunter Region with taxation, business advisory, and financial planning services.",
+      "featured": false,
+      "slug": "garis-group-hamilton",
+      "secret_key": "gar-xaji0y6d",
+      "last_verified": "2026-06-13",
+      "google_search": "The Garis Group accountant Hamilton NSW"
+    },
+    {
+      "name": "Maxim Accounting & Business Advisors",
+      "credentials": "Chartered Accountants & Business Advisors",
+      "address": "Suite 101/45 Watt Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "(02) 4925 1000",
+      "website": "https://maximbas.com.au",
+      "services": [
+        "Business Accounting",
+        "Tax Returns",
+        "Business Advisory",
+        "BAS & GST",
+        "Bookkeeping",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9:00am-5:00pm",
+      "description": "Newcastle-based chartered accountants providing taxation, business advisory, and financial planning services from their Watt Street office.",
+      "featured": false,
+      "slug": "maxim-accounting-newcastle",
+      "secret_key": "max-pbhsahxt",
+      "last_verified": "2026-06-13",
+      "google_search": "Maxim Accounting Business Advisors accountant Newcastle NSW"
+    },
+    {
+      "name": "Kelly+Partners Newcastle",
+      "credentials": "Registered Tax Agents & Business Advisors",
+      "address": "4 Hall Street, Newcastle West NSW 2302",
+      "suburb": "Newcastle West",
+      "phone": "1300 802 780",
+      "website": "https://kellypartners.com.au",
+      "services": [
+        "Business Accounting",
+        "Tax Planning",
+        "Business Advisory",
+        "Wealth Management",
+        "SMSF",
+        "Bookkeeping"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8:30am-5:00pm",
+      "description": "National accounting firm with a dedicated Newcastle office, providing business advisory, tax planning, and wealth management services to local businesses.",
+      "featured": false,
+      "slug": "kelly-partners-newcastle-west",
+      "secret_key": "kel-hv3a3zmf",
+      "last_verified": "2026-06-13",
+      "google_search": "Kelly Partners Newcastle accountant Newcastle West NSW"
     }
   ]
 }

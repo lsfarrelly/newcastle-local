@@ -2,8 +2,8 @@
   "meta": {
     "category": "plumbers",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 22
+    "last_updated": "2026-06-13",
+    "total": 25
   },
   "listings": [
     {
@@ -692,6 +692,95 @@
       "secret_key": "ca-hl0624",
       "last_verified": "2026-06-11",
       "google_search": "Plumbing Newcastle NSW"
+    },
+    {
+      "name": "DSR Plumbing",
+      "credentials": "Licensed Plumber & Gas Fitter",
+      "address": "25 Galway Bay Drive, Ashtonfield NSW 2323",
+      "suburb": "Ashtonfield",
+      "phone": "0407 723 634",
+      "website": "https://dsrplumbing.com.au",
+      "services": [
+        "Residential Plumbing",
+        "Commercial Plumbing",
+        "Hot Water Systems",
+        "Drainage",
+        "Gas Fitting",
+        "Blocked Drains"
+      ],
+      "service_areas": [
+        "Ashtonfield",
+        "Maitland",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Ashtonfield-based licensed plumber serving the Hunter Region with residential and commercial plumbing, drainage, hot water systems, and gas fitting.",
+      "featured": false,
+      "slug": "dsr-plumbing-ashtonfield",
+      "secret_key": "dsr-uzfk8ut0",
+      "last_verified": "2026-06-13",
+      "google_search": "DSR Plumbing plumber Ashtonfield NSW"
+    },
+    {
+      "name": "Pro Plumb Newcastle",
+      "credentials": "Licensed Plumber",
+      "address": "18 Wolfe Street, Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0400 080 563",
+      "website": "https://proplumbnewcastle.com",
+      "services": [
+        "Residential Plumbing",
+        "Commercial Plumbing",
+        "Blocked Drains",
+        "Hot Water Systems",
+        "Gas Fitting",
+        "Renovation Plumbing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Newcastle CBD-based plumbing business offering professional residential and commercial plumbing services across Newcastle, the Hunter and Central Coast.",
+      "featured": false,
+      "slug": "pro-plumb-newcastle",
+      "secret_key": "pro-cvs4f8cg",
+      "last_verified": "2026-06-13",
+      "google_search": "Pro Plumb Newcastle plumber Newcastle NSW"
+    },
+    {
+      "name": "CDL Plumbing Drainage Gas",
+      "credentials": "Licensed Plumber & Gas Fitter",
+      "address": "12 Dean Parade, Rankin Park NSW 2287",
+      "suburb": "Rankin Park",
+      "phone": "0499 192 821",
+      "website": "https://cdlplumbdraingas.com.au",
+      "services": [
+        "Residential Plumbing",
+        "Drainage",
+        "Gas Fitting",
+        "Blocked Drains",
+        "Hot Water Systems",
+        "Emergency Plumbing"
+      ],
+      "service_areas": [
+        "Rankin Park",
+        "Newcastle",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7:00am-5:00pm",
+      "description": "Family-owned Rankin Park plumbing business with over 15 years experience providing plumbing, drainage, and gas fitting services to Newcastle and Lake Macquarie.",
+      "featured": false,
+      "slug": "cdl-plumbing-rankin-park",
+      "secret_key": "cdl-vyie6ivw",
+      "last_verified": "2026-06-13",
+      "google_search": "CDL Plumbing Drainage Gas plumber Rankin Park NSW",
+      "email": "admin@cdlplumbing.net"
     }
   ]
 }

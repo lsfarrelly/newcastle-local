@@ -2,8 +2,8 @@
   "meta": {
     "category": "removalists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-11",
-    "total": 22
+    "last_updated": "2026-06-13",
+    "total": 25
   },
   "listings": [
     {
@@ -694,6 +694,94 @@
       "secret_key": "pc-yf8813",
       "last_verified": "2026-06-11",
       "google_search": "Men That Move Removalists Newcastle NSW"
+    },
+    {
+      "name": "Novocastrian Removals",
+      "credentials": "Professional Removalists",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "1300 166 838",
+      "website": "https://novocastrianremovals.com.au",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Office Removals",
+        "Packing Services",
+        "Storage Solutions",
+        "Furniture Assembly"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Interstate"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Local Newcastle removalist company providing professional, careful removals for homes and offices across Newcastle, Hunter Region, and interstate.",
+      "featured": false,
+      "slug": "novocastrian-removals-newcastle",
+      "secret_key": "nov-4zw9xa3k",
+      "last_verified": "2026-06-13",
+      "google_search": "Novocastrian Removals removalist Newcastle NSW"
+    },
+    {
+      "name": "Remarkable Removals",
+      "credentials": "Professional Removalists",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0416 423 211",
+      "website": "https://remarkableremovals.com.au",
+      "services": [
+        "House Removals",
+        "Office Removals",
+        "Furniture Removals",
+        "Packing Services",
+        "Local Moves",
+        "Interstate"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Hunter Region",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Newcastle-based removalist service committed to careful and efficient home and office moves across the Hunter Region and beyond.",
+      "featured": false,
+      "slug": "remarkable-removals-newcastle",
+      "secret_key": "rem-x7eedtjv",
+      "last_verified": "2026-06-13",
+      "google_search": "Remarkable Removals removalist Newcastle NSW"
+    },
+    {
+      "name": "Gentle Giant Removals",
+      "credentials": "Professional Removalists",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "0404 958 455",
+      "website": "https://gentlegiantremovals.com.au",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Office Removals",
+        "Storage",
+        "Piano Removals",
+        "Packing"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Central Coast",
+        "Hunter Region",
+        "Interstate"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7:00am-6:00pm",
+      "description": "Experienced Newcastle and Central Coast removalist with over 40 years in the industry, known for careful, reliable relocations for homes and businesses.",
+      "featured": false,
+      "slug": "gentle-giant-removals-newcastle",
+      "secret_key": "gen-zhwjr64d",
+      "last_verified": "2026-06-13",
+      "google_search": "Gentle Giant Removals removalist Newcastle NSW"
     }
   ]
 }
