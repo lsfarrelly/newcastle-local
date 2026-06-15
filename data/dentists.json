@@ -2,8 +2,8 @@
   "meta": {
     "category": "dentists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 26
+    "last_updated": "2026-06-15",
+    "total": 29
   },
   "listings": [
     {
@@ -406,7 +406,7 @@
     },
     {
       "name": "Graham Johnson Dental Surgery",
-      "credentials": "General & Cosmetic Dentist \u00b7 Jesmond",
+      "credentials": "General & Cosmetic Dentist · Jesmond",
       "address": "39 Mordue Parade, Jesmond NSW 2299",
       "suburb": "Jesmond",
       "phone": "(02) 4951 5452",
@@ -437,7 +437,7 @@
     },
     {
       "name": "7 Pearls Dental",
-      "credentials": "Family & Cosmetic Dentist \u00b7 Belmont",
+      "credentials": "Family & Cosmetic Dentist · Belmont",
       "address": "Shop 3-6 Belmont Central, 1 Singleton Street, Belmont NSW 2280",
       "suburb": "Belmont",
       "phone": "(02) 4945 0881",
@@ -469,7 +469,7 @@
     },
     {
       "name": "nib Dental Care Newcastle",
-      "credentials": "Family & Cosmetic Dentistry \u00b7 Newcastle West",
+      "credentials": "Family & Cosmetic Dentistry · Newcastle West",
       "address": "Marketown Shopping Centre, 23 Steel Street, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "(02) 4940 7100",
@@ -500,7 +500,7 @@
     },
     {
       "name": "Smile Star Dental",
-      "credentials": "Family Dental Practice \u00b7 Warners Bay",
+      "credentials": "Family Dental Practice · Warners Bay",
       "address": "4/12 King Street, Warners Bay NSW 2282",
       "suburb": "Warners Bay",
       "phone": "(02) 4948 9888",
@@ -531,7 +531,7 @@
     },
     {
       "name": "SmilesHQ",
-      "credentials": "Full-Service Dental Clinic \u00b7 Warners Bay",
+      "credentials": "Full-Service Dental Clinic · Warners Bay",
       "address": "Warners Bay NSW 2282",
       "suburb": "Warners Bay",
       "phone": "(02) 4954 6633",
@@ -562,7 +562,7 @@
     },
     {
       "name": "Mayfield Dental Care",
-      "credentials": "Family Dentist \u00b7 Mayfield",
+      "credentials": "Family Dentist · Mayfield",
       "address": "181 Maitland Road, Mayfield NSW 2304",
       "suburb": "Mayfield",
       "phone": "(02) 4967 3888",
@@ -593,7 +593,7 @@
     },
     {
       "name": "Rutherford Dental",
-      "credentials": "Independent Family Dentist \u00b7 Rutherford",
+      "credentials": "Independent Family Dentist · Rutherford",
       "address": "Rutherford NSW 2320",
       "suburb": "Rutherford",
       "phone": "(02) 4932 5333",
@@ -624,7 +624,7 @@
     },
     {
       "name": "Affordable Dental Charlestown",
-      "credentials": "General & Cosmetic Dentist \u00b7 Charlestown",
+      "credentials": "General & Cosmetic Dentist · Charlestown",
       "address": "13/158 Pacific Highway, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "1300 715 578",
@@ -656,7 +656,7 @@
     },
     {
       "name": "Pacific Smiles Dental Glendale",
-      "credentials": "General & Cosmetic Dentist \u00b7 Glendale",
+      "credentials": "General & Cosmetic Dentist · Glendale",
       "address": "387 Lake Road, Glendale NSW 2285",
       "suburb": "Glendale",
       "phone": "(02) 4087 6400",
@@ -688,7 +688,7 @@
     },
     {
       "name": "Charlestown Dental Centre",
-      "credentials": "Family Dentist \u00b7 Charlestown",
+      "credentials": "Family Dentist · Charlestown",
       "address": "8 Chapman Street, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4058 2563",
@@ -804,6 +804,88 @@
       "last_verified": "2026-06-13",
       "google_search": "Evolution Dental Care dentist Hamilton NSW",
       "email": "reception@evolutiondentalcare.com.au"
+    },
+    {
+      "name": "Smile On Clinics Nelson Bay",
+      "credentials": "Dental Clinic · Nelson Bay",
+      "address": "Nelson Bay NSW 2315",
+      "suburb": "Nelson Bay",
+      "phone": "(02) 4981 1576",
+      "email": "",
+      "website": "https://www.nelsonbaydental.com.au",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Dental Implants",
+        "Restorative Dentistry"
+      ],
+      "service_areas": [
+        "Nelson Bay",
+        "Port Stephens"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Smile On Clinics (Nelson Bay Dental) is owned and operated by Dr Andrew Huntington, offering expertise in cosmetic and advanced restorative dentistry including dental implants. The clinic is committed to helping patients in Nelson Bay and Port Stephens maintain healthy teeth.",
+      "featured": false,
+      "slug": "smile-on-clinics-nelson-bay",
+      "secret_key": "sm-82oi9y",
+      "last_verified": "2026-06-15",
+      "google_search": "Smile On Clinics Nelson Bay Dentist Newcastle NSW"
+    },
+    {
+      "name": "Hunter Dental Group Cessnock",
+      "credentials": "Dental Clinic · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "General Dentistry",
+        "Check-ups & Cleans",
+        "Cosmetic Dentistry",
+        "Emergency Dental"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Hunter Dental Group provides general and cosmetic dental services to the Cessnock community and surrounding Hunter Valley. The practice offers routine check-ups, cleans and a range of restorative treatments.",
+      "featured": false,
+      "slug": "hunter-dental-group-cessnock",
+      "secret_key": "hu-gsnig4",
+      "last_verified": "2026-06-15",
+      "google_search": "Hunter Dental Group Cessnock Dentist Newcastle NSW"
+    },
+    {
+      "name": "Tooth n Care Raymond Terrace",
+      "credentials": "Dental Clinic · Raymond Terrace",
+      "address": "Raymond Terrace NSW 2324",
+      "suburb": "Raymond Terrace",
+      "phone": "(02) 4933 4667",
+      "email": "",
+      "website": "https://www.toothncare.com.au/raymond-terrace/",
+      "services": [
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Family Dentistry",
+        "Dental Treatment"
+      ],
+      "service_areas": [
+        "Raymond Terrace",
+        "Port Stephens",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Tooth n Care offers a full range of dental services and treatment in Raymond Terrace. The clinic provides general, family and cosmetic dentistry for patients across Raymond Terrace and the surrounding Port Stephens area.",
+      "featured": false,
+      "slug": "tooth-n-care-raymond-terrace",
+      "secret_key": "to-gq2it4",
+      "last_verified": "2026-06-15",
+      "google_search": "Tooth n Care Raymond Terrace Dentist Newcastle NSW"
     }
   ]
 }

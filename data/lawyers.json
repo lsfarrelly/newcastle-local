@@ -2,8 +2,8 @@
   "meta": {
     "category": "lawyers",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 25
+    "last_updated": "2026-06-15",
+    "total": 28
   },
   "listings": [
     {
@@ -373,7 +373,7 @@
     },
     {
       "name": "Baker Love Lawyers",
-      "credentials": "Corporate & Commercial Law \u00b7 Newcastle",
+      "credentials": "Corporate & Commercial Law · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 7778",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Conditsis Lawyers",
-      "credentials": "Criminal & Family Law Specialists \u00b7 150+ Years Combined",
+      "credentials": "Criminal & Family Law Specialists · 150+ Years Combined",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 3000",
@@ -462,7 +462,7 @@
     },
     {
       "name": "Burgess Thomson",
-      "credentials": "Property & Estate Lawyers \u00b7 Newcastle CBD",
+      "credentials": "Property & Estate Lawyers · Newcastle CBD",
       "address": "1 Newcomen Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5602",
@@ -498,7 +498,7 @@
     },
     {
       "name": "Berryman Partners",
-      "credentials": "Family & Property Law \u00b7 Charlestown",
+      "credentials": "Family & Property Law · Charlestown",
       "address": "1/5 Library Lane, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4943 3988",
@@ -534,7 +534,7 @@
     },
     {
       "name": "Slater and Gordon Newcastle",
-      "credentials": "Personal Injury Lawyers \u00b7 Newcastle CBD",
+      "credentials": "Personal Injury Lawyers · Newcastle CBD",
       "address": "Level 7, 352 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4915 4800",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Turnbull Hill Lawyers",
-      "credentials": "Law Firm \u00b7 Charlestown",
+      "credentials": "Law Firm · Charlestown",
       "address": "Level 1, 29 Smith Street, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "(02) 4904 8000",
@@ -601,7 +601,7 @@
     },
     {
       "name": "Duncan and Co Lawyers",
-      "credentials": "Boutique Law Firm \u00b7 Newcastle",
+      "credentials": "Boutique Law Firm · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 2800",
@@ -631,7 +631,7 @@
     },
     {
       "name": "Taylor and Scott Lawyers Newcastle",
-      "credentials": "Law Firm \u00b7 Newcastle West",
+      "credentials": "Law Firm · Newcastle West",
       "address": "406 King Street, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "1800 600 664",
@@ -662,7 +662,7 @@
     },
     {
       "name": "Hunter Legal & Conveyancing",
-      "credentials": "Solicitors \u00b7 Maitland",
+      "credentials": "Solicitors · Maitland",
       "address": "Suite 2, Level 1, 12 Elgin Street, Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "1300 224 828",
@@ -694,7 +694,7 @@
     },
     {
       "name": "Joplin Lawyers",
-      "credentials": "Solicitors \u00b7 Maitland",
+      "credentials": "Solicitors · Maitland",
       "address": "469 High Street, Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "1300 567 546",
@@ -726,7 +726,7 @@
     },
     {
       "name": "HCN Law",
-      "credentials": "Solicitors \u00b7 Newcastle & Maitland",
+      "credentials": "Solicitors · Newcastle & Maitland",
       "address": "161 Scott Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4934 6899",
@@ -842,6 +842,86 @@
       "secret_key": "cdg-c11ertj5",
       "last_verified": "2026-06-13",
       "google_search": "CDG Law solicitor Newcastle NSW"
+    },
+    {
+      "name": "Hills Solicitors",
+      "credentials": "Solicitors · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Conveyancing",
+        "Wills & Estates",
+        "Family Law",
+        "Commercial Law"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Hills Solicitors has served the Hunter Valley region since 1894, evolving over more than 125 years of practice. The firm offers cost-effective legal solutions across conveyancing, wills and estates, family and commercial law.",
+      "featured": false,
+      "slug": "hills-solicitors",
+      "secret_key": "hi-jwvvwb",
+      "last_verified": "2026-06-15",
+      "google_search": "Hills Solicitors Lawyer Newcastle NSW"
+    },
+    {
+      "name": "Equilaw Solicitors",
+      "credentials": "Solicitors · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "",
+      "email": "",
+      "website": "https://www.equilaw.com.au",
+      "services": [
+        "Traffic Law",
+        "Family Law",
+        "Divorce",
+        "AVOs"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Equilaw Solicitors provides legal advice on traffic matters and family law including divorce, domestic violence, custody, AVOs and de facto agreements. The firm serves clients across Cessnock and the Hunter Valley.",
+      "featured": false,
+      "slug": "equilaw-solicitors",
+      "secret_key": "eq-mz1abs",
+      "last_verified": "2026-06-15",
+      "google_search": "Equilaw Solicitors Lawyer Newcastle NSW"
+    },
+    {
+      "name": "LMC Lawyers Nelson Bay",
+      "credentials": "Solicitors · Nelson Bay",
+      "address": "4/33 Stockton Street, Nelson Bay NSW 2315",
+      "suburb": "Nelson Bay",
+      "phone": "",
+      "email": "",
+      "website": "https://lmclawyers.com.au",
+      "services": [
+        "Family Law",
+        "Conveyancing",
+        "Wills & Estates"
+      ],
+      "service_areas": [
+        "Nelson Bay",
+        "Port Stephens"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "LMC Lawyers in Nelson Bay offer friendly, reliable and affordable legal advice. Located on Stockton Street, the firm assists clients across Nelson Bay and Port Stephens with family law, conveyancing and wills and estates.",
+      "featured": false,
+      "slug": "lmc-lawyers-nelson-bay",
+      "secret_key": "lm-cw1b9z",
+      "last_verified": "2026-06-15",
+      "google_search": "LMC Lawyers Nelson Bay Lawyer Newcastle NSW"
     }
   ]
 }

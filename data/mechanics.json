@@ -2,8 +2,8 @@
   "meta": {
     "category": "mechanics",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 26
+    "last_updated": "2026-06-15",
+    "total": 29
   },
   "listings": [
     {
@@ -330,7 +330,7 @@
     },
     {
       "name": "PA Autocare",
-      "credentials": "Qualified Mechanics \u00b7 Warabrook",
+      "credentials": "Qualified Mechanics · Warabrook",
       "address": "3/23 Ironbark Close, Warabrook NSW 2304",
       "suburb": "Warabrook",
       "phone": "(02) 4940 8000",
@@ -360,7 +360,7 @@
     },
     {
       "name": "Hawkins Mechanical",
-      "credentials": "Est. 2003 \u00b7 15+ Years Experience",
+      "credentials": "Est. 2003 · 15+ Years Experience",
       "address": "Lambton NSW 2299",
       "suburb": "Lambton",
       "phone": "(02) 4952 4000",
@@ -418,7 +418,7 @@
     },
     {
       "name": "Auto Service Newcastle",
-      "credentials": "Licensed Mechanic \u00b7 16+ Years",
+      "credentials": "Licensed Mechanic · 16+ Years",
       "address": "34 Throsby Street, Wickham NSW 2293",
       "suburb": "Wickham",
       "phone": "(02) 4969 3166",
@@ -449,7 +449,7 @@
     },
     {
       "name": "Denstoj Auto Centre",
-      "credentials": "High Performance & General Mechanics \u00b7 Carrington",
+      "credentials": "High Performance & General Mechanics · Carrington",
       "address": "12 Elizabeth Street, Carrington NSW 2294",
       "suburb": "Carrington",
       "phone": "(02) 4962 2008",
@@ -480,7 +480,7 @@
     },
     {
       "name": "Newcastle Motor Repairs",
-      "credentials": "Automotive Repairs & Servicing \u00b7 Merewether",
+      "credentials": "Automotive Repairs & Servicing · Merewether",
       "address": "12 Mitchell Street, Merewether NSW 2291",
       "suburb": "Merewether",
       "phone": "(02) 4963 1097",
@@ -511,7 +511,7 @@
     },
     {
       "name": "Aarons Automotive Repairs",
-      "credentials": "Mobile & Workshop Mechanic \u00b7 Maitland",
+      "credentials": "Mobile & Workshop Mechanic · Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4934 7800",
@@ -542,7 +542,7 @@
     },
     {
       "name": "Fast Andys Mobile Mechanical",
-      "credentials": "Mobile Mechanic \u00b7 Newcastle",
+      "credentials": "Mobile Mechanic · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "0421 893 547",
@@ -573,7 +573,7 @@
     },
     {
       "name": "Shifters Automotive",
-      "credentials": "Mobile Mechanic \u00b7 Cessnock",
+      "credentials": "Mobile Mechanic · Cessnock",
       "address": "Cessnock NSW 2325",
       "suburb": "Cessnock",
       "phone": "0431 284 157",
@@ -605,7 +605,7 @@
     },
     {
       "name": "The Service Centre Thornton",
-      "credentials": "Mechanical Workshop \u00b7 Thornton",
+      "credentials": "Mechanical Workshop · Thornton",
       "address": "Thornton NSW 2322",
       "suburb": "Thornton",
       "phone": "(02) 4966 1199",
@@ -636,7 +636,7 @@
     },
     {
       "name": "PT Mobile Service Centre",
-      "credentials": "Mobile Mechanic \u00b7 Newcastle",
+      "credentials": "Mobile Mechanic · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "0407 481 193",
@@ -667,7 +667,7 @@
     },
     {
       "name": "Select Automotive",
-      "credentials": "Auto Service Centre \u00b7 Edgeworth",
+      "credentials": "Auto Service Centre · Edgeworth",
       "address": "15/17 Aluminium Close, Edgeworth NSW 2285",
       "suburb": "Edgeworth",
       "phone": "(02) 4959 4151",
@@ -699,7 +699,7 @@
     },
     {
       "name": "Lake Macquarie Mechanical",
-      "credentials": "Auto Service Centre \u00b7 Warners Bay",
+      "credentials": "Auto Service Centre · Warners Bay",
       "address": "Unit 26, 218 Macquarie Road, Warners Bay NSW 2282",
       "suburb": "Warners Bay",
       "phone": "(02) 4954 4111",
@@ -815,6 +815,92 @@
       "secret_key": "che-cwi64ciy",
       "last_verified": "2026-06-13",
       "google_search": "Cherry's Automotive Repairs mechanic Maitland NSW"
+    },
+    {
+      "name": "GJ Mechanical Services",
+      "credentials": "Auto Mechanic · Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Logbook Servicing",
+        "Roadworthy Certificates",
+        "Brake Repairs",
+        "Cooling System",
+        "Transmission Servicing"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "GJ Mechanical Services has served Maitland and surrounds for over 50 years, established in 1969. They provide comprehensive mechanical repairs and servicing including logbook servicing, roadworthy certificates, brake replacements and transmission servicing.",
+      "featured": false,
+      "slug": "gj-mechanical-services",
+      "secret_key": "gj-dkozhm",
+      "last_verified": "2026-06-15",
+      "google_search": "GJ Mechanical Services Mechanic Newcastle NSW"
+    },
+    {
+      "name": "Ray Prescott Automotive",
+      "credentials": "Auto Mechanic · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Logbook Servicing",
+        "Brake & Clutch",
+        "Suspension",
+        "Wheel Alignment",
+        "Exhausts"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Maitland",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Ray Prescott Automotive is a family-owned Cessnock workshop operating for over 50 years, serving Cessnock, Maitland and surrounding areas. Services include brake and clutch repairs, suspension work, logbook servicing, wheel alignment and exhausts.",
+      "featured": false,
+      "slug": "ray-prescott-automotive",
+      "secret_key": "ra-o78ej2",
+      "last_verified": "2026-06-15",
+      "google_search": "Ray Prescott Automotive Mechanic Newcastle NSW"
+    },
+    {
+      "name": "Rowe Automotive Services",
+      "credentials": "Auto Mechanic · East Maitland",
+      "address": "East Maitland NSW 2323",
+      "suburb": "East Maitland",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Logbook Servicing",
+        "Diagnostics",
+        "Brake Repairs",
+        "Air Conditioning",
+        "Exhausts"
+      ],
+      "service_areas": [
+        "East Maitland",
+        "Maitland",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Rowe Automotive Services in East Maitland provides expert vehicle maintenance and repairs, from logbook servicing to diagnostics, brake repairs and air conditioning. They handle fuel systems, exhausts, batteries and cooling components for all makes and models.",
+      "featured": false,
+      "slug": "rowe-automotive-services",
+      "secret_key": "ro-cqjwno",
+      "last_verified": "2026-06-15",
+      "google_search": "Rowe Automotive Services Mechanic Newcastle NSW"
     }
   ]
 }

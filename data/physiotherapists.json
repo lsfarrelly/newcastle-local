@@ -2,8 +2,8 @@
   "meta": {
     "category": "physiotherapists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 25
+    "last_updated": "2026-06-15",
+    "total": 28
   },
   "listings": [
     {
@@ -324,7 +324,7 @@
     },
     {
       "name": "Hunter Physio Sports Clinic",
-      "credentials": "Sports Physiotherapy \u00b7 20+ Years",
+      "credentials": "Sports Physiotherapy · 20+ Years",
       "address": "55 Belford Street, Broadmeadow NSW 2292",
       "suburb": "Broadmeadow",
       "phone": "(02) 4961 4222",
@@ -383,7 +383,7 @@
     },
     {
       "name": "Cameron McKenzie Physiotherapy",
-      "credentials": "Expert Holistic Physio \u00b7 Newcastle & Lake Macquarie",
+      "credentials": "Expert Holistic Physio · Newcastle & Lake Macquarie",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4910 0000",
@@ -412,7 +412,7 @@
     },
     {
       "name": "Physio 2U Newcastle",
-      "credentials": "Mobile Physiotherapy Service \u00b7 Newcastle",
+      "credentials": "Mobile Physiotherapy Service · Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -443,7 +443,7 @@
     },
     {
       "name": "Physiotherapy at Home Newcastle",
-      "credentials": "Mobile Physiotherapy \u00b7 Newcastle & Lake Macquarie",
+      "credentials": "Mobile Physiotherapy · Newcastle & Lake Macquarie",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -474,7 +474,7 @@
     },
     {
       "name": "Ethos Health Newcastle",
-      "credentials": "Physiotherapy & Workplace Health \u00b7 Wickham",
+      "credentials": "Physiotherapy & Workplace Health · Wickham",
       "address": "Unit 1, 21 Annie Street, Wickham NSW 2293",
       "suburb": "Wickham",
       "phone": "(02) 4962 8700",
@@ -505,7 +505,7 @@
     },
     {
       "name": "Kids Physio Newcastle",
-      "credentials": "Paediatric Physiotherapy \u00b7 Newcastle",
+      "credentials": "Paediatric Physiotherapy · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4038 2200",
@@ -537,7 +537,7 @@
     },
     {
       "name": "NUmoves Physio",
-      "credentials": "University Physiotherapy Clinic \u00b7 Callaghan",
+      "credentials": "University Physiotherapy Clinic · Callaghan",
       "address": "The Forum Sports & Aquatic Centre, University of Newcastle, Callaghan NSW 2308",
       "suburb": "Callaghan",
       "phone": "(02) 4921 6879",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Newcastle Physiotherapy and Exercise Physiology",
-      "credentials": "Specialist Physiotherapy Clinic \u00b7 Newcastle",
+      "credentials": "Specialist Physiotherapy Clinic · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4962 1000",
@@ -590,7 +590,7 @@
         "Hunter Region"
       ],
       "hours": "Mon-Fri 7:30am-6:00pm, Sat 8:00am-12:00pm",
-      "description": "Newcastle Physiotherapy and Exercise Physiology is a specialist clinic with 6 team members holding titled physiotherapist accreditation \u2014 an elite qualification held by only 5% of physiotherapists nationally. The clinic provides expert assessment and treatment for sports injuries, musculoskeletal conditions and chronic pain. Their evidence-based, highly skilled team delivers outstanding outcomes for athletes, workers and everyday Novocastrians.",
+      "description": "Newcastle Physiotherapy and Exercise Physiology is a specialist clinic with 6 team members holding titled physiotherapist accreditation — an elite qualification held by only 5% of physiotherapists nationally. The clinic provides expert assessment and treatment for sports injuries, musculoskeletal conditions and chronic pain. Their evidence-based, highly skilled team delivers outstanding outcomes for athletes, workers and everyday Novocastrians.",
       "slug": "newcastle-physio-exercise-physiology",
       "secret_key": "np-ep8371wy",
       "google_search": "Newcastle Physiotherapy Exercise Physiology Newcastle NSW",
@@ -600,7 +600,7 @@
     },
     {
       "name": "Portside Sports Physiotherapy",
-      "credentials": "Sports Physiotherapy \u00b7 Wickham",
+      "credentials": "Sports Physiotherapy · Wickham",
       "address": "132 Hannell Street, Wickham NSW 2293",
       "suburb": "Wickham",
       "phone": "0423 576 006",
@@ -631,7 +631,7 @@
     },
     {
       "name": "Lambton Physiotherapy",
-      "credentials": "Physiotherapy & Sports Medicine \u00b7 Lambton",
+      "credentials": "Physiotherapy & Sports Medicine · Lambton",
       "address": "110 Elder Street, Lambton NSW 2299",
       "suburb": "Lambton",
       "phone": "(02) 4965 5655",
@@ -663,7 +663,7 @@
     },
     {
       "name": "Brightside Physio",
-      "credentials": "Physiotherapy \u00b7 Lambton",
+      "credentials": "Physiotherapy · Lambton",
       "address": "90 Elder Street, Lambton NSW 2299",
       "suburb": "Lambton",
       "phone": "(02) 4062 8862",
@@ -780,6 +780,89 @@
       "secret_key": "bac-n9j2qp89",
       "last_verified": "2026-06-13",
       "google_search": "Back In Motion Cessnock physiotherapist Cessnock NSW"
+    },
+    {
+      "name": "East Maitland Physiotherapy",
+      "credentials": "Physiotherapy Clinic · East Maitland",
+      "address": "East Maitland NSW 2323",
+      "suburb": "East Maitland",
+      "phone": "(02) 4934 5300",
+      "email": "",
+      "website": "https://eastmaitphysio.com.au",
+      "services": [
+        "Exercise Prescription",
+        "Hydrotherapy",
+        "Electrotherapy",
+        "Remedial Physiotherapy",
+        "Sports Injuries"
+      ],
+      "service_areas": [
+        "East Maitland",
+        "Maitland",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-6pm",
+      "description": "East Maitland Physiotherapy has been operating for over 30 years. Physiotherapists offer experience with exercise prescription, hydrotherapy, electrotherapy, sports science, stretching and remedial physiotherapy for patients across the Maitland area.",
+      "featured": false,
+      "slug": "east-maitland-physiotherapy",
+      "secret_key": "ea-s4mmxg",
+      "last_verified": "2026-06-15",
+      "google_search": "East Maitland Physiotherapy Physiotherapist Newcastle NSW"
+    },
+    {
+      "name": "Nelson Bay Physiotherapy",
+      "credentials": "Physiotherapy Clinic · Nelson Bay",
+      "address": "Nelson Bay NSW 2315",
+      "suburb": "Nelson Bay",
+      "phone": "",
+      "email": "",
+      "website": "https://nelsonbayphysiotherapy.com.au",
+      "services": [
+        "Musculoskeletal Physiotherapy",
+        "Sports Injuries",
+        "Rehabilitation",
+        "Pain Management"
+      ],
+      "service_areas": [
+        "Nelson Bay",
+        "Port Stephens"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Nelson Bay Physiotherapy helps patients understand how to be pain free for the long term. The clinic offers musculoskeletal physiotherapy, sports injury treatment and rehabilitation for the Nelson Bay and Port Stephens community.",
+      "featured": false,
+      "slug": "nelson-bay-physiotherapy",
+      "secret_key": "ne-6amkas",
+      "last_verified": "2026-06-15",
+      "google_search": "Nelson Bay Physiotherapy Physiotherapist Newcastle NSW"
+    },
+    {
+      "name": "Hunter Valley Physiotherapy",
+      "credentials": "Physiotherapy Clinic · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Hands-on Treatment",
+        "Rehabilitation Programs",
+        "Manual Therapy",
+        "Exercise Prescription"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 8am-5pm",
+      "description": "Hunter Valley Physiotherapy is a clinic based in Cessnock, NSW, providing hands-on treatment and rehabilitation programs. The team supports patients across Cessnock and the wider Hunter Valley with manual therapy and exercise prescription.",
+      "featured": false,
+      "slug": "hunter-valley-physiotherapy",
+      "secret_key": "hu-2oel0u",
+      "last_verified": "2026-06-15",
+      "google_search": "Hunter Valley Physiotherapy Physiotherapist Newcastle NSW"
     }
   ]
 }

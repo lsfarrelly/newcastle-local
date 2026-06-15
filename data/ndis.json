@@ -2,8 +2,8 @@
   "meta": {
     "category": "ndis",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 26
+    "last_updated": "2026-06-15",
+    "total": 29
   },
   "listings": [
     {
@@ -334,7 +334,7 @@
     },
     {
       "name": "HEDSS Disability Services",
-      "credentials": "NDIS Provider \u00b7 Newcastle & Maitland",
+      "credentials": "NDIS Provider · Newcastle & Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4934 2600",
@@ -394,7 +394,7 @@
     },
     {
       "name": "Dynamic Ability Support",
-      "credentials": "Registered NDIS Provider \u00b7 Hamilton",
+      "credentials": "Registered NDIS Provider · Hamilton",
       "address": "Hamilton, NSW 2303",
       "suburb": "Hamilton",
       "phone": "",
@@ -424,7 +424,7 @@
     },
     {
       "name": "Ability Action Australia Newcastle",
-      "credentials": "Allied Health NDIS Provider \u00b7 Broadmeadow",
+      "credentials": "Allied Health NDIS Provider · Broadmeadow",
       "address": "Level 2, Suite 5, 15 Lambton Road, Broadmeadow NSW 2292",
       "suburb": "Broadmeadow",
       "phone": "1800 238 958",
@@ -454,7 +454,7 @@
     },
     {
       "name": "VHCC Newcastle",
-      "credentials": "Registered NDIS Provider \u00b7 Hunter Region",
+      "credentials": "Registered NDIS Provider · Hunter Region",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "1300 048 422",
@@ -484,7 +484,7 @@
     },
     {
       "name": "Hunter Care Group",
-      "credentials": "Registered NDIS Provider \u00b7 Newcastle",
+      "credentials": "Registered NDIS Provider · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4956 2000",
@@ -516,7 +516,7 @@
     },
     {
       "name": "Samaritans Foundation Newcastle",
-      "credentials": "Registered NDIS Provider \u00b7 Newcastle",
+      "credentials": "Registered NDIS Provider · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4920 4800",
@@ -548,7 +548,7 @@
     },
     {
       "name": "Songbird Disability Services",
-      "credentials": "NDIS Support Provider \u00b7 Newcastle",
+      "credentials": "NDIS Support Provider · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4023 8700",
@@ -579,7 +579,7 @@
     },
     {
       "name": "Hunter Care Group Upper Hunter",
-      "credentials": "Registered NDIS Provider \u00b7 Maitland",
+      "credentials": "Registered NDIS Provider · Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4956 2001",
@@ -610,7 +610,7 @@
     },
     {
       "name": "Person of Value",
-      "credentials": "NDIS Support Provider \u00b7 Maryland",
+      "credentials": "NDIS Support Provider · Maryland",
       "address": "Maryland Drive, Maryland NSW 2287",
       "suburb": "Maryland",
       "phone": "0410 639 415",
@@ -642,7 +642,7 @@
     },
     {
       "name": "Care Alliance",
-      "credentials": "NDIS Support Provider \u00b7 Charlestown",
+      "credentials": "NDIS Support Provider · Charlestown",
       "address": "Corner Frederick & Pearson Street, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "1300 206 309",
@@ -674,7 +674,7 @@
     },
     {
       "name": "Solid Holistic Care",
-      "credentials": "NDIS Support Provider \u00b7 Newcastle",
+      "credentials": "NDIS Support Provider · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "1800 716 697",
@@ -792,6 +792,90 @@
       "secret_key": "par-om5igqpk",
       "last_verified": "2026-06-13",
       "google_search": "Paramount Care Solutions NDIS provider Glendale NSW"
+    },
+    {
+      "name": "Subee NDIS Support",
+      "credentials": "Registered NDIS Provider · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "",
+      "website": "https://subee.com.au",
+      "services": [
+        "Disability Support",
+        "Aged Care",
+        "Community Access",
+        "In-Home Support"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Maitland",
+        "Port Stephens",
+        "Lake Macquarie"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Subee is a trusted NDIS and aged care provider serving Newcastle, Maitland, Port Stephens and Lake Macquarie and surrounding towns including the Hunter Valley and Cessnock. They deliver person-centred disability and aged care support.",
+      "featured": false,
+      "slug": "subee-ndis-support",
+      "secret_key": "su-cymhbd",
+      "last_verified": "2026-06-15",
+      "google_search": "Subee NDIS Support NDIS Provider Newcastle NSW"
+    },
+    {
+      "name": "Charlestown Caring Group",
+      "credentials": "NDIS & Aged Care Provider · Charlestown",
+      "address": "Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "In-Home Support",
+        "Household Tasks",
+        "Yard Maintenance",
+        "Community Support"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Lake Macquarie",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Charlestown Caring Group is a not-for-profit service provider located in Charlestown, Lake Macquarie. They provide in-home support for aged and NDIS clients, including yard maintenance and household tasks.",
+      "featured": false,
+      "slug": "charlestown-caring-group",
+      "secret_key": "ch-wqgo2v",
+      "last_verified": "2026-06-15",
+      "google_search": "Charlestown Caring Group NDIS Provider Newcastle NSW"
+    },
+    {
+      "name": "Clarity Psychology NDIS",
+      "credentials": "NDIS Therapeutic Supports · Charlestown",
+      "address": "Charlestown NSW 2290",
+      "suburb": "Charlestown",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Behaviour Support",
+        "Therapeutic Interventions",
+        "Psychology"
+      ],
+      "service_areas": [
+        "Charlestown",
+        "Lake Macquarie",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Clarity Psychology is a registered NDIS provider serving Charlestown and the surrounding Lake Macquarie region. They offer behaviour support and therapeutic interventions for NDIS participants.",
+      "featured": false,
+      "slug": "clarity-psychology-ndis",
+      "secret_key": "cl-jdmirx",
+      "last_verified": "2026-06-15",
+      "google_search": "Clarity Psychology NDIS NDIS Provider Newcastle NSW"
     }
   ]
 }

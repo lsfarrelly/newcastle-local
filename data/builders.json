@@ -2,8 +2,8 @@
   "meta": {
     "category": "builders",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 26
+    "last_updated": "2026-06-15",
+    "total": 29
   },
   "listings": [
     {
@@ -311,7 +311,7 @@
     },
     {
       "name": "East Maitland Building",
-      "credentials": "Licensed Builder \u00b7 50 Years Combined Experience",
+      "credentials": "Licensed Builder · 50 Years Combined Experience",
       "address": "East Maitland NSW 2323",
       "suburb": "East Maitland",
       "phone": "(02) 4933 5200",
@@ -341,7 +341,7 @@
     },
     {
       "name": "P & D Kay Constructions",
-      "credentials": "Custom Home Builders \u00b7 Maitland",
+      "credentials": "Custom Home Builders · Maitland",
       "address": "Maitland NSW 2320",
       "suburb": "Maitland",
       "phone": "(02) 4933 0000",
@@ -399,7 +399,7 @@
     },
     {
       "name": "Nathan Brown Building",
-      "credentials": "Licensed Builder \u00b7 28+ Years Experience",
+      "credentials": "Licensed Builder · 28+ Years Experience",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "0422 622 264",
@@ -430,7 +430,7 @@
     },
     {
       "name": "QUAD Construction",
-      "credentials": "Custom Homes & Duplexes \u00b7 Cardiff",
+      "credentials": "Custom Homes & Duplexes · Cardiff",
       "address": "Unit 2/26 Munibung Road, Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "(02) 4072 1593",
@@ -461,7 +461,7 @@
     },
     {
       "name": "All Design Construction",
-      "credentials": "Award-Winning Builder \u00b7 Newcastle",
+      "credentials": "Award-Winning Builder · Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "",
@@ -492,7 +492,7 @@
     },
     {
       "name": "Port Hunter Building",
-      "credentials": "Residential & Commercial Builder \u00b7 Newcastle",
+      "credentials": "Residential & Commercial Builder · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4032 0100",
@@ -522,7 +522,7 @@
     },
     {
       "name": "SNL Building",
-      "credentials": "Construction & Development \u00b7 Newcastle",
+      "credentials": "Construction & Development · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4023 5500",
@@ -552,7 +552,7 @@
     },
     {
       "name": "GWH Build",
-      "credentials": "Development & Construction \u00b7 Newcastle",
+      "credentials": "Development & Construction · Newcastle",
       "address": "Level 1, 420 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4941 0777",
@@ -582,7 +582,7 @@
     },
     {
       "name": "Hunter Coast Homes",
-      "credentials": "Award-Winning Home Builder \u00b7 Newcastle",
+      "credentials": "Award-Winning Home Builder · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4920 0200",
@@ -612,7 +612,7 @@
     },
     {
       "name": "SteenBuilt",
-      "credentials": "Licensed Builder \u00b7 Newcastle",
+      "credentials": "Licensed Builder · Newcastle",
       "address": "Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "0429 825 704",
@@ -642,7 +642,7 @@
     },
     {
       "name": "Sloane Homes",
-      "credentials": "Custom Home Builder \u00b7 Swansea",
+      "credentials": "Custom Home Builder · Swansea",
       "address": "PO Box 386, Swansea NSW 2281",
       "suburb": "Swansea",
       "phone": "0413 199 490",
@@ -673,7 +673,7 @@
     },
     {
       "name": "Indie Living",
-      "credentials": "Residential Builder \u00b7 Bennetts Green",
+      "credentials": "Residential Builder · Bennetts Green",
       "address": "6/22 Templar Place, Bennetts Green NSW 2290",
       "suburb": "Bennetts Green",
       "phone": "1300 794 246",
@@ -788,6 +788,91 @@
       "last_verified": "2026-06-13",
       "google_search": "Upton Construction builder Rutherford NSW",
       "email": "admin@uptonconstruction.com.au"
+    },
+    {
+      "name": "Custom Built Projects NSW",
+      "credentials": "Licensed Builder · Nelson Bay",
+      "address": "Nelson Bay NSW 2315",
+      "suburb": "Nelson Bay",
+      "phone": "",
+      "email": "",
+      "website": "https://www.custombuiltnsw.com.au",
+      "services": [
+        "New Home Builds",
+        "Renovations",
+        "Extensions",
+        "Custom Homes"
+      ],
+      "service_areas": [
+        "Port Stephens",
+        "Nelson Bay",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Custom Built Projects NSW specialises in new home builds and renovations throughout the Port Stephens and Newcastle regions. Established in 2014, the team delivers quality custom residential construction with a focus on craftsmanship and client communication.",
+      "featured": false,
+      "slug": "custom-built-projects-nsw",
+      "secret_key": "cu-vhxexm",
+      "last_verified": "2026-06-15",
+      "google_search": "Custom Built Projects NSW Builder Newcastle NSW"
+    },
+    {
+      "name": "Mark Warburton Building",
+      "credentials": "Licensed Builder · Port Stephens",
+      "address": "Port Stephens NSW 2315",
+      "suburb": "Nelson Bay",
+      "phone": "",
+      "email": "",
+      "website": "https://www.warburtonbuilding.com.au",
+      "services": [
+        "Residential Building",
+        "Commercial Building",
+        "Renovations",
+        "Extensions"
+      ],
+      "service_areas": [
+        "Port Stephens",
+        "Nelson Bay",
+        "Hunter Valley",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Mark Warburton Building operates in and around Port Stephens, including the Hunter Valley, Newcastle, Nelson Bay and Central Coast areas. The team takes on both commercial and residential building projects of all sizes.",
+      "featured": false,
+      "slug": "mark-warburton-building",
+      "secret_key": "ma-smuexx",
+      "last_verified": "2026-06-15",
+      "google_search": "Mark Warburton Building Builder Newcastle NSW"
+    },
+    {
+      "name": "Nelson Bay Building and Construction",
+      "credentials": "Licensed Builder · Nelson Bay",
+      "address": "Nelson Bay NSW 2315",
+      "suburb": "Nelson Bay",
+      "phone": "",
+      "email": "",
+      "website": "https://www.nelsonbaybuilding.com",
+      "services": [
+        "Residential Building",
+        "Commercial Building",
+        "Industrial Construction",
+        "Renovations"
+      ],
+      "service_areas": [
+        "Port Stephens",
+        "Newcastle",
+        "Hunter Region"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Nelson Bay Building and Construction brings over 40 years of experience to residential, commercial and industrial projects. They service the Port Stephens, Newcastle and wider Hunter region.",
+      "featured": false,
+      "slug": "nelson-bay-building-and-construction",
+      "secret_key": "ne-9dvhlk",
+      "last_verified": "2026-06-15",
+      "google_search": "Nelson Bay Building and Construction Builder Newcastle NSW"
     }
   ]
 }

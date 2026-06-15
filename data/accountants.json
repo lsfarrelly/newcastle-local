@@ -2,8 +2,8 @@
   "meta": {
     "category": "accountants",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 25
+    "last_updated": "2026-06-15",
+    "total": 28
   },
   "listings": [
     {
@@ -308,7 +308,7 @@
     },
     {
       "name": "KLM Accountants",
-      "credentials": "CPA Firm \u00b7 45+ Years",
+      "credentials": "CPA Firm · 45+ Years",
       "address": "500 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4929 5533",
@@ -392,7 +392,7 @@
     },
     {
       "name": "Pitcher Partners Newcastle",
-      "credentials": "Chartered Accountants \u00b7 Newcastle West",
+      "credentials": "Chartered Accountants · Newcastle West",
       "address": "Level 5, 12 Stewart Avenue, Newcastle West NSW 2302",
       "suburb": "Newcastle West",
       "phone": "(02) 4923 4000",
@@ -422,7 +422,7 @@
     },
     {
       "name": "Jabour Accountants",
-      "credentials": "CPA Practice \u00b7 Newcastle CBD",
+      "credentials": "CPA Practice · Newcastle CBD",
       "address": "53 King Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4926 9900",
@@ -452,7 +452,7 @@
     },
     {
       "name": "Nova Business Professionals",
-      "credentials": "Business Advisors & Accountants \u00b7 Hamilton",
+      "credentials": "Business Advisors & Accountants · Hamilton",
       "address": "5 Hudson Street, Hamilton NSW 2303",
       "suburb": "Hamilton",
       "phone": "(02) 4002 4529",
@@ -482,7 +482,7 @@
     },
     {
       "name": "PKF Newcastle",
-      "credentials": "Chartered Accounting Firm \u00b7 Newcastle",
+      "credentials": "Chartered Accounting Firm · Newcastle",
       "address": "Level 5, 45 Hunter Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4962 2688",
@@ -513,7 +513,7 @@
     },
     {
       "name": "Richard Latham Accounting",
-      "credentials": "Registered Tax Agent \u00b7 Belmont",
+      "credentials": "Registered Tax Agent · Belmont",
       "address": "607-609 Pacific Highway, Belmont NSW 2280",
       "suburb": "Belmont",
       "phone": "(02) 4945 0077",
@@ -542,7 +542,7 @@
     },
     {
       "name": "BDO Newcastle",
-      "credentials": "Chartered Accounting Firm \u00b7 Newcastle",
+      "credentials": "Chartered Accounting Firm · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4962 2300",
@@ -573,7 +573,7 @@
     },
     {
       "name": "K H Perry & Co",
-      "credentials": "Registered Tax Agent \u00b7 Toronto",
+      "credentials": "Registered Tax Agent · Toronto",
       "address": "Suite 12, Westlakes Arcade, 108-112 The Boulevarde, Toronto NSW 2283",
       "suburb": "Toronto",
       "phone": "(02) 4959 5322",
@@ -604,7 +604,7 @@
     },
     {
       "name": "TSP Accountants",
-      "credentials": "Business Advisors & Tax Agents \u00b7 Newcastle",
+      "credentials": "Business Advisors & Tax Agents · Newcastle",
       "address": "3rd Floor, 169 King Street, Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4926 4155",
@@ -635,7 +635,7 @@
     },
     {
       "name": "Precision PTAM",
-      "credentials": "Accounting & Advisory \u00b7 Charlestown",
+      "credentials": "Accounting & Advisory · Charlestown",
       "address": "Level 1 Suite 2, 160 Pacific Highway, Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "1300 007 826",
@@ -749,6 +749,90 @@
       "secret_key": "kel-hv3a3zmf",
       "last_verified": "2026-06-13",
       "google_search": "Kelly Partners Newcastle accountant Newcastle West NSW"
+    },
+    {
+      "name": "Cessnock Accounting",
+      "credentials": "Tax & Business Accountants · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "(02) 4933 6888",
+      "email": "",
+      "website": "https://www.cessnockaccounting.com.au",
+      "services": [
+        "Tax Returns",
+        "Bookkeeping",
+        "Business Advisory",
+        "BAS & GST",
+        "SMSF"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Maitland",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Cessnock Accounting is a firm of accountants and tax professionals based in the heart of the Hunter Valley. They provide in-person tax, bookkeeping and business advisory services to clients across Cessnock, Maitland, Newcastle, Rutherford and Singleton.",
+      "featured": false,
+      "slug": "cessnock-accounting",
+      "secret_key": "ce-31tznt",
+      "last_verified": "2026-06-15",
+      "google_search": "Cessnock Accounting Accountant Newcastle NSW"
+    },
+    {
+      "name": "Palfreyman Chartered Accountants",
+      "credentials": "Chartered Accountants · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "",
+      "email": "",
+      "website": "https://palfreyman.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Advisory",
+        "Accounting",
+        "Self-Managed Super Funds"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Palfreyman Chartered Accountants is a Cessnock-based accounting firm established in 2003. The team provides accounting, taxation and business advisory services to individuals and small businesses across Cessnock and the surrounding Hunter Valley.",
+      "featured": false,
+      "slug": "palfreyman-chartered-accountants",
+      "secret_key": "pa-9jnseu",
+      "last_verified": "2026-06-15",
+      "google_search": "Palfreyman Chartered Accountants Accountant Newcastle NSW"
+    },
+    {
+      "name": "Dynamize Accountants",
+      "credentials": "Chartered Accountants · Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "(02) 4005 6133",
+      "email": "",
+      "website": "https://dynamize.com.au",
+      "services": [
+        "Tax Returns",
+        "Business Advisory",
+        "Cloud Accounting",
+        "Bookkeeping"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Hunter Valley",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 9am-5pm",
+      "description": "Dynamize is a forward-thinking chartered accounting firm located in Maitland, NSW. They offer tax, cloud accounting and strategic business advisory services tailored to small and growing businesses throughout the Hunter region.",
+      "featured": false,
+      "slug": "dynamize-accountants",
+      "secret_key": "dy-ytsfcm",
+      "last_verified": "2026-06-15",
+      "google_search": "Dynamize Accountants Accountant Newcastle NSW"
     }
   ]
 }

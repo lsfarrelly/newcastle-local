@@ -2,8 +2,8 @@
   "meta": {
     "category": "electricians",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 26
+    "last_updated": "2026-06-15",
+    "total": 29
   },
   "listings": [
     {
@@ -316,7 +316,7 @@
     },
     {
       "name": "Novocastrian Electrical",
-      "credentials": "Licensed Electricians \u00b7 Est. 1993",
+      "credentials": "Licensed Electricians · Est. 1993",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4969 5633",
@@ -345,7 +345,7 @@
     },
     {
       "name": "Electix",
-      "credentials": "Licensed Electrical Contractors \u00b7 20+ Years",
+      "credentials": "Licensed Electrical Contractors · 20+ Years",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4003 5700",
@@ -374,7 +374,7 @@
     },
     {
       "name": "Power On Electrical",
-      "credentials": "Level 2 Electricians \u00b7 Newcastle",
+      "credentials": "Level 2 Electricians · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4965 5500",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Wilton Electrical",
-      "credentials": "Licensed Electrician \u00b7 20+ Years",
+      "credentials": "Licensed Electrician · 20+ Years",
       "address": "Cooks Hill, Newcastle NSW 2291",
       "suburb": "Cooks Hill",
       "phone": "0414 494 902",
@@ -434,7 +434,7 @@
     },
     {
       "name": "GBE Group",
-      "credentials": "Gold Master Electrician \u00b7 Mayfield West",
+      "credentials": "Gold Master Electrician · Mayfield West",
       "address": "Unit 1, 2 Metal Pit Drive, Mayfield West NSW 2304",
       "suburb": "Mayfield West",
       "phone": "(02) 4968 7500",
@@ -465,7 +465,7 @@
     },
     {
       "name": "Entire Trades",
-      "credentials": "Licensed Electrical Contractor \u00b7 Newcastle",
+      "credentials": "Licensed Electrical Contractor · Newcastle",
       "address": "Newcastle, NSW",
       "suburb": "Newcastle",
       "phone": "(02) 4905 0901",
@@ -497,7 +497,7 @@
     },
     {
       "name": "NewAge Electrical",
-      "credentials": "Licensed Electricians \u00b7 Newcastle",
+      "credentials": "Licensed Electricians · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4905 4200",
@@ -530,7 +530,7 @@
     },
     {
       "name": "Platinum Electricians Newcastle",
-      "credentials": "Residential & Commercial Electricians \u00b7 Newcastle",
+      "credentials": "Residential & Commercial Electricians · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4062 6000",
@@ -561,7 +561,7 @@
     },
     {
       "name": "SmartFlow Electrical",
-      "credentials": "Licensed Electrical Contractor \u00b7 Newcastle",
+      "credentials": "Licensed Electrical Contractor · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4956 0400",
@@ -592,7 +592,7 @@
     },
     {
       "name": "Conlec Solutions",
-      "credentials": "Electrical Contractor \u00b7 Newcastle",
+      "credentials": "Electrical Contractor · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4962 4700",
@@ -624,7 +624,7 @@
     },
     {
       "name": "Firefly Connections",
-      "credentials": "Licensed Electrician \u00b7 Mayfield West",
+      "credentials": "Licensed Electrician · Mayfield West",
       "address": "3 Adrian Street, Mayfield West NSW 2304",
       "suburb": "Mayfield West",
       "phone": "0477 047 161",
@@ -655,7 +655,7 @@
     },
     {
       "name": "C Mack Electrical",
-      "credentials": "Licensed Electrician \u00b7 Hamilton",
+      "credentials": "Licensed Electrician · Hamilton",
       "address": "Corner Everton & Chaucer Street, Hamilton NSW 2303",
       "suburb": "Hamilton",
       "phone": "0499 926 225",
@@ -687,7 +687,7 @@
     },
     {
       "name": "New Wave Electrical",
-      "credentials": "Licensed Electrician \u00b7 Charlestown",
+      "credentials": "Licensed Electrician · Charlestown",
       "address": "Charlestown NSW 2290",
       "suburb": "Charlestown",
       "phone": "0432 267 004",
@@ -803,6 +803,91 @@
       "secret_key": "dar-dbdw2pcn",
       "last_verified": "2026-06-13",
       "google_search": "Darren Worpel Electrical electrician Charlestown NSW"
+    },
+    {
+      "name": "Horsell Electrical",
+      "credentials": "Licensed Electrician · Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "",
+      "email": "",
+      "website": "https://www.horsellelectrical.com.au",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Emergency Electrician"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Kurri Kurri",
+        "Cessnock",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm, 24/7 Emergency",
+      "description": "Horsell Electrical is a team of qualified electricians based in the Maitland area servicing Maitland, East Maitland, South Maitland, Kurri Kurri, Cessnock, Newcastle and surrounds. They offer 24/7 commercial and residential electrical services.",
+      "featured": false,
+      "slug": "horsell-electrical",
+      "secret_key": "ho-w0d14j",
+      "last_verified": "2026-06-15",
+      "google_search": "Horsell Electrical Electrician Newcastle NSW"
+    },
+    {
+      "name": "Hartcher Hall Electrical",
+      "credentials": "Level 2 Electrical Contractor · Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Level 2 Electrical",
+        "Rewires",
+        "Metering",
+        "Underground Services"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Cessnock",
+        "Hunter Valley"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "Hartcher Hall Electrical Contractors are licensed electricians with more than 40 years of experience across the Maitland, Cessnock and Hunter Valley areas. As authorised Level 2 contractors they handle rewires, metering and underground services.",
+      "featured": false,
+      "slug": "hartcher-hall-electrical",
+      "secret_key": "ha-pgq842",
+      "last_verified": "2026-06-15",
+      "google_search": "Hartcher Hall Electrical Electrician Newcastle NSW"
+    },
+    {
+      "name": "KARM Electrical Services",
+      "credentials": "Licensed Electrician · Medowie",
+      "address": "Medowie NSW 2318",
+      "suburb": "Medowie",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Switchboard Upgrades",
+        "Lighting"
+      ],
+      "service_areas": [
+        "Medowie",
+        "Port Stephens",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Fri 7am-5pm",
+      "description": "KARM Electrical Services is based in Medowie and services all of the Port Stephens and Newcastle areas. They provide residential and commercial electrical work including installations, repairs and maintenance.",
+      "featured": false,
+      "slug": "karm-electrical-services",
+      "secret_key": "ka-lpth4z",
+      "last_verified": "2026-06-15",
+      "google_search": "KARM Electrical Services Electrician Newcastle NSW"
     }
   ]
 }

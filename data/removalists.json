@@ -2,8 +2,8 @@
   "meta": {
     "category": "removalists",
     "location": "Newcastle NSW",
-    "last_updated": "2026-06-13",
-    "total": 25
+    "last_updated": "2026-06-15",
+    "total": 28
   },
   "listings": [
     {
@@ -318,7 +318,7 @@
     },
     {
       "name": "John's Removals Newcastle",
-      "credentials": "Family-Owned \u00b7 30+ Years",
+      "credentials": "Family-Owned · 30+ Years",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4961 6661",
@@ -349,7 +349,7 @@
     },
     {
       "name": "Grace Removals Newcastle",
-      "credentials": "National Removalists \u00b7 Local Team",
+      "credentials": "National Removalists · Local Team",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4961 4900",
@@ -411,7 +411,7 @@
     },
     {
       "name": "Staples Removals",
-      "credentials": "Home & Office Movers \u00b7 Adamstown",
+      "credentials": "Home & Office Movers · Adamstown",
       "address": "18 Pacific Highway, Adamstown NSW 2289",
       "suburb": "Adamstown",
       "phone": "(02) 4957 7695",
@@ -442,7 +442,7 @@
     },
     {
       "name": "A1 Group Newcastle Removals",
-      "credentials": "Family-Owned Removalist \u00b7 Cardiff",
+      "credentials": "Family-Owned Removalist · Cardiff",
       "address": "6 Aminya Place, Cardiff NSW 2285",
       "suburb": "Cardiff",
       "phone": "1800 681 055",
@@ -474,7 +474,7 @@
     },
     {
       "name": "LW Hodgins Removalists",
-      "credentials": "Removalists Since 2002 \u00b7 Adamstown",
+      "credentials": "Removalists Since 2002 · Adamstown",
       "address": "Unit D, 85/2 Gow Street, Adamstown NSW 2289",
       "suburb": "Adamstown",
       "phone": "(02) 4952 7552",
@@ -506,7 +506,7 @@
     },
     {
       "name": "Two Men And A Truck Newcastle",
-      "credentials": "Professional Removalists \u00b7 Newcastle",
+      "credentials": "Professional Removalists · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "1300 880 412",
@@ -539,7 +539,7 @@
     },
     {
       "name": "Men In Black Removals",
-      "credentials": "Professional Removalists \u00b7 Newcastle",
+      "credentials": "Professional Removalists · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4062 8500",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Mighty Mouse Movers",
-      "credentials": "Furniture Removalists \u00b7 Newcastle",
+      "credentials": "Furniture Removalists · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "(02) 4058 5600",
@@ -601,7 +601,7 @@
     },
     {
       "name": "Hunter Coalfields Removals",
-      "credentials": "Removalists \u00b7 Branxton",
+      "credentials": "Removalists · Branxton",
       "address": "Branxton NSW 2335",
       "suburb": "Branxton",
       "phone": "0429 777 375",
@@ -634,7 +634,7 @@
     },
     {
       "name": "NC Coast Removals",
-      "credentials": "Removalists \u00b7 Newcastle",
+      "credentials": "Removalists · Newcastle",
       "address": "Carrington NSW 2294",
       "suburb": "Carrington",
       "phone": "1300 491 097",
@@ -666,7 +666,7 @@
     },
     {
       "name": "Men That Move Newcastle",
-      "credentials": "Removalists \u00b7 Newcastle",
+      "credentials": "Removalists · Newcastle",
       "address": "Newcastle NSW 2300",
       "suburb": "Newcastle",
       "phone": "1800 438 668",
@@ -782,6 +782,92 @@
       "secret_key": "gen-zhwjr64d",
       "last_verified": "2026-06-13",
       "google_search": "Gentle Giant Removals removalist Newcastle NSW"
+    },
+    {
+      "name": "MKT Removals",
+      "credentials": "Furniture Removals · Maitland",
+      "address": "Maitland NSW 2320",
+      "suburb": "Maitland",
+      "phone": "",
+      "email": "",
+      "website": "https://www.mktremovals.com.au",
+      "services": [
+        "Local Removals",
+        "Interstate Removals",
+        "Overseas Moves",
+        "Furniture Removals"
+      ],
+      "service_areas": [
+        "Maitland",
+        "Hunter Valley",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-5pm",
+      "description": "MKT Removals is a family-owned business established in 1974, named after the owners' children Mark, Kay and Tania. They have assisted the Hunter Valley region with local, interstate and overseas moves for over 40 years.",
+      "featured": false,
+      "slug": "mkt-removals",
+      "secret_key": "mk-mlz7i0",
+      "last_verified": "2026-06-15",
+      "google_search": "MKT Removals Removalist Newcastle NSW"
+    },
+    {
+      "name": "K Smit Removals",
+      "credentials": "Furniture Removals · Newcastle",
+      "address": "Newcastle NSW 2300",
+      "suburb": "Newcastle",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Local Removals",
+        "Furniture Removals",
+        "Office Relocations",
+        "Storage"
+      ],
+      "service_areas": [
+        "Newcastle",
+        "Lake Macquarie",
+        "Port Stephens",
+        "Maitland",
+        "Central Coast"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-5pm",
+      "description": "K Smit Removals is a reputable removalist service in the Newcastle, Lake Macquarie and Hunter Valley area, operating for over 21 years. Their experienced team covers Newcastle, Lake Macquarie, Port Stephens, Maitland, Hunter Valley and the Central Coast.",
+      "featured": false,
+      "slug": "k-smit-removals",
+      "secret_key": "ks-tep62y",
+      "last_verified": "2026-06-15",
+      "google_search": "K Smit Removals Removalist Newcastle NSW"
+    },
+    {
+      "name": "A-Team Delivery Services",
+      "credentials": "Furniture Removals · Cessnock",
+      "address": "Cessnock NSW 2325",
+      "suburb": "Cessnock",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "services": [
+        "Household Removals",
+        "Office Removals",
+        "Packing & Unpacking",
+        "Storage"
+      ],
+      "service_areas": [
+        "Cessnock",
+        "Maitland",
+        "Newcastle"
+      ],
+      "status": "active",
+      "hours": "Mon-Sat 7am-5pm",
+      "description": "A-Team Delivery Services is a family-owned and operated business serving Cessnock, Maitland, Newcastle and surrounding areas. They offer household and office removals, local furniture removals, packing and unpacking, and storage solutions.",
+      "featured": false,
+      "slug": "a-team-delivery-services",
+      "secret_key": "at-7s9b3a",
+      "last_verified": "2026-06-15",
+      "google_search": "A-Team Delivery Services Removalist Newcastle NSW"
     }
   ]
 }
